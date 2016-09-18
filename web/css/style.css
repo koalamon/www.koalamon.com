@@ -192,7 +192,6 @@ h3 {
     border: 1px solid #eee;
 }
 
-
 .price-models li.active h3 {
     font-weight: 400;
     font-size: 30px;
@@ -223,7 +222,7 @@ h3 {
     line-height: 35px;
 }
 
-.feature {
+.price-models .feature {
     padding: 5px;
 }
 
@@ -246,4 +245,49 @@ h3 {
     margin-top: 50px;
     font-size: 12px;
     line-height: 20px;
+}
+
+.features {
+    margin-top: 100px;
+}
+
+.features li {
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #eee;
+}
+
+.features li:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+
+.features .feature-image {
+    background-size: cover;
+    background-image: url(/images/macbook.jpg);
+    width: 510px;
+    height: 280px;
+    float: left;
+    margin-right: 20px;
+}
+
+.features .feature-image img {
+    width: 351px;
+    height: 219px;
+    padding-left: 82px;
+    padding-top: 28px;
+    margin-right: 20px;
+    float: left;
+}
+
+.features .topic {
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.features .description {
+    line-height: 28px;
 }

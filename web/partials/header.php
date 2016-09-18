@@ -7,11 +7,11 @@
             <ul>
                 <!--li>
                     About us
-                </li>
+                </li-->
                 <li>
-                    Features
+                    <a href="/features.html">Features</a>
                 </li>
-                <li>
+                <!--li>
                     Customer
                 </li-->
                 <li>
