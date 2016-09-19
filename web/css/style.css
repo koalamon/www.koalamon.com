@@ -162,6 +162,10 @@ h3 {
     height: 60px;
 }
 
+.two_column p {
+    margin-top: 0;
+}
+
 .two_column .column {
     float: left;
     width: calc(50% - 40px);
@@ -178,7 +182,7 @@ h3 {
 }
 
 .price-models li {
-    width: 225px;
+    width: 250px;
     text-align: center;
     padding-top: 20px;
     height: 430px;
@@ -233,7 +237,7 @@ h3 {
 .recommended {
     position: absolute;
     margin-top: -46px;
-    margin-left: 50px;
+    margin-left: 66px;
     width: 110px;
     background-color: #27ae60;
     padding: 5px;

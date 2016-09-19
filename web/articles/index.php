@@ -41,14 +41,23 @@
     <h2>What is lean testing and how can leankoala help?</h2>
     <div class="two_column">
         <div class="column">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-            duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut labore.
+            <p>
+                The common test process focuses on finding the root cause of an error. With lean testing we try to <strong>find the symptoms</strong>. Especially for the web
+                this is one of the most efficient approaches.
+            </p>
+            <p>
+                When having a standard website there literally are thousands of bugs and incidents that can cause the site not to work. But there only are a few symptoms
+                that occur. The easiest one would be a Http Status Code 500 or a missing footer.
+            </p>
         </div>
         <div class="column">
-            Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-            Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet.
+            <p>
+                Leankoala supports this new approach by providing checks for the most common indicators. The architecture of leankoala allows to perform these
+                validation on development, stage and live systems. Thus it helps through the whole development process.
+            </p>
+            <p>
+                <strong>Leankoala should be your first step towards test automation.</strong>
+            </p>
         </div>
     </div>
 </div>
@@ -93,7 +102,7 @@
             <li>
                 <img src="https://status.leankoala.com/bundles/leankoalaintegrationsmoke/images/littleseo.png">
                 <h3>Little SEO</h3>
-                <p>The http header checker can check im mandatory header parameters are existing.</p>
+                <p>Checks if the robots.txt does not contain a disallow all.</p>
             </li>
             <li>
                 <img src="https://status.leankoala.com/images/integrations/missing_logo.png">
