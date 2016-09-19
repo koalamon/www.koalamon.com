@@ -26,7 +26,7 @@
             <div class="feature">E-Mail Support</div>
             <div class="price">9 EUR</div>
             <div class="info">per month</div>
-            <div class="for-whom">Perfect for small websites like simple blogs.</div>
+            <div class="for-whom">Perfect for small websites like a wordpress blog.</div>
         </li>
         <li class="active">
             <div class="recommended">recommendation</div><div></div>

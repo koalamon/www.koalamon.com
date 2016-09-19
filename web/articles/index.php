@@ -13,26 +13,28 @@
 </div>
 
 <div class="content" style="width: 1290px">
-    <div id="index-features">
-        <ul>
-            <li>
-                <img src="/images/features/start.png">
-            </li>
-            <li>
-                <img src="/images/features/start.png">
-            </li>
-            <li class="active">
-                <img src="/images/features/start.png">
-            </li>
-            <li>
-                <img src="/images/features/start.png">
-            </li>
-            <li>
-                <img src="/images/features/start.png">
-            </li>
-        </ul>
-        <div style="clear: both"></div>
-    </div>
+    <a href="/features.html">
+        <div id="index-features">
+            <ul>
+                <li>
+                    <img src="/images/features/start.png">
+                </li>
+                <li>
+                    <img src="/images/features/start.png">
+                </li>
+                <li class="active">
+                    <img src="/images/features/start.png">
+                </li>
+                <li>
+                    <img src="/images/features/start.png">
+                </li>
+                <li>
+                    <img src="/images/features/start.png">
+                </li>
+            </ul>
+            <div style="clear: both"></div>
+        </div>
+    </a>
 </div>
 
 <div class="content">
