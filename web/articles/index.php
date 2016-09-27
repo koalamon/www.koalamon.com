@@ -42,7 +42,7 @@
     <div class="two_column">
         <div class="column">
             <p>
-                The common test process focuses on finding the root cause of an error. With lean testing we try to <strong>find the symptoms</strong>. Especially for the web
+                The common test process in software development focuses on finding the root cause of an error. With lean testing we try to <strong>find the symptoms</strong>. Especially for the web
                 this is one of the most efficient approaches.
             </p>
             <p>
