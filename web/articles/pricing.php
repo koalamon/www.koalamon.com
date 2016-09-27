@@ -4,9 +4,8 @@
 
 <div class="content">
     <div class="main-info">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-        duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-        tempor invidunt ut labore.
+        Currently we are in our <strong>beta phase</strong>. That means that you can use leankoala for free with all plans. The only thing you have to provide is feedback.
+        After "finishing" our product the prices will be as followed.
     </div>
 </div>
 <div class="content" style="width: 1130px">

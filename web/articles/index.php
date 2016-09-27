@@ -17,19 +17,19 @@
         <div id="index-features">
             <ul>
                 <li>
-                    <img src="/images/features/start.png">
+                    <img src="/images/features/ack.png">
                 </li>
                 <li>
-                    <img src="/images/features/start.png">
+                    <img src="/images/features/checks.png">
                 </li>
                 <li class="active">
                     <img src="/images/features/start.png">
                 </li>
                 <li>
-                    <img src="/images/features/start.png">
+                    <img src="/images/features/history.png">
                 </li>
                 <li>
-                    <img src="/images/features/start.png">
+                    <img src="/images/features/alerting.png">
                 </li>
             </ul>
             <div style="clear: both"></div>
