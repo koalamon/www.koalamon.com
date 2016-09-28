@@ -99,7 +99,7 @@
             <a href="http://www.wetimebox.com/"><img src="/images/startups/wetimebox.png" style="margin-top: 15px"></a>
         </li>
         <li>
-            <a href="https:/www.thewebhatesme.com"><img src="/images/startups/whm.png"></a>
+            <a href="https://www.thewebhatesme.com"><img src="/images/startups/whm.png"></a>
         </li>
         <li>
             <a href="http://www.amilio.de"><img src="/images/startups/amilio2.png" style="position: relative; top: 7px"><img src="/images/startups/amilio1.png"></a>
