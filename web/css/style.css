@@ -167,10 +167,10 @@ h3 {
 
 .two_column .column {
     float: left;
-    width: calc(50% - 70px);
-    margin-right: 40px;
+    width: calc(50% - 35px);
+    margin-right: 70px;
     line-height: 30px;
-    margin-left: 60px;
+    margin-left: 0px;
 }
 
 .two_column .column:last-child {
