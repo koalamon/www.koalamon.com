@@ -37,7 +37,7 @@
             <div class="feature">Ping interval <strong>1 hour</strong></div>
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
-            <div class="price">29 EUR</div>
+            <div class="price">39 EUR</div>
             <div class="info">per month</div>
             <div class="for-whom">For medium websites like company pages.</div>
         </li>
@@ -47,7 +47,7 @@
             <div class="feature">Ping interval <strong>1 hour</strong></div>
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
-            <div class="price">59 EUR</div>
+            <div class="price">69 EUR</div>
             <div class="info">per month</div>
             <div class="for-whom">For large websites with dev, stage and production stages.</div>
         </li>

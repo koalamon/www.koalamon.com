@@ -25,8 +25,8 @@
             </div>
             <div class="topic">History</div>
             <div class="description">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accussdfersam et justo duo dolores et ea rebum.
+                Everything that happens in leankoala stays in leankoala. We store all incidents in our datebase for at least one year.
+                Additionally we have all event data available for two months.
             </div>
         </li>
         <li>
@@ -35,8 +35,19 @@
             </div>
             <div class="topic">Alerting</div>
             <div class="description">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum.
+                When finding an anomaly in the checked system Leankoala will immediately send an notifitcation to a defined group of recipients.
+                This can ether be done via E-Mail, Webhook
+                or Slack.
+            </div>
+        </li>
+        <li>
+            <div class="feature-image">
+                <img src="/images/features/ack.png">
+            </div>
+            <div class="topic">Incident Acknowledgment</div>
+            <div class="description">
+                Incidents will occur in the best environments. To reduce the amount of work that is done project collaborators are able to
+                be assigned to an incident.
             </div>
         </li>
         <li>
@@ -45,18 +56,8 @@
             </div>
             <div class="topic">Slack Integration</div>
             <div class="description">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum.
-            </div>
-        </li>
-        <li>
-            <div class="feature-image">
-                <img src="/images/features/ack.png">
-            </div>
-            <div class="topic">Incident Achknowledgment</div>
-            <div class="description">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum.
+                We love Slack. That is why Leankoala is not only able to send notifications via slack it is also possible to list, acknowledge
+                and close incidents directly via Slack.
             </div>
         </li>
     </ul>
