@@ -92,12 +92,29 @@
 
 <div style="clear: both"></div>
 
+<div class="content" style="text-align: center; margin-top: 50px; padding-bottom: 20px; border-bottom: 1px solid #eee; margin-bottom: 30px">
+    <div style="font-weight: 400; padding: 20px; margin-bottom: 20px; border-bottom: 1px solid #eee">Hamburg Start Ups</div>
+    <ul style="margin-left: 231px;">
+        <li>
+            <a href="http://www.wetimebox.com/"><img src="/images/startups/wetimebox.png" style="margin-top: 15px"></a>
+        </li>
+        <li>
+            <a href="https:/www.thewebhatesme.com"><img src="/images/startups/whm.png"></a>
+        </li>
+        <li>
+            <a href="http://www.amilio.de"><img src="/images/startups/amilio2.png" style="position: relative; top: 7px"><img src="/images/startups/amilio1.png"></a>
+        </li>
+    </ul>
+    <div style="clear: both"></div>
+</div>
+
+<div style="clear: both"></div>
+
 <div style="margin-top: 50px">
-        <a href="mailto:nils.langner@koalamon.com?subject=Moin%20Moin%20Leankoala" style="color: white;">
-        <div class="register" style="background-color: #E30613; width: 120px; margin-left: calc(50% - 100px)">
+    <a href="mailto:nils.langner@koalamon.com?subject=Moin%20Moin%20Leankoala" style="color: white;">
+        <div class="register" style="background-color: #E30613; width: 120px; margin-left: calc(50% - 80px)">
             <img src="/images/hamburg.png" width="20px" style="float: left; margin-right: 20px; margin-top: -5px"> contact us
         </div>
-    </a>
     </a>
 </div>
 

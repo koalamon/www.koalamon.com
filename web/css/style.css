@@ -167,13 +167,15 @@ h3 {
 
 .two_column .column {
     float: left;
-    width: calc(50% - 40px);
+    width: calc(50% - 70px);
     margin-right: 40px;
     line-height: 30px;
+    margin-left: 60px;
 }
 
 .two_column .column:last-child {
     margin-right: 0;
+    margin-left: 0;
 }
 
 .price-models {
