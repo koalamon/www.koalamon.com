@@ -127,7 +127,17 @@
             <li>
                 <img src="https://status.leankoala.com/bundles/leankoalaintegrationsmoke/images/xpath.png">
                 <h3>XPath Checker</h3>
-                <p>Checks if given xpath expressions can be found at a component.</p>
+                <p>Checks if a given xpath expressions can be found at a component.</p>
+            </li>
+            <li>
+                <img src="https://status.leankoala.com/bundles/leankoalaintegrationsmoke/images/xml.png">
+                <h3>XML Checker</h3>
+                <p>Checks if a given xml document is well-formed.</p>
+            </li>
+            <li>
+                <img src="https://status.leankoala.com/bundles/leankoalaintegrationsmoke/images/sitemap.png">
+                <h3>XML Sitemap Validator</h3>
+                <p>Checks if a given xml sitemap is valid.</p>
             </li>
         </ul>
     </div>
