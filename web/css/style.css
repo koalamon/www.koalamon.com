@@ -186,7 +186,7 @@ h3 {
     width: 250px;
     text-align: center;
     padding-top: 20px;
-    height: 430px;
+    height: 460px;
 }
 
 .price-models li.active {
@@ -235,6 +235,21 @@ h3 {
     background-color: #eee;
 }
 
+.price-models li .register-plan {
+    background-color: #eee;
+    margin-left: 50px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 130px;
+}
+
+.price-models li.active .register-plan {
+    background-color: #27ae60;
+    color: white;
+    font-weight: 400;
+}
+
 .recommended {
     position: absolute;
     margin-top: -46px;
@@ -251,6 +266,7 @@ h3 {
     font-size: 12px;
     line-height: 20px;
     padding: 0 20px;
+    height: 75px;
 }
 
 .features {
