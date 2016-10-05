@@ -22,7 +22,7 @@
         <li>
             <h3>Small</h3>
             <div class="feature"><strong>5</strong> components</div>
-            <div class="feature">Ping interval <strong>1 hour</strong></div>
+            <div class="feature">Ping interval <strong>5 minutes</strong></div>
             <div class="feature">Unlimited alerts</div>
             <div class="feature">E-Mail Support</div>
             <div class="price">9 EUR</div>
@@ -34,7 +34,7 @@
             <div></div>
             <h3>Medium</h3>
             <div class="feature"><strong>20</strong> components</div>
-            <div class="feature">Ping interval <strong>1 hour</strong></div>
+            <div class="feature">Ping interval <strong>5 minutes</strong></div>
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
             <div class="price">39 EUR</div>
@@ -44,23 +44,13 @@
         <li>
             <h3>Large</h3>
             <div class="feature"><strong>50</strong> components</div>
-            <div class="feature">Ping interval <strong>1 hour</strong></div>
+            <div class="feature">Ping interval <strong>1 minute</strong></div>
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
             <div class="price">69 EUR</div>
             <div class="info">per month</div>
             <div class="for-whom">For large websites with dev, stage and production stages.</div>
         </li>
-        <!--li>
-            <h3>Enterprise</h3>
-            <div class="feature"><strong>50</strong> components</div>
-            <div class="feature">Ping interval <strong>1 hour</strong></div>
-            <div class="feature">Unlimited alerts</div>
-            <div class="feature">Live Support</div>
-            <div class="price">59 EUR</div>
-            <div class="info">per month</div>
-            <div class="for-whom">For large websites with dev, stage and production stages.</div>
-        </li-->
     </ul>
 </div>
 
