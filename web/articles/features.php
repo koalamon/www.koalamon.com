@@ -15,8 +15,18 @@
             </div>
             <div class="topic">Checks</div>
             <div class="description">
-                Leankoala provides twelve tools that are able to check if a website is working correct.
+                Leankoala provides 14 tools that are able to check if a website is working correct.
                 Those checks include for example a ping tool, a xpath checker, a regEx tool and some security checks.
+            </div>
+        </li>
+        <li>
+            <div class="feature-image">
+                <img src="/images/features/recipes.png">
+            </div>
+            <div class="topic">Recipes</div>
+            <div class="description">
+                Many websites can be tested the same way. That is why we introduced recipes. A recipe is a set of
+                rules that can be applied to any component.
             </div>
         </li>
         <li>

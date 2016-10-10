@@ -29,7 +29,7 @@
                     <img src="/images/features/history.png">
                 </li>
                 <li>
-                    <img src="/images/features/alerting.png">
+                    <img src="/images/features/recipes.png">
                 </li>
             </ul>
             <div style="clear: both"></div>
