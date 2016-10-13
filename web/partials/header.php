@@ -21,10 +21,10 @@
                     <a href="https://blog.leankoala.com/">Blog</a>
                 </li>
                 <li>
-                    <a href="https://status.leankoala.com/secure_area/login">Login</a>
+                    <a href="https://monitor.leankoala.com/secure_area/login">Login</a>
                 </li>
                 <li class="signup">
-                    <a href="https://status.leankoala.com/secure_area/register/">Sign Up</a>
+                    <a href="https://monitor.leankoala.com/secure_area/register/">Sign Up</a>
                 </li>
             </ul>
         </div>

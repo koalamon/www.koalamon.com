@@ -19,7 +19,7 @@
             <div class="price">0 EUR</div>
             <div class="info">per month</div>
             <div class="for-whom"></div>
-            <a href="https://status.leankoala.com/secure_area/register/">
+            <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
             </a>
         </li>
@@ -32,7 +32,7 @@
             <div class="price">9 EUR</div>
             <div class="info">per month</div>
             <div class="for-whom">For small websites like wordpress blogs.</div>
-            <a href="https://status.leankoala.com/secure_area/register/">
+            <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
             </a>
         </li>
@@ -47,7 +47,7 @@
             <div class="price">39 EUR</div>
             <div class="info">per month</div>
             <div class="for-whom">For medium websites like company pages.</div>
-            <a href="https://status.leankoala.com/secure_area/register/">
+            <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
             </a>
         </li>
@@ -60,7 +60,7 @@
             <div class="price">69 EUR</div>
             <div class="info">per month</div>
             <div class="for-whom">For large websites with dev, stage and production stages.</div>
-            <a href="https://status.leankoala.com/secure_area/register/">
+            <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
             </a>
         </li>
