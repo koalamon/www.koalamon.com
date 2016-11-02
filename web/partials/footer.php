@@ -3,7 +3,6 @@
         <!--img src="/images/logo.png" width="80px"-->
         <div style="width: 100%; height: 10px">
             <div style="float: left">Imprint:
-                <strong>Koalamon GbR</strong> |
                 Nils Langner |
                 Quellenweg 4 |
                 20535 Hamburg |
