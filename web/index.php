@@ -52,5 +52,30 @@
 </script>
 <!--End of Tawk.to Script-->
 
+<style>
+    .cc-compliance {
+        margin-right: 80px;
+    }
+</style>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.2/cookieconsent.min.css"/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.2/cookieconsent.min.js"></script>
+<script>
+    window.addEventListener("load", function () {
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#000"
+                },
+                "button": {
+                    "background": "#f1d600"
+                }
+            },
+            "content": {
+                "href": "https://www.leankoala.com/tos.html#cookies"
+            }
+        })
+    });
+</script>
+
 </body>
 </html>
