@@ -23,7 +23,7 @@
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
-<meta property="og:locale" content="en_EN" />
+<meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Leankoala - Click, click, test." />
 <meta property="og:description" content="Leankoala should be your first step towards test automation." />
