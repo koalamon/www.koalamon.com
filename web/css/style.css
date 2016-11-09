@@ -3,6 +3,7 @@ body {
     font-weight: 300;
     padding: 0;
     margin: 0;
+    font-size: 16px;
 }
 
 .content {
@@ -27,7 +28,15 @@ header .logo img {
 header .menu {
     float: right;
     font-weight: 300;
-    margin-top: 8px;
+
+}
+
+.price-models ul li {
+    margin-right: 30px;
+}
+
+.price-models li:last-child {
+    margin-right: 0px;
 }
 
 ul {
@@ -38,7 +47,6 @@ ul {
 
 li {
     float: left;
-    margin-right: 30px;
 }
 
 header .menu ul li.signup {
@@ -141,7 +149,7 @@ h3 {
 #index-checks ul li {
     width: 300px;
     margin-right: 33px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 #index-checks ul li:nth-child(3n) {
@@ -159,6 +167,7 @@ h3 {
     line-height: 20px;
     margin-left: 80px;
     height: 60px;
+    margin-top: 20px;
 }
 
 .two_column p {
@@ -187,6 +196,7 @@ h3 {
     text-align: center;
     padding-top: 20px;
     height: 460px;
+    margin-right: 30px;
 }
 
 .price-models li.active {
@@ -312,4 +322,52 @@ h3 {
 
 .features .description {
     line-height: 28px;
+}
+
+.startups li {
+    margin-right: 30px;
+}
+
+#why ul li {
+    float: left;
+    margin-right: 50px;
+    width: 275px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+#why ul li p {
+    font-size: 13px;
+}
+
+#why ul li:nth-child(4) {
+    margin-right: 0px;
+}
+
+#why ul li h3 {
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    text-align: left;
+}
+
+#why h2 {
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#why ul li a {
+    color: #c0392b;
+}
+
+#why-details {
+    margin-bottom: 200px;
+}
+
+#why-details p {
+    line-height: 30px;
+}
+
+#why i {
+    font-size: 200px;
+    color: #34495e;
 }
