@@ -69,6 +69,11 @@
         <h2>What can we check?</h2>
         <ul>
             <li>
+                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/cssselector.png">
+                <h3>CSS Selector</h3>
+                <p>This tool can check if a given css selector exists on any given component.</p>
+            </li>
+            <li>
                 <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/head.png">
                 <h3>Http Header Check</h3>
                 <p>The http header checker can check im mandatory header parameters are existing.</p>
@@ -77,7 +82,11 @@
                 <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/httpscert.png">
                 <h3>Https Certificate Check</h3>
                 <p>Checks if the https certificate expires within a given time span.</p>
-
+            </li>
+            <li>
+                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/jsonpath.png">
+                <h3>JSON Path Check</h3>
+                <p>Checks if a given json path exists.</p>
             </li>
             <li>
                 <img src="https://monitor.leankoala.com/images/integrations/jserror.png">
@@ -111,7 +120,7 @@
             </li>
             <li>
                 <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/regex.png">
-                <h3>Regular Expression Checker</h3>
+                <h3>Regular Expression Check</h3>
                 <p>Checks if a given regular expression exists on a page. It also checks the number of occurrences.</p>
             </li>
             <li>

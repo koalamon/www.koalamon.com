@@ -4,18 +4,18 @@
             <a href="/"><img src="/images/logo_small.png"></a>
         </div>
         <div class="menu">
-            <ul>
-                <!--li>
-                    About us
-                </li-->
+            <ul class="nav nav-pills">
                 <li>
-                    <a href="/features.html">Features</a>
+                    <a href="/why.html">Why Leankoala?</a>
+                </li>
+                <li>
+                    <a href="/features.html">Product</a>
                 </li>
                 <!--li>
                     Customer
                 </li-->
                 <li>
-                   <a href="/pricing.html">Pricing</a>
+                    <a href="/pricing.html">Pricing</a>
                 </li>
                 <li>
                     <a href="https://blog.leankoala.com/">Blog</a>

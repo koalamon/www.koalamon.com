@@ -99,7 +99,7 @@
     <div style="font-weight: 400; padding: 20px; margin-bottom: 20px; border-bottom: 1px solid #eee">
         <a name="startup" style="padding-top: 20px">Hamburg Start Ups</a>
     </div>
-    <ul style="margin-left: 131px;">
+    <ul style="margin-left: 131px;" class="startups">
         <li>
             <a href="http://www.wetimebox.com/"><img src="/images/startups/wetimebox.png" style="margin-top: 15px"></a>
         </li>
