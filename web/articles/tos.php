@@ -3,7 +3,7 @@
 </div>
 
 <div class="content">
-    Terms of Service - Version 1.0 - 2016-11-02
+    <div style="margin-bottom: 20px">Terms of Service - Version 1.1 - 2016-11-14</div>
 
     <p>By using the Leankoala
         web site ("Service"), or any services of Leankoala
@@ -15,7 +15,8 @@
     <p>If Leankoala
         makes material changes to these Terms, we will notify you by email or by posting a notice on our site before the changes are effective. Any new features that augment or enhance the
         current Service, including the release of new tools and resources, shall be subject to the Terms of Service. Continued use of the Service after any such changes shall constitute your consent
-        to such changes. You can review the most current version of the Terms of Service at any time at: www.leankoala.com/TERMS OF SERVICE Violation of any of the terms below will result in the termination of
+        to such changes. You can review the most current version of the Terms of Service at any time at: www.leankoala.com/TERMS OF SERVICE Violation of any of the terms below will result in the
+        termination of
         your Account. You agree to use the Service at your own risk.</p>
 
     <p>A. Account Terms You must be 18 years or older to use this Service. You must be a human. Accounts registered by "bots" or other automated methods are not permitted. As part of the registration
@@ -37,6 +38,25 @@
         service, upgrade/downgrade refunds, or refunds for months unused with an open account. In order to treat everyone equally, no exceptions will be made. Leankoala reserves the right to offer
         additional payment terms. All fees are exclusive of all taxes, levies, or duties imposed by taxing authorities, and you shall be responsible for payment of all such taxes, levies, or duties,
         excluding only Germany taxes. Downgrading your Service may cause the loss of Content, features, or capacity of your Account. Leankoala does not accept any liability for such loss.</p>
+
+    <p>Leankoala uses the 3rd party payment platform, <a href="https://stripe.com/" style="font-weight: bold">Stripe</a>, the Stripe API, and in conjunction, your Stripe account to process credit and debit card transactions
+        for your Leankoala account. Leankoala is a “Partner Application” as defined in the Stripe Terms of Service.</p>
+
+    <p>By using Leankoala and agreeing to the Leankoala Terms of Service, You also agree to be bound by Stripe’s Terms of Service.</p>
+
+    <p>You expressly understand and agree that Leankoala shall not be liable for any payments and monetary transactions that occur through Your use of the Service. You expressly understand and agree
+        that all payments and monetary transactions are handled by Stripe. You agree that Leankoala shall not be liable for any issues regarding financial and monetary transactions between You and any
+        other party, including Stripe.</p>
+
+    <p>You are responsible for all transactions (one-time, recurring, and refunds) processed through the Service and/or Stripe. Leankoala is not liable for loss or damage from errant or invalid
+        transactions processed with Your Stripe account. This includes transactions that were not processed due to a network communication error, or any other reason. If You process a transaction, it
+        is Your responsibility to verify that the transaction was successfully processed.</p>
+
+    <p>You understand that Leankoala uses the Stripe API to run the Service and that the Stripe API is subject to change at any time and such changes may adversely affect the Service. You understand
+        and agree to not hold Leankoala liable for any adverse affects that actions (whether intentional or unintentional) on the part of Stripe may cause to Your Stripe account, Your Leankoala
+        account, or Your business.</p>
+
+    <p>You must not process stolen credit cards, or unauthorized credit cards through Stripe and/or Your Leankoala account. </p>
 
     <p>D. Cancellation and Termination You as the Owner of the account are solely responsible for properly canceling your account. An email or phone request to cancel your account is not considered
         cancellation. You can cancel your account at any time by clicking on the Account link in the global navigation bar at the top of the screen. The Account screen provides a simple no questions
@@ -98,6 +118,7 @@
     <p>If any provision of this contract is completely or partially invalid, the validity of the remaining provisions shall not be affected. In such a case, the parties arrange in advance that the
         invalid provision will be replaced by another provision which reflects the economic intend as closely as possible. The same shall apply for any omissions in the agreements. Questions about the
         Terms of Service should be sent to support@leankoala.com</p>
+
 
     <p>This document is an adaptation of the GitHub Terms and conditions.The original work has been modified. GitHub is not connected with and does not sponsor or endorse Leankoala or its use of the
         work.</p>
