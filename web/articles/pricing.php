@@ -99,7 +99,7 @@
     <div style="font-weight: 400; padding: 20px; margin-bottom: 20px; border-bottom: 1px solid #eee">
         <a name="startup" style="padding-top: 20px">Hamburg Start Ups</a>
     </div>
-    <ul style="margin-left: 131px;" class="startups">
+    <ul style="margin-left: 25px;" class="startups">
         <li>
             <a href="http://www.wetimebox.com/"><img src="/images/startups/wetimebox.png" style="margin-top: 15px"></a>
         </li>
@@ -111,6 +111,9 @@
         </li>
         <li>
             <a href="http://www.amilio.de"><img src="/images/startups/amilio2.png" style="position: relative; top: 7px"><img src="/images/startups/amilio1.png"></a>
+        </li>
+        <li>
+            <a href="http://buzzrank.de/"><img src="/images/startups/buzzrank.png" style="margin-top: 13px"></a>
         </li>
     </ul>
     <div style="clear: both"></div>
