@@ -7,7 +7,7 @@
 
 <?php include 'partials/header.php' ?>
 
-<article>
+<article style="height: calc(100% - 229px)">
     <?php
     if (!array_key_exists('article', $_GET)) {
         $article = 'index';
@@ -17,6 +17,8 @@
     include __DIR__ . "/articles/" . $article . ".php";
     ?>
 </article>
+
+<div style="clear: both"></div>
 
 <?php include 'partials/footer.php' ?>
 
