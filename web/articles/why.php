@@ -19,6 +19,7 @@
                     The idea behind lean testing and Leankoala originated from eight years testing websites from two of the biggest publishing
                     companies in europe. We know how to handle editorial content that meets technology.
                 </p>
+                <a href="#publishing">read more ...</a>
             </li>
             <li>
                 <h3>Easy for website operators</h3>
@@ -26,6 +27,7 @@
                     When developing Leankoala one thing we always had in mind was that it must be easy to solve standard problems and possible to
                     solve the hard ones. For all website operators we kept the entry threshold low.
                 </p>
+                <a href="#operators">read more ...</a>
             </li>
             <li>
                 <h3>Efficiency for quality managers</h3>
@@ -67,6 +69,59 @@
         </p>
 
         <div style="clear: both"></div>
+
+        <a name="publishing">
+            <h2>Great for publishing companies</h2>
+        </a>
+
+        <div style="float: left; margin-right: 30px">
+            <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+        </div>
+
+        <p>
+            When creating Leankoala we always had one target group in mind. Publishing companies. This is not only because at that time
+            we were working for two of the largest publishing companies in europe but also because the lean testing approach perfectly
+            matches with editorial websites.
+        </p>
+
+        <p>
+            Having a look at websites like www.stern.de and www.cosmopolitan.de with the hundreds of thousand articles they provide
+            it seems quite complex to test it. Having closer look at those pages the complexity is not that high. In most cases there only
+            are ony a few components like a standard article, a tag page, the search results or a category page. That is almost everything to
+            test. Additionally there a pages like the sitemap or smaller APIs that are used. There mostly is no user interaction with the
+            page.
+        </p>
+
+        <p>
+            We found out that when trying to test such a website there are some key tests to write. For example a standard article can be tested
+            within four checks: is the headline existing, is the page footer existing, does the google analytics pixel gets counted and do javascript
+            errors occur. When none of those checks fail the chance the website is working is 95 percent. <strong>With Leankoala those checks are
+                created within minutes.</strong>
+        </p>
+
+        <div style="clear: both"></div>
+
+        <a name="operators">
+            <h2>Easy for website operators</h2>
+        </a>
+
+        <div style="float: left; margin-right: 30px">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+        </div>
+
+        <p>
+            There are a lot of business that depend on their websites. If the sites do not work the revenue will disappear as well. The problem with
+            such businesses is that they often can't afford a quality assurance team.
+        </p>
+
+        <p>
+            With Leankoala we provide a software as a servie solution that helps writing easy system tests by just a few clicks. Using our wizards
+            everybody is able to build up a good foundation for any website. We can archive that because we focus on modern websites and know
+            what the most common features are. For those features we provide predefined tests on top of our tools. If it is necessary to go deeper
+            all tools can also be manually configured.
+        </p>
+
+
     </div>
 
 </div>
