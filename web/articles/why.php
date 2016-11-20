@@ -1,6 +1,9 @@
 <div id="why">
     <div class="content">
-        <h1 style="width: 100%; text-align: center; margin-bottom: 100px">Why Leankoala?</h1>
+        <h1 style="width: 100%; text-align: center; margin-bottom: 20px">Why Leankoala?</h1>
+        <div style="width: 100%; text-align: center; margin-bottom: 100px">
+            <img src="/images/logo.png">
+        </div>
     </div>
     <div class="content" style="width: 1250px;">
 
