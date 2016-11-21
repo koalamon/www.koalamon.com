@@ -22,6 +22,7 @@
                         <li><a href="/features.html">Product</a></li>
                         <li><a href="/pricing.html">Pricing</a></li>
                         <li><a href="https://blog.leankoala.com/">Blog</a></li>
+                        <li><a href="https://monitor.leankoala.com/">Login</a></li>
                         <li><a href="https://monitor.leankoala.com/secure_area/register/"><strong>Sign Up</strong></a></li>
                     </ul>
                 </div>
