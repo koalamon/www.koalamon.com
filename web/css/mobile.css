@@ -100,4 +100,18 @@
     .mobile {
         display: block;
     }
+
+    #tos-block {
+        margin: 0px 20px;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0px;
+        width: calc(100% - 40px);
+    }
+
+    #imprint-block {
+        margin: 20px;
+    }
 }
