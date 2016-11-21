@@ -6,7 +6,6 @@
         </div>
     </div>
     <div class="content" style="width: 1250px;">
-
         <ul>
             <li>
                 <h3>Perfect for agencies</h3>
@@ -123,8 +122,24 @@
             what the most common features are. For those features we provide predefined tests on top of our tools. If it is necessary to go deeper
             all tools can also be manually configured.
         </p>
+        <div class="partner" style="margin-left: 80px; margin-top: 50px">
+            <ul>
+                <li>
+                    <a href="http://www.wetimebox.com/"><img src="/images/startups/wetimebox.png" style="margin-top: 15px"></a>
+                </li>
+                <li>
+                    <a href="http://yuscale.com/"><img src="/images/startups/yuscale.png" style="margin-top: 15px; height: 45px;"></a>
+                </li>
+                <li>
+                    <a href="http://www.amilio.de"><img src="/images/startups/amilio2.png" style="position: relative; top: 7px"><img src="/images/startups/amilio1.png"></a>
+                </li>
+                <li>
+                    <a href="http://buzzrank.de/"><img src="/images/startups/buzzrank.png" style="margin-top: 13px"></a>
+                </li>
+            </ul>
+        </div>
 
-
+        <div style="clear: both"></div>
     </div>
 
 </div>

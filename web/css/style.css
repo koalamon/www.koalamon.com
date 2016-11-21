@@ -341,6 +341,15 @@ h3 {
     line-height: 30px;
 }
 
+#why .partner {
+    width: 100%;
+    text-align: center;
+}
+
+#why .partner ul li {
+    width: auto;
+}
+
 #why ul li p {
     font-size: 13px;
 }
