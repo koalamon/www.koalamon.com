@@ -1,6 +1,6 @@
 <div class="content">
     <div id="index-head">
-        <h1>leankoala</h1>
+        <h1>Leankoala</h1>
         <div class="kicker">click, click, test.</div>
         <img src="/images/logo.png" class="logo">
 
@@ -12,23 +12,23 @@
     </div>
 </div>
 
-<div class="content" style="width: 1290px">
+<div class="content" id="index-block-features">
     <a href="/features.html">
         <div id="index-features">
             <ul>
-                <li>
+                <li class="no-mobile">
                     <img src="/images/features/ack.png">
                 </li>
-                <li>
+                <li class="no-mobile">
                     <img src="/images/features/checks.png">
                 </li>
                 <li class="active">
                     <img src="/images/features/start.png">
                 </li>
-                <li>
+                <li class="no-mobile">
                     <img src="/images/features/history.png">
                 </li>
-                <li>
+                <li class="no-mobile">
                     <img src="/images/features/recipes.png">
                 </li>
             </ul>
@@ -38,7 +38,7 @@
 </div>
 
 <div class="content">
-    <h2>What is lean testing and how can leankoala help?</h2>
+    <h2>What is lean testing and how can Leankoala help?</h2>
     <div class="two_column">
         <div class="column">
             <p>
@@ -52,7 +52,7 @@
         </div>
         <div class="column">
             <p>
-                Leankoala supports this new approach by providing checks for the most common indicators. The architecture of leankoala allows to perform these
+                Leankoala supports this new approach by providing checks for the most common indicators. The architecture of Leankoala allows to perform these
                 validation on development, stage and live systems. Thus it helps through the whole development process.
             </p>
             <p>

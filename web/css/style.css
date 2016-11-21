@@ -385,3 +385,15 @@ h3 {
     font-size: 200px;
     color: #34495e;
 }
+
+#index-block-features {
+    width: 1290px;
+}
+
+#why-block-personas {
+    width: 1250px;
+}
+
+.mobile {
+    display: none;
+}

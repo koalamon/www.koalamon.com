@@ -5,7 +5,7 @@
             <img src="/images/logo.png">
         </div>
     </div>
-    <div class="content" style="width: 1250px;">
+    <div class="content" id="why-block-personas">
         <ul>
             <li>
                 <h3>Perfect for agencies</h3>
