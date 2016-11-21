@@ -27,6 +27,7 @@ header .logo {
 
 header .logo img {
     width: 35px;
+    margin-top: 10px;
 }
 
 header .menu {
@@ -396,4 +397,35 @@ h3 {
 
 .mobile {
     display: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav {
+    float: right;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: black;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: auto;
+    }
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+    border-color: #999;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #999;
 }
