@@ -1,6 +1,6 @@
 <div id="imprint-block">
     <div class="content">
-        <h1 style="width: 100%; text-align: center; margin-bottom: 100px">Imprint // Impressum</h1>
+        <h1 style="width: 100%; text-align: center; margin-bottom: 100px">Imprint <span class="no-mobile">//</span> Impressum</h1>
     </div>
 
     <style>
@@ -21,9 +21,9 @@
 
         Inhaltlich Verantwortlicher: <strong>Nils Langner</strong><br><br>
 
-        Registergericht: &lt;folgt bei abgeschlossener Gründung&gt;<br>
-        Registernummer: &lt;folgt bei abgeschlossener Gründung&gt;<br>
-        Umsatzsteuer-Identifikationsnummer gem. § 27a UStG: &lt;folgt bei abgeschlossener Gründung&gt; <br>
+        Registergericht: Amtsgericht Hamburg<br>
+        Registernummer: HRB 143868<br>
+        Umsatzsteuer-Identifikationsnummer gem. § 27a UStG: &lt;beim Finanzamt beantragt&gt; <br>
 
     </div>
 
