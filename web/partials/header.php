@@ -22,8 +22,8 @@
                         <li>
                             <div data-toggle="dropdown" class="clickable dropdown-label">Product</div>
                             <ul class="dropdown-menu clickable">
-                                <li><a href="/on-the-road.html">On the road</a></li>
                                 <li><a href="/features.html">Features</a></li>
+                                <li><a href="/on-the-road.html">On the road</a></li>
                             </ul>
                         </li>
                         <li><a href="/pricing.html">Pricing</a></li>
