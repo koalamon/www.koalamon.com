@@ -124,4 +124,23 @@
     .navbar-inverse .navbar-nav > li a {
         padding-right: 20px;
     }
+
+    .sessions .session-image img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .sessions li {
+        padding-left: 10px;
+        margin: 20px;
+    }
+
+    .sessions .description {
+        padding-left: 0px;
+    }
+
+    .sessions .recommendations li {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
 }

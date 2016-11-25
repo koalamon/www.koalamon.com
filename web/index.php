@@ -7,7 +7,7 @@
 
 <?php include 'partials/header.php' ?>
 
-<article style="height: calc(100% - 229px)">
+<article>
     <?php
     if (!array_key_exists('article', $_GET)) {
         $article = 'index';

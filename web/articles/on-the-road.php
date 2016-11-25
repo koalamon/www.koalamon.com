@@ -2,7 +2,7 @@
     <h1 style="width: 100%; text-align: center">On the road</h1>
 </div>
 
-<div class="content">
+<div class="content" style="margin-bottom: 1000px">
     <div class="main-info">
         <p>
             As we, the members of the Leankoala team, are very proud of our software and the lean testing approach we try to talk a lot about it. These are
@@ -12,61 +12,6 @@
 
     <style>
 
-        .sessions {
-        }
-
-        .sessions li {
-            margin-top: 120px;
-            border-top: 1px solid #eee;
-            padding-top: 80px;
-        }
-
-        .sessions li:first-child {
-            margin-top: 50px;
-            border-top: none;
-        }
-
-        .sessions .session-image img {
-            width: 400px;
-            border: 1px solid #eee;
-        }
-
-        .sessions .session-image {
-            float: left;
-            margin-right: 30px;
-        }
-
-        .sessions .event {
-            font-size: 12px;
-        }
-
-        .sessions .topic {
-            margin-top: 10px;
-            font-size: 20px;
-            font-weight: 400;
-        }
-
-        .sessions .description {
-            margin-top: 20px;
-            line-height: 30px;
-            font-size: 13px;
-            padding-left: 432px;
-        }
-
-        .sessions .recommendations {
-            margin-top: 20px;
-        }
-
-        .sessions .recommendations li {
-            margin-top: 0;
-            padding: 2px 5px;
-            font-size: 12px;
-            float: left;
-            border-radius: 5px;
-            background-color: #eee;
-            margin-right: 10px;
-            margin-top: 10px;
-        }
     </style>
 
     <ul class="sessions">
