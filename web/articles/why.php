@@ -70,6 +70,17 @@
                 Softwareprojekt im Web</a>". One of our goals is to push the lean testing movement so you don't have to sell it to your client.
         </p>
 
+        <div class="partner" style="margin-left: 340px; margin-top: 50px">
+            <ul>
+                <li>
+                    <a href="http://www.bornholdtlee.de/"><img src="/images/agencies/blg_logo.png" style="width: 250px; margin-top: 15px;"></a>
+                </li>
+                <li>
+                    <a href="http://www.socialobjects.de/"><img src="/images/agencies/so_logo.png" style="width: 60px"></a>
+                </li>
+            </ul>
+        </div>
+
         <div style="clear: both"></div>
 
         <a name="publishing">
