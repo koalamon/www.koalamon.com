@@ -19,7 +19,13 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li><a href="/why.html">Why Leankoala?</a></li>
-                        <li><a href="/features.html">Product</a></li>
+                        <li>
+                            <div data-toggle="dropdown" class="clickable dropdown-label">Product</div>
+                            <ul class="dropdown-menu clickable">
+                                <li><a href="/on-the-road.html">On the road</a></li>
+                                <li><a href="/features.html">Features</a></li>
+                            </ul>
+                        </li>
                         <li><a href="/pricing.html">Pricing</a></li>
                         <li><a href="https://blog.leankoala.com/">Blog</a></li>
                         <li><a href="https://monitor.leankoala.com/">Login</a></li>

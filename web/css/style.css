@@ -497,3 +497,29 @@ h3 {
 article {
     height: calc(100% - 229px);
 }
+
+.clickable {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.dropdown-label {
+    margin: 15px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+}
+
+.navbar-nav > li > .dropdown-menu {
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-nav > li > .dropdown-menu li {
+    width: 100%;
+}
+
+.navbar-nav > li > .dropdown-menu li a {
+    padding: 10px;
+    width: calc(100% - 20px);
+}
