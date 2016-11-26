@@ -58,7 +58,7 @@
 
 <div class="content no-mobile" style="width: 1130px">
     <ul class="price-models">
-        <li>
+        <!--li>
             <h3>Free</h3>
             <div class="feature"><strong>5</strong> components</div>
             <div class="feature">Ping interval <strong>1 day</strong></div>
@@ -70,7 +70,7 @@
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
             </a>
-        </li>
+        </li-->
         <li>
             <h3>Small</h3>
             <div class="feature"><strong>5</strong> components</div>
@@ -112,6 +112,19 @@
                 <div class="register-plan">start free 14 day period</div>
             </a>
         </li>
+        <li>
+            <h3>Enterprise</h3>
+            <div class="feature"><strong>unlimited</strong> components</div>
+            <div class="feature">Ping interval <strong>5 minutes</strong></div>
+            <div class="feature">Unlimited alerts</div>
+            <div class="feature">Live Support</div>
+            <div class="price">contact us</div>
+            <div class="info">&nbsp;</div>
+            <div class="for-whom">For large websites with dev, stage and production stages.</div>
+            <a href="https://monitor.leankoala.com/secure_area/register/">
+                <div class="register-plan">start free 14 day period</div>
+            </a>
+        </li>
     </ul>
 </div>
 
@@ -125,7 +138,7 @@
                 There is one thing we love as much as Start Ups and that is our hometown <strong>Hamburg</strong>.
             </p>
             <p>
-                That is why we decided to offer our service to local start ups for free for the first two years.
+                That is why we decided to offer our service to 20 local start ups <strong>for free for the first year</strong>.
                 Not only because we want to support the local start up scene, but also because we think that
                 feedback can be much more worthy when the user is on site.
             </p>

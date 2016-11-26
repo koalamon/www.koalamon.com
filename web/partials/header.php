@@ -27,7 +27,13 @@
                             </ul>
                         </li>
                         <li><a href="/pricing.html">Pricing</a></li>
-                        <li><a href="https://blog.leankoala.com/">Blog</a></li>
+                        <li>
+                            <div data-toggle="dropdown" class="clickable dropdown-label">Ressources</div>
+                            <ul class="dropdown-menu clickable">
+                                <li><a href="https://blog.leankoala.com/">Blog</a></li>
+                                <li><a href="/lean-testing.html">What is lean testing?</a></li>
+                            </ul>
+                        </li>
                         <li><a href="https://monitor.leankoala.com/">Login</a></li>
                         <li><a href="https://monitor.leankoala.com/secure_area/register/"><strong>Sign Up</strong></a></li>
                     </ul>
