@@ -70,6 +70,33 @@
                 </ul>
             </div>
         </li>
+        <li>
+            <div class="session-image">
+                <a href="http://www.slideshare.net/phphatesme/qualitt-stinkt-manchmal-slideshare">
+                    <img src="/images/road/qualitaet-stinkt.png">
+                </a>
+            </div>
+            <div class="event">2013-11-08 - Developer Conference 2013</div>
+            <div class=" topic">
+                Qualität stinkt! (German)
+            </div>
+            <div class="description">
+                <p>
+                    Lohnt es sich Wert auf hohe Qualität zu legen? Ist das Internet der richtige Ort für hochwertige Software? Und was ist eigentlich Qualität?
+                    Diesen Fragen haben sich Torsten Franz und Nils Langner angenommen, mit der Mission sie zu beantworten.
+                </p>
+                <p>
+                    In diesem Vortrag wird die Vergangenheit, die Gegenwart und eine mögliche Zukunft rund um das Thema Qualität besprochen und erklärt, warum
+                    man mit weniger Testaufwand heutzutage auch glücklich sein kann.
+                </p>
+
+                <ul class="recommendations">
+                    <li><a href="https://www.codetalks.de/">Code.Talks (ehemals Developer Conference)</a></li>
+                    <li><a href="http://www.guj.de/">Gruner+Jahr</a></li>
+                    <li><a href="https://www.twitter.com/toddyfranz/">Twitter Torsten Franz</a></li>
+                </ul>
+            </div>
+        </li>
     </ul>
 </div>
 
