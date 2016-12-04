@@ -1,7 +1,6 @@
 <div class="content">
     <header>
 
-
         <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
             <div class="logo">
                 <a href="/">
@@ -18,7 +17,14 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="/why.html">Why Leankoala?</a></li>
+                        <li></li>
+                        <li>
+                            <div data-toggle="dropdown" class="clickable dropdown-label">Why Leankoala?</div>
+                            <ul class="dropdown-menu clickable">
+                                <li><a href="/why.html">Overview</a></li>
+                                <li><a href="/one-day-with.html">One day with</a></li>
+                            </ul>
+                        </li>
                         <li>
                             <div data-toggle="dropdown" class="clickable dropdown-label">Product</div>
                             <ul class="dropdown-menu clickable">

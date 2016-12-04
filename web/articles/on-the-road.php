@@ -32,6 +32,7 @@
 
                 <ul class="recommendations">
                     <li><a href="http://www.webmontag-hamburg.de/">Webmontag Hamburg</a></li>
+                    <li><a href="http://www.webmontag-hamburg.de/galerie/fotoarchiv-2016/event/40-haw.html">Photos</a></li>
                     <li><a href="https://monitor.leankoala.com/p/demo-webmontag/">Demo: Webmontag Hamburg</a></li>
                     <li><a href="https://monitor.leankoala.com/p/demo-sah/">Demo: Software Allianz Hamburg</a></li>
                     <li><a href="https://monitor.leankoala.com/p/demo-tk/">Demo: Techniker Krankenkasse</a></li>

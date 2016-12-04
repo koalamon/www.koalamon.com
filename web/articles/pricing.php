@@ -75,6 +75,8 @@
             <h3>Small</h3>
             <div class="feature"><strong>5</strong> components</div>
             <div class="feature">Ping interval <strong>5 minutes</strong></div>
+            <div class="feature">Hourly checks</div>
+            <div class="feature">&nbsp;</div>
             <div class="feature">Unlimited alerts</div>
             <div class="feature">E-Mail Support</div>
             <div class="price">9 EUR</div>
@@ -90,6 +92,8 @@
             <h3>Medium</h3>
             <div class="feature"><strong>25</strong> components</div>
             <div class="feature">Ping interval <strong>5 minutes</strong></div>
+            <div class="feature">Hourly checks</div>
+            <div class="feature">rerun checks manually</div>
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
             <div class="price">39 EUR</div>
@@ -103,6 +107,8 @@
             <h3>Large</h3>
             <div class="feature"><strong>50</strong> components</div>
             <div class="feature">Ping interval <strong>5 minutes</strong></div>
+            <div class="feature">Hourly checks</div>
+            <div class="feature">rerun checks via api</div>
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
             <div class="price">69 EUR</div>
@@ -116,11 +122,13 @@
             <h3>Enterprise</h3>
             <div class="feature"><strong>unlimited</strong> components</div>
             <div class="feature">Ping interval <strong>5 minutes</strong></div>
+            <div class="feature">Hourly checks</div>
+            <div class="feature">rerun checks via api</div>
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
-            <div class="price">contact us</div>
+            <div class="price"><a href="mailto:enterprise@leankoala.com">contact us</a></div>
             <div class="info">&nbsp;</div>
-            <div class="for-whom">For large websites with dev, stage and production stages.</div>
+            <div class="for-whom">For enterprise projects or agencies.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
             </a>
@@ -130,28 +138,31 @@
 
 <div style="clear: both"></div>
 
-<div class="content">
-    <a name="hamburg"><h2>Moin moin, Hamburg Start Ups!</h2></a>
-    <div class="two_column">
-        <div class="column">
-            <p>
-                There is one thing we love as much as Start Ups and that is our hometown <strong>Hamburg</strong>.
-            </p>
-            <p>
-                That is why we decided to offer our service to 20 local start ups <strong>for free for the first year</strong>.
-                Not only because we want to support the local start up scene, but also because we think that
-                feedback can be much more worthy when the user is on site.
-            </p>
-        </div>
-        <div class="column">
-            <p>
-                The only two things we want in return is feedback and a testimonial if you like us.
-            </p>
-            <p>
-                So if you started in Hamburg and need an easy way to start your quality assurance get in contact with us.
-            </p>
+<div class="main-element-grey">
+    <div class="content">
+        <a name="hamburg"><h2>Moin moin, Hamburg Start Ups!</h2></a>
+        <div class="two_column">
+            <div class="column">
+                <p>
+                    There is one thing we love as much as Start Ups and that is our hometown <strong>Hamburg</strong>.
+                </p>
+                <p>
+                    That is why we decided to offer our service to 20 local start ups <strong>for free for the first year</strong>.
+                    Not only because we want to support the local start up scene, but also because we think that
+                    feedback can be much more worthy when the user is on site.
+                </p>
+            </div>
+            <div class="column">
+                <p>
+                    The only two things we want in return is feedback and a testimonial if you like us.
+                </p>
+                <p>
+                    So if you started in Hamburg and need an easy way to start your quality assurance get in contact with us.
+                </p>
+            </div>
         </div>
     </div>
+    <div style="clear: both"></div>
 </div>
 
 <div style="clear: both"></div>

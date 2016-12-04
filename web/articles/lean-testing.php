@@ -22,7 +22,7 @@
         Lean testing for web applications means testing for symptoms instead of root causes.
     </div>
 
-    <div class="content">
+    <div class="content" style="margin-top: 150px">
 
         <h2>Testing for symptoms not root causes.</h2>
 

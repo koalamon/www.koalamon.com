@@ -1,2 +1,2 @@
-RewriteEngine on 
+RewriteEngine on
 RewriteRule ^(.*).html$ index.php?article=$1
