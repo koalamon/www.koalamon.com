@@ -19,6 +19,9 @@ header {
     border-bottom: 1px solid #eee;
     padding-bottom: 5px;
     margin-top: 10px;
+
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 header .logo {
@@ -33,7 +36,6 @@ header .logo img {
 header .menu {
     float: right;
     font-weight: 300;
-
 }
 
 .price-models ul li {
@@ -84,7 +86,7 @@ h1 {
 h2 {
     width: 100%;
     text-align: center;
-    margin-top: 150px;
+    /* margin-top: 150px; */
     font-weight: 300;
     margin-bottom: 80px;
 }
@@ -370,12 +372,12 @@ h3 {
     border-bottom: 1px solid #eee;
 }
 
-#why ul li a {
+.readmore {
     color: #c0392b;
 }
 
 #why-details {
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 }
 
 #why-details p {
@@ -385,6 +387,14 @@ h3 {
 #why i {
     font-size: 200px;
     color: #34495e;
+}
+
+#why-details h2 {
+    padding-top: 150px;
+}
+
+.main-element-grey #why-details h2 {
+    padding-top: 0px;
 }
 
 #index-block-features {
@@ -504,10 +514,11 @@ article {
 }
 
 .dropdown-label {
-    margin: 15px;
+    margin: 18px;
 }
 
 .navbar-nav > li > .dropdown-menu {
+    margin-left: 18px;
 }
 
 .navbar-nav > li > .dropdown-menu {
@@ -522,4 +533,32 @@ article {
 .navbar-nav > li > .dropdown-menu li a {
     padding: 10px;
     width: calc(100% - 20px);
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.main-element-grey {
+    background-color: #EFF2F5;
+    width: 100%;
+    padding: 30px 0 80px 0;
+    margin-top: 150px;
+    background-image: url(/images/background.png);
+    background-size: 20px
+}
+
+#one-day-with ul {
+    justify-content: center;
+    display: flex;
+}
+
+#one-day-with ul li {
+    float: left;
+    margin: 20px 5px;
+    background-color: #ecf0f1;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+
+    display: inline;
+    text-align: center;
 }

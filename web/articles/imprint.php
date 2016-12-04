@@ -5,7 +5,7 @@
 
     <style>
         body {
-            height: calc(100% - 10px);
+            height: calc(100% - 22px);
         }
     </style>
 

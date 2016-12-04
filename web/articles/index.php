@@ -37,34 +37,39 @@
     </a>
 </div>
 
-<div class="content">
-    <h2>What is lean testing and how can Leankoala help?</h2>
-    <div class="two_column">
-        <div class="column">
-            <p>
-                The common test process in software development focuses on finding the root cause of an error. With lean testing we try to <strong>find the symptoms</strong>. Especially for the web
-                this is one of the most efficient approaches.
-            </p>
-            <p>
-                When having a standard website there literally are thousands of bugs and incidents that can cause the site not to work. But there only are a few symptoms
-                that occur. The easiest one would be a Http Status Code 500 or a missing footer.
-            </p>
-        </div>
-        <div class="column">
-            <p>
-                Leankoala supports this new approach by providing checks for the most common indicators. The architecture of Leankoala allows to perform these
-                validation on development, stage and live systems. Thus it helps through the whole development process.
-            </p>
-            <p>
-                <strong>Leankoala should be your first step towards test automation.</strong>
-            </p>
+<div class="main-element-grey" style="">
+    <div class="content">
+        <h2>What is lean testing and how can Leankoala help?</h2>
+        <div class="two_column">
+            <div class="column">
+                <p>
+                    The common test process in software development focuses on finding the root cause of an error. With lean testing we try to <strong>find the symptoms</strong>. Especially for the
+                    web
+                    this is one of the most efficient approaches.
+                </p>
+                <p>
+                    When having a standard website there literally are thousands of bugs and incidents that can cause the site not to work. But there only are a few symptoms
+                    that occur. The easiest one would be a Http Status Code 500 or a missing footer.
+                </p>
+            </div>
+            <div class="column">
+                <p>
+                    Leankoala supports this new approach by providing checks for the most common indicators. The architecture of Leankoala allows to perform these
+                    validation on development, stage and live systems. Thus it helps through the whole development process.
+                </p>
+                <p>
+                    <strong>Leankoala should be your first step towards test automation.</strong>
+                </p>
+                <a href="/lean-testing.html" class="readmore">read more...</a>
+            </div>
         </div>
     </div>
+    <div style="clear: both"></div>
 </div>
 
 <div style="clear: both"></div>
 
-<div id="index-checks">
+<div id="index-checks" style="margin-top: 100px">
     <div class="content">
         <h2>What can we check?</h2>
         <ul>
