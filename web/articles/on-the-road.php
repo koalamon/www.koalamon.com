@@ -17,7 +17,9 @@
     <ul class="sessions">
         <li>
             <div class="session-image">
-                <img src="/images/road/webmontag2016.png">
+		<a href="http://www.slideshare.net/phphatesme/the-lean-tester-webmontag-2016">
+	                <img src="/images/road/webmontag2016.png">
+		</a>
             </div>
             <div class="event">2016-11-28 - Webmontag #40</div>
             <div class=" topic">
