@@ -80,11 +80,11 @@
 
                 <style>
                     table {
-                        border: 1px solid #ecf0f1;
+                        border: 1px solid #f9f9f9;
                     }
 
                     table thead tr {
-                        background-color: #ecf0f1;
+                        background-color: #f9f9f9;
                     }
 
                     table tr td {
@@ -143,7 +143,7 @@
 
                     <tbody>
 
-                    <tr style="border-top: 1px solid #ecf0f1;">
+                    <tr style="border-top: 1px solid #f9f9f9;">
                         <td>Home page</td>
                         <td>
                             The homepage starts with a list of eight curated links. We check if there are eight elements in that
@@ -208,7 +208,7 @@
                         </td>
                     </tr>
 
-                    <tr style="background-color: #ecf0f1;">
+                    <tr style="background-color: #f9f9f9;">
                         <td>User page</td>
                         <td>
                             On the userpage there are all products and collections of a specific user listed. We created a
@@ -217,7 +217,7 @@
                         <td></td>
                     </tr>
 
-                    <tr style="background-color: #ecf0f1;">
+                    <tr style="background-color: #f9f9f9;">
                         <td></td>
                         <td>The name of the user is visible</td>
                         <td>
@@ -225,7 +225,7 @@
                         </td>
                     </tr>
 
-                    <tr style="background-color: #ecf0f1;">
+                    <tr style="background-color: #f9f9f9;">
                         <td></td>
                         <td>Number of products that can be seen is 10.</td>
                         <td>
@@ -233,7 +233,7 @@
                         </td>
                     </tr>
 
-                    <tr style="background-color: #ecf0f1;">
+                    <tr style="background-color: #f9f9f9;">
                         <td></td>
                         <td>Number of collections that can be seen is 10.</td>
                         <td>
@@ -250,7 +250,7 @@
                         <td></td>
                     </tr>
 
-                    <tr style="background-color: #ecf0f1;">
+                    <tr style="background-color: #f9f9f9;">
                         <td>Product page</td>
                         <td>
                             As result of our experience the product page does not break very often. As a result we decided
@@ -259,7 +259,7 @@
                         <td></td>
                     </tr>
 
-                    <tr style="background-color: #ecf0f1;">
+                    <tr style="background-color: #f9f9f9;">
                         <td></td>
                         <td>Product name and description are visible</td>
                         <td>
@@ -268,7 +268,7 @@
                         </td>
                     </tr>
 
-                    <tr style="background-color: #ecf0f1;">
+                    <tr style="background-color: #f9f9f9;">
                         <td></td>
                         <td>Collections that contain this exact product are listed</td>
                         <td>
@@ -298,7 +298,7 @@
                         </td>
                     </tr>
 
-                    <tr style="background-color: #ecf0f1;">
+                    <tr style="background-color: #f9f9f9;">
                         <td>Search</td>
                         <td>
                             The search result page is technically rendered as evefry other product list. That is why we only
@@ -315,7 +315,7 @@
                         </td>
                         <td>Xml Sitemap Checker<span class="value">on (non strict)</span></td>
                     </tr>
-                    <tr style="background-color: #ecf0f1;">
+                    <tr style="background-color: #f9f9f9;">
                         <td>Standard Checks</td>
                         <td>There are some standard checks that we apply on every html page we tests.</td>
                         <td>
