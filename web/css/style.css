@@ -63,10 +63,41 @@ header .menu ul li.signup {
 
 footer {
     background-color: #1E2632;
-    margin-top: 100px;
+    /* margin-top: 100px;*/
     padding: 20px 0;
     color: white;
     font-size: 12px;
+}
+
+footer .headline {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #27ae60;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    float: none;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer .block {
+    float: left;
+    margin-right: 130px;
+    height: 100%;
+}
+
+#recent-blog-posts {
+    float: right;
+}
+
+footer {
+    border-top: 5px solid #34495e;
+    padding: 50px 0;
 }
 
 a {
@@ -242,6 +273,8 @@ h3 {
 .main-info {
     margin-top: 50px;
     line-height: 35px;
+    font-weight: 100;
+    font-size: 22px;
 }
 
 .price-models .feature {

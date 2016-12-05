@@ -1,10 +1,4 @@
-<style>
-    body {
-        height: calc(100% - 22px);
-    }
-</style>
-
-<div class="content">
+<div class="content" style="margin-bottom: 100px">
     <h1 style="width: 100%; text-align: center">One day with</h1>
 
     <div class="main-info">
@@ -36,7 +30,7 @@
             <td>
                 <div style="font-weight: 600; margin-bottom: 20px">the web hates me</div>
                 <div style="line-height: 28px; margin-right: 50px; font-size: 14px">
-                   This blog started a phphatesme and is one of the best known web development weblogs in Germany.
+                    This blog started a phphatesme and is one of the best known web development weblogs in Germany.
                 </div>
             </td>
             <td width="150px">
@@ -45,4 +39,6 @@
         </tr>
     </table>
 
+    <div style="clear: both"></div>
 </div>
+

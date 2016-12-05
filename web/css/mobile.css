@@ -106,9 +106,19 @@
     }
 
     footer {
-        position: fixed;
+        /* position: fixed; */
         bottom: 0px;
         width: calc(100% - 40px);
+    }
+
+    footer .block {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #recent-blog-posts {
+        float: none;
+        margin-top: 40px;
     }
 
     #imprint-block {

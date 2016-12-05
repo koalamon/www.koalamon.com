@@ -161,13 +161,3 @@
 </div>
 
 <div style="clear: both"></div>
-
-<div style="margin-top: 100px">
-    <a href="https://monitor.leankoala.com/secure_area/register/">
-        <div class="register">
-            try for free
-        </div>
-    </a>
-</div>
-
-<div style="clear: both"></div>
