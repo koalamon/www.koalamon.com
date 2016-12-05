@@ -4,7 +4,7 @@
 
         <div class="main-info" style="margin-bottom: 100px; text-align: center">
             <div style="width: 100%; text-align: center; margin-bottom: 100px">
-                <img src="/images/odw_amilio.png" style="width: 600px;">
+                <img src="/images/odw_amilio.png" style="">
             </div>
             amilio is a shopping community based on affiliate programs. Every user is able create lists of products
             he or she likes. All those lists and products can be liked and shared by others.

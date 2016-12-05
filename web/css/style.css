@@ -562,3 +562,21 @@ article {
     display: inline;
     text-align: center;
 }
+
+.more {
+    background-color: #e74c3c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+#why .one-day {
+    margin-left: 230px;
+    margin-top: 20px
+}
+
+#one-day-with .main-info img {
+    width: 600px;
+}

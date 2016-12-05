@@ -60,7 +60,10 @@
                 <p>
                     <strong>Leankoala should be your first step towards test automation.</strong>
                 </p>
-                <a href="/lean-testing.html" class="readmore">read more...</a>
+                <div style="margin-top: 20px">
+                    <a href="/why.html" class="more">Why Leankoala?</a>
+                    <a href="/lean-testing.html" class="more">What is lean testing?</a>
+                </div>
             </div>
         </div>
     </div>

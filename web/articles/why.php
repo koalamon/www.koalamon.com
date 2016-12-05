@@ -140,6 +140,9 @@
             what the most common features are. For those features we provide predefined tests on top of our tools. If it is necessary to go deeper
             all tools can also be manually configured.
         </p>
+        <div class="one-day">
+            <a href="/one-day-with/amilio.html" class="more">one day with amilio</a>
+        </div>
         <div class="partner" style="margin-left: 80px; margin-top: 50px">
             <ul>
                 <li>
