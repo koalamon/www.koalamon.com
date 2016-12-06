@@ -1,6 +1,6 @@
 <div id="imprint-block">
     <div class="content">
-        <h1 style="width: 100%; text-align: center; margin-bottom: 100px">Imprint <span class="no-mobile">//</span> Impressum</h1>
+        <h1 style="width: 100%; text-align: center; margin-bottom: 100px">Contact <span class="no-mobile">//</span> Impressum</h1>
     </div>
 
     <div class="content" style="margin-bottom: 100px">

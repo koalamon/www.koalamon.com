@@ -28,7 +28,7 @@
             <div style="float: left; margin-right: 100px" class="block">
                 <div class="headline">Contact</div>
                 <div>
-                    <span style="font-size: 22px; display: block; margin-bottom: 10px">contact@leankoala.com</span>
+                    <span style="font-size: 22px; display: block; margin-bottom: 10px; font-weight: 100">contact@leankoala.com</span>
                     <span>+49 40 572 487 64</span>
                 </div>
             </div>
