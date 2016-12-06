@@ -4,9 +4,9 @@
         <div class="kicker">click, click, test.</div>
         <img src="/images/logo.png" class="logo">
 
-        <div style="text-align: center; margin-bottom: 100px; margin-top: 50px">
+        <div style="text-align: center; margin-bottom: 100px; margin-top: 50px; width: 100%">
             <a href="https://monitor.leankoala.com/secure_area/register/">
-                <div style="background-color:  #27ae60; color: white; width: 220px; padding: 20px; border-radius: 10px; font-weight: 600; margin-left: 370px">
+                <div style="background-color:  #27ae60; color: white; width: 220px; padding: 20px; border-radius: 10px; display: inherit">
                     Start your 14 day free trial
                 </div>
             </a>

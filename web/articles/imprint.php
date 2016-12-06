@@ -3,12 +3,6 @@
         <h1 style="width: 100%; text-align: center; margin-bottom: 100px">Imprint <span class="no-mobile">//</span> Impressum</h1>
     </div>
 
-    <style>
-        body {
-            height: calc(100% - 22px);
-        }
-    </style>
-
     <div class="content" style="margin-bottom: 100px">
         <strong>Leankoala UG (haftungsbeschränkt) in Gründung</strong><br><br>
         Quellenweg 4 <br>

@@ -25,6 +25,13 @@
         <!--img src="/images/logo.png" width="80px"-->
 
         <div style="width: 100%;">
+            <div style="float: left; margin-right: 100px" class="block">
+                <div class="headline">Contact</div>
+                <div>
+                    <span style="font-size: 22px; display: block; margin-bottom: 10px">contact@leankoala.com</span>
+                    <span>+49 40 572 487 64</span>
+                </div>
+            </div>
             <div style="float: left" class="block">
                 <div class="headline">Leankoala</div>
                 <ul>
