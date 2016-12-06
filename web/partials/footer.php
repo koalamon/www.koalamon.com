@@ -8,11 +8,11 @@
 
         <div style="text-align: center; margin-bottom: 100px">
             <a href="mailto:demo@leankoala.com?Subject=Request a demo&Body=">
-                <div style="float:left; margin-left: 265px; margin-right: 30px;  background-color: #27ae60; color: white; width: 150px; padding: 20px; border-radius: 10px">Request a demo</div>
+                <div style="float:left; margin-left: 265px; margin-right: 30px;  background-color: #3498db; color: white; width: 150px; padding: 20px; border-radius: 10px">Request a demo</div>
             </a>
             <div style="float:left; margin-top: 20px; margin-right: 30px">or</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
-                <div style="border: 2px solid #27ae60; color: #27ae60; width: 120px; display: flex; padding: 20px 20px 20px 50px; border-radius: 10px;">Try it for free</div>
+                <div style="border: 2px solid #3498db; color: #3498db; width: 120px; display: flex; padding: 20px 20px 20px 50px; border-radius: 10px;">Try it for free</div>
             </a>
         </div>
 

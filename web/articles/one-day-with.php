@@ -7,8 +7,37 @@
         about what we achieved within one day in cooperation with the corresponding company.
     </div>
 
+    <style>
+        .filter {
+            border-radius: 5px;
+            background-color: #bdc3c7;
+            width: 100px;
+            color: white;
+            padding: 5px;
+            float: left;
+            margin: 0px 15px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .filterbox {
+            margin-left: 240px;
+            margin-top: 60px;
+            margin-bottom: 140px;
+        }
+    </style>
+
+    <!--div class="filterbox">
+        <div class="filter active" data-filter="small">small</div>
+        <div class="filter active" data-filter="medium">medium</div>
+        <div class="filter active" data-filter="large">large</div>
+        <div class="filter active" data-filter="enterprise">enterprise</div>
+    </div-->
+
+    <div style="clear: both"></div>
+
     <table style="margin-top: 100px;">
-        <tr style="border-bottom: 100px solid transparent">
+        <tr style="border-bottom: 100px solid transparent" class="plan-medium">
             <td style="width: 250px; vertical-align: top">
                 <img src="/images/startups/amilio2.png" style="position: relative; top: 7px"><img src="/images/startups/amilio1.png">
             </td>
@@ -23,7 +52,7 @@
                 <a href="/one-day-with/amilio.html" style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px">read one day with amilio</a>
             </td>
         </tr>
-        <tr>
+        <tr class="plan-small">
             <td style="width: 250px; vertical-align: top">
                 <img src="/images/startups/whm.png">
             </td>

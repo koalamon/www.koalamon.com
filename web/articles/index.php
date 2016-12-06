@@ -4,11 +4,13 @@
         <div class="kicker">click, click, test.</div>
         <img src="/images/logo.png" class="logo">
 
-        <a href="https://monitor.leankoala.com/secure_area/register/">
-            <div class="register">
-                try for free
-            </div>
-        </a>
+        <div style="text-align: center; margin-bottom: 100px; margin-top: 50px">
+            <a href="https://monitor.leankoala.com/secure_area/register/">
+                <div style="background-color:  #27ae60; color: white; width: 220px; padding: 20px; border-radius: 10px; font-weight: 600; margin-left: 370px">
+                    Start your 14 day free trial
+                </div>
+            </a>
+        </div>
     </div>
 </div>
 
