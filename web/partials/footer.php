@@ -31,6 +31,10 @@
                     <span style="font-size: 22px; display: block; margin-bottom: 10px; font-weight: 100">contact@leankoala.com</span>
                     <span>+49 40 572 487 64</span>
                 </div>
+                <div style="font-size: 25px; margin-top: 20px">
+                    <a href="https://www.facebook.com/leankoala/" style="color: white"><i class="fa fa-facebook-square" aria-hidden="true" style="margin-right: 5px"></i></a>
+                    <a href="https://www.twitter.com/leankoala" style="color: white"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                </div>
             </div>
             <div style="float: left" class="block">
                 <div class="headline">Leankoala</div>

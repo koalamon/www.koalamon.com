@@ -60,7 +60,7 @@
                     validation on development, stage and live systems. Thus it helps through the whole development process.
                 </p>
                 <p>
-                    <strong>Leankoala should be your first step towards test automation.</strong>
+                    <strong>Leankoala is your first step towards test automation.</strong>
                 </p>
                 <div style="margin-top: 20px">
                     <a href="/why.html" class="more">Why Leankoala?</a>
