@@ -1,14 +1,14 @@
-<div id="tos-block">
+2<div id="tos-block">
     <div class="content">
         <h1 style="width: 100%; text-align: center; margin-bottom: 100px">Terms of Service</h1>
     </div>
 
     <div class="content">
-        <div style="margin-bottom: 20px">Terms of Service - Version 1.1 - 2016-11-14</div>
+        <div style="margin-bottom: 20px">Terms of Service - Version 1.2 - 2016-12-08</div>
 
         <p>By using the Leankoala
             web site ("Service"), or any services of Leankoala
-            GbR ("Leankoala "), you are agreeing to be bound by the following terms and conditions ("Terms of Service"). IF YOU ARE ENTERING INTO THIS AGREEMENT ON BEHALF OF A COMPANY OR OTHER LEGAL
+            UG (haftungsbeschränkt) ("Leankoala "), you are agreeing to be bound by the following terms and conditions ("Terms of Service"). IF YOU ARE ENTERING INTO THIS AGREEMENT ON BEHALF OF A COMPANY OR OTHER LEGAL
             ENTITY, YOU REPRESENT THAT YOU HAVE THE AUTHORITY TO BIND SUCH ENTITY, ITS AFFILIATES AND ALL USERS WHO ACCESS OUR SERVICES THROUGH YOUR ACCOUNT TO THESE TERMS AND CONDITIONS, IN WHICH
             CASE
             THE TERMS "YOU" OR "YOUR" SHALL REFER TO SUCH ENTITY, ITS AFFILIATES AND USERS ASSOCIATED WITH IT. IF YOU DO NOT HAVE SUCH AUTHORITY, OR IF YOU DO NOT AGREE WITH THESE TERMS AND
