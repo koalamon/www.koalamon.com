@@ -1,10 +1,10 @@
-<div id="tos-block">
+2<div id="tos-block">
     <div class="content">
         <h1 style="width: 100%; text-align: center; margin-bottom: 100px">Terms of Service</h1>
     </div>
 
     <div class="content">
-        <div style="margin-bottom: 20px">Terms of Service - Version 1.1 - 2016-11-14</div>
+        <div style="margin-bottom: 20px">Terms of Service - Version 1.2 - 2016-12-08</div>
 
         <p>By using the Leankoala
             web site ("Service"), or any services of Leankoala
