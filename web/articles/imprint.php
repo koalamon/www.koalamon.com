@@ -4,7 +4,7 @@
     </div>
 
     <div class="content" style="margin-bottom: 100px">
-        <strong>Leankoala UG (haftungsbeschränkt) in Gründung</strong><br><br>
+        <strong>Leankoala UG (haftungsbeschränkt)</strong><br><br>
         Quellenweg 4 <br>
         20535 Hamburg <br>
         Deutschland <br><br>

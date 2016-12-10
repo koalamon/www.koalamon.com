@@ -1,8 +1,12 @@
 <div class="content">
     <div id="index-head">
-        <h1>Leankoala</h1>
-        <div class="kicker">click, click, test.</div>
+
         <img src="/images/logo.png" class="logo">
+
+        <div class="main-info" style="margin-top: 20px; width: 100%">
+            <h1 style="margin-bottom: 20px">Leankoala</h1>
+            The fast and lean continuous testing service <br>for web applications.
+        </div>
 
         <div style="text-align: center; margin-bottom: 100px; margin-top: 50px; width: 100%">
             <a href="https://monitor.leankoala.com/secure_area/register/">
