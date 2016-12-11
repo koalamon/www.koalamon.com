@@ -111,7 +111,7 @@
             <div class="feature">rerun checks via api</div>
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
-            <div class="price">69 EUR</div>
+            <div class="price"><?php echo $prices['large']; ?> EUR</div>
             <div class="info">per month</div>
             <div class="for-whom">For large websites with dev, stage and production stages.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">

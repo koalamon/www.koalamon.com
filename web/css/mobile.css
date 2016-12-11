@@ -177,4 +177,24 @@
     #one-day-with .main-info img {
         width: 100%;
     }
+
+    #index-customers ul li {
+        margin-left: 20px;
+        width: calc(100% - 40px);
+    }
+
+    #index-leankoala ul li {
+        width: calc(100% - 120px);
+        margin: 0 40px 40px 40px;
+        height: auto;
+    }
+
+    #index-leankoala h2 {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+
+    #index-leankoala .info {
+        height: auto;
+    }
 }
