@@ -10,31 +10,31 @@
             <li>
                 <h3>Perfect for agencies</h3>
                 <p>
-                    On the one hand customers want quality but on the other customers don't want to pay for it. With Leankoala we
-                    provide a strategy and the suitable test suite that focuses on efficient and affordable quality assurance.
+                    Your customers want quality on one hand, but on the other don't want to pay for it. With Leankoala we
+                    provide a strategy and a suitable test suite that focuses on efficient and affordable quality assurance.
                 </p>
                 <a href="#agency" class="readmore">read more ...</a>
             </li>
             <li>
                 <h3>Great for publishing companies</h3>
                 <p>
-                    The idea behind lean testing and Leankoala originated from eight years testing websites from two of the biggest publishing
-                    companies in europe. We know how to handle editorial content that meets technology.
+                    The idea behind Lean Testing and Leankoala comes from eight years of testing websites in two publishing
+                    companies which are among the largest in Europe. We know how to handle editorial content that meets technology.
                 </p>
                 <a href="#publishing" class="readmore">read more ...</a>
             </li>
             <li>
                 <h3>Easy for website operators</h3>
                 <p>
-                    When developing Leankoala one thing we always had in mind was that it must be easy to solve standard problems and possible to
-                    solve the hard ones. For all website operators we kept the entry threshold low.
-                </p>
+                    When developing Leankoala we kept one thing in mind: it must be able to easily solve standard problems an enable solving of hard ones.
+                    This way, we made sure that it is absolute value for any website operator.
+                    </p>
                 <a href="#operators" class="readmore">read more ...</a>
             </li>
             <li>
                 <h3>Efficiency for quality managers</h3>
                 <p>
-                    Hitting your website with heavy tools can be very expensive. Having a risk based lean approach reduces cost and helps
+                    Hitting your website with heavy tools can be very expensive. Having a risk assessment based lean approach reduces cost and helps
                     testing your websites much faster with less effort.
                 </p>
             </li>
