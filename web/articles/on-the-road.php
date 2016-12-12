@@ -5,8 +5,8 @@
 <div class="content" style="margin-bottom: 1000px">
     <div class="main-info">
         <p>
-            As we, the members of the Leankoala team, are very proud of our software and the lean testing approach we try to talk a lot about it. These are
-            our talks so far. As we are a Germany based company most of the slides are in german at the moment.
+            As members of the Leankoala team, we are very proud of our software and the Lean Testing approach, so we try to talk a lot about it. These are
+            our talks so far. Note: we are a Germany based company and most of the slides are in German for now.
         </p>
     </div>
 
