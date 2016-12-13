@@ -16,7 +16,7 @@
             <div class="topic">Checks</div>
             <div class="description">
                 Leankoala provides 14 tools that are able to check if a website is working correctly.
-                A few examples of those checks include a ping tool, an xpath checker, a regEx tool etc.
+                A few examples of those checks include a ping tool, an xpath checker, a regEx tool and some security checks.
             </div>
         </li>
         <li>
