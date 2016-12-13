@@ -55,11 +55,11 @@
                 <i class="fa fa-leaf" aria-hidden="true"></i>
                 <h2>Lean</h2>
                 <div class="info">
-                    <p>The lean testing methodology focuses on finding symptoms instead of root causes.</p>
+                    <p>The Lean Testing methodology focuses on finding symptoms instead for root causes.</p>
                     <p>Leankoala was build for html, json and xml.</p>
                 </div>
                 <div style="margin-top: 30px">
-                    <a href="/lean-testing.html" class="more">What is lean testing?</a>
+                    <a href="/lean-testing.html" class="more">What is Lean Testing?</a>
                 </div>
             </li>
             <li>
@@ -179,7 +179,7 @@
             <li>
                 <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/head.png">
                 <h3>Http Header Check</h3>
-                <p>The http header checker can check im mandatory header parameters are existing.</p>
+                <p>The http header checker can check if mandatory header parameters are existing.</p>
             </li>
             <li>
                 <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/httpscert.png">
@@ -199,7 +199,7 @@
             <li>
                 <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationgooglepagespeed/images/integration.png">
                 <h3>Google Page Speed</h3>
-                <p>Checks the google page speed score against an user defined threshold.</p>
+                <p>Checks the google page speed score against a user defined threshold.</p>
             </li>
             <li>
                 <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/json.png">
@@ -209,17 +209,17 @@
             <li>
                 <img src="https://monitor.leankoala.com/images/integrations/koalaping.png">
                 <h3>KoalaPing</h3>
-                <p>Checks if the given components answer with the http status code they should.</p>
+                <p>Checks if the given components answer with the correct http status code.</p>
             </li>
             <li>
                 <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/littleseo.png">
                 <h3>Little SEO</h3>
-                <p>Checks if the robots.txt does not contain a disallow all.</p>
+                <p>Checks if the robots.txt contains allow/disallow all.</p>
             </li>
             <li>
                 <img src="https://monitor.leankoala.com/images/integrations/missing_logo.png">
                 <h3>MissingRequest</h3>
-                <p>Checks if mandatory http requests are triggered.</p>
+                <p>Checks if the mandatory http requests are triggered.</p>
             </li>
             <li>
                 <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/regex.png">
@@ -229,17 +229,17 @@
             <li>
                 <img src="https://monitor.leankoala.com/images/integrations/siteinfo.png">
                 <h3>SiteInfo</h3>
-                <p>Checks if the given components file size is greater than a given threshold.</p>
+                <p>Checks if the given components file size is larger than a given threshold.</p>
             </li>
             <li>
                 <img src="https://monitor.leankoala.com/images/integrations/smoke.png">
                 <h3>Smoke</h3>
-                <p>Scans the given systems and the first 200 pages found against a set of 21 rules.</p>
+                <p>Our Swiss pocket knife": Scans the given systems and the first 200 pages found against a set of 21 rules.</p>
             </li>
             <li>
                 <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/xpath.png">
                 <h3>XPath Checker</h3>
-                <p>Checks if a given xpath expressions can be found at a component.</p>
+                <p>Checks if a given xpath expressions can be found in a component.</p>
             </li>
             <li>
                 <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/xml.png">
