@@ -54,18 +54,18 @@
         </div>
 
         <p>
-            The agency business can be very tough. Customers want their web projects to be developed in no time, with low costs and high
-            quality. That to achieve is almost impossible. In many cases one of the three goals has to be dropped and mostly it's quality.
+            The agency business can be very tough, as customers want their web projects to be developed in no time, with low costs and high
+            quality. It is almost impossible to achieve this, so one of the three goals has to be dropped. And most often it is quality that suffers in the end.
         </p>
         <p>
-            Our observations revealed dropping quality does not equal that it is the least important goal. In our opinion it is often a wrong
-            understanding of what quality means. Most projects are from an objective point of view <span style="">only</span> standard. You connect standard features
-            and components to create a new system. Additionally there are only a few use cases in that system that have real business values.
+            Our experience shows that the fact quality is most often dropped does not mean it is the least important goal. This misunderstaning comes from the definition of quality as such.      understanding of what quality means. Most projects are from an objective point of view <span style="">only</span> standard. You connect standard features
+            To shed some lights on this: most projects are pretty much standard in the way they are setup, where you connect standard features and components to create a new system.
+            Additionally, there will be only a few cases in this system that add real business values.
         </p>
         <p>
-            For testing those <strong>standard features</strong> Leankoala provides <strong>standard checks</strong>. Often that is all that
-            is needed. In addition we offer a new and different testing concept we already verified on many conferences, press article and the
-            german book
+            Leankoala provides <strong>standard checks</strong> for testing those <strong>standard features</strong>. Often that is all that
+            is needed. In addition, we offer a new and different testing concept we already verified in many conferences, press articles and the
+            German book
             "<a href="https://www.amazon.de/Erfolgreiche-Softwareprojekte-Web-Gedanken-Webentwicklung/dp/3868020888" target="_blank">Erfolgreiche
                 Softwareprojekt im Web</a>". One of our goals is to push the lean testing movement so you don't have to sell it to your client.
         </p>
