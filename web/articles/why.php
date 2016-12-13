@@ -97,24 +97,21 @@
             </div>
 
             <p>
-                When creating Leankoala we always had one target group in mind. Publishing companies. This is not only because at that time
-                we were working for two of the largest publishing companies in europe but also because the lean testing approach perfectly
-                matches with editorial websites.
+                When creating Leankoala, we always had one target group in mind: publishing companies. This is not only because of our background in working for two publishing companies which are among the largest in Europe
+                but also because the Lean Testing approach perfectly matches requirements of editorial websites.
             </p>
 
             <p>
-                Having a look at websites like www.stern.de and www.cosmopolitan.de with the hundreds of thousand articles they provide
-                it seems quite complex to test it. Having closer look at those pages the complexity is not that high. In most cases there only
-                are ony a few components like a standard article, a tag page, the search results or a category page. That is almost everything to
-                test. Additionally there a pages like the sitemap or smaller APIs that are used. There mostly is no user interaction with the
-                page.
+                Having a look at websites like www.stern.de or www.cosmopolitan.de with hundreds of thousands of articles, testing them seems quite complex.  Having a closer look at those pages shows             
+                that the complexity is not that high. In most casas, there are only a few components like: standard article, tag page, search results or category page. That is almost everything to
+                you need to test. Additionally, there are pages like the sitemap or smaller APIs used with almost no user interaction with the page.
             </p>
 
             <p>
-                We found out that when trying to test such a website there are some key tests to write. For example a standard article can be tested
-                within four checks: is the headline existing, is the page footer existing, does the google analytics pixel gets counted and do javascript
-                errors occur. When none of those checks fail the chance the website is working is 95 percent. <strong>With Leankoala those checks are
-                    created within minutes.</strong>
+                We learned that when trying to test such a website, there are only a few key tests you need to write. For example, a standard article can be tested
+                with four checks: is the headline existing, is the page footer existing, is google analytics pixel counted and do javascript
+                errors occur. If none of these checks fail, the chance that the website is working properly is as high as 95 percent. <strong>With Leankoala such checks are
+                created within minutes.</strong>
             </p>
 
             <div style="clear: both"></div>
@@ -130,15 +127,15 @@
         </div>
 
         <p>
-            There are a lot of business that depend on their websites. If the sites do not work the revenue will disappear as well. The problem with
-            such businesses is that they often can't afford a quality assurance team.
+            There are a lot of businesses that depend on their websites working properly. If the sites do not work the revenue will drop as well. The challenge  such businesses face
+            is that they often can't afford a quality assurance team.
         </p>
 
         <p>
-            With Leankoala we provide a software as a servie solution that helps writing easy system tests by just a few clicks. Using our wizards
-            everybody is able to build up a good foundation for any website. We can archive that because we focus on modern websites and know
-            what the most common features are. For those features we provide predefined tests on top of our tools. If it is necessary to go deeper
-            all tools can also be manually configured.
+            With Leankoala we provide software as a service solution that helps writing easy system tests with just a few clicks. Using our wizards
+            everybody is able to build up a good testing foundation for any website. We achieve this by focusing on modern websites where we know
+            what the most common features are. For those features, we provide predefined tests on top of our tools. If it is necessary to go deeper,
+            all of our tools can also be manually configured.
         </p>
         <div class="one-day">
             <a href="/one-day-with/amilio.html" class="more">one day with amilio</a>
