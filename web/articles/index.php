@@ -159,8 +159,9 @@
 <div id="index-leankoala" class="main-element-grey" style="padding-bottom: 50px">
     <div class="content">
         <h2 style="margin-bottom: 0;">
+	    We performed 
             <span style="background-color: black; color: white;  letter-spacing: 5px; font-family: 'Courier New'; padding: 10px; margin: 0 20px">
-                <?php echo number_format(getCheckCount()); ?></span> checks performed so far.
+                 <?php echo number_format(getCheckCount()); ?></span> checks so far.
         </h2>
     </div>
 </div>
