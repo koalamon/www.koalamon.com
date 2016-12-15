@@ -4,8 +4,8 @@
 
 <div class="content">
     <div class="main-info">
-        Currently we are in <strong>beta phase</strong>. That means that you can use leankoala for free with all plans. The only thing you have to provide is feedback.
-        After "finishing" our product, the prices will be as follows:
+        As each project is different, Leankoala comes along with three subscription models. All prices are as described per month and excluding VAT.
+        To let you start things easily, we offer a <strong>free trial for 14 days</strong>.
     </div>
 </div>
 
