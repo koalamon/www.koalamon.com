@@ -80,7 +80,7 @@
             <div class="feature">Unlimited alerts</div>
             <div class="feature">E-Mail Support</div>
             <div class="price">9 EUR</div>
-            <div class="info">per month</div>
+            <div class="info">per month + 19% MwSt./VAT</div>
             <div class="for-whom">For small websites like wordpress blogs.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
@@ -97,7 +97,7 @@
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
             <div class="price">39 EUR</div>
-            <div class="info">per month</div>
+            <div class="info">per month + 19% MwSt./VAT</div>
             <div class="for-whom">For medium websites like company pages.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
@@ -112,7 +112,7 @@
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
             <div class="price"><?php echo $prices['large']; ?> EUR</div>
-            <div class="info">per month</div>
+            <div class="info">per month + 19% MwSt./VAT</div>
             <div class="for-whom">For large websites with dev, stage and production stages.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
@@ -128,7 +128,7 @@
             <div class="feature">Live Support</div>
             <div class="price"><a href="mailto:enterprise@leankoala.com">contact us</a></div>
             <div class="info">&nbsp;</div>
-            <div class="for-whom">For enterprise projects or agencies.</div>
+            <div class="for-whom">The large enterprise version.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
             </a>
