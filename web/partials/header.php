@@ -20,9 +20,9 @@
                         <li></li>
                         <li>
                             <div data-toggle="dropdown" class="clickable dropdown-label">Why Leankoala?</div>
-                            <ul class="dropdown-menu clickable">
+                            <ul class="dropdown-menu clickable" style="width: 170px">
                                 <li><a href="/why.html">Overview</a></li>
-                                <li><a href="/one-day-with.html">One day with</a></li>
+                                <li><a href="/one-day-with.html">One day with Leankoala</a></li>
                             </ul>
                         </li>
                         <li>
