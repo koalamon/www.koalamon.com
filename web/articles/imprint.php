@@ -17,7 +17,7 @@
 
         Registergericht: Amtsgericht Hamburg<br>
         Registernummer: HRB 143868<br>
-        Umsatzsteuer-Identifikationsnummer gem. § 27a UStG: &lt;beim Finanzamt beantragt&gt; <br>
+        Umsatzsteuer-Identifikationsnummer gem. § 27a UStG: DE309136016<br>
 
     </div>
 

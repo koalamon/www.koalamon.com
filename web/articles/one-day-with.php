@@ -2,9 +2,9 @@
     <h1 style="width: 100%; text-align: center">One day with</h1>
 
     <div class="main-info">
-        When testing a lot of websites and work for many companies there are a lot of stories to tell. We thought it could
-        be inspiring to hear those stories and introduced the "one day with" section. We try to provide interesting stories
-        about what we achieved within one day in cooperation with the corresponding company.
+        Testing many websites and working for many companies means we have a lot of stories to tell. And so we thought of introducing
+        our "one day with" section, where all our readers can find inspiration. We want to tell interesting stories
+        about what we achieved within one day of working together with some of our clients.
     </div>
 
     <style>

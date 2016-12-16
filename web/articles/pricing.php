@@ -4,8 +4,8 @@
 
 <div class="content">
     <div class="main-info">
-        Currently we are in our <strong>beta phase</strong>. That means that you can use leankoala for free with all plans. The only thing you have to provide is feedback.
-        After "finishing" our product the prices will be as followed.
+        As each project is different, Leankoala comes along with three subscription models. All prices are as described per month and excluding VAT.
+        To let you start things easily, we offer a <strong>free trial for 14 days</strong>.
     </div>
 </div>
 
@@ -80,7 +80,7 @@
             <div class="feature">Unlimited alerts</div>
             <div class="feature">E-Mail Support</div>
             <div class="price">9 EUR</div>
-            <div class="info">per month</div>
+            <div class="info">per month + 19% MwSt./VAT</div>
             <div class="for-whom">For small websites like wordpress blogs.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
@@ -97,7 +97,7 @@
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
             <div class="price">39 EUR</div>
-            <div class="info">per month</div>
+            <div class="info">per month + 19% MwSt./VAT</div>
             <div class="for-whom">For medium websites like company pages.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
@@ -112,7 +112,7 @@
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
             <div class="price"><?php echo $prices['large']; ?> EUR</div>
-            <div class="info">per month</div>
+            <div class="info">per month + 19% MwSt./VAT</div>
             <div class="for-whom">For large websites with dev, stage and production stages.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
@@ -128,7 +128,7 @@
             <div class="feature">Live Support</div>
             <div class="price"><a href="mailto:enterprise@leankoala.com">contact us</a></div>
             <div class="info">&nbsp;</div>
-            <div class="for-whom">For enterprise projects or agencies.</div>
+            <div class="for-whom">The large enterprise version.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
             </a>
@@ -144,12 +144,12 @@
         <div class="two_column">
             <div class="column">
                 <p>
-                    There is one thing we love as much as Start Ups and that is our hometown <strong>Hamburg</strong>.
+                    There is one thing we love as much as Start Ups - our hometown <strong>Hamburg</strong>!
                 </p>
                 <p>
                     That is why we decided to offer our service to 20 local start ups <strong>for free for the first year</strong>.
                     Not only because we want to support the local start up scene, but also because we think that
-                    feedback can be much more worthy when the user is on site.
+                    feedback can be much more worthy when the user is on board.
                 </p>
             </div>
             <div class="column">
@@ -157,7 +157,7 @@
                     The only two things we want in return is feedback and a testimonial if you like us.
                 </p>
                 <p>
-                    So if you started in Hamburg and need an easy way to start your quality assurance get in contact with us.
+                    So if you started in Hamburg and need an easy way to start your quality assurance get in touch!
                 </p>
             </div>
         </div>
