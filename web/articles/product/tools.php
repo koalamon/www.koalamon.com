@@ -10,7 +10,7 @@
         <h2>How to build a powerful test suite.</h2>
         <p style="line-height: 25px; margin-bottom: 40px">
             Every single tool we provide is very powerful itself but when combined they can be used to check all kind of services. To help
-            your customers to get creative themself we created the "one day with leankoala" stories where we teamed up with web companies to
+            our customers to get creative themselves we created the "one day with leankoala" stories where we teamed up with companies to
             describe how we tested there websites and services.
         </p>
         <a href="/one-day-with.html" class="more">One day with leankoala.</a>

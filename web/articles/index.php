@@ -126,7 +126,7 @@
 <div id="index-leankoala" class="main-element-grey" style="padding-bottom: 50px">
     <div class="content">
         <h2 style="margin-bottom: 0;">
-	    We performed 
+            We performed
             <span style="background-color: black; color: white;  letter-spacing: 5px; font-family: 'Courier New'; padding: 10px; margin: 0 20px">
                  <?php echo number_format(getCheckCount()); ?></span> checks so far.
         </h2>
@@ -135,89 +135,84 @@
 
 <div style="clear: both"></div>
 
+<style>
+    #index-checks ul li {
+        padding: 20px;
+        background-color: #EFF2F5;
+    }
+
+    #index-checks ul li img {
+        margin: 0 18px 20px 0;
+        /* filter: grayscale(100%); */
+        width: 38px;
+        height: 38px;
+    }
+
+    #index-checks ul li img:nth-child(5n) {
+        margin-right: 0;
+    }
+
+    #index-checks ul li img:hover {
+        /* filter: grayscale(0%); */
+    }
+
+    #index-checks ul li p {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+</style>
+
 <div id="index-checks" style="margin-top: 100px">
     <div class="content">
         <h2>What can we check?</h2>
         <ul>
             <li>
-                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/cssselector.png">
-                <h3>CSS Selector</h3>
-                <p>This tool can check if a given css selector exists on any given component.</p>
+                Website
+                <p>
+                    We build and tested a lot of websites. That's where we are experts and that is also why we focused
+                    on those checks.
+                </p>
+                <div>
+                    <a href="/product/tools.html">
+                        <?php foreach ($checks as $check): ?>
+                            <?php if (strpos($check['filters'], 'website') !== false): ?>
+                                <img src="<?php echo $check['img']; ?>">
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </a>
+                </div>
             </li>
             <li>
-                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/head.png">
-                <h3>Http Header Check</h3>
-                <p>The http header checker can check if mandatory header parameters are existing.</p>
+                SEO
+                <p>
+                    Search engines like google are for many websites traffic source number one. That is why it is important
+                    to monitor some common metrics.
+                </p>
+                <div>
+                    <a href="/product/tools.html">
+                        <?php foreach ($checks as $check): ?>
+                            <?php if (strpos($check['filters'], 'seo') !== false): ?>
+                                <img src="<?php echo $check['img']; ?>">
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </a>
+                </div>
             </li>
             <li>
-                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/httpscert.png">
-                <h3>Https Certificate Check</h3>
-                <p>Checks if the https certificate expires within a given time span.</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/jsonpath.png">
-                <h3>JSON Path Check</h3>
-                <p>Checks if a given json path exists.</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/images/integrations/jserror.png">
-                <h3>JavaScript Error Check</h3>
-                <p>Checks for javascript errors on the given components</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationgooglepagespeed/images/integration.png">
-                <h3>Google Page Speed</h3>
-                <p>Checks the google page speed score against a user defined threshold.</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/json.png">
-                <h3>JSON Validator</h3>
-                <p>Checks if the given json response is well formed.</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/images/integrations/koalaping.png">
-                <h3>KoalaPing</h3>
-                <p>Checks if the given components answer with the correct http status code.</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/littleseo.png">
-                <h3>Little SEO</h3>
-                <p>Checks if the robots.txt contains allow/disallow all.</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/images/integrations/missing_logo.png">
-                <h3>MissingRequest</h3>
-                <p>Checks if the mandatory http requests are triggered.</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/regex.png">
-                <h3>Regular Expression Check</h3>
-                <p>Checks if a given regular expression exists on a page. It also checks the number of occurrences.</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/images/integrations/siteinfo.png">
-                <h3>SiteInfo</h3>
-                <p>Checks if the given components file size is larger than a given threshold.</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/images/integrations/smoke.png">
-                <h3>Smoke</h3>
-                <p>Our Swiss pocket knife": Scans the given systems and the first 200 pages found against a set of 21 rules.</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/xpath.png">
-                <h3>XPath Checker</h3>
-                <p>Checks if a given xpath expressions can be found in a component.</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/xml.png">
-                <h3>XML Checker</h3>
-                <p>Checks if a given xml document is well-formed.</p>
-            </li>
-            <li>
-                <img src="https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/sitemap.png">
-                <h3>XML Sitemap Validator</h3>
-                <p>Checks if a given xml sitemap is valid.</p>
+                Web Services
+                <p>
+                    Modern web applications consists of many (micro) services. So we build tools that can monitor them.
+                </p>
+                <div>
+                    <a href="/product/tools.html">
+                        <?php foreach ($checks as $check): ?>
+                            <?php if (strpos($check['filters'], 'webservice') !== false): ?>
+                                <img src="<?php echo $check['img']; ?>">
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </a>
+                </div>
             </li>
         </ul>
     </div>

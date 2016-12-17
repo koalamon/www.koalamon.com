@@ -158,6 +158,7 @@ h3 {
 
 #index-features ul li {
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 #index-features ul li img {
@@ -185,13 +186,15 @@ h3 {
 }
 
 #index-checks ul li {
-    width: 300px;
+    width: 271px;
     margin-right: 33px;
     margin-bottom: 25px;
+    height: 350px;
+    border-radius: 10px;
 }
 
 #index-checks ul li:nth-child(3n) {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 #index-checks ul li img {
@@ -641,6 +644,7 @@ article {
     font-size: 14px;
     color: #1F2532;
     height: 330px;
+    border-radius: 10px;
 }
 
 #index-leankoala ul li h2 {
