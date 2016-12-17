@@ -186,11 +186,12 @@ h3 {
 }
 
 #index-checks ul li {
-    width: 271px;
+    width: 269px;
     margin-right: 33px;
     margin-bottom: 25px;
     height: 350px;
-    border-radius: 10px;
+    border: 1px solid #eee;
+    padding: 20px;
 }
 
 #index-checks ul li:nth-child(3n) {
@@ -644,7 +645,6 @@ article {
     font-size: 14px;
     color: #1F2532;
     height: 330px;
-    border-radius: 10px;
 }
 
 #index-leankoala ul li h2 {

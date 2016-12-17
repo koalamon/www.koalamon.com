@@ -136,11 +136,6 @@
 <div style="clear: both"></div>
 
 <style>
-    #index-checks ul li {
-        padding: 20px;
-        background-color: #EFF2F5;
-    }
-
     #index-checks ul li img {
         margin: 0 18px 20px 0;
         /* filter: grayscale(100%); */
