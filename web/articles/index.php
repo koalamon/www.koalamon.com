@@ -197,7 +197,7 @@
             <li>
                 Web Services
                 <p>
-                    Modern web applications consists of many (micro) services. So we build tools that can monitor them.
+                    Modern web applications consists of many (micro) services. We build tools that can monitor them.
                 </p>
                 <div>
                     <a href="/product/tools.html">
