@@ -663,3 +663,61 @@ article {
 #index-leankoala .info {
     height: 170px;
 }
+
+#page-checks .checks {
+    margin-top: 70px;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+}
+
+#page-checks .checks li {
+    padding: 20px;
+    border: 1px solid #eee;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 438px;
+    margin-bottom: 40px;
+    background-color: #fafafa;
+    height: 105px;
+}
+
+#page-checks .checks li p {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#page-checks .checks li h3 {
+    margin-bottom: 20px;
+}
+
+#page-checks .checks li img {
+    width: 100px;
+    margin-right: 50px;
+    float: left;
+}
+
+#page-checks .filter {
+    margin-top: 40px;
+    display: inline-block;
+}
+
+#page-checks .filter li.active {
+    color: white;
+    background-color: #2ecc71;
+    border: 1px solid transparent;
+}
+
+#page-checks .filter li {
+    border: 1px solid #2ecc71;
+    width: 200px;
+    color: black;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#page-checks .filter li:last-child {
+    margin-right: 0;
+}

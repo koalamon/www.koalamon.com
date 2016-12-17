@@ -197,4 +197,30 @@
     #index-leankoala .info {
         height: auto;
     }
+
+    .main-element-grey .info {
+        margin: 0px 20px;
+    }
+
+    .main-element-grey .info h2 {
+        width: calc(100% - 50px);
+    }
+
+    .main-element-grey .info p {
+        width: calc(100% - 50px);
+    }
+
+    #page-checks .checks {
+        margin-left: 20px;
+    }
+
+    #page-checks .checks li {
+        width: calc(100% - 160px);
+        margin-left: 20px;
+    }
+
+    #page-checks .checks li img {
+        width: 50px;
+        margin-right: 20px;
+    }
 }
