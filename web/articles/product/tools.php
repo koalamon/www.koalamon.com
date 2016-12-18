@@ -2,7 +2,7 @@
     <h1 style="width: 100%; text-align: center">Tools</h1>
     <div class="main-info">
         Leankoala helps to test a website using simple checks like the leantesting approach suggests.
-        We provide <strong><?php echo count($checks); ?> tools</strong> that can be used to inspect a website or web service.
+        We provide <?php echo count($checks); ?> tools that can be used to inspect a website or web service.
     </div>
 </div>
 <div class="main-element-grey" style="margin-bottom: 100px">

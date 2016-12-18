@@ -13,11 +13,12 @@
             <div class="feature-image">
                 <img src="/images/features/checks.png">
             </div>
-            <div class="topic">Checks</div>
-            <div class="description">
-                Leankoala provides 16 tools that are able to check if a website is working correctly.
+            <div class="topic">Tools</div>
+            <div class="description" style="margin-bottom: 20px">
+                Leankoala provides <?php echo count($checks); ?> tools that are able to check if a website is working correctly.
                 A few examples of those checks include a ping tool, an xpath checker, a regEx tool and some security checks.
             </div>
+            <a href="/product/tools.html" class="more">Show all tools.</a>
         </li>
         <li>
             <div class="feature-image">
@@ -55,7 +56,7 @@
             </div>
             <div class="topic">Incident Acknowledgment</div>
             <div class="description">
-                Incidents occur even in the best environments. To reduce the amount of work needed, project collaborators can 
+                Incidents occur even in the best environments. To reduce the amount of work needed, project collaborators can
                 be assigned to an incident.
             </div>
         </li>
