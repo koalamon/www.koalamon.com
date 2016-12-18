@@ -139,11 +139,11 @@
     #index-checks ul li img {
         margin: 10px;
         /* filter: grayscale(100%); */
-        width: 71px;
-        height: 71px;
+        width: 77px;
+        height: 77px;
     }
 
-    #index-checks ul li img:nth-child(6n) {
+    #index-checks ul li:nth-child(6n) {
         margin-right: 0;
     }
 
@@ -178,7 +178,7 @@
         <h2 style="margin-bottom: 20px">What can we check?</h2>
         <div class="main-info" style="margin-bottom: 80px; text-align: center">
             We provide <strong><?php echo count($checks); ?> tools</strong> that can be used to inspect a
-            website<br> or web service. We build powerful test suites.
+            website<br> or web service, so you can build powerful test suites.
         </div>
         <ul>
             <?php foreach ($checks as $key => $check): ?>

@@ -231,4 +231,8 @@
     #index-leankoala ul li h2 {
         text-align: left;
     }
+
+    #index-checks ul li:nth-child(6n) {
+        margin-right: inherit;
+    }
 }

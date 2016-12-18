@@ -40,7 +40,8 @@
                 <div class="headline">Leankoala</div>
                 <ul>
                     <li><a href="/why.html">Why Leankoala?</a></li>
-                    <li><a href="/features.html">Product</a></li>
+                    <li><a href="/product/features.html">Features</a></li>
+                    <li><a href="/product/tools.html">Tools</a></li>
                     <li><a href="/one-day-with.html">One day with ...</a></li>
                 </ul>
             </div>
