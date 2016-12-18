@@ -9,7 +9,7 @@ $checks = [
     'httpheader' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/head.png', 'name' => 'Http Header Check', 'desc' => 'The http header checker can check if mandatory header parameters are existing.', 'filters' => 'website webservice'],
     'httpscertificatecheck' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/httpscert.png', 'name' => 'Https Certificate Check', 'desc' => 'Checks if the https certificate expires within a given time span.', 'filters' => 'website webservice'],
     'jsonpathCheck' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/jsonpath.png', 'name' => 'Json Path Check', 'desc' => 'Checks if a given json path exists.', 'filters' => 'webservice'],
-    'javascript Error Check' => ['img' => 'https://monitor.leankoala.com/images/integrations/jserror.png', 'name' => 'JavaScript Error Check', 'desc' => 'Checks for javascript errors on the given components.', 'filters' => 'website'],
+    'javascripterrorcheck' => ['img' => 'https://monitor.leankoala.com/images/integrations/jserror.png', 'name' => 'JavaScript Error Check', 'desc' => 'Checks for javascript errors on the given components.', 'filters' => 'website'],
     'googlepagespeed' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationgooglepagespeed/images/integration.png', 'name' => 'Google Page Speed', 'desc' => 'Checks the google page speed score against a user defined threshold.', 'filters' => 'website seo'],
     'jsonvalidator' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/json.png', 'name' => 'Json Validator', 'desc' => 'Checks if the given json response is well formed.', 'filters' => 'website webservice'],
     'missingrequest' => ['img' => 'https://monitor.leankoala.com/images/integrations/missing_logo.png', 'name' => 'MissingRequest', 'desc' => 'Checks if the mandatory http requests are triggered.', 'filters' => 'website'],
@@ -21,7 +21,7 @@ $checks = [
     'xmlchecker' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/xml.png', 'name' => 'XML Checker', 'desc' => 'Checks if a given xml document is well-formed.', 'filters' => 'website webservice'],
     'xsdvalidator' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/xsd.png', 'name' => 'XSD Validator', 'desc' => 'Checks if a given xml document is valid against one ore more xsd files.', 'filters' => 'webservice'],
     'jsonschema' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/jsonschema.png', 'name' => 'Json Schema Validator', 'desc' => 'Checks if a JSON document is valid against a JSON Schema file.', 'filters' => 'website webservice'],
-    'googlemobilefriendly' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/mobile.png', 'name' => 'Google mobile friendly', 'desc' => 'Checks if a system is mobile friendly.', 'filters' => 'website seo'],
+    'googlemobilefriendly' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/mobile.png', 'name' => 'Google Mobile friendly', 'desc' => 'Checks if a system is mobile friendly.', 'filters' => 'website seo'],
     'performance' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/performance.png', 'name' => 'Performance Check', 'desc' => 'Checks if the given component responds within a given time.', 'filters' => 'website webservice seo'],
 
 ];

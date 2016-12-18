@@ -70,11 +70,13 @@
 
     <ul class="checks">
 
-        <?php foreach ($checks as $check): ?>
+        <?php foreach ($checks as $key => $check): ?>
 
             <li class="<?php echo $check['filters'] ?>">
                 <img src="<?php echo $check['img'] ?>">
-                <h3><?php echo $check['name'] ?></h3>
+                <a name="<?php echo $key; ?>">
+                    <h3><?php echo $check['name'] ?></h3>
+                </a>
                 <p>
                     <?php echo $check['desc'] ?>
                 </p>

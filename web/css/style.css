@@ -186,16 +186,13 @@ h3 {
 }
 
 #index-checks ul li {
-    width: 269px;
+    /* width: 269px; */
     margin-right: 33px;
     margin-bottom: 25px;
-    height: 350px;
+    /* height: 350px; */
     border: 1px solid #eee;
     padding: 20px;
-}
-
-#index-checks ul li:nth-child(3n) {
-    margin-right: 0;
+    background-color: #f5f5f5;
 }
 
 #index-checks ul li img {

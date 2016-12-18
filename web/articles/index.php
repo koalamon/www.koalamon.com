@@ -137,13 +137,13 @@
 
 <style>
     #index-checks ul li img {
-        margin: 0 18px 20px 0;
+        margin: 10px;
         /* filter: grayscale(100%); */
-        width: 38px;
-        height: 38px;
+        width: 71px;
+        height: 71px;
     }
 
-    #index-checks ul li img:nth-child(5n) {
+    #index-checks ul li img:nth-child(6n) {
         margin-right: 0;
     }
 
@@ -156,61 +156,44 @@
         margin-bottom: 30px;
     }
 
+    .mouse-over-info {
+        width: 131px;
+        height: 91px;
+        color: white;
+        font-weight: 600;
+        background: rgba(25, 25, 25, .5);
+        position: absolute;
+        margin-left: -20px;
+        margin-top: -20px;
+        z-index: 10;
+        opacity: 10;
+        text-align: center;
+        padding-top: 40px;
+        display: none;
+    }
 </style>
 
 <div id="index-checks" style="margin-top: 100px">
     <div class="content">
-        <h2>What can we check?</h2>
+        <h2 style="margin-bottom: 20px">What can we check?</h2>
+        <div class="main-info" style="margin-bottom: 80px; text-align: center">
+            We provide <strong><?php echo count($checks); ?> tools</strong> that can be used to inspect a
+            website<br> or web service. We build powerful test suites.
+        </div>
         <ul>
-            <li>
-                Website
-                <p>
-                    We build and tested a lot of websites. That's where we are experts and that is also why we focused
-                    on those checks.
-                </p>
-                <div>
-                    <a href="/product/tools.html">
-                        <?php foreach ($checks as $check): ?>
-                            <?php if (strpos($check['filters'], 'website') !== false): ?>
-                                <img src="<?php echo $check['img']; ?>">
-                            <?php endif; ?>
-                        <?php endforeach; ?>
+            <?php foreach ($checks as $key => $check): ?>
+                <li onmouseover="$('#check-<?php echo $key; ?>').show();" onmouseout="$('#check-<?php echo $key; ?>').hide();">
+                    <a href="/product/tools.html#<?php echo $key; ?>">
+                        <div class="mouse-over-info" id="check-<?php echo $key; ?>">
+                            <?php echo $check['name']; ?>
+                        </div>
+                        <img src="<?php echo $check['img']; ?>">
                     </a>
-                </div>
-            </li>
-            <li>
-                SEO
-                <p>
-                    Search engines like google are for many websites traffic source number one. That is why it is important
-                    to monitor some common metrics.
-                </p>
-                <div>
-                    <a href="/product/tools.html">
-                        <?php foreach ($checks as $check): ?>
-                            <?php if (strpos($check['filters'], 'seo') !== false): ?>
-                                <img src="<?php echo $check['img']; ?>">
-                            <?php endif; ?>
-                        <?php endforeach; ?>
-                    </a>
-                </div>
-            </li>
-            <li>
-                Web Services
-                <p>
-                    Modern web applications consists of many (micro) services. We build tools that can monitor them.
-                </p>
-                <div>
-                    <a href="/product/tools.html">
-                        <?php foreach ($checks as $check): ?>
-                            <?php if (strpos($check['filters'], 'webservice') !== false): ?>
-                                <img src="<?php echo $check['img']; ?>">
-                            <?php endif; ?>
-                        <?php endforeach; ?>
-                    </a>
-                </div>
-            </li>
+                </li>
+            <?php endforeach; ?>
         </ul>
     </div>
 </div>
+
 
 <div style="clear: both"></div>

@@ -223,4 +223,12 @@
         width: 50px;
         margin-right: 20px;
     }
+
+    #index-checks ul li {
+        margin-right: 0;
+    }
+
+    #index-leankoala ul li h2 {
+        text-align: left;
+    }
 }
