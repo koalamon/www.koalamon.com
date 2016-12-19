@@ -18,7 +18,7 @@
                 Leankoala provides <?php echo count($checks); ?> tools that are able to check if a website is working correctly.
                 A few examples of those checks include a ping tool, an xpath checker, a regEx tool and some security checks.
             </div>
-            <a href="/product/tools.html" class="more">Show all tools.</a>
+            <a href="/product/tools.html" class="more">Show all tools</a>
         </li>
         <li>
             <div class="feature-image">

@@ -13,8 +13,8 @@
             our customers to get creative themselves we created the "one day with leankoala" stories where we teamed up with companies to
             describe how we tested there websites and services.
         </p>
-        <a href="/one-day-with.html" class="more">One day with leankoala.</a>
-        <a href="/one-day-with/amilio.html" class="more">One day with amilio.</a>
+        <a href="/one-day-with.html" class="more">One day with leankoala</a>
+        <a href="/one-day-with/amilio.html" class="more">One day with amilio</a>
     </div>
 </div>
 
@@ -23,8 +23,8 @@
     <div style="width: 100%; text-align: center" class="no-mobile">
         <ul class="filter">
             <li class="clickable" data-filter="website">Website</li>
-            <li class="clickable" data-filter="seo">SEO</li>
             <li class="clickable" data-filter="webservice">Web Service</li>
+            <li class="clickable" data-filter="seo">SEO</li>
         </ul>
     </div>
 
@@ -73,10 +73,9 @@
         <?php foreach ($checks as $key => $check): ?>
 
             <li class="<?php echo $check['filters'] ?>">
+                <a name="<?php echo $key; ?>" class="anchor"></a>
                 <img src="<?php echo $check['img'] ?>">
-                <a name="<?php echo $key; ?>">
-                    <h3><?php echo $check['name'] ?></h3>
-                </a>
+                <h3><?php echo $check['name'] ?></h3>
                 <p>
                     <?php echo $check['desc'] ?>
                 </p>

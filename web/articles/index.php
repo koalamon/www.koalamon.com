@@ -66,11 +66,11 @@
                 <i class="fa fa-clock-o" aria-hidden="true"></i>
                 <h2>Fast</h2>
                 <div class="info">
-                    <p>With Leankoala you create a good test coverage within hours.</p>
+                    <p>With Leankoala you create a good test coverage within hours</p>
                     <p>We provide wizards for standard use cases.</p>
                 </div>
                 <div style="margin-top: 30px">
-                    <a href="/one-day-with.html" class="more">One day with Leankoala.</a>
+                    <a href="/one-day-with.html" class="more">One day with Leankoala</a>
                 </div>
             </li>
             <li>
@@ -81,7 +81,7 @@
                     <p>It runs on dev, stage and production environments und perfectly integrates with Slack.</p>
                 </div>
                 <div style="margin-top: 30px">
-                    <a href="/product/features.html" class="more">Feature list.</a>
+                    <a href="/product/features.html" class="more">Feature list</a>
                 </div>
             </li>
             <li>
@@ -92,7 +92,7 @@
                     <p></p>
                 </div>
                 <div style="margin-top: 30px">
-                    <a href="/pricing.html" class="more">Subscription plans.</a>
+                    <a href="/pricing.html" class="more">Subscription plans</a>
                 </div>
             </li>
         </ul>
