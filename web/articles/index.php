@@ -157,8 +157,8 @@
     }
 
     .mouse-over-info {
-        width: 131px;
-        height: 91px;
+        width: 138px;
+        height: 97px;
         color: white;
         font-weight: 600;
         background: rgba(25, 25, 25, .5);
