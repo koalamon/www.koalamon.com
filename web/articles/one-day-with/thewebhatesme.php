@@ -73,7 +73,7 @@
         </div>
     </div>
 
-    <!--div class="content">
+    <div class="content">
         <div>
             <div>
                 <a name="leanchecks">
@@ -148,21 +148,111 @@
                     <tr style="border-top: 1px solid #f9f9f9;">
                         <td>Home page</td>
                         <td>
-                            The homepage starts with a list of eight curated links. We check if there are eight elements in that
-                            list.
+                            The homepage shows the header, the footer and 20 article teasers, a facebook block and a list of the most
+                            popular authors.
                         </td>
                         <td>
-                            XPath Exists <span class="value">//div[@id="newestHomepageList"] /div[contains(@class, "item")] equals 8</span>
+
                         </td>
                     </tr>
 
                     <tr>
                         <td></td>
                         <td>
-                            Beneath the curated links there is a list of recently created collection. There must be ten of that kind.
+                            On every index page there are 21 article teasers.
                         </td>
                         <td>
-                            XPath Exists <span class="value">//div[@id="newestChannelsList"] /div[contains(@class, "item")] equals 10</span>
+                            XPath Exists <span class="value">//article[contains(@id, "post-")] equals 21</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            The list of authors is static and is limited to four persons. Therefore we only check for existence
+                            of the last author.
+                        </td>
+                        <td>
+                            Text present <span class="value">Mike Lohmann</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            The facebook integration is done via the default facebook widget which is implemented via
+                            a small javscript include. We believe that the integration works if the javascript file from
+                            facebook is loaded.
+                        </td>
+                        <td>
+                            MissingRequest <span class="value">https://connect.facebook.net/en_US/all.js</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            The footer is generated dynamically via wordpress. Therefore we only check if it is
+                            configured correct by looking for a text that is part of the footer. This check is
+                            processed on every page.
+                        </td>
+                        <td>
+                            Text present <span class="value">Impressum</span>
+                        </td>
+                    </tr>
+
+                    <tr style="border-top: 1px solid #f9f9f9;">
+                        <td>Blog post</td>
+                        <td>
+                            Every blog post consists of a headline, a text, comments, a sidebar and recommended articles. For
+                            testing purposes we created a special test post.
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            The headline's text is "headline" so we searched for that string. Additionally we put a unique
+                            word into the article text. This can also be used to test the search results.
+                        </td>
+                        <td>
+                            Text present <span class="value">Headline</span>
+                            Text present <span class="value">Unique String</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            The recommended systems are standard article teaser elements as seen on the home page.
+                        </td>
+                        <td>
+                            XPath exists <span class="value">//article[contains(@id, "post-")] equals 3</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            The comment section was only styled via css. Therefore we only test if the comment textbox is
+                            available.
+                        </td>
+                        <td>
+                            Css Selector <span class="value">textarea</span>
+                        </td>
+                    </tr>
+
+                    <tr style="border-top: 1px solid #f9f9f9;">
+                        <td>Search</td>
+                        <td>
+                            The search page is powered by wordpress and was not changed. No tests are needed here as the
+                            rendering is already tested within the home page.
+                        </td>
+                        <td>
+
                         </td>
                     </tr>
 
@@ -170,7 +260,7 @@
                 </table>
             </div>
         </div>
-    </div-->
+    </div>
     <div class="main-element-grey">
         <div class="content">
             <a name="further"><h2 style="margin-bottom: 50px">Further Checks</h2></a>
