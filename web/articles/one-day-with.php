@@ -52,7 +52,7 @@
                 <a href="/one-day-with/amilio.html" style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px">read one day with amilio</a>
             </td>
         </tr>
-        <tr class="plan-small">
+        <tr class="plan-small" style="border-bottom: 100px solid transparent">
             <td style="width: 250px; vertical-align: top">
                 <img src="/images/startups/whm.png">
             </td>
@@ -63,9 +63,25 @@
                 </div>
             </td>
             <td width="150px">
+                <a href="/one-day-with/thewebhatesme.html" style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px">read one day with twhm</a>
+            </td>
+        </tr>
+
+        <tr class="plan-small">
+            <td style="width: 250px; vertical-align: top">
+                <img src="/images/agencies/scalamento.jpg" style="width: 180px">
+            </td>
+            <td>
+                <div style="font-weight: 600; margin-bottom: 20px">Scalamento</div>
+                <div style="line-height: 28px; margin-right: 50px; font-size: 14px">
+                    This blog started a phphatesme and is one of the best known web development weblogs in Germany.
+                </div>
+            </td>
+            <td width="150px">
                 <a style="padding: 10px; background-color: #95a5a6; border-radius: 5px; color: white; font-size: 12px">coming soon</a>
             </td>
         </tr>
+
     </table>
 
     <div style="clear: both"></div>

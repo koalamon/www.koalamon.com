@@ -5,7 +5,7 @@
 
         <div class="main-info" style="margin-top: 20px;">
             <h1 style="margin-bottom: 20px">Leankoala</h1>
-            The fast and lean continuous testing service <br>for web applications.
+            Fast and lean continuous testing service <br>for web applications.
         </div>
 
         <div style="text-align: center; margin-bottom: 100px; margin-top: 50px; width: 100%">
@@ -58,8 +58,9 @@
                     <p>The Lean Testing methodology focuses on finding symptoms instead for root causes.</p>
                     <p>Leankoala was build for html, json and xml.</p>
                 </div>
-                <div style="margin-top: 30px">
+                <div style="margin-top: 30px; line-height: 30px">
                     <a href="/lean-testing.html" class="more">What is Lean Testing?</a>
+                    <a href="/product/tools.html" class="more">Tool overview</a>
                 </div>
             </li>
             <li>

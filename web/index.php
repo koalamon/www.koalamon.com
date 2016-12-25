@@ -1,5 +1,16 @@
 <?php
 
+if (!array_key_exists('article', $_GET)) {
+    $article = 'index';
+} else {
+    $article = str_replace('.', '', $_GET['article']);
+}
+
+if ($article == 'google8e129feae7efeb1f.html') {
+    include_once __DIR__ . '/articles/google8e129feae7efeb1f.php';
+    die;
+}
+
 include_once __DIR__ . '/../src/functions.php';
 
 ?>
@@ -14,11 +25,7 @@ include_once __DIR__ . '/../src/functions.php';
 
 <article>
     <?php
-    if (!array_key_exists('article', $_GET)) {
-        $article = 'index';
-    } else {
-        $article = str_replace('.', '', $_GET['article']);
-    }
+
     include __DIR__ . "/articles/" . $article . ".php";
     ?>
 </article>

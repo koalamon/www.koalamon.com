@@ -604,6 +604,7 @@ article {
     margin-right: 20px;
     color: white;
     font-size: 12px;
+    margin-bottom: 10px;
 }
 
 #why .one-day {
@@ -641,7 +642,7 @@ article {
     line-height: 25px;
     font-size: 14px;
     color: #1F2532;
-    height: 330px;
+    height: 350px;
 }
 
 #index-leankoala ul li h2 {
