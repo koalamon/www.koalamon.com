@@ -31,6 +31,7 @@
                                 <li><a href="/product/features.html">Features</a></li>
                                 <li><a href="/product/tools.html">Tools</a></li>
                                 <li><a href="/on-the-road.html">On the road</a></li>
+                                <li><a href="/release-notes.html">Release Notes</a></li>
                             </ul>
                         </li>
                         <li><a href="/pricing.html">Pricing</a></li>

@@ -15,6 +15,7 @@
         </p>
         <a href="/one-day-with.html" class="more">One day with leankoala</a>
         <a href="/one-day-with/amilio.html" class="more">One day with amilio</a>
+        <a href="/one-day-with/thewebhatesme.html" class="more">One day with the web hates me</a>
     </div>
 </div>
 
