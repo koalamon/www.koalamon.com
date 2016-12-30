@@ -70,5 +70,41 @@ $releaseNotes = [
                 ],
 
             ]
+    ],
+    '2016-12-02' => [
+        'date' => '2016-12-02',
+        'name' => 'Version 1.2.1 - Codename Bea M.',
+        'desc' => 'The version 1.2.1 is dedicated to Bea M. one of our beta testers. Bea gave us a lot of feedback about our usability and we hope 
+                   with this release we addressed most of her points.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'Rerun all checks (frontend)',
+                    'desc' => 'When visiting the system page linked in the main menu you will now see a button with the label “run all checks 
+                               for this system”. When pressing that button leankoala will add all configured checks to the queue and we will 
+                               process them. This comes very handy when releasing a new version of your application. As it can be very time 
+                               consuming to run all checks we decided that it is only possible to press that button once every five minutes.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Rerun all checks (api)',
+                    'desc' => 'Many of our using already use an automated process for deploying their software. This is why we also introduced 
+                               an endpoint for running all tests. This can for example been triggered via a continuous integration server like 
+                               jenkins or bamboo. This new feature can be found within the admin space (Other -> Continuous Integration).'
+                ],
+                [
+                    'type' => 'usability',
+                    'feature' => 'Usability',
+                    'desc' => 'Main focus of this release was usability. These are some questions we addressed: 
+                               <ul>
+                               <li>What’s the difference between a project and a system? - When creating a new project we added more information about what you are doing here. We also added a small example.</li>
+                               <li>Whats the difference between tools and checks in the main menu?  - As we also found that a little bit confusing we just removed one of those elements. Every information that is needed can now be found underneath the check element.</li>
+                               <li>What does little seo do? - Right, we forgot do add some information about this check. So we just added a little explanation.</li>
+                               <li>What’s acknowledge, mark known issue and ignore issue? - When now clicking on the options for an open incident there is more information about every option you can choose.</li>
+                               <li>Why do the apply and save buttons look like they are inactive? - Good question. Now they do not.</li>
+                               </ul>'
+                ],
+            ]
     ]
 ];

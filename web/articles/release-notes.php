@@ -19,6 +19,7 @@ include_once __DIR__ . '/../../src/releasenotes.php';
             font-weight: 400;
             column-span: 2;
             text-align: center;
+            border-top: 150px solid transparent;
         }
 
         table tr td.release-desc {
@@ -51,7 +52,7 @@ include_once __DIR__ . '/../../src/releasenotes.php';
         every now and then.
     </div>
 
-    <div class="content" style="margin-top: 150px">
+    <div class="content" style="margin-top: 0px">
 
         <table>
             <?php foreach ($releaseNotes as $key => $releaseNote): ?>
