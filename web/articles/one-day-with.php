@@ -74,7 +74,8 @@
             <td>
                 <div style="font-weight: 600; margin-bottom: 20px">Scalamento</div>
                 <div style="line-height: 28px; margin-right: 50px; font-size: 14px">
-                    This blog started a phphatesme and is one of the best known web development weblogs in Germany.
+                    The Scalamento team helps companies to scale their momentum. They are experts for digital transformation and
+                    agile leadership.
                 </div>
             </td>
             <td width="150px">

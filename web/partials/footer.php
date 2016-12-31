@@ -48,12 +48,9 @@
             <div class="block">
                 <div class="headline">About</div>
                 <ul>
-                    <li>
-                        <a href="/imprint.html" style="color: white">Contact // Impressum </a>
-                    </li>
-                    <li>
-                        <a href="/tos.html" style="color: white">Terms of Service</a>
-                    </li>
+                    <li><a href="/imprint.html" style="color: white">Contact // Impressum </a></li>
+                    <li><a href="/tos.html" style="color: white">Terms of Service</a></li>
+                    <li><a href="/release-notes.html" style="color: white">Release Notes</a></li>
                 </ul>
             </div>
 

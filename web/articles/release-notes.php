@@ -45,6 +45,14 @@ include_once __DIR__ . '/../../src/releasenotes.php';
         table tr.feature {
             border-bottom: 10px solid transparent;
         }
+
+        .register-btn {
+            background-color: #27ae60;
+            padding: 15px;
+            color: white;
+            border-radius: 10px;
+            font-size: 14px;
+        }
     </style>
 
     <div class="content info">
@@ -73,6 +81,11 @@ include_once __DIR__ . '/../../src/releasenotes.php';
                         <td class="description"><?php echo $feature['desc']; ?></td>
                     </tr>
                 <?php endforeach; ?>
+                <tr style="border-top: 50px solid transparent">
+                    <td colspan="2" style="text-align: center">
+                        <a href="https://monitor.leankoala.com/secure_area/register/" class="register-btn">register free account</a>
+                    </td>
+                </tr>
             <?php endforeach; ?>
         </table>
 
