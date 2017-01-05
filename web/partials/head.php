@@ -34,7 +34,7 @@
 <meta property="og:locale" content="en_EN"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Leankoala - Click, click, test."/>
-<meta property="og:description" content="Leankoala should be your first step towards test automation."/>
+<meta property="og:description" content="Fast and lean continuous testing service for web applications."/>
 <meta property="og:url" content="https://www.leankoala.com"/>
 <meta property="og:site_name" content="Leankoala"/>
 <meta property="og:image" content="https://www.leankoala.com/images/logo.png"/>

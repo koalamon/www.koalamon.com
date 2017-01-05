@@ -83,7 +83,7 @@ include_once __DIR__ . '/../../src/releasenotes.php';
                 <?php endforeach; ?>
                 <tr style="border-top: 50px solid transparent">
                     <td colspan="2" style="text-align: center">
-                        <a href="https://monitor.leankoala.com/secure_area/register/" class="register-btn">register free account</a>
+                        <a href="https://monitor.leankoala.com/secure_area/register/" class="register-btn">try it for free</a>
                     </td>
                 </tr>
             <?php endforeach; ?>
