@@ -1,6 +1,48 @@
 <?php
 
 $releaseNotes = [
+    '2017-01-22' => [
+        'date' => '2017-01-22',
+        'name' => 'Version 1.4.0',
+        'desc' => 'Version 1.4.0. takes Leankoala to a new level. We are proud to introduce the beta version of our session handling. Every large
+                   system has now the possbility to login before running the checks.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'Session Handling',
+                    'desc' => 'Every large system has the possibility to define login schemas. You can provide user credentials and a login page 
+                               for your system. Before a check is run the Leankoala worker will login into the system. This feature is still beta.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Next Steps',
+                    'desc' => 'There is so much one can do with Leankoala. That is why we created the first steps wizard to help the user to create
+                               the first checks and the alerting. But after that, there is still a lot one can do. So we decided to create the next
+                               steps wizard. This wizard will show the user all the things he or she did not do with Leankoala. It can be found in 
+                               the main menu behind the "help" element.'
+                ],
+                [
+                    'type' => 'infrastructure',
+                    'feature' => 'High availability ',
+                    'desc' => 'Leankoala helps its users to create high availability websites. To be sure that our service fulfills the
+                               same requirements we updated our infrastructure to be redundant and fail safe. '
+                ],
+                [
+                    'type' => 'bug',
+                    'feature' => 'Gravatar',
+                    'desc' => 'As we want to guarantee the best user experience we had get rid of the gravatar implementation as the implementation 
+                               we where using was slowing us down. Our customers are still able to upload their own profile pictures within the 
+                               profile page.'
+                ],
+                [
+                    'type' => 'bug',
+                    'feature' => 'LittleSEO',
+                    'desc' => 'When using LittleSeo there we some false positives when analyzing the robots.txt file. This should not appear in 
+                               future.'
+                ],
+            ]
+    ],
     '2016-12-29' => [
         'date' => '2016-12-29',
         'name' => 'Version 1.3',
