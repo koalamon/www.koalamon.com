@@ -1,4 +1,4 @@
-etyet<?php
+<?php
 
 $releaseNotes = [
     '2017-01-22' => [
