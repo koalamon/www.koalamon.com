@@ -32,7 +32,7 @@ $releaseNotes = [
                     'type' => 'bug',
                     'feature' => 'Gravatar',
                     'desc' => 'As we want to guarantee the best user experience we had get rid of the gravatar implementation. This implementation 
-                               was slowing things down. Don't worry our customers are still able to upload their own profile pictures within the 
+                               was slowing things down. Don\'t worry our customers are still able to upload their own profile pictures within the 
                                profile page.'
                 ],
                 [
