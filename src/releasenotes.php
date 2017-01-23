@@ -1,4 +1,4 @@
-<?php
+etyet<?php
 
 $releaseNotes = [
     '2017-01-22' => [
@@ -19,27 +19,27 @@ $releaseNotes = [
                     'feature' => 'Next Steps',
                     'desc' => 'There is so much one can do with Leankoala. That is why we created the first steps wizard to help the user to create
                                the first checks and the alerting. But after that, there is still a lot one can do. So we decided to create the next
-                               steps wizard. This wizard will show the user all the things he or she did not do with Leankoala. It can be found in 
+                               steps wizard. This wizard will show the user all the things he or she did not do with Leankoala yet. It can be found in 
                                the main menu behind the "help" element.'
                 ],
                 [
                     'type' => 'infrastructure',
                     'feature' => 'High availability ',
-                    'desc' => 'Leankoala helps its users to create high availability websites. To be sure that our service fulfills the
+                    'desc' => 'Leankoala helps its users to create high availability websites. To ensure that our service fulfills the
                                same requirements we updated our infrastructure to be redundant and fail safe. '
                 ],
                 [
                     'type' => 'bug',
                     'feature' => 'Gravatar',
-                    'desc' => 'As we want to guarantee the best user experience we had get rid of the gravatar implementation as the implementation 
-                               we where using was slowing us down. Our customers are still able to upload their own profile pictures within the 
+                    'desc' => 'As we want to guarantee the best user experience we had get rid of the gravatar implementation. This implementation 
+                               was slowing things down. Don't worry our customers are still able to upload their own profile pictures within the 
                                profile page.'
                 ],
                 [
                     'type' => 'bug',
                     'feature' => 'LittleSEO',
-                    'desc' => 'When using LittleSeo there we some false positives when analyzing the robots.txt file. This should not appear in 
-                               future.'
+                    'desc' => 'When using LittleSeo there were some false positives when analyzing the robots.txt file. This should not appear in 
+                               anymore.'
                 ],
             ]
     ],
