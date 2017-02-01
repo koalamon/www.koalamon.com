@@ -1,6 +1,48 @@
 <?php
 
 $releaseNotes = [
+    '2017-02-01' => [
+        'date' => '2017-02-01',
+        'name' => 'Version 1.5.0',
+        'desc' => 'The new version 1.5.0 seems to be a small step for the user but we updated some very important infrastructural components. So 
+                   this release is focused on technical stuff.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'Graphite',
+                    'desc' => 'Some checks create measured values. Those values were originally stored inside a mysql database. As we already executed
+                               40.000.000 checks that database got slow. That is we switched to graphite to create statistics about the measured data.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Handling of measured data',
+                    'desc' => 'We are now able to collect data from every check we made. That could be the performance data or the page speed score. This 
+                               is an importent change as we are now able to analyze the test results using our graphite database and perhaps predict problem
+                               before they occur.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Stability for MobileFriendly Checker',
+                    'desc' => 'The problem with Googles mobile friendly checker is that from time to time it produces false positives. That could be the 
+                               case if the css files of the checked systems are not delivered fast enough. As we are not able to fix googles bugs we know
+                               we decided to alert a bad mobile friendly score only if it occurs twice in a row.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Inherit subdomain',
+                    'desc' => 'When creating a new component it is now possible to inherit the subdomain from the parent system. That helps when moving one 
+                               subdomain to another. This could be the case when relaunching a project and new.project.com gets www.project.com.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Move system',
+                    'desc' => 'Every project admin is now able to move a system to another project he or she is administrating. This helps moving systems 
+                               to a new area of responsibility like development phase and maintenance mode. It is also possible to hand the system over to
+                               the customer.'
+                ]
+            ]
+    ],
     '2017-01-22' => [
         'date' => '2017-01-22',
         'name' => 'Version 1.4.0',
