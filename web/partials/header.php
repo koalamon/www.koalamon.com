@@ -3,7 +3,7 @@
 
         <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
             <div class="logo">
-                <a href="/">
+                <a href="<?php __a('/'); ?>">
                     <img src="/images/logo_small.png">
                 </a>
             </div>
@@ -19,27 +19,27 @@
                     <ul class="nav navbar-nav">
                         <li></li>
                         <li>
-                            <div data-toggle="dropdown" class="clickable dropdown-label">Why Leankoala?</div>
+                            <div data-toggle="dropdown" class="clickable dropdown-label"><?php __('menu.main.why.head'); ?></div>
                             <ul class="dropdown-menu clickable" style="width: 170px">
-                                <li><a href="/why.html">Overview</a></li>
-                                <li><a href="/one-day-with.html">One day with Leankoala</a></li>
+                                <li><a href="<?php __a('/why.html'); ?>">Overview</a></li>
+                                <li><a href="<?php __a('/one-day-with.html'); ?>">One day with Leankoala</a></li>
                             </ul>
                         </li>
                         <li>
                             <div data-toggle="dropdown" class="clickable dropdown-label">Product</div>
                             <ul class="dropdown-menu clickable">
-                                <li><a href="/product/features.html">Features</a></li>
-                                <li><a href="/product/tools.html">Tools</a></li>
-                                <li><a href="/on-the-road.html">On the road</a></li>
-                                <li><a href="/release-notes.html">Release Notes</a></li>
+                                <li><a href="<?php __a('/product/features.html'); ?>">Features</a></li>
+                                <li><a href="<?php __a('/product/tools.html'); ?>">Tools</a></li>
+                                <li><a href="<?php __a('/on-the-road.html'); ?>">On the road</a></li>
+                                <li><a href="<?php __a('/release-notes.html'); ?>">Release Notes</a></li>
                             </ul>
                         </li>
-                        <li><a href="/pricing.html">Pricing</a></li>
+                        <li><a href="<?php __a('/pricing.html'); ?>">Pricing</a></li>
                         <li>
                             <div data-toggle="dropdown" class="clickable dropdown-label">Ressources</div>
                             <ul class="dropdown-menu clickable">
                                 <li><a href="https://blog.leankoala.com/">Blog</a></li>
-                                <li><a href="/lean-testing.html">What is lean testing?</a></li>
+                                <li><a href="<?php __a('/lean-testing.html'); ?>">What is lean testing?</a></li>
                             </ul>
                         </li>
                         <li><a href="https://monitor.leankoala.com/">Login</a></li>

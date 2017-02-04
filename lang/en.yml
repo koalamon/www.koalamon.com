@@ -1,0 +1,46 @@
+page:
+  index:
+    slogan: "Fast and lean continuous testing service <br>for web applications."
+    overview:
+      headline: "Leankoala is your first step towards test automation."
+      elements:
+        lean:
+          headline: "Lean"
+          text: "<p>The Lean Testing methodology focuses on finding symptoms instead for root causes.</p><p>Leankoala was build for html, json and xml.</p>"
+        fast:
+          headline: "Fast"
+          text: "<p>With Leankoala you create a good test coverage within hours</p><p>We provide wizards for standard use cases.</p>"
+        integrated:
+          headline: "Integrated"
+          text: "<p>Leankoala was designed to be part of the development process.</p><p>It runs on dev, stage and production environments und perfectly integrates with Slack.</p>"
+        low-priced:
+          headline: "Low-priced"
+          text: "<p>Leankoala's large plan for a whole month costs less than one developer an hour.</p>"
+
+    customers:
+      headline: 'Great customers including these fine companies.'
+
+    checks:
+      count: "We performed <span style=\"background-color: black; color: white;  letter-spacing: 5px; font-family: 'Courier New'; padding: 10px; margin: 0 20px\">%s</span> checks so far."
+
+    what:
+      headline: "What can we check?"
+      text: "We provide <strong>%s</strong> that can be used to inspect a website<br> or web service, so you can build powerful test suites."
+
+footer:
+  work:
+    headline: "Want us to walk you through it?"
+    text: "Sign up for a demo presentation and we’ll schedule a one on one."
+    buttons:
+      request: "Request a demo"
+      try: "Try it for free"
+      or: "or"
+
+menu:
+  main:
+    why:
+      head: "Why Leankoala?"
+
+global:
+  trial:
+    start: "Start your 14 day free trial"

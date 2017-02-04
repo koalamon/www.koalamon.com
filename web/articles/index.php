@@ -5,13 +5,13 @@
 
         <div class="main-info" style="margin-top: 20px;">
             <h1 style="margin-bottom: 20px">Leankoala</h1>
-            Fast and lean continuous testing service <br>for web applications.
+            <?php __('page.index.slogan'); ?>
         </div>
 
         <div style="text-align: center; margin-bottom: 100px; margin-top: 50px; width: 100%">
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div style="background-color:  #27ae60; color: white; width: 220px; padding: 20px; border-radius: 10px; display: inherit">
-                    Start your 14 day free trial
+                    <?php __('global.trial.start'); ?>
                 </div>
             </a>
         </div>
@@ -49,14 +49,13 @@
 
 <div id="index-leankoala" class="main-element-grey">
     <div class="content">
-        <h2>Leankoala is your first step towards test automation.</h2>
+        <h2><?php __('page.index.overview.headline') ?></h2>
         <ul>
             <li>
                 <i class="fa fa-leaf" aria-hidden="true"></i>
-                <h2>Lean</h2>
+                <h2><?php __('page.index.overview.elements.lean.headline') ?></h2>
                 <div class="info">
-                    <p>The Lean Testing methodology focuses on finding symptoms instead for root causes.</p>
-                    <p>Leankoala was build for html, json and xml.</p>
+                    <?php __('page.index.overview.elements.lean.text') ?>
                 </div>
                 <div style="margin-top: 30px; line-height: 30px">
                     <a href="/lean-testing.html" class="more">What is Lean Testing?</a>
@@ -65,10 +64,9 @@
             </li>
             <li>
                 <i class="fa fa-clock-o" aria-hidden="true"></i>
-                <h2>Fast</h2>
+                <h2><?php __('page.index.overview.elements.fast.headline') ?></h2>
                 <div class="info">
-                    <p>With Leankoala you create a good test coverage within hours</p>
-                    <p>We provide wizards for standard use cases.</p>
+                    <?php __('page.index.overview.elements.fast.text') ?>
                 </div>
                 <div style="margin-top: 30px">
                     <a href="/one-day-with.html" class="more">One day with Leankoala</a>
@@ -76,10 +74,9 @@
             </li>
             <li>
                 <i class="fa fa-object-group" aria-hidden="true"></i>
-                <h2>Integrated</h2>
+                <h2><?php __('page.index.overview.elements.integrated.headline') ?></h2>
                 <div class="info">
-                    <p>Leankoala was designed to be part of the development process.</p>
-                    <p>It runs on dev, stage and production environments und perfectly integrates with Slack.</p>
+                    <?php __('page.index.overview.elements.integrated.text') ?>
                 </div>
                 <div style="margin-top: 30px">
                     <a href="/product/features.html" class="more">Feature list</a>
@@ -87,10 +84,9 @@
             </li>
             <li>
                 <i class="fa fa-money" aria-hidden="true"></i>
-                <h2>Low-priced</h2>
+                <h2><?php __('page.index.overview.elements.low-priced.headline') ?></h2>
                 <div class="info">
-                    <p>Leankoala's large plan for a whole month costs less than one developer an hour.</p>
-                    <p></p>
+                    <?php __('page.index.overview.elements.low-priced.text') ?>
                 </div>
                 <div style="margin-top: 30px">
                     <a href="/pricing.html" class="more">Subscription plans</a>
@@ -105,7 +101,7 @@
 
 <div id="index-customers" style="margin-top: 100px">
     <div class="content">
-        <h2>Great customers including these fine companies</h2>
+        <h2> <?php __('page.index.customers.headline') ?></h2>
 
         <a href="/one-day-with.html">
             <ul>
@@ -127,9 +123,7 @@
 <div id="index-leankoala" class="main-element-grey" style="padding-bottom: 50px">
     <div class="content">
         <h2 style="margin-bottom: 0;">
-            We performed
-            <span style="background-color: black; color: white;  letter-spacing: 5px; font-family: 'Courier New'; padding: 10px; margin: 0 20px">
-                 <?php echo number_format(getCheckCount()); ?></span> checks so far.
+            <?php __('page.index.checks.count', number_format(getCheckCount())) ?>
         </h2>
     </div>
 </div>
@@ -176,10 +170,9 @@
 
 <div id="index-checks" style="margin-top: 100px">
     <div class="content">
-        <h2 style="margin-bottom: 20px">What can we check?</h2>
+        <h2> <?php __('page.index.what.headline') ?></h2>
         <div class="main-info" style="margin-bottom: 80px; text-align: center">
-            We provide <strong><?php echo count($checks); ?> tools</strong> that can be used to inspect a
-            website<br> or web service, so you can build powerful test suites.
+            <?php __('page.index.what.text', count($checks) ) ?>
         </div>
         <ul>
             <?php foreach ($checks as $key => $check): ?>

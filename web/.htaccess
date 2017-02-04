@@ -1,2 +1,4 @@
 RewriteEngine on
-RewriteRule ^(.*).html$ index.php?article=$1
+
+RewriteRule ^(.*?)/(.*?)/(.*?).html $1/index.php?article=$2/$3 [L]
+RewriteRule ^(.*?)/(.*?).html$ $1/index.php?article=$2
