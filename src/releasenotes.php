@@ -87,8 +87,8 @@ $releaseNotes = [
     ],
     '2016-12-29' => [
         'date' => '2016-12-29',
-        'name' => 'Version 1.3',
-        'desc' => 'The version 1.3 is the last release before the go live. We are proud to provide most of the features our beta testers wished.
+        'name' => 'Version 1.3.0',
+        'desc' => 'The version 1.3.0 is the last release before the go live. We are proud to provide most of the features our beta testers wished.
                    We focused again on usability and the number of checks we provide.',
         'features' =>
             [
