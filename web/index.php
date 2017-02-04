@@ -1,5 +1,13 @@
 <?php
 
+if (!isset($language)) {
+    header("Location: /en/"); /* Browser umleiten */
+    exit;
+}
+
+include_once __DIR__ . '/../vendor/autoload.php';
+include_once __DIR__ . '/../lang/language.php';
+
 if (!array_key_exists('article', $_GET)) {
     $article = 'index';
 } else {
@@ -15,7 +23,7 @@ include_once __DIR__ . '/../src/functions.php';
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $language ?>">
 <head>
     <?php include 'partials/head.php' ?>
 </head>
@@ -25,7 +33,6 @@ include_once __DIR__ . '/../src/functions.php';
 
 <article>
     <?php
-
     include __DIR__ . "/articles/" . $article . ".php";
     ?>
 </article>
