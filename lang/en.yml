@@ -36,10 +36,45 @@ footer:
       try: "Try it for free"
       or: "or"
 
+  contact:
+    head: "Contact"
+
+  leankoala:
+    head: "Leankoala"
+    why: "Why Leankoala?"
+    features: "Features"
+    tools: "Tools"
+    onedaywith: "One day with..."
+
+  about:
+    head: "About"
+    contact: "Contact // Impressum"
+    tos: "Terms of Service"
+    releasenotes: "Release Notes"
+
+  blog:
+    head: "Recent blog posts"
+
 menu:
   main:
     why:
       head: "Why Leankoala?"
+      overview: "Overview"
+      onedaywith: "One day with Leankoala"
+    product:
+      head: "Product"
+      features: "Features"
+      tools: "Tools"
+      ontheroad: "On the road"
+      releasenotes: "Release Notes"
+    pricing:
+      head: "Pricing"
+    resources:
+      head: "Resources"
+      blog: "Blog"
+      leantesting: "What is Lean Testing?"
+    login: "Login"
+    signup: "Sign up"
 
 global:
   trial:

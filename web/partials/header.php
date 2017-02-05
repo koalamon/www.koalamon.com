@@ -21,29 +21,29 @@
                         <li>
                             <div data-toggle="dropdown" class="clickable dropdown-label"><?php __('menu.main.why.head'); ?></div>
                             <ul class="dropdown-menu clickable" style="width: 170px">
-                                <li><a href="<?php __a('/why.html'); ?>">Overview</a></li>
-                                <li><a href="<?php __a('/one-day-with.html'); ?>">One day with Leankoala</a></li>
+                                <li><a href="<?php __a('/why.html'); ?>"><?php __('menu.main.why.overview'); ?></a></li>
+                                <li><a href="<?php __a('/one-day-with.html'); ?>"><?php __('menu.main.why.onedaywith'); ?></a></li>
                             </ul>
                         </li>
                         <li>
-                            <div data-toggle="dropdown" class="clickable dropdown-label">Product</div>
+                            <div data-toggle="dropdown" class="clickable dropdown-label"><?php __('menu.main.product.head'); ?></div>
                             <ul class="dropdown-menu clickable">
-                                <li><a href="<?php __a('/product/features.html'); ?>">Features</a></li>
-                                <li><a href="<?php __a('/product/tools.html'); ?>">Tools</a></li>
-                                <li><a href="<?php __a('/on-the-road.html'); ?>">On the road</a></li>
-                                <li><a href="<?php __a('/release-notes.html'); ?>">Release Notes</a></li>
+                                <li><a href="<?php __a('/product/features.html'); ?>"><?php __('menu.main.product.features'); ?></a></li>
+                                <li><a href="<?php __a('/product/tools.html'); ?>"><?php __('menu.main.product.tools'); ?></a></li>
+                                <li><a href="<?php __a('/on-the-road.html'); ?>"><?php __('menu.main.product.ontheroad'); ?></a></li>
+                                <li><a href="<?php __a('/release-notes.html'); ?>"><?php __('menu.main.product.releasenotes'); ?></a></li>
                             </ul>
                         </li>
-                        <li><a href="<?php __a('/pricing.html'); ?>">Pricing</a></li>
+                        <li><a href="<?php __a('/pricing.html'); ?>"><?php __('menu.main.pricing.head'); ?></a></li>
                         <li>
-                            <div data-toggle="dropdown" class="clickable dropdown-label">Ressources</div>
+                            <div data-toggle="dropdown" class="clickable dropdown-label"><?php __('menu.main.resources.head'); ?></div>
                             <ul class="dropdown-menu clickable">
-                                <li><a href="https://blog.leankoala.com/">Blog</a></li>
-                                <li><a href="<?php __a('/lean-testing.html'); ?>">What is lean testing?</a></li>
+                                <li><a href="https://blog.leankoala.com/"><?php __('menu.main.resources.blog'); ?></a></li>
+                                <li><a href="<?php __a('/lean-testing.html'); ?>"><?php __('menu.main.resources.leantesting'); ?></a></li>
                             </ul>
                         </li>
-                        <li><a href="https://monitor.leankoala.com/">Login</a></li>
-                        <li><a href="https://monitor.leankoala.com/secure_area/register/"><strong>Sign Up</strong></a></li>
+                        <li><a href="https://monitor.leankoala.com/"><?php __('menu.main.login'); ?></a></li>
+                        <li><a href="https://monitor.leankoala.com/secure_area/register/"><strong><?php __('menu.main.signup'); ?></strong></a></li>
                     </ul>
                 </div>
             </div>

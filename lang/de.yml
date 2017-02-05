@@ -38,10 +38,45 @@ footer:
       try: "Kostenlos testen"
       or: "oder"
 
+  contact:
+    head: "Kontakt"
+
+  leankoala:
+    head: "Leankoala"
+    why: "Warum Leankoala?"
+    features: "Features"
+    tools: "Tools"
+    onedaywith: "One day with..."
+
+  about:
+    head: "Über uns"
+    contact: "Kontakt // Impressum"
+    tos: "Nutzungsbedingungen"
+    releasenotes: "Release Notes"
+
+  blog:
+    head: "Die neusten Blog Artikel"
+
 menu:
   main:
     why:
       head: "Warum Leankoala?"
+      overview: "Übersicht"
+      onedaywith: "One day with Leankoala"
+    product:
+      head: "Produkt"
+      features: "Features"
+      tools: "Tools"
+      ontheroad: "On the road"
+      releasenotes: "Release Notes"
+    pricing:
+      head: "Preise"
+    resources:
+      head: ""
+      blog: "Blog"
+      leantesting: "Was ist Lean Testing?"
+    login: "Anmelden"
+    signup: "Registrieren"
 
 global:
   trial:

@@ -49,7 +49,7 @@
                 </div>
             </td>
             <td width="150px">
-                <a href="/one-day-with/amilio.html" style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px">read one day with amilio</a>
+                <a href="<?php __a('/one-day-with/amilio.html'); ?>" style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px">read one day with amilio</a>
             </td>
         </tr>
         <tr class="plan-small" style="border-bottom: 100px solid transparent">
@@ -63,7 +63,7 @@
                 </div>
             </td>
             <td width="150px">
-                <a href="/one-day-with/thewebhatesme.html" style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px">read one day with twhm</a>
+                <a href="<?php __a('/one-day-with/thewebhatesme.html'); ?>'" style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px">read one day with twhm</a>
             </td>
         </tr>
 

@@ -28,7 +28,7 @@
 
         <div style="width: 100%;">
             <div style="float: left; margin-right: 100px" class="block">
-                <div class="headline">Contact</div>
+                <div class="headline"><?php __('footer.contact.head'); ?></div>
                 <div>
                     <span style="font-size: 22px; display: block; margin-bottom: 10px; font-weight: 100">contact@leankoala.com</span>
                     <span>+49 40 572 487 64</span>
@@ -39,26 +39,26 @@
                 </div>
             </div>
             <div style="float: left" class="block">
-                <div class="headline">Leankoala</div>
+                <div class="headline"><?php __('footer.leankoala.head'); ?></div>
                 <ul>
-                    <li><a href="<?php __a('/why.html'); ?>">Why Leankoala?</a></li>
-                    <li><a href="<?php __a('/product/features.html'); ?>">Features</a></li>
-                    <li><a href="<?php __a('/product/tools.html'); ?>">Tools</a></li>
-                    <li><a href="<?php __a('/one-day-with.html'); ?>">One day with ...</a></li>
+                    <li><a href="<?php __a('/why.html'); ?>"><?php __('footer.leankoala.why'); ?></a></li>
+                    <li><a href="<?php __a('/product/features.html'); ?>"><?php __('footer.leankoala.features'); ?></a></li>
+                    <li><a href="<?php __a('/product/tools.html'); ?>"><?php __('footer.leankoala.tools'); ?></a></li>
+                    <li><a href="<?php __a('/one-day-with.html'); ?>"><?php __('footer.leankoala.onedaywith'); ?></a></li>
                 </ul>
             </div>
             <div class="block">
-                <div class="headline">About</div>
+                <div class="headline"><?php __('footer.about.head'); ?></div>
                 <ul>
-                    <li><a href="<?php __a('/imprint.html'); ?>" style="color: white">Contact // Impressum </a></li>
-                    <li><a href="<?php __a('/tos.html'); ?>" style="color: white">Terms of Service</a></li>
-                    <li><a href="<?php __a('/release-notes.html'); ?>" style="color: white">Release Notes</a></li>
+                    <li><a href="<?php __a('/imprint.html'); ?>" style="color: white"><?php __('footer.about.contact'); ?></a></li>
+                    <li><a href="<?php __a('/tos.html'); ?>" style="color: white"><?php __('footer.about.tos'); ?></a></li>
+                    <li><a href="<?php __a('/release-notes.html'); ?>" style="color: white"><?php __('footer.about.releasenotes'); ?></a></li>
                 </ul>
             </div>
 
 
             <div id="recent - blog - posts">
-                <div class="headline">Recent blog posts</div>
+                <div class="headline"><?php __('footer.blog.head'); ?></div>
                 <ul>
                     <?php
 

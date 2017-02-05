@@ -58,8 +58,8 @@
                     <?php __('page.index.overview.elements.lean.text') ?>
                 </div>
                 <div style="margin-top: 30px; line-height: 30px">
-                    <a href="/lean-testing.html" class="more">What is Lean Testing?</a>
-                    <a href="/product/tools.html" class="more">Tool overview</a>
+                    <a href="<?php __a('/lean-testing.html') ?>" class="more">What is Lean Testing?</a>
+                    <a href="<?php __a('/product/tools.html') ?>" class="more">Tool overview</a>
                 </div>
             </li>
             <li>
@@ -69,7 +69,7 @@
                     <?php __('page.index.overview.elements.fast.text') ?>
                 </div>
                 <div style="margin-top: 30px">
-                    <a href="/one-day-with.html" class="more">One day with Leankoala</a>
+                    <a href="<?php __a('/one-day-with.html') ?>" class="more">One day with Leankoala</a>
                 </div>
             </li>
             <li>
@@ -79,7 +79,7 @@
                     <?php __('page.index.overview.elements.integrated.text') ?>
                 </div>
                 <div style="margin-top: 30px">
-                    <a href="/product/features.html" class="more">Feature list</a>
+                    <a href="<?php __a('/product/features.html') ?>" class="more">Feature list</a>
                 </div>
             </li>
             <li>
@@ -89,7 +89,7 @@
                     <?php __('page.index.overview.elements.low-priced.text') ?>
                 </div>
                 <div style="margin-top: 30px">
-                    <a href="/pricing.html" class="more">Subscription plans</a>
+                    <a href="<?php __a('/pricing.html') ?>" class="more">Subscription plans</a>
                 </div>
             </li>
         </ul>
@@ -103,7 +103,7 @@
     <div class="content">
         <h2> <?php __('page.index.customers.headline') ?></h2>
 
-        <a href="/one-day-with.html">
+        <a href="<?php __a('/one-day-with.html') ?>">
             <ul>
                 <li><img src="/images/agencies/blg_logo.png" style="width: 200px; margin-top: 25px"></li>
                 <li><img src="/images/agencies/scalamento.jpg" style="width: 200px; margin-top: 10px"></li>
@@ -172,7 +172,7 @@
     <div class="content">
         <h2> <?php __('page.index.what.headline') ?></h2>
         <div class="main-info" style="margin-bottom: 80px; text-align: center">
-            <?php __('page.index.what.text', count($checks) ) ?>
+            <?php __('page.index.what.text', count($checks)) ?>
         </div>
         <ul>
             <?php foreach ($checks as $key => $check): ?>

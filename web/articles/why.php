@@ -122,8 +122,8 @@
             <h2>Easy for website operators</h2>
         </a>
 
-        <div style="float: left; margin-right: 30px">
-            <i class="fa fa-user-circle" aria-hidden="true"></i>
+        <div style="float: left; margin-right: 30px; margin-bottom: 50px">
+            <i class="fa fa-user-circle" aria-hidden="true""></i>
         </div>
 
         <p>
@@ -138,7 +138,7 @@
             all of our tools can also be manually configured.
         </p>
         <div class="one-day">
-            <a href="/one-day-with/amilio.html" class="more">one day with amilio</a>
+            <a href="<?php __a('/one-day-with/amilio.html') ?>" class="more">one day with amilio</a>
         </div>
         <div class="partner" style="margin-left: 80px; margin-top: 50px">
             <ul>
