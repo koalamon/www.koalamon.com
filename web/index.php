@@ -14,7 +14,7 @@ if (!array_key_exists('article', $_GET)) {
     $article = str_replace('.', '', $_GET['article']);
 }
 
-if ($article == 'google8e129feae7efeb1f.html') {
+if ($article == 'google8e129feae7efeb1f') {
     include_once __DIR__ . '/articles/google8e129feae7efeb1f.php';
     die;
 }
