@@ -27,6 +27,25 @@ page:
       headline: "What can we check?"
       text: "We provide <strong>%s</strong> that can be used to inspect a website<br> or web service, so you can build powerful test suites."
 
+  why:
+    headline: "Why Leankoala?"
+    readmore: "read more ..."
+    overview:
+      agency:
+        headline: "Perfect for agencies"
+        text: "Your customers want quality on one hand, but on the other don't want to pay for it. With Leankoala we provide a strategy and a suitable test suite that focuses on efficient and affordable quality assurance."
+      publishers:
+        headline: "Great for publishing companies"
+        text: "The idea behind Lean Testing and Leankoala comes from eight years of testing websites in two publishing companies which are among the largest in Europe. We know how to handle editorial content that meets technology."
+      operators:
+        headline: "Easy for website operators"
+        text: "When developing Leankoala we kept one thing in mind: it must be able to easily solve standard problems an enable solving of hard ones. This way, we made sure that it is absolute value for any website operator."
+      quality:
+        headline: "Efficiency for quality managers"
+        text: "Hitting your website with heavy tools can be very expensive. Having a risk assessment based lean approach reduces cost and helps testing your websites much faster with less effort."
+
+
+
 footer:
   work:
     headline: "Want us to walk you through it?"

@@ -1,6 +1,6 @@
 <div id="why">
     <div class="content">
-        <h1 style="width: 100%; text-align: center; margin-bottom: 20px">Why Leankoala?</h1>
+        <h1 style="width: 100%; text-align: center; margin-bottom: 20px"><?php __('page.why.headline'); ?></h1>
         <div style="width: 100%; text-align: center; margin-bottom: 100px">
             <img src="/images/logo.png">
         </div>
@@ -8,34 +8,28 @@
     <div class="content" id="why-block-personas">
         <ul>
             <li>
-                <h3>Perfect for agencies</h3>
+                <h3><?php __('page.why.overview.agency.headline'); ?></h3>
+                <p><?php __('page.why.overview.agency.text'); ?></p>
+                <a href="#agency" class="readmore"><?php __('page.why.readmore'); ?></a>
+            </li>
+            <li>
+                <h3><?php __('page.why.overview.publishers.headline'); ?></h3>
                 <p>
-                    Your customers want quality on one hand, but on the other don't want to pay for it. With Leankoala we
-                    provide a strategy and a suitable test suite that focuses on efficient and affordable quality assurance.
+                    <?php __('page.why.overview.publishers.text'); ?>
                 </p>
-                <a href="#agency" class="readmore">read more ...</a>
+                <a href="#publishing" class="readmore"><?php __('page.why.readmore'); ?></a>
             </li>
             <li>
-                <h3>Great for publishing companies</h3>
+                <h3><?php __('page.why.overview.operators.headline'); ?></h3>
                 <p>
-                    The idea behind Lean Testing and Leankoala comes from eight years of testing websites in two publishing
-                    companies which are among the largest in Europe. We know how to handle editorial content that meets technology.
+                    <?php __('page.why.overview.operators.text'); ?>
                 </p>
-                <a href="#publishing" class="readmore">read more ...</a>
+                <a href="#operators" class="readmore"><?php __('page.why.readmore'); ?></a>
             </li>
             <li>
-                <h3>Easy for website operators</h3>
+                <h3><?php __('page.why.overview.quality.headline'); ?></h3>
                 <p>
-                    When developing Leankoala we kept one thing in mind: it must be able to easily solve standard problems an enable solving of hard ones.
-                    This way, we made sure that it is absolute value for any website operator.
-                    </p>
-                <a href="#operators" class="readmore">read more ...</a>
-            </li>
-            <li>
-                <h3>Efficiency for quality managers</h3>
-                <p>
-                    Hitting your website with heavy tools can be very expensive. Having a risk assessment based lean approach reduces cost and helps
-                    testing your websites much faster with less effort.
+                    <?php __('page.why.overview.quality.text'); ?>
                 </p>
             </li>
         </ul>
@@ -58,7 +52,8 @@
             quality. It is almost impossible to achieve this, so one of the three goals has to be dropped. And most often it is quality that suffers in the end.
         </p>
         <p>
-            Our experience shows that the fact quality is most often dropped does not mean it is the least important goal. This misunderstaning comes from the definition of quality as such.      understanding of what quality means. Most projects are from an objective point of view <span style="">only</span> standard. You connect standard features
+            Our experience shows that the fact quality is most often dropped does not mean it is the least important goal. This misunderstaning comes from the definition of quality as such.
+            understanding of what quality means. Most projects are from an objective point of view <span style="">only</span> standard. You connect standard features
             To shed some lights on this: most projects are pretty much standard in the way they are setup, where you connect standard features and components to create a new system.
             Additionally, there will be only a few cases in this system that add real business values.
         </p>
@@ -97,12 +92,13 @@
             </div>
 
             <p>
-                When creating Leankoala, we always had one target group in mind: publishing companies. This is not only because of our background in working for two publishing companies which are among the largest in Europe
+                When creating Leankoala, we always had one target group in mind: publishing companies. This is not only because of our background in working for two publishing companies which are
+                among the largest in Europe
                 but also because the Lean Testing approach perfectly matches requirements of editorial websites.
             </p>
 
             <p>
-                Having a look at websites like www.stern.de or www.cosmopolitan.de with hundreds of thousands of articles, testing them seems quite complex.  Having a closer look at those pages shows             
+                Having a look at websites like www.stern.de or www.cosmopolitan.de with hundreds of thousands of articles, testing them seems quite complex. Having a closer look at those pages shows
                 that the complexity is not that high. In most casas, there are only a few components like: standard article, tag page, search results or category page. That is almost everything to
                 you need to test. Additionally, there are pages like the sitemap or smaller APIs used with almost no user interaction with the page.
             </p>
@@ -111,7 +107,7 @@
                 We learned that when trying to test such a website, there are only a few key tests you need to write. For example, a standard article can be tested
                 with four checks: is the headline existing, is the page footer existing, is google analytics pixel counted and do javascript
                 errors occur. If none of these checks fail, the chance that the website is working properly is as high as 95 percent. <strong>With Leankoala such checks are
-                created within minutes.</strong>
+                    created within minutes.</strong>
             </p>
 
             <div style="clear: both"></div>
@@ -127,7 +123,7 @@
         </div>
 
         <p>
-            There are a lot of businesses that depend on their websites working properly. If the sites do not work the revenue will drop as well. The challenge  such businesses face
+            There are a lot of businesses that depend on their websites working properly. If the sites do not work the revenue will drop as well. The challenge such businesses face
             is that they often can't afford a quality assurance team.
         </p>
 

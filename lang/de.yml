@@ -1,7 +1,6 @@
 page:
   index:
-    #slogan: "Schlanker Service für das kontinuierliche <br>Testen von Web-Applikationen."
-    slogan: "Einfach Testen. <br>Von Entwicklern für Entwickler."
+    slogan: "Einfach Testen.<br>Von Entwicklern für Entwickler."
 
     overview:
       headline: "Leankoala ist der erste Schritt in Richtung Testautomatisierung."
@@ -28,6 +27,24 @@ page:
     what:
       headline: "Was können wir überprüfen?"
       text: "Wie stellen euch <strong>%s</strong> Tools zur Verfügung, um eure Webseiten und Wevservices <br> zu testen. Gemeinsam erstellen wir daraus die perfekte Testabdeckung für euer Projekt."
+
+  why:
+    headline: "Warum Leankoala?"
+    readmore: "weiterlesen ..."
+    overview:
+      agency:
+        headline: "Perfekt für Agenturen"
+        text: 'Auf der einen Seite wünschen Kunden sich hohe Qualität, auf der anderen Seite sind sie aber häufig nicht bereit dazu diese zu bezahlen. Mit dem "Lean Testing"-Ansatz haben wir eine Test-Methode etabliert, die sowohl effizient als auch kostengünstig ist.'
+      publishers:
+        headline: "Gebaut für Verlage"
+        text: "Leankoala entstand "
+      operators:
+        headline: "Hilfreich für Webseiten-Betreiber"
+        text: "When developing Leankoala we kept one thing in mind: it must be able to easily solve standard problems an enable solving of hard ones. This way, we made sure that it is absolute value for any website operator."
+      quality:
+        headline: "Effizienz für Qualitäsmanager"
+        text: "Hitting your website with heavy tools can be very expensive. Having a risk assessment based lean approach reduces cost and helps testing your websites much faster with less effort."
+
 
 footer:
   work:
