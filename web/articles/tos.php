@@ -1,4 +1,4 @@
-2<div id="tos-block">
+<div id="tos-block">
     <div class="content">
         <h1 style="width: 100%; text-align: center; margin-bottom: 100px">Terms of Service</h1>
     </div>
