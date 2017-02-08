@@ -59,7 +59,12 @@ page:
                   zwei der größten Verlagshäuser Europas entstanden ist, aber auch zum anderen weil redaktionell gepflegte Webseiten mit den klassischen Testmethoden unserer Meinung nach nicht
                   kosteneffizient getestet werden können.
                </p><p>
-                  Leankoala ist stark wenn es um das Testen von Entwicklungsumgebungen geht und kann vom Beginn eines Projektes an hilfreich sein.
+                  Leankoala ist stark wenn es um das Testen von Entwicklungsumgebungen geht und kann vom Beginn eines Projektes an hilfreich sein. Eine Besonderheit von redaktionellen Webseiten ist es aber, dass
+                  nicht nur ein Deployment der Anwendung zu Fehlern führen kann, sondern das kontinuierliche Publizieren von Artikeln ebenfalls Anomalien hervorrufen können. Aus diesem Grund ist eine durchgängige
+                  Überwachung der Angebote unabdingbar.
+               </p><p>
+                  Eine weitere Besonderheit von redaktionellen Webseiten ist die Finanzierung durch Werbung und Reichweite. Deshalb ist es sinnvoll zu überprüfen, ob die Werbeausspielung und
+                  die Reichweitenzählung fehlerfrei funktioniert. Leankoala bietet hierfür mehrer Testwerkzeuge um dies sicherzustellen.
                </p>"
       operators:
         headline: "Hilfreich für Webseiten-Betreiber"
