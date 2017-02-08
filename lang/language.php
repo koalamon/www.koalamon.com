@@ -41,6 +41,7 @@ function __($identifier)
     global $fallBackLanguage;
 
     $parameters = func_get_args();
+
     $parameters = array_reverse($parameters);
     array_pop($parameters);
 
