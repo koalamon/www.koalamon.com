@@ -35,15 +35,57 @@ page:
       agency:
         headline: "Perfekt für Agenturen"
         text: 'Auf der einen Seite wünschen Kunden sich hohe Qualität, auf der anderen Seite sind sie aber häufig nicht bereit dazu diese zu bezahlen. Mit dem "Lean Testing"-Ansatz haben wir eine Test-Methode etabliert, die sowohl effizient als auch kostengünstig ist.'
+        full: "<p>
+                        The agency business can be very tough, as customers want their web projects to be developed in no time, with low costs and high
+                        quality. It is almost impossible to achieve this, so one of the three goals has to be dropped. And most often it is quality that suffers in the end.
+                    </p>
+                    <p>
+                        Our experience shows that the fact quality is most often dropped does not mean it is the least important goal. This misunderstaning comes from the definition of quality as such.
+                        understanding of what quality means. Most projects are from an objective point of view <span style=\"\">only</span> standard. You connect standard features
+                        To shed some lights on this: most projects are pretty much standard in the way they are setup, where you connect standard features and components to create a new system.
+                        Additionally, there will be only a few cases in this system that add real business values.
+                    </p>
+                    <p>
+                        Leankoala provides <strong>standard checks</strong> for testing those <strong>standard features</strong>. Often that is all that
+                        is needed. In addition, we offer a new and different testing concept we already verified in many conferences, press articles and the
+                        German book
+                        \"<a href=\"https://www.amazon.de/Erfolgreiche-Softwareprojekte-Web-Gedanken-Webentwicklung/dp/3868020888\" target=\"_blank\">Erfolgreiche
+                            Softwareprojekt im Web</a>\". One of our goals is to push the lean testing movement so you don't have to sell it to your client.
+                    </p>"
       publishers:
         headline: "Gebaut für Verlage"
-        text: "Leankoala entstand "
+        text: "Leankoala entstand im Umfeld zweier der größten Verlagshäuser Europas. Aus diesem Grund ist es besonders effizient, wenn es um das Testen von redaktionell getriebenen Webseiten geht, die durch Werbung und Reichweite ihre Umsätze generieren."
+        full: "<p>When creating Leankoala, we always had one target group in mind: publishing companies. This is not only because of our background in working for two publishing companies which are
+                           among the largest in Europe but also because the Lean Testing approach perfectly matches requirements of editorial websites.
+                       </p>
+                       <p>
+                           Having a look at websites like www.stern.de or www.cosmopolitan.de with hundreds of thousands of articles, testing them seems quite complex. Having a closer look at those pages shows
+                           that the complexity is not that high. In most casas, there are only a few components like: standard article, tag page, search results or category page. That is almost everything to
+                           you need to test. Additionally, there are pages like the sitemap or smaller APIs used with almost no user interaction with the page.
+                       </p>
+                       <p>
+                           We learned that when trying to test such a website, there are only a few key tests you need to write. For example, a standard article can be tested
+                           with four checks: is the headline existing, is the page footer existing, is google analytics pixel counted and do javascript
+                           errors occur. If none of these checks fail, the chance that the website is working properly is as high as 95 percent. <strong>With Leankoala such checks are
+                               created within minutes.</strong>
+                       </p>"
       operators:
         headline: "Hilfreich für Webseiten-Betreiber"
-        text: "When developing Leankoala we kept one thing in mind: it must be able to easily solve standard problems an enable solving of hard ones. This way, we made sure that it is absolute value for any website operator."
+        text: "Als wir Leankoala entwickelt haben waren uns zwei Dinge wichtig. Ein Standard-Problem sollte eine einfache Lösung besitzen, aber auch individuelle Herausforderungen sollten mit unserem Werkzeug lösbar sein. Wir glauben, dass wir beide Ziele erreicht haben."
+        full: "<p>
+                           There are a lot of businesses that depend on their websites working properly. If the sites do not work the revenue will drop as well. The challenge such businesses face
+                           is that they often can't afford a quality assurance team.
+                       </p>
+
+                       <p>
+                           With Leankoala we provide software as a service solution that helps writing easy system tests with just a few clicks. Using our wizards
+                           everybody is able to build up a good testing foundation for any website. We achieve this by focusing on modern websites where we know
+                           what the most common features are. For those features, we provide predefined tests on top of our tools. If it is necessary to go deeper,
+                           all of our tools can also be manually configured.
+                     </p>"
       quality:
-        headline: "Effizienz für Qualitäsmanager"
-        text: "Hitting your website with heavy tools can be very expensive. Having a risk assessment based lean approach reduces cost and helps testing your websites much faster with less effort."
+        headline: "Effizienz für Qualitätsmanager"
+        text: "Klassische Testprozesse, wie die des ISTQB, sind für klassische Anwendungen gebaut. Das Web gehorcht aber anderen Regeln. Lean Testing und Leankoala sind schlanke Alternativen zu steifen und aufwändigen Vorgehen."
 
 
 footer:
