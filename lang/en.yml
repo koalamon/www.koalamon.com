@@ -12,7 +12,7 @@ page:
           text: "<p>With Leankoala you create a good test coverage within hours</p><p>We provide wizards for standard use cases.</p>"
         integrated:
           headline: "Integrated"
-          text: "<p>Leankoala was designed to be part of the development process.</p><p>It runs on dev, stage and production environments und perfectly integrates with Slack.</p>"
+          text: "<p>Leankoala was designed to be part of the development process.</p><p>It runs on dev, stage and production environments and perfectly integrates with Slack.</p>"
         low-priced:
           headline: "Low-priced"
           text: "<p>Leankoala's large plan for a whole month costs less than one developer an hour.</p>"
@@ -25,7 +25,7 @@ page:
 
     what:
       headline: "What can we check?"
-      text: "We provide <strong>%s</strong> that can be used to inspect a website<br> or web service, so you can build powerful test suites."
+      text: "We provide <strong>%s</strong> Tools that can be used to inspect a website<br> or web service, so you can build powerful test suites."
 
   why:
     headline: "Why Leankoala?"
