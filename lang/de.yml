@@ -26,7 +26,7 @@ page:
 
     what:
       headline: "Was können wir überprüfen?"
-      text: "Wie stellen euch <strong>%s</strong> Tools zur Verfügung, um eure Webseiten und Wevservices <br> zu testen. Gemeinsam erstellen wir daraus die perfekte Testabdeckung für euer Projekt."
+      text: "Wir stellen euch <strong>%s</strong> Tools zur Verfügung, um eure Webseiten und Wevservices <br> zu testen. Gemeinsam erstellen wir daraus die perfekte Testabdeckung für euer Projekt."
 
   why:
     headline: "Warum Leankoala?"
