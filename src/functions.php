@@ -2,7 +2,7 @@
 
 $prices = ['large' => '69'];
 
-$checks = [
+$checks['en'] = [
     'koalaping' => ['img' => 'https://monitor.leankoala.com/images/integrations/koalaping.png', 'name' => 'KoalaPing', 'desc' => 'Checks if the given components answer with the correct http status code.', 'filters' => 'website webservice'],
     'littleseo' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/littleseo.png', 'name' => 'LittleSeo', 'desc' => 'Checks if the robots.txt contains allow/disallow all.', 'filters' => 'seo'],
     'cssselector' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/cssselector.png', 'name' => 'CSS Selector', 'desc' => 'This tool can check if a given css selector exists on any given component.', 'filters' => 'website'],
@@ -23,10 +23,34 @@ $checks = [
     'jsonschema' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/jsonschema.png', 'name' => 'Json Schema Validator', 'desc' => 'Checks if a JSON document is valid against a JSON Schema file.', 'filters' => 'website webservice'],
     'googlemobilefriendly' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/mobile.png', 'name' => 'Google Mobile friendly', 'desc' => 'Checks if a system is mobile friendly.', 'filters' => 'website seo'],
     'performance' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/performance.png', 'name' => 'Performance Check', 'desc' => 'Checks if the given component responds within a given time.', 'filters' => 'website webservice seo'],
+];
+
+$checks['de'] = [
+    'koalaping' => ['img' => 'https://monitor.leankoala.com/images/integrations/koalaping.png', 'name' => 'KoalaPing', 'desc' => 'Checks if the given components answer with the correct http status code.', 'filters' => 'website webservice'],
+    'littleseo' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/littleseo.png', 'name' => 'LittleSeo', 'desc' => 'Überwacht ob die Seiten die Robots.txt enthalten mit allow/disallow all.', 'filters' => 'seo'],
+    'cssselector' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/cssselector.png', 'name' => 'CSS Selector', 'desc' => 'Checkt ob ein gegebener CSS Selector existiert auf allen gegebenen Komponenten.', 'filters' => 'website'],
+    'httpheader' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/head.png', 'name' => 'Http Header Check', 'desc' => 'Der Http Header Checker überprüft, ob die Mandanten über alle Header Parameter verfügen.', 'filters' => 'website webservice'],
+    'httpscertificatecheck' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/httpscert.png', 'name' => 'Https Certificate Check', 'desc' => 'Warnt wenn die Https Zertifikate bald auslaufen.', 'filters' => 'website webservice'],
+    'jsonpathCheck' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/jsonpath.png', 'name' => 'Json Path Check', 'desc' => 'Checkt auf das Vorhandensein gegebener Json-Pfade.', 'filters' => 'webservice'],
+    'javascripterrorcheck' => ['img' => 'https://monitor.leankoala.com/images/integrations/jserror.png', 'name' => 'JavaScript Error Check', 'desc' => 'Sucht nach Javascript Fehlern in den hinterlegten Komponenten.', 'filters' => 'website'],
+    'googlepagespeed' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationgooglepagespeed/images/integration.png', 'name' => 'Google Page Speed', 'desc' => 'Überwacht ob der Google Page Speed Score vordefinierten Maßgaben entspricht.', 'filters' => 'website seo'],
+    'jsonvalidator' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/json.png', 'name' => 'Json Validator', 'desc' => 'Warnt wenn JSON nicht wohlgeformt antwortet', 'filters' => 'website webservice'],
+    'missingrequest' => ['img' => 'https://monitor.leankoala.com/images/integrations/missing_logo.png', 'name' => 'MissingRequest', 'desc' => 'Checkt ob Mandanten Http Requests richtig gefeuert werden.', 'filters' => 'website'],
+    'textchecker' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/regex.png', 'name' => 'Text Checker', 'desc' => 'Scannt die Seiten nach vorgegebenen Texten oder Regular Expressions.', 'filters' => 'website webservice'],
+    'siteInfo' => ['img' => 'https://monitor.leankoala.com/images/integrations/siteinfo.png', 'name' => 'SiteInfo', 'desc' => 'CWarnt wenn die gegebene Komponentengröße nicht den gewünschten Werten entspricht.', 'filters' => 'website'],
+    'smoke' => ['img' => 'https://monitor.leankoala.com/images/integrations/smoke.png', 'name' => 'Smoke', 'desc' => 'Unser Schweizer Taschenmesser - Scannt das komplette System und die ersten 200 Seiten auf ein Regelset von 21 Regeln.', 'filters' => 'website'],
+    'xpathChecker' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/xpath.png', 'name' => 'XPath Checker', 'desc' => 'Sucht nach gegebenen Xpath Expressions in den Komponenten.', 'filters' => 'website'],
+    'xmlsitemap' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/sitemap.png', 'name' => 'XML Sitemap Checker', 'desc' => 'Checkt ob die Xml-Sitemap valide ist.', 'filters' => 'website'],
+    'xmlchecker' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/xml.png', 'name' => 'XML Checker', 'desc' => 'Überprüft ob das gegebene XML Dokumet wohlgeformt ist.'],
+    'xsdvalidator' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/xsd.png', 'name' => 'XSD Validator', 'desc' => 'Überprüft ob gegebene XML Dokumente valide gegenüber der/den XSD Datei/en ist.', 'filters' => 'webservice'],
+    'jsonschema' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/jsonschema.png', 'name' => 'Json Schema Validator', 'desc' => 'Überprüft ob ein JSON Dokument valide gegenüber der JSON Schema Datei ist.', 'filters' => 'website webservice'],
+    'googlemobilefriendly' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/mobile.png', 'name' => 'Google Mobile friendly', 'desc' => 'Überprüft ob ein System mobile friendly nach Google Maßgaben ist.', 'filters' => 'website seo'],
+    'performance' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/performance.png', 'name' => 'Performance Check', 'desc' => 'Überwacht die Antwortzeit gegebener Komponenten.', 'filters' => 'website webservice seo'],
 
 ];
 
-ksort($checks);
+ksort($checks['de']);
+ksort($checks['en']);
 
 function getRecentBlogPosts($count = 3)
 {

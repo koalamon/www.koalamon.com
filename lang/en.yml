@@ -12,7 +12,7 @@ page:
           text: "<p>With Leankoala you create a good test coverage within hours</p><p>We provide wizards for standard use cases.</p>"
         integrated:
           headline: "Integrated"
-          text: "<p>Leankoala was designed to be part of the development process.</p><p>It runs on dev, stage and production environments und perfectly integrates with Slack.</p>"
+          text: "<p>Leankoala was designed to be part of the development process.</p><p>It runs on dev, stage and production environments and perfectly integrates with Slack.</p>"
         low-priced:
           headline: "Low-priced"
           text: "<p>Leankoala's large plan for a whole month costs less than one developer an hour.</p>"
@@ -25,7 +25,7 @@ page:
 
     what:
       headline: "What can we check?"
-      text: "We provide <strong>%s</strong> that can be used to inspect a website<br> or web service, so you can build powerful test suites."
+      text: "We provide <strong>%s</strong> Tools that can be used to inspect a website<br> or web service, so you can build powerful test suites."
 
   why:
     headline: "Why Leankoala?"
@@ -86,7 +86,12 @@ page:
         headline: "Efficiency for quality managers"
         text: "Hitting your website with heavy tools can be very expensive. Having a risk assessment based lean approach reduces cost and helps testing your websites much faster with less effort."
 
-
+  product:
+    tools:
+      headline: "Leankoala helps to test a website using simple checks like the leantesting approach suggests. We provide %s tools that can be used to inspect a website or web service."
+    testsuite:
+      headline: "How to build a powerful test suite."
+      text: "Every single tool we provide is very powerful itself but when combined they can be used to check all kind of services. To help our customers to get creative themselves we created the \"one day with leankoala\" stories where we teamed up with companies to describe how we tested there websites and services."
 
 footer:
   work:
