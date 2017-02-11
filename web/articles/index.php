@@ -112,7 +112,8 @@
                 <li><img src="/images/startups/whm.png" style="width: 100px; margin-top: 10px"></li>
                 <li><img src="/images/startups/buzzrank.png" style="width: 140px; margin-top: 22px"></li>
                 <li><img src="/images/startups/wetimebox.png" style="width: 150px; margin-top: 25px"></li>
-                <li><img src="/images/startups/amilio2.png" style="margin-top: 20px; width: 40px"><img src="/images/startups/amilio1.png" style="margin-top: 5px; height: 40px"></li>
+                <li><img src="/images/startups/amilio2.png" style="margin-top: 20px; width: 40px"><img
+                            src="/images/startups/amilio1.png" style="margin-top: 5px; height: 40px"></li>
             </ul>
         </a>
     </div>
@@ -172,12 +173,13 @@
     <div class="content">
         <h2> <?php __('page.index.what.headline') ?></h2>
         <div class="main-info" style="margin-bottom: 80px; text-align: center">
-            <?php __('page.index.what.text', count($checks)) ?>
+            <?php __('page.index.what.text', count($checks[$language])) ?>
         </div>
         <ul>
-            <?php foreach ($checks as $key => $check): ?>
-                <li onmouseover="$('#check-<?php echo $key; ?>').show();" onmouseout="$('#check-<?php echo $key; ?>').hide();">
-                    <a href="/product/tools.html#<?php echo $key; ?>">
+            <?php foreach ($checks[$language] as $key => $check): ?>
+                <li onmouseover="$('#check-<?php echo $key; ?>').show();"
+                    onmouseout="$('#check-<?php echo $key; ?>').hide();">
+                    <a href="<?php __a('/product/tools.html#' . $key); ?>">
                         <div class="mouse-over-info" id="check-<?php echo $key; ?>">
                             <?php echo $check['name']; ?>
                         </div>

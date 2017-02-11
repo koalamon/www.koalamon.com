@@ -86,6 +86,12 @@ page:
         text: "Klassische Testprozesse, wie die des ISTQB, sind für klassische Anwendungen gebaut. Das Web gehorcht aber anderen Regeln. Lean Testing und Leankoala sind schlanke Alternativen zu steifen
                und aufwändigen Vorgehen."
 
+  product:
+    tools:
+      headline: "Leankoala kommt mit %s Tools, die nach unterschiedlichen Merkmalen überprüfen, ob eine Webseite korrekt funktioniert. Um nur einige zu nennen, verfügt Leankoala über ein Ping Tool, einen Xpath Checker, ein regEx tool und einige Security Checks."
+    testsuite:
+      headline: "Eine starke, performante Testumgebung aufbauen."
+      text: "Jedes unserer Tools ist für sich wertvoll, aber erst in der Kombination werden sie mächtig und können für alle möglichen Arten von Webservice genutzt werden. Um unseren Kunden zu ermöglichen auch selbst kreativ zu werden, haben wir unsere \"One day with Leankoala\"s ins Leben gerufen. Wir zeigen Euch hier Best Practice Beispiele und zeigen Euch Beispiele wie wir verschiedene Arten von Webseiten und - services testen."
 
 footer:
   work:

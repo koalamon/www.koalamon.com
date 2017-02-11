@@ -86,7 +86,12 @@ page:
         headline: "Efficiency for quality managers"
         text: "Hitting your website with heavy tools can be very expensive. Having a risk assessment based lean approach reduces cost and helps testing your websites much faster with less effort."
 
-
+  product:
+    tools:
+      headline: "Leankoala helps to test a website using simple checks like the leantesting approach suggests. We provide %s tools that can be used to inspect a website or web service."
+    testsuite:
+      headline: "How to build a powerful test suite."
+      text: "Every single tool we provide is very powerful itself but when combined they can be used to check all kind of services. To help our customers to get creative themselves we created the \"one day with leankoala\" stories where we teamed up with companies to describe how we tested there websites and services."
 
 footer:
   work:

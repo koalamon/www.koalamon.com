@@ -1,21 +1,18 @@
 <div class="content">
     <h1 style="width: 100%; text-align: center">Tools</h1>
     <div class="main-info">
-        Leankoala helps to test a website using simple checks like the leantesting approach suggests.
-        We provide <?php echo count($checks); ?> tools that can be used to inspect a website or web service.
+        <?php __('page.product.tools.headline', count($checks[$language])); ?>
     </div>
 </div>
 <div class="main-element-grey" style="margin-bottom: 100px">
     <div class="content info">
-        <h2>How to build a powerful test suite.</h2>
+        <h2><?php __('page.product.testsuite.headline'); ?></h2>
         <p style="line-height: 25px; margin-bottom: 40px">
-            Every single tool we provide is very powerful itself but when combined they can be used to check all kind of services. To help
-            our customers to get creative themselves we created the "one day with leankoala" stories where we teamed up with companies to
-            describe how we tested there websites and services.
+            <?php __('page.product.testsuite.text'); ?>
         </p>
-        <a href="/one-day-with.html" class="more">One day with leankoala</a>
-        <a href="/one-day-with/amilio.html" class="more">One day with amilio</a>
-        <a href="/one-day-with/thewebhatesme.html" class="more">One day with the web hates me</a>
+        <a href="<?php __a('/one-day-with.html'); ?>" class="more">One day with leankoala</a>
+        <a href="<?php __a('/one-day-with/amilio.html'); ?>" class="more">One day with amilio</a>
+        <a href="<?php __a('/one-day-with/thewebhatesme.html'); ?>" class="more">One day with the web hates me</a>
     </div>
 </div>
 
@@ -71,7 +68,7 @@
 
     <ul class="checks">
 
-        <?php foreach ($checks as $key => $check): ?>
+        <?php foreach ($checks[$language] as $key => $check): ?>
 
             <li class="<?php echo $check['filters'] ?>">
                 <a name="<?php echo $key; ?>" class="anchor"></a>
