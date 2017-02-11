@@ -48,7 +48,7 @@ function fetchCheckCount()
 {
     $sources = ["https://monitor.leankoala.com/rest/eventcount", "http://lean.xcel.io/rest/eventcount"];
 
-    $sum = 0;
+    $sum = 5000000;
 
     foreach ($sources as $source) {
         $result = json_decode(file_get_contents($source));
