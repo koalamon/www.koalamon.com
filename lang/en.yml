@@ -93,6 +93,12 @@ page:
       headline: "How to build a powerful test suite."
       text: "Every single tool we provide is very powerful itself but when combined they can be used to check all kind of services. To help our customers to get creative themselves we created the \"one day with leankoala\" stories where we teamed up with companies to describe how we tested there websites and services."
 
+  one-day-with:
+    headline: "One day with"
+    info: "Testing many websites and working for many companies means we have a lot of stories to tell. And so we thought of introducing
+           our \"one day with\" section, where all our readers can find inspiration. We want to tell interesting stories
+           about what we achieved within one day of working together with some of our clients."
+
 footer:
   work:
     headline: "Want us to walk you through it?"

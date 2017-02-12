@@ -93,6 +93,12 @@ page:
       headline: "Eine starke, performante Testumgebung aufbauen."
       text: "Jedes unserer Tools ist für sich wertvoll, aber erst in der Kombination werden sie mächtig und können für alle möglichen Arten von Webservice genutzt werden. Um unseren Kunden zu ermöglichen auch selbst kreativ zu werden, haben wir unsere \"One day with Leankoala\"s ins Leben gerufen. Wir zeigen Euch hier Best Practice Beispiele und zeigen Euch Beispiele wie wir verschiedene Arten von Webseiten und - services testen."
 
+  one-day-with:
+    headline: "One day with"
+    info: "Wir testen viele Webseiten und arbeiten mit zahlreichen Unternehmen zusammen. Es passiert also einiges und das wollen wir nicht nur für
+           uns behalten. In unseren \"One day with\"s findet man jede Menge Best Practice Beispiele und Inspiration. Wir möchten Euch die echten
+           Geschichten erzählen, was wir wirklich innerhalb eines Tages  in Zusammenarbeit mit Kunden erreicht haben."
+
 footer:
   work:
     headline: "Du hast Fragen oder brauchst Unterstützung?"
