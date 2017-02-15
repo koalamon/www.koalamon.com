@@ -7,7 +7,7 @@ page:
       elements:
         lean:
           headline: "Schlank"
-          text: '<p>Der "Lean Testing"-Ansatz konzentriert sich auf das Finden von Symptomen anstatt Ursuchen.</p><p>Dies minimiert die Anzahl der benötigen Tests drastisch.</p>'
+          text: '<p>Der "Lean Testing"-Ansatz konzentriert sich auf das Finden von Symptomen anstelle von Ursachen.</p><p>Dies minimiert die Anzahl der benötigen Tests drastisch.</p>'
         fast:
           headline: "Schnell"
           text: "<p>Leankoala ermöglicht innerhalb von Minuten automatisierte Tests aufzusetzen.</p><p>Für Standard-Probleme stellen wir Standard-Lösungen zur Verfügung.</p>"
