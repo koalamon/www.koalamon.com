@@ -41,17 +41,14 @@
                         src="/images/startups/amilio1.png">
             </td>
             <td>
-                <div style="font-weight: 600; margin-bottom: 20px">amilio - Social. Shopping. Community.</div>
+                <div style="font-weight: 600; margin-bottom: 20px"><?php __("page.one-day-with.case.amilio.headline"); ?></div>
                 <div style="line-height: 28px; margin-right: 50px; font-size: 14px">
-                    amilio is a shopping community based on affiliate programs. Every user is able create lists of
-                    products
-                    he or she likes. All those lists and products can be liked and shared by others.
+                    <?php __("page.one-day-with.case.amilio.text"); ?>
                 </div>
             </td>
             <td width="150px">
                 <a href="<?php __a('/one-day-with/amilio.html'); ?>"
-                   style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px">read
-                    one day with amilio</a>
+                   style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px"><?php __("page.one-day-with.case.amilio.button"); ?></a>
             </td>
         </tr>
         <tr class="plan-small" style="border-bottom: 100px solid transparent">
@@ -59,15 +56,14 @@
                 <img src="/images/startups/whm.png">
             </td>
             <td>
-                <div style="font-weight: 600; margin-bottom: 20px">the web hates me</div>
+                <div style="font-weight: 600; margin-bottom: 20px"><?php __("page.one-day-with.case.whm.headline"); ?></div>
                 <div style="line-height: 28px; margin-right: 50px; font-size: 14px">
-                    This blog started a phphatesme and is one of the best known web development weblogs in Germany.
+                    <?php __("page.one-day-with.case.whm.text"); ?>
                 </div>
             </td>
             <td width="150px">
-                <a href="<?php __a('/one-day-with/thewebhatesme.html'); ?>'"
-                   style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px">read
-                    one day with twhm</a>
+                <a href="<?php __a('/one-day-with/thewebhatesme.html'); ?>"
+                   style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px"><?php __("page.one-day-with.case.whm.button"); ?></a>
             </td>
         </tr>
 
@@ -76,16 +72,13 @@
                 <img src="/images/agencies/scalamento.jpg" style="width: 180px">
             </td>
             <td>
-                <div style="font-weight: 600; margin-bottom: 20px">Scalamento</div>
+                <div style="font-weight: 600; margin-bottom: 20px"><?php __("page.one-day-with.case.scalamento.headline"); ?></div>
                 <div style="line-height: 28px; margin-right: 50px; font-size: 14px">
-                    The Scalamento team helps companies to scale their momentum. They are experts for digital
-                    transformation and
-                    agile leadership.
+                    <?php __("page.one-day-with.case.scalamento.text"); ?>
                 </div>
             </td>
             <td width="150px">
-                <a style="padding: 10px; background-color: #95a5a6; border-radius: 5px; color: white; font-size: 12px">coming
-                    soon</a>
+                <a style="padding: 10px; background-color: #95a5a6; border-radius: 5px; color: white; font-size: 12px"><?php __("page.one-day-with.case.scalamento.button"); ?></a>
             </td>
         </tr>
 

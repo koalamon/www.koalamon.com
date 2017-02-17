@@ -6,9 +6,9 @@
 </div>
 <div class="main-element-grey" style="margin-bottom: 100px">
     <div class="content info">
-        <h2><?php __('page.product.testsuite.headline'); ?></h2>
+        <h2><?php __('page.product.tools.testsuite.headline'); ?></h2>
         <p style="line-height: 25px; margin-bottom: 40px">
-            <?php __('page.product.testsuite.text'); ?>
+            <?php __('page.product.tools.testsuite.text'); ?>
         </p>
         <a href="<?php __a('/one-day-with.html'); ?>" class="more">One day with leankoala</a>
         <a href="<?php __a('/one-day-with/amilio.html'); ?>" class="more">One day with amilio</a>

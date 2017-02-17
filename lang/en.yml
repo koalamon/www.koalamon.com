@@ -89,15 +89,60 @@ page:
   product:
     tools:
       headline: "Leankoala helps to test a website using simple checks like the leantesting approach suggests. We provide %s tools that can be used to inspect a website or web service."
-    testsuite:
-      headline: "How to build a powerful test suite."
-      text: "Every single tool we provide is very powerful itself but when combined they can be used to check all kind of services. To help our customers to get creative themselves we created the \"one day with leankoala\" stories where we teamed up with companies to describe how we tested there websites and services."
+      testsuite:
+        headline: "How to build a powerful test suite."
+        text: "Every single tool we provide is very powerful itself but when combined they can be used to check all kind of services. To help our customers to get creative themselves we created the \"one day with leankoala\" stories where we teamed up with companies to describe how we tested there websites and services."
+
+    features:
+      headline: "Features"
+      info: "Leankoala tests a website by using simple checks like the Lean Testing approach suggests. This application also takes care of the whole incident lifecycle, starting with cyclic checks, alerting and data analysis."
+      feature:
+        tools:
+          headline: "Tools"
+          text: "Leankoala provides %s tools that are able to check if a website is working correctly. A few examples of those checks include a ping tool, an xpath checker, a regEx tool and some security checks."
+          button: "Show all tools"
+        recipes:
+          headline: "Recipes"
+          text: "Many websites can be tested the same way, which is why we introduced \"recipes\". A \"recipe\" is a set of rules that can be applied to any component."
+        history:
+          headline: "History"
+          text: "Everything that happens in Leankoala stays in Leankoala. We store all incidents in our database for at least one year. Additionally, we have all event data available for two months."
+        alerting:
+          headline: "Alerting"
+          text: "When finding an anomaly in the checked system, Leankoala will immediately send a notifitcation to a defined group of recipients. This can be done via E-Mail, Webhook or Slack."
+        acknowledgement:
+          headline: "Incident Acknowledgment"
+          text: "Incidents occur even in the best environments. To reduce the amount of work needed, project collaborators can be assigned to an incident."
+        slack:
+          headline: "Slack Integration"
+          text: "We love Slack. That is why Leankoala is not only able to send notifications via slack, but is also able to list, acknowledge and close incidents directly via Slack."
+
+    on-the-road:
+      headline: "On the road"
+      info: "As members of the Leankoala team, we are very proud of our software and the Lean Testing approach, so we try to talk a lot about it. These are our talks so far. Note: we are a Germany based company and most of the slides are in German for now."
 
   one-day-with:
     headline: "One day with"
     info: "Testing many websites and working for many companies means we have a lot of stories to tell. And so we thought of introducing
            our \"one day with\" section, where all our readers can find inspiration. We want to tell interesting stories
            about what we achieved within one day of working together with some of our clients."
+
+    case:
+      amilio:
+        headline: "amilio - Social. Shopping. Community."
+        text: "amilio is a shopping community based on affiliate programs. Every user is able create lists of products he or she likes. All those
+               lists and products can be liked and shared by others."
+        button: "read one day with amilio"
+      whm:
+        headline: "the web hates me"
+        text: "This blog started a phphatesme and is one of the best known web development weblogs in Germany."
+        button: "read one day with twhm"
+      scalamento:
+        headline: "Scalamento"
+        text: "The Scalamento team helps companies to scale their momentum. They are experts for digital transformation and agile leadership."
+        button: "coming soon"
+
+
 
 footer:
   work:

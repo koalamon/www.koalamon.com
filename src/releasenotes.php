@@ -1,6 +1,46 @@
 <?php
 
 $releaseNotes = [
+    '2017-02-17' => [
+        'date' => '2017-02-14',
+        'name' => 'Version 1.6.0',
+        'desc' => 'Version 1.6.0  is our valentines gift for all our users. We focused on stability, added some minor features and fixed bugs.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'MissingRequest Relation',
+                    'desc' => 'Sometimes you cannot be sure how often a request is called. That is why we introduced the possibility to tell MissingRequest
+                               that a request is expected at least, less than or exactly n-times.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Fallback Server',
+                    'desc' => 'Every infrastructure sometimes has problems. Even ours. So we decided to create a fallback system. That means when we cannot
+                               ping a customers system we first try it from another data center and hoster. Ony if that fails as well we create an incident.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Check Overview',
+                    'desc' => 'Before v1.6 every customer was only able to see which systems are activated for a selected check. If somebody wanted to see 
+                               which checks a configured for a given system it was not possible an easy way. Now there is a check overview page for every 
+                               system, that can be found in the main menu.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'New Recipes',
+                    'desc' => 'To make it even more easy to configure a system in Leankoala we added some new recipe. Our wizard now creates check configuration
+                               for google page speed score, little seo and google mobile friendly checker.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Clone System',
+                    'desc' => 'When handling a lot of systems it can be very useful to take an existing sytem as a kind of master system. This system 
+                               should have all mandatory checks und components added. When creating a new one it is possible to take this system as a 
+                               kind of template. We call it cloning.'
+                ]
+            ]
+    ],
     '2017-02-01' => [
         'date' => '2017-02-01',
         'name' => 'Version 1.5.0',

@@ -89,15 +89,58 @@ page:
   product:
     tools:
       headline: "Leankoala kommt mit %s Tools, die nach unterschiedlichen Merkmalen überprüfen, ob eine Webseite korrekt funktioniert. Um nur einige zu nennen, verfügt Leankoala über ein Ping Tool, einen Xpath Checker, ein regEx tool und einige Security Checks."
-    testsuite:
-      headline: "Eine starke, performante Testumgebung aufbauen."
-      text: "Jedes unserer Tools ist für sich wertvoll, aber erst in der Kombination werden sie mächtig und können für alle möglichen Arten von Webservice genutzt werden. Um unseren Kunden zu ermöglichen auch selbst kreativ zu werden, haben wir unsere \"One day with Leankoala\"s ins Leben gerufen. Wir zeigen Euch hier Best Practice Beispiele und zeigen Euch Beispiele wie wir verschiedene Arten von Webseiten und - services testen."
+      testsuite:
+        headline: "Eine starke, performante Testumgebung aufbauen."
+        text: "Jedes unserer Tools ist für sich wertvoll, aber erst in der Kombination werden sie mächtig und können für alle möglichen Arten von Webservice genutzt werden. Um unseren Kunden zu ermöglichen auch selbst kreativ zu werden, haben wir unsere \"One day with Leankoala\"s ins Leben gerufen. Wir zeigen Euch hier Best Practice Beispiele und zeigen Euch Beispiele wie wir verschiedene Arten von Webseiten und - services testen."
+
+    features:
+      headline: "Features"
+      info: "Leankoala tests a website by using simple checks like the Lean Testing approach suggests. This application also takes care of the whole incident lifecycle, starting with cyclic checks, alerting and data analysis."
+      feature:
+        tools:
+          headline: "Werkzeuge"
+          text: "Leankoala provides %s tools that are able to check if a website is working correctly. A few examples of those checks include a ping tool, an xpath checker, a regEx tool and some security checks."
+          button: "zu den Werkzeugen"
+        recipes:
+          headline: "Rezepte"
+          text: "Many websites can be tested the same way, which is why we introduced \"recipes\". A \"recipe\" is a set of rules that can be applied to any component."
+        history:
+          headline: "History"
+          text: "Everything that happens in Leankoala stays in Leankoala. We store all incidents in our database for at least one year. Additionally, we have all event data available for two months."
+        alerting:
+          headline: "Alerting"
+          text: "When finding an anomaly in the checked system, Leankoala will immediately send a notifitcation to a defined group of recipients. This can be done via E-Mail, Webhook or Slack."
+        acknowledgement:
+          headline: "Incident Acknowledgment"
+          text: "Incidents occur even in the best environments. To reduce the amount of work needed, project collaborators can be assigned to an incident."
+        slack:
+          headline: "Slack-Integration"
+          text: "We love Slack. That is why Leankoala is not only able to send notifications via slack, but is also able to list, acknowledge and close incidents directly via Slack."
+
+    on-the-road:
+      headline: "On the road"
+      info: "As members of the Leankoala team, we are very proud of our software and the Lean Testing approach, so we try to talk a lot about it. These are our talks so far. Note: we are a Germany based company and most of the slides are in German for now."
 
   one-day-with:
     headline: "One day with"
     info: "Wir testen viele Webseiten und arbeiten mit zahlreichen Unternehmen zusammen. Es passiert also einiges und das wollen wir nicht nur für
            uns behalten. In unseren \"One day with\"s findet man jede Menge Best Practice Beispiele und Inspiration. Wir möchten Euch die echten
            Geschichten erzählen, was wir wirklich innerhalb eines Tages  in Zusammenarbeit mit Kunden erreicht haben."
+
+    case:
+      amilio:
+        headline: "amilio - Social. Shopping. Community."
+        text: "amilio is a shopping community based on affiliate programs. Every user is able create lists of products he or she likes. All those
+               lists and products can be liked and shared by others."
+        button: "read one day with amilio"
+      whm:
+        headline: "the web hates me"
+        text: "This blog started a phphatesme and is one of the best known web development weblogs in Germany."
+        button: "read one day with twhm"
+      scalamento:
+        headline: "Scalamento"
+        text: "The Scalamento team helps companies to scale their momentum. They are experts for digital transformation and agile leadership."
+        button: "coming soon"
 
 footer:
   work:

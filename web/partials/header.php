@@ -30,8 +30,8 @@
                             <ul class="dropdown-menu clickable">
                                 <li><a href="<?php __a('/product/features.html'); ?>"><?php __('menu.main.product.features'); ?></a></li>
                                 <li><a href="<?php __a('/product/tools.html'); ?>"><?php __('menu.main.product.tools'); ?></a></li>
-                                <li><a href="<?php __a('/on-the-road.html'); ?>"><?php __('menu.main.product.ontheroad'); ?></a></li>
-                                <li><a href="<?php __a('/release-notes.html'); ?>"><?php __('menu.main.product.releasenotes'); ?></a></li>
+                                <li><a href="<?php __a('/product/on-the-road.html'); ?>"><?php __('menu.main.product.ontheroad'); ?></a></li>
+                                <li><a href="<?php __a('/product/release-notes.html'); ?>"><?php __('menu.main.product.releasenotes'); ?></a></li>
                             </ul>
                         </li>
                         <li><a href="<?php __a('/pricing.html'); ?>"><?php __('menu.main.pricing.head'); ?></a></li>
