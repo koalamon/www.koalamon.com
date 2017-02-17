@@ -7,7 +7,7 @@ page:
       elements:
         lean:
           headline: "Schlank"
-          text: '<p>Der "Lean Testing"-Ansatz konzentriert sich auf das Finden von Symptomen anstatt Ursuchen.</p><p>Dies minimiert die Anzahl der benötigen Tests drastisch.</p>'
+          text: '<p>Der "Lean Testing"-Ansatz konzentriert sich auf das Finden von Symptomen anstelle von Ursachen.</p><p>Dies minimiert die Anzahl der benötigen Tests drastisch.</p>'
         fast:
           headline: "Schnell"
           text: "<p>Leankoala ermöglicht innerhalb von Minuten automatisierte Tests aufzusetzen.</p><p>Für Standard-Probleme stellen wir Standard-Lösungen zur Verfügung.</p>"
@@ -26,7 +26,7 @@ page:
 
     what:
       headline: "Was können wir überprüfen?"
-      text: "Wir stellen euch <strong>%s</strong> Tools zur Verfügung, um eure Webseiten und Wevservices <br> zu testen. Gemeinsam erstellen wir daraus die perfekte Testabdeckung für euer Projekt."
+      text: "Wir stellen euch <strong>%s</strong> Tools zur Verfügung, um eure Webseiten und Webservices <br> zu testen. Gemeinsam erstellen wir daraus die perfekte Testabdeckung für euer Projekt."
 
   why:
     headline: "Warum Leankoala?"
@@ -54,31 +54,31 @@ page:
                     </p>"
       publishers:
         headline: "Gebaut für Verlage"
-        text: "Leankoala entstand im Umfeld zweier der größten Verlagshäuser Europas. Aus diesem Grund ist es besonders effizient, wenn es um das Testen von redaktionell getriebenen Webseiten geht, die durch Werbung und Reichweite ihre Umsätze generieren."
-        full: "<p>Als wir Leankoala entworfen haben, hatten wir von Anfang an eine bestimmte Zielgruppe im Auge: Verlage. Das liegt sicherlich zum Einen dadran, dass dieses Werkzeug im Umfeld
-                  zwei der größten Verlagshäuser Europas entstanden ist, aber auch zum anderen weil redaktionell gepflegte Webseiten mit den klassischen Testmethoden unserer Meinung nach nicht
+        text: "Leankoala entstand im Umfeld von zwei der größten Verlagshäuser Europas. Aus diesem Grund ist es besonders effizient, wenn es um das Testen von redaktionell getriebenen Webseiten geht, die durch Werbung und Reichweite ihre Umsätze generieren."
+        full: "<p>Bereits beim Entwurf von Leankoala war eine ganz bestimmte Zielgruppe im Fokus: Verlage. Das liegt sicherlich zum Einen dadran, dass dieses Werkzeug im Umfeld
+                  zwei der größten Verlagshäuser Europas entstanden ist, zum anderen auch weil gerade redaktionell gepflegte Webseiten mit den klassischen Testmethoden unserer Meinung nach nicht
                   kosteneffizient getestet werden können.
                </p><p>
-                  Leankoala ist stark wenn es um das Testen von Entwicklungsumgebungen geht und kann vom Beginn eines Projektes an hilfreich sein. Eine Besonderheit von redaktionellen Webseiten ist es aber, dass
+                  Leankoala ist stark wenn es um das Testen von Entwicklungsumgebungen geht und ist bereits von Beginn eines Projektes an hilfreich sein. Eine Besonderheit von redaktionellen Webseiten ist es aber, dass
                   nicht nur ein Deployment der Anwendung zu Fehlern führen kann, sondern das kontinuierliche Publizieren von Artikeln ebenfalls Anomalien hervorrufen können. Aus diesem Grund ist eine durchgängige
                   Überwachung der Angebote unabdingbar.
                </p><p>
                   Eine weitere Besonderheit von redaktionellen Webseiten ist die Finanzierung durch Werbung und Reichweite. Deshalb ist es sinnvoll zu überprüfen, ob die Werbeausspielung und
-                  die Reichweitenzählung fehlerfrei funktioniert. Leankoala bietet hierfür mehrer Testwerkzeuge um dies sicherzustellen.
+                  die Reichweitenzählung fehlerfrei funktioniert. Leankoala bietet hierfür mehrere Testwerkzeuge, um auch das sicherzustellen.
                </p>"
       operators:
         headline: "Hilfreich für Webseiten-Betreiber"
         text: "Als wir Leankoala entwickelt haben waren uns zwei Dinge wichtig. Ein Standard-Problem sollte eine einfache Lösung besitzen, aber auch individuelle Herausforderungen sollten mit unserem
                Werkzeug lösbar sein. Wir glauben, dass wir beide Ziele erreicht haben."
-        full: "<p>Webseiten sind heutzutage Showroom, Visitenkarte und oft auch Schaltzentrale einer ganzen Firma. Ausfälle von solchen Systemen kann bedeuten, dass
-                  das komplette Geschäftsmodell ebenfalls zum Ruhen kommt. Aus diesem Grund ist es wichtig jeder Zeit zu wissen, dass die wichtigsten Bestandteile einer
+        full: "<p>Webseiten sind heutzutage Showroom, Visitenkarte und oft auch Schaltzentrale einer ganzen Firma. Ausfälle dieser Systeme bedeuten, dass
+                  das komplette Geschäftsmodell ebenfalls zum Ruhen kommt. Aus diesem Grund ist es elementar zu wissen, dass die wichtigsten Bestandteile einer
                   Webseite einwandfrei funktionieren.
                </p><p>
                   Mit Leankoala geben wir Webseiten-Betreibern ein Werkzeug an die Hand, welches bereits perfekt für Sie vorkonfiguriert ist. Dank der vielen Wizards ist es einfach
-                  Standard-Probleme mit einem Klick zu lösen. Dank der flexiblen Testwerkzeuge, von denen wir %s zur Verfügung stellen, ist es aber ebenso möglich komplexe Herausforderungen
+                  Standard-Probleme mit einem Klick zu lösen. Dank der flexiblen Testwerkzeuge, von denen wir %s Tools zur Verfügung stellen, ist es aber ebenso möglich komplexe Herausforderungen
                   individuell anzugehen.
                </p><p>
-                  Leankoala ist für alle geeignet, die damit beginnen wollen ihre Anwendung kontinuierlich zu überwachen, aber auch für all diejenigen, die bereits während des Entwicklungsprozesses
+                  Leankoala ist für alle geeignet. Für die, die gerade damit beginnen wollen ihre Anwendung kontinuierlich zu überwachen, aber auch für all diejenigen, die bereits während des Entwicklungsprozesses
                   sicherstellen wollen, dass durch neue Features keine neuen Fehler auftauchen.
                </p>"
       quality:
