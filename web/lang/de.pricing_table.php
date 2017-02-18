@@ -65,61 +65,65 @@
             <div class="feature"><strong>5</strong> Komponenten</div>
             <div class="feature">Ping-Interval <strong>5 Minuten</strong></div>
             <div class="feature">Stündliche Überprüfungen</div>
-            <div class="feature">&nbsp;</div>
+            <div class="feature">-</div>
+            <div class="feature">-</div>
             <div class="feature">Keine Alarmierungsgrenzen</div>
             <div class="feature">E-Mail-Support</div>
             <div class="price">9 EUR</div>
             <div class="info">pro Monat + 19% MwSt.</div>
             <div class="for-whom">Für kleine Webseiten wie z.B. Wordpress-Blogs.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
-                <div class="register-plan">start free 14 day period</div>
+                <div class="register-plan"><?php __('global.trial.start'); ?></div>
             </a>
         </li>
         <li class="active">
-            <div class="recommended">most popular</div>
+            <div class="recommended">am beliebtesten</div>
             <div></div>
             <h3>Medium</h3>
-            <div class="feature"><strong>20</strong> components</div>
-            <div class="feature">Ping interval <strong>5 minutes</strong></div>
-            <div class="feature">Hourly checks</div>
-            <div class="feature">rerun checks manually</div>
-            <div class="feature">Unlimited alerts</div>
+            <div class="feature"><strong>20</strong> Komponenten</div>
+            <div class="feature">Ping-Interval <strong>5 Minuten</strong></div>
+            <div class="feature">Stündliche Überprüfungen</div>
+            <div class="feature">Manuelles Starten der Tests</div>
+            <div class="feature">-</div>
+            <div class="feature">Keine Alarmierungsgrenzen</div>
             <div class="feature">Live Support</div>
             <div class="price">39 EUR</div>
-            <div class="info">per month + 19% MwSt./VAT</div>
-            <div class="for-whom">For medium websites like company pages.</div>
+            <div class="info">pro Monat + 19% MwSt.</div>
+            <div class="for-whom">Für mittelgroße Webseite, wie Firmenauftritte.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
-                <div class="register-plan">start free 14 day period</div>
+                <div class="register-plan"><?php __('global.trial.start'); ?></div>
             </a>
         </li>
         <li>
             <h3>Large</h3>
-            <div class="feature"><strong>50</strong> components</div>
-            <div class="feature">Ping interval <strong>5 minutes</strong></div>
-            <div class="feature">Hourly checks</div>
-            <div class="feature">rerun checks via api</div>
-            <div class="feature">Unlimited alerts</div>
+            <div class="feature"><strong>50</strong> Komponenten</div>
+            <div class="feature">Ping-Interval <strong>5 Minuten</strong></div>
+            <div class="feature">Stündliche Überprüfungen</div>
+            <div class="feature">Manuelles Starten der Tests</div>
+            <div class="feature">Automatisches Starten der Tests</div>
+            <div class="feature">Keine Alarmierungsgrenzen</div>
             <div class="feature">Live Support</div>
             <div class="price">69 EUR</div>
-            <div class="info">per month + 19% MwSt./VAT</div>
-            <div class="for-whom">For large websites with dev, stage and production stages.</div>
+            <div class="info">pro Monat + 19% MwSt.</div>
+            <div class="for-whom">Für große Webapplikationen mit vielen Funktionalitäten.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
-                <div class="register-plan">start free 14 day period</div>
+                <div class="register-plan"><?php __('global.trial.start'); ?></div>
             </a>
         </li>
         <li>
             <h3>Enterprise</h3>
-            <div class="feature"><strong>unlimited</strong> components</div>
-            <div class="feature">Ping interval <strong>5 minutes</strong></div>
-            <div class="feature">Hourly checks</div>
-            <div class="feature">rerun checks via api</div>
-            <div class="feature">Unlimited alerts</div>
+            <div class="feature"><strong>Unbegrenzt</strong> Komponenten</div>
+            <div class="feature">Ping-Interval <strong>5 Minuten</strong></div>
+            <div class="feature">Stündliche Überprüfungen</div>
+            <div class="feature">Manuelles Starten der Tests</div>
+            <div class="feature">Automatisches Starten der Tests</div>
+            <div class="feature">Keine Alarmierungsgrenzen</div>
             <div class="feature">Live Support</div>
-            <div class="price"><a href="mailto:enterprise@leankoala.com">contact us</a></div>
+            <div class="price"><a href="mailto:enterprise@leankoala.com">kontaktiert uns</a></div>
             <div class="info">&nbsp;</div>
-            <div class="for-whom">The large enterprise version.</div>
+            <div class="for-whom">Für große Webapplikationen mit Dev-, Stage- und Live-Umgebungen.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
-                <div class="register-plan">start free 14 day period</div>
+                <div class="register-plan"><?php __('global.trial.start'); ?></div>
             </a>
         </li>
     </ul>
