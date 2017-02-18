@@ -119,7 +119,11 @@ page:
 
     on-the-road:
       headline: "On the road"
-      info: "As members of the Leankoala team, we are very proud of our software and the Lean Testing approach, so we try to talk a lot about it. These are our talks so far. Note: we are a Germany based company and most of the slides are in German for now."
+      info: "Wir Mitglieder des Leankoala-Teams, we are very proud of our software and the Lean Testing approach, so we try to talk a lot about it. These are our talks so far. Note: we are a Germany based company and most of the slides are in German for now."
+
+    release-notes:
+      headline: "Release Notes"
+      info: "These are the release notes of Leankoala. We decided to create small releases on a weekly basis instead of big ones every now and then."
 
   one-day-with:
     headline: "One day with"
@@ -141,6 +145,31 @@ page:
         headline: "Scalamento"
         text: "The Scalamento team helps companies to scale their momentum. They are experts for digital transformation and agile leadership."
         button: "coming soon"
+
+  ressources:
+
+    lean-testing:
+      headline: "Was ist Lean Testing?"
+      info: "Lean testing for web applications means testing for symptoms instead of root causes."
+
+      what:
+        headline: "Testing for symptoms not root causes."
+        text: "<p>
+                   The term lean testing for web applications was established in 2013 by Nils Langner, one of our founders. It was the result of
+                   the observation that there are some simple tests or checks for websites that always fail when a website or a feature is broken.
+               </p>
+               <p>
+                   At that time it was normal that test coverage was very high. Complex functional tests with selenium where on the agenda. Behavior
+                   Driven Development was on its high point. It was the time of great architecture and clean code. The only problem with the
+                   clean approach was the time it took implement and test an application.
+               </p>
+               <p>
+
+               </p>
+               <p>
+                   When using the lean testing approach and finding the right simple checks there is a good chance to create a good enough test coverage
+                   within a fraction of the time and costs.
+               </p>"
 
 footer:
   work:
@@ -190,6 +219,11 @@ menu:
       leantesting: "Was ist Lean Testing?"
     login: "Anmelden"
     signup: "Registrieren"
+    language:
+      head: "<img src='/images/language/%s.png'>"
+      de: "Deutsch"
+      en: "Englisch"
+
 
 global:
   trial:

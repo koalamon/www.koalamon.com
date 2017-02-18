@@ -44,6 +44,15 @@
                         </li>
                         <li><a href="https://monitor.leankoala.com/"><?php __('menu.main.login'); ?></a></li>
                         <li><a href="https://monitor.leankoala.com/secure_area/register/"><strong><?php __('menu.main.signup'); ?></strong></a></li>
+                        <li>
+                            <div data-toggle="dropdown" class="clickable dropdown-label">
+                                <img style="width: 20px; margin-top: -3px" src="/images/language/<?php echo $language; ?>.png">
+                            </div>
+                            <ul class="dropdown-menu clickable">
+                                <li><a href="/de/"><?php __('menu.main.language.de'); ?></a></li>
+                                <li><a href="/en/"><?php __('menu.main.language.en'); ?></a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>

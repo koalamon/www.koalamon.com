@@ -35,6 +35,20 @@ function __a($link)
     echo '/' . $language . $link;
 }
 
+function __t($template)
+{
+    global $language;
+    global $fallBackLanguage;
+
+    $templateFile = __DIR__ . '/../web/lang/' . $language . '.' . $template;
+
+    if (file_exists($templateFile)) {
+        include_once $templateFile;
+    } else {
+        include_once __DIR__ . '/../web/lang/' . $fallBackLanguage . '.' . $template;
+    }
+}
+
 function __($identifier)
 {
     global $language;
@@ -50,5 +64,5 @@ function __($identifier)
         $string = __getTranslation($identifier, $fallBackLanguage, $parameters);
     }
 
-    echo $string;
+    echo '<span class="translated">' . $string . '</span>';
 }

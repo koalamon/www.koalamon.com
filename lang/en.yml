@@ -121,6 +121,31 @@ page:
       headline: "On the road"
       info: "As members of the Leankoala team, we are very proud of our software and the Lean Testing approach, so we try to talk a lot about it. These are our talks so far. Note: we are a Germany based company and most of the slides are in German for now."
 
+    release-notes:
+      headline: "Release Notes"
+      info: "These are the release notes of Leankoala. We decided to create small releases on a weekly basis instead of big ones every now and then."
+
+  pricing:
+    headline: "Pricing"
+    info: "As each project is different, Leankoala comes along with three subscription models. All prices are as described per month and excluding VAT. To let you start things easily, we offer a free trial for 14 days."
+
+    startup:
+      headline: "Moin moin, Hamburg Start Ups!"
+      text1: "<p>
+                   There is one thing we love as much as Start Ups - our hometown <strong>Hamburg</strong>!
+              </p>
+              <p>
+                  That is why we decided to offer our service to 20 local start ups <strong>for free for the first year</strong>.
+                  Not only because we want to support the local start up scene, but also because we think that
+                  feedback can be much more worthy when the user is on board.
+              </p>"
+      text2: "<p>
+                 The only two things we want in return is feedback and a testimonial if you like us.
+              </p>
+              <p>
+                 So if you started in Hamburg and need an easy way to start your quality assurance get in touch!
+              </p>"
+
   one-day-with:
     headline: "One day with"
     info: "Testing many websites and working for many companies means we have a lot of stories to tell. And so we thought of introducing
@@ -142,7 +167,30 @@ page:
         text: "The Scalamento team helps companies to scale their momentum. They are experts for digital transformation and agile leadership."
         button: "coming soon"
 
+  ressources:
 
+    lean-testing:
+      headline: "What is lean testing?"
+      info: "Lean testing for web applications means testing for symptoms instead of root causes."
+
+      what:
+        headline: "Testing for symptoms not root causes."
+        text: "<p>
+                   The term lean testing for web applications was established in 2013 by Nils Langner, one of our founders. It was the result of
+                   the observation that there are some simple tests or checks for websites that always fail when a website or a feature is broken.
+               </p>
+               <p>
+                   At that time it was normal that test coverage was very high. Complex functional tests with selenium where on the agenda. Behavior
+                   Driven Development was on its high point. It was the time of great architecture and clean code. The only problem with the
+                   clean approach was the time it took implement and test an application.
+               </p>
+               <p>
+
+               </p>
+               <p>
+                   When using the lean testing approach and finding the right simple checks there is a good chance to create a good enough test coverage
+                   within a fraction of the time and costs.
+               </p>"
 
 footer:
   work:
@@ -192,6 +240,10 @@ menu:
       leantesting: "What is Lean Testing?"
     login: "Login"
     signup: "Sign up"
+    language:
+      head: "<img src='/images/language/%s.png'>"
+      de: "German"
+      en: "English"
 
 global:
   trial:

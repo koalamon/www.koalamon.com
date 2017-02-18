@@ -3,7 +3,7 @@ include_once __DIR__ . '/../../../src/releasenotes.php';
 ?>
 <div id="lean">
     <div class="content">
-        <h1 style="width: 100%; text-align: center; margin-bottom: 20px">Release Notes</h1>
+        <h1 style="width: 100%; text-align: center; margin-bottom: 20px"><?php __("page.product.release-notes.headline"); ?></h1>
     </div>
 
     <style>
@@ -56,8 +56,7 @@ include_once __DIR__ . '/../../../src/releasenotes.php';
     </style>
 
     <div class="content info">
-        These are the release notes of Leankoala. We decided to create small releases on a weekly basis instead of big ones
-        every now and then.
+        <?php __("page.product.release-notes.info"); ?>
     </div>
 
     <div class="content" style="margin-top: 0px">
@@ -83,7 +82,9 @@ include_once __DIR__ . '/../../../src/releasenotes.php';
                 <?php endforeach; ?>
                 <tr style="border-top: 50px solid transparent">
                     <td colspan="2" style="text-align: center">
-                        <a href="https://monitor.leankoala.com/secure_area/register/" class="register-btn">try it for free</a>
+                        <a href="https://monitor.leankoala.com/secure_area/register/" class="register-btn">
+                            <?php __('global.trial.start'); ?>
+                        </a>
                     </td>
                 </tr>
             <?php endforeach; ?>
