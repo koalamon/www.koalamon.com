@@ -95,27 +95,27 @@ page:
 
     features:
       headline: "Features"
-      info: "Leankoala tests a website by using simple checks like the Lean Testing approach suggests. This application also takes care of the whole incident lifecycle, starting with cyclic checks, alerting and data analysis."
+      info: "Leankoala testet eine Webseite mit simplen, aber wertvollen Checks gemäß dem Lean-Testing-Ansatz. Gleichzeitig deckt die Applikation den kompletten Entwicklungs-Zyklus ab: von wiederkehrenden Checks, über die Alarmierung im Fehlerfell, bin hin zur Datenanalyse."
       feature:
         tools:
           headline: "Werkzeuge"
-          text: "Leankoala provides %s tools that are able to check if a website is working correctly. A few examples of those checks include a ping tool, an xpath checker, a regEx tool and some security checks."
+          text: "Leankoala kommt mit %s Tools, die nach unterschiedlichen Merkmalen überprüfen, ob eine Webseite korrekt funktioniert. Um nur einige zu nennen, verfügt Leankoala über ein Ping Tool, einen Xpath Checker, ein Regular-Expression-Werkzeug und einige Sicherheitschecks."
           button: "zu den Werkzeugen"
         recipes:
           headline: "Rezepte"
-          text: "Many websites can be tested the same way, which is why we introduced \"recipes\". A \"recipe\" is a set of rules that can be applied to any component."
+          text: "Viele Webseiten können sehr ähnlich getestet werden, dafür haben wir die 'Rezepte' eingeführt. Unter Rezet versteht sich ein Satz von Regeln, die auf jede Komponente übernommen werden kann."
         history:
           headline: "History"
-          text: "Everything that happens in Leankoala stays in Leankoala. We store all incidents in our database for at least one year. Additionally, we have all event data available for two months."
+          text: "Was auf Leankoala geschieht, bleibt auf Leankoala. Wir sichern alle Incidents in der Datenbank für mindestens 12 Monate, außerdem sind alle Events zwei Monate verfügbar."
         alerting:
           headline: "Alerting"
-          text: "When finding an anomaly in the checked system, Leankoala will immediately send a notifitcation to a defined group of recipients. This can be done via E-Mail, Webhook or Slack."
+          text: "Findet Leankoala eine Anomalie im System, werden vorab definierte Empfänger benachrichtigt - wahlweise per E-Mail, Webhook oder Slack."
         acknowledgement:
           headline: "Incident Acknowledgment"
-          text: "Incidents occur even in the best environments. To reduce the amount of work needed, project collaborators can be assigned to an incident."
+          text: "Incidents gibt es auch in den besten Entwicklungsumgebungen. Um den Arbeitsaufwand zu verringern (die Arbeit zu vereinfachen) können Projektteilnehmer Incidents zugewisesn werden bzw. sich diese selbst zuweisen."
         slack:
           headline: "Slack-Integration"
-          text: "We love Slack. That is why Leankoala is not only able to send notifications via slack, but is also able to list, acknowledge and close incidents directly via Slack."
+          text: "Wir lieben Slack. Daher geht es nicht anders, Leankoala ermöglicht nicht nur den Versand der Benchrichtigungen über Slack, sondern auch das Listen, Acknowledgen und Schließen von Incidents"
 
     on-the-road:
       headline: "On the road"
@@ -146,29 +146,42 @@ page:
         text: "The Scalamento team helps companies to scale their momentum. They are experts for digital transformation and agile leadership."
         button: "coming soon"
 
+  pricing:
+    headline: "Preise"
+    info: "Jedes Projekt ist anders, weswegen Leankoala mit drei verschiedenen Preismodellen daher kommt. Nutze unsere 14-tägige Trialphase um herauszufinden,
+           welcher Umfang perfekt passt und entscheide Dich im Anschluss. Alle Preise sind wie beschrieben Nettopreise pro Monat."
+
+    startup:
+      headline: "Moin moin, Hamburg Start Ups!"
+      text1: "<p>Es gibt neben Startups noch etwas was wir lieben: unsere Heimatstadt Hamburg!
+              Deswegen wollen wir unbedingt auch die Hamburger Community unterstützen die fehlerfreiesten Webseiten zu haben. Also Hamburger Startups, wenn Ihr Interesse an einem
+              einfachen und schnellen Weg sucht Eure Seiten in der Entwicklung zu testen und nach Livegang zu monitoren, meldet Euch.</p>"
+      text2: "<p>
+                 Die ersten 20 lokalen Startups bekommen Leankoala für’s erste Jahr umsonst. Was wir uns dafür von Euch wünschen: Austausch, Feedback und ein Testimonial.
+                 Klingt spannend? Kontaktiert uns!
+              </p>"
+      contact: "Kontaktiert uns"
+
+
   ressources:
 
     lean-testing:
       headline: "Was ist Lean Testing?"
-      info: "Lean testing for web applications means testing for symptoms instead of root causes."
+      info: "Der Ansatz hinter Lean Testing für Webapplikationen ist nach Symptomen statt nach Ursprungsfehlern zu suchen."
 
       what:
-        headline: "Testing for symptoms not root causes."
+        headline: "Symptome statt Ursachen"
         text: "<p>
-                   The term lean testing for web applications was established in 2013 by Nils Langner, one of our founders. It was the result of
-                   the observation that there are some simple tests or checks for websites that always fail when a website or a feature is broken.
+                   Der Begriff Lean Testing für Webapplikationen wurde bereits 2013 von Nils Langner (Co-Founder von Leankoala) etabliert. Lean Testing ist das Ergebnis der Beobachtung, dass durch den Einsatz einer Kombination aus einfachen Test bzw. Checks
+                   bereits herausgefunden werden kann, ob eine Webseite bzw. ein Feature fehlerhaft läuft.
                </p>
                <p>
-                   At that time it was normal that test coverage was very high. Complex functional tests with selenium where on the agenda. Behavior
-                   Driven Development was on its high point. It was the time of great architecture and clean code. The only problem with the
-                   clean approach was the time it took implement and test an application.
+                  Bis dahin wurde standardmäßig immer mit einer hohen und aufwendigen Testabdeckung gearbeitet. Auf der täglichen Agenda hier: komplexe, funktionale Tests mit Selenium und Behavior Driven
+                  Development auf dem Maximum. Das war die Zeit großartiger Architektur und sauberem Clean Code. Eine wunderbare Zeit mit einem großen Problem Zeit und damit Kosten, die mit der Implementation
+                  und dem Testen der Applikation verbunden war.
                </p>
                <p>
-
-               </p>
-               <p>
-                   When using the lean testing approach and finding the right simple checks there is a good chance to create a good enough test coverage
-                   within a fraction of the time and costs.
+                  Durch Einsatz von Lean Testing und der Kombination des richtigen Satz an einfachen Checks bekommt man die Chance eine gute Testabdeckung mit einem geringen Zeit und Geldeinsatz zu etablieren.
                </p>"
 
 footer:
