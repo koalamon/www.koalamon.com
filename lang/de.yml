@@ -95,7 +95,7 @@ page:
 
     features:
       headline: "Features"
-      info: "Leankoala testet eine Webseite mit simplen, aber wertvollen Checks gemäß dem Lean-Testing-Ansatz. Gleichzeitig deckt die Applikation den kompletten Entwicklungs-Zyklus ab: von wiederkehrenden Checks, über die Alarmierung im Fehlerfell, bin hin zur Datenanalyse."
+      info: "Leankoala testet eine Webseite mit simplen, aber wertvollen Checks gemäß dem Lean-Testing-Ansatz. Gleichzeitig deckt unser Service den kompletten Entwicklungs-Zyklus ab: von wiederkehrenden Checks, über die Alarmierung im Fehlerfell, bin hin zur Datenanalyse."
       feature:
         tools:
           headline: "Werkzeuge"
@@ -167,7 +167,7 @@ page:
 
     lean-testing:
       headline: "Was ist Lean Testing?"
-      info: "Der Ansatz hinter Lean Testing für Webapplikationen ist nach Symptomen statt nach Ursprungsfehlern zu suchen."
+      info: "Der Ansatz hinter Lean Testing für Webapplikationen ist nach Fehler-Symptomen statt nach Fehler-Ursachen zu suchen."
 
       what:
         headline: "Symptome statt Ursachen"
