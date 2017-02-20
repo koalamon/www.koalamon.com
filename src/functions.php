@@ -26,7 +26,7 @@ $checks['en'] = [
 ];
 
 $checks['de'] = [
-    'koalaping' => ['img' => 'https://monitor.leankoala.com/images/integrations/koalaping.png', 'name' => 'KoalaPing', 'desc' => 'Checks if the given components answer with the correct http status code.', 'filters' => 'website webservice'],
+    'koalaping' => ['img' => 'https://monitor.leankoala.com/images/integrations/koalaping.png', 'name' => 'KoalaPing', 'desc' => 'Überprüft, ob die Komponenten den geforderten Http-Status-Code zurückgibt. Urls können um eine Timestamp angereichert werden, um den Cache zu umgehen.', 'filters' => 'website webservice'],
     'littleseo' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/littleseo.png', 'name' => 'LittleSeo', 'desc' => 'Überwacht ob die Seiten die Robots.txt enthalten mit allow/disallow all.', 'filters' => 'seo'],
     'cssselector' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/cssselector.png', 'name' => 'CSS Selector', 'desc' => 'Checkt ob ein gegebener CSS Selector existiert auf allen gegebenen Komponenten.', 'filters' => 'website'],
     'httpheader' => ['img' => 'https://monitor.leankoala.com/bundles/leankoalaintegrationsmoke/images/head.png', 'name' => 'Http Header Check', 'desc' => 'Der Http Header Checker überprüft, ob die Mandanten über alle Header Parameter verfügen.', 'filters' => 'website webservice'],
