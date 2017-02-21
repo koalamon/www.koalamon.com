@@ -95,7 +95,7 @@ page:
 
     features:
       headline: "Features"
-      info: "Leankoala testet eine Webseite mit simplen, aber wertvollen Checks gemäß dem Lean-Testing-Ansatz. Gleichzeitig deckt unser Service den kompletten Entwicklungs-Zyklus ab: von wiederkehrenden Checks, über die Alarmierung im Fehlerfell, bin hin zur Datenanalyse."
+      info: "Leankoala testet eine Webseite mit simplen, aber wertvollen Checks gemäß dem Lean-Testing-Ansatz. Gleichzeitig deckt unser Service den kompletten Entwicklungs-Zyklus ab: von wiederkehrenden Checks, über die Alarmierung im Fehlerfall, bin hin zur Datenanalyse."
       feature:
         tools:
           headline: "Werkzeuge"

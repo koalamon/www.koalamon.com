@@ -15,7 +15,7 @@
             <div class="description" style="margin-bottom: 20px">
                 <?php __('page.product.features.feature.tools.text', count($checks[$language])); ?>
             </div>
-            <a href="/product/tools.html" class="more">
+            <a href="<?php __a('/product/tools.html'); ?>" class="more">
                 <?php __('page.product.features.feature.tools.button'); ?>
             </a>
         </li>
