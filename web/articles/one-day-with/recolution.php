@@ -27,18 +27,12 @@
     <div class="main-element-grey" style="margin-bottom: 100px">
         <div class="content">
             <a name="story">
-                <h2>The Story of amilio</h2>
+                <h2>Die Geschichte hinter Recolution</h2>
             </a>
             <p>
-                amilio was founded in 2015 by some friends with a technical background. The idea they had was, that everybody is an
-                expert in something. So everybody can recommend products in his or hers domain. amilio builds on top of that idea.
-                When registering you are able to curate product lists of stuff you like. Additionally you can add your affiliate id
-                so you can earn some money with your lists.
-            </p>
-            <p>
-                Although the idea behind amilio seems to be very promising, the team decided to build a proof of concept first. A good
-                looking proof but still a proof. Paying to much attention to technical details could be a waste of time if you don't
-                know if a project idea will work.
+                Recolution ist das Hamburger Trendlabel im Bereich Organic & Fair Trade. Mit ihrem Shop bringen die beiden Gründer Jan und Robert faire,
+                nachhaltige Mode direkt in die Kleiderschränke ihrer modischen Kunden. Das Wunderbare daran: die Mode sieht nicht nur gut aus, man weiß
+                auch, dass man sie mit gutem Gewissen tragen kann.
             </p>
         </div>
     </div>
@@ -46,11 +40,22 @@
     <div style="margin-bottom: 100px">
         <div class="content">
             <a name="goal">
-                <h2>The goal</h2>
+                <h2>Das Ziel</h2>
             </a>
             <p>
-                The amilio platform is deployed continuously via jenkins ci. Therefore it is important to check if the most important
-                features are still working afterwards. Here, the central focus lies on the product lists and collection.
+                Recolution ist ein Onlineshop. Wichtig bei Shops ist immer ihre Performance und Verfügbarkeit. Leankoala // Lean Testing as a Service
+                überwacht den bestehenden Shop in diesen Bereichen und meldet wenn z.B. zu große Bilder, die Seite verlangsamen oder ein Produkt nicht richtig
+                dargestellt wird.
+            </p>
+            <p>
+                Das Einstellen von Bildern und Texten wird vom Recolution-Team selbst übernommen, dabei kann es einmal zu Fehlern kommen und diese werden
+                hier direkt aufgezeigt. Somit benötigt Recolution kein technischen Team, das rund um die Uhr für Sie im Einsatz ist. Gröbere Fehler wie
+                “die Seite ist down” können direkt an die betreuende Agentur gemeldet werden, die dann im konkreten Fall in den Einsatz geht. Dadurch
+                werden Kosten und Nerven gespart.
+            </p>
+            <p>
+                Für weitere Relaunches wäre zu planen Leankoala bereits als Testwerkzeug in der Entwicklung heranzuziehen und somit schneller und günstiger
+                live zu gehen.
             </p>
         </div>
     </div>
@@ -61,9 +66,9 @@
                 <h2>The Foundation</h2>
             </a>
             <p>
-                amilio is based on the symfony2 framework and is written in php. It was a conscious decision to choose those two
-                technology because of their robustness and the many existing components. With millions of users of the same stack
-                the need for tests of these component is nominal.
+                Der Recolution-Online-Shop wurde von der Firma e-matters umgesetzt. Er beruht auf der eCommerce Suite, einem modulare und skalierbare Online Shop Software
+                mit umfangreichem ERP-Software Backend. Die Suite ist eine bei vielen Kunden eingesetzt Lösung, die bereits einen hohen Reifegrad über die letzten
+                Jahre erreicht hat.
             </p>
             <p>
 
