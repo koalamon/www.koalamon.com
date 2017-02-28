@@ -27,18 +27,12 @@
     <div class="main-element-grey" style="margin-bottom: 100px">
         <div class="content">
             <a name="story">
-                <h2>The Story of amilio</h2>
+                <h2>Die Geschichte hinter der Hacker School</h2>
             </a>
             <p>
-                amilio was founded in 2015 by some friends with a technical background. The idea they had was, that everybody is an
-                expert in something. So everybody can recommend products in his or hers domain. amilio builds on top of that idea.
-                When registering you are able to curate product lists of stuff you like. Additionally you can add your affiliate id
-                so you can earn some money with your lists.
-            </p>
-            <p>
-                Although the idea behind amilio seems to be very promising, the team decided to build a proof of concept first. A good
-                looking proof but still a proof. Paying to much attention to technical details could be a waste of time if you don't
-                know if a project idea will work.
+                Die Hacker School wurde 2014 gegründet. Seither ermöglicht sie Jugendlichen im Altern von 11-18 Jahren Zugang zu Themen
+                wie Programmieren und Entwicklung. Wichtig in einer immer digitaler werdenden Welt. Sie ist bereits in vier Städten zu
+                finden: Hamburg, Bremen, Aachen und Schwerte und die Kursplätze sind heiß begehrt.
             </p>
         </div>
     </div>
@@ -46,11 +40,16 @@
     <div style="margin-bottom: 100px">
         <div class="content">
             <a name="goal">
-                <h2>The goal</h2>
+                <h2>Das Ziel</h2>
             </a>
             <p>
-                The amilio platform is deployed continuously via jenkins ci. Therefore it is important to check if the most important
-                features are still working afterwards. Here, the central focus lies on the product lists and collection.
+                Das Ziel hinter dem Einsatz von Leankoala // Lean Testing as a Service für die Seite der Hacker School ist in der Hauptsache das Monitoring
+                der bestehenden Seiten. Alle Funktionalitäten von “ist die Seite da” über Vertaggung und “werden die gewünschten Bilder angezeigt” bis hin zu
+                “ist eine Kontaktaufnahme möglich” werden überwacht. Für zukünftige Releases soll Leankoala als Testwerkzeug im Continuous Integration
+                bzw. Deployment-Bereich herangezogen werden, um die Qualität bereits vor dem GoLive zu steigern und Zeit innerhalb der Entwicklung zu sparen.
+            </p>
+            <p>
+                Parallel soll gezeigt werden, dass Testing elementarer Bestandteil von Webentwicklung und Programmierung ist.
             </p>
         </div>
     </div>
