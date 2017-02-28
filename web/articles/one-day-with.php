@@ -32,16 +32,54 @@
         <div class="filter active" data-filter="enterprise">enterprise</div>
     </div-->
 
+    <style>
+        #onedaywitttable .lang {
+            height: 20px;
+            margin-left: 20px;
+            margin-top: -5px;
+        }
+    </style>
+
     <div style="clear: both"></div>
 
-    <table style="margin-top: 100px;">
+    <table style="margin-top: 100px;" id="onedaywitttable">
+        <!--tr style="border-bottom: 100px solid transparent" class="plan-medium">
+            <td style="width: 250px; vertical-align: top">
+                <img src="/images/startups/hackerschool.png">
+            </td>
+            <td>
+                <div style="font-weight: 600; margin-bottom: 20px"><?php __("page.one-day-with.case.hackerschool.headline"); ?><img src='/images/language/de.png' class="lang"></div>
+                <div style="line-height: 28px; margin-right: 50px; font-size: 14px">
+                    <?php __("page.one-day-with.case.hackerschool.text"); ?>
+                </div>
+            </td>
+            <td width="150px">
+                <a href="<?php __a('/one-day-with/hackerschool.html'); ?>"
+                   style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px"><?php __("page.one-day-with.case.hackerschool.button"); ?></a>
+            </td>
+        </tr>
+        <tr style="border-bottom: 100px solid transparent" class="plan-medium">
+            <td style="width: 250px; vertical-align: top">
+                <img src="/images/startups/recolution.png" style="width: 180px">
+            </td>
+            <td>
+                <div style="font-weight: 600; margin-bottom: 20px"><?php __("page.one-day-with.case.recolution.headline"); ?><img src='/images/language/de.png' class="lang"></div>
+                <div style="line-height: 28px; margin-right: 50px; font-size: 14px">
+                    <?php __("page.one-day-with.case.recolution.text"); ?>
+                </div>
+            </td>
+            <td width="150px">
+                <a href="<?php __a('/one-day-with/recolution.html'); ?>"
+                   style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px"><?php __("page.one-day-with.case.recolution.button"); ?></a>
+            </td>
+        </tr-->
         <tr style="border-bottom: 100px solid transparent" class="plan-medium">
             <td style="width: 250px; vertical-align: top">
                 <img src="/images/startups/amilio2.png" style="position: relative; top: 7px"><img
                         src="/images/startups/amilio1.png">
             </td>
             <td>
-                <div style="font-weight: 600; margin-bottom: 20px"><?php __("page.one-day-with.case.amilio.headline"); ?></div>
+                <div style="font-weight: 600; margin-bottom: 20px"><?php __("page.one-day-with.case.amilio.headline"); ?><img src='/images/language/en.png' class="lang"></div>
                 <div style="line-height: 28px; margin-right: 50px; font-size: 14px">
                     <?php __("page.one-day-with.case.amilio.text"); ?>
                 </div>
@@ -56,7 +94,7 @@
                 <img src="/images/startups/whm.png">
             </td>
             <td>
-                <div style="font-weight: 600; margin-bottom: 20px"><?php __("page.one-day-with.case.whm.headline"); ?></div>
+                <div style="font-weight: 600; margin-bottom: 20px"><?php __("page.one-day-with.case.whm.headline"); ?><img src='/images/language/en.png' class="lang"></div>
                 <div style="line-height: 28px; margin-right: 50px; font-size: 14px">
                     <?php __("page.one-day-with.case.whm.text"); ?>
                 </div>
