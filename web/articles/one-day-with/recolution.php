@@ -6,16 +6,12 @@
             <div style="width: 100%; text-align: center; margin-bottom: 100px">
                 <img src="/images/odw_recolution.png" style="">
             </div>
-            amilio is a shopping community based on affiliate programs. Every user is able create lists of products
-            he or she likes. All those lists and products can be liked and shared by others.
-
+            Recolution ist das Hamburger Trendlabel im Bereich Organic & Fair Trade. Mit ihrem Shop bringen die beiden Gründer Jan und Robert faire, nachhaltige Mode direkt
+            in die Kleiderschränke ihrer modischen Kunden. Das Wunderbare daran: die Mode sieht nicht nur gut aus, man weiß auch, dass man sie mit gutem Gewissen tragen kann.
             <div>
                 <ul>
-                    <li><a href="#story">The Story of amilio</a></li>
-                    <li><a href="#foundation">The Foundation</a></li>
-                    <li><a href="#goal">The Goal</a></li>
-                    <li><a href="#leanchecks">Lean Checks</a></li>
-                    <li><a href="#further">Further Checks</a></li>
+                    <li><a href="#goal">Das Ziel</a></li>
+                    <li><a href="#foundation">Einrichtung</a></li>
                 </ul>
 
                 <div style="clear: both"></div>
@@ -25,19 +21,6 @@
     </div>
 
     <div class="main-element-grey" style="margin-bottom: 100px">
-        <div class="content">
-            <a name="story">
-                <h2>Die Geschichte hinter Recolution</h2>
-            </a>
-            <p>
-                Recolution ist das Hamburger Trendlabel im Bereich Organic & Fair Trade. Mit ihrem Shop bringen die beiden Gründer Jan und Robert faire,
-                nachhaltige Mode direkt in die Kleiderschränke ihrer modischen Kunden. Das Wunderbare daran: die Mode sieht nicht nur gut aus, man weiß
-                auch, dass man sie mit gutem Gewissen tragen kann.
-            </p>
-        </div>
-    </div>
-
-    <div style="margin-bottom: 100px">
         <div class="content">
             <a name="goal">
                 <h2>Das Ziel</h2>
@@ -57,21 +40,10 @@
                 Für weitere Relaunches wäre zu planen Leankoala bereits als Testwerkzeug in der Entwicklung heranzuziehen und somit schneller und günstiger
                 live zu gehen.
             </p>
-        </div>
-    </div>
-
-    <div class="main-element-grey" style="margin-bottom: 100px">
-        <div class="content">
-            <a name="foundation">
-                <h2>The Foundation</h2>
-            </a>
             <p>
                 Der Recolution-Online-Shop wurde von der Firma e-matters umgesetzt. Er beruht auf der eCommerce Suite, einem modulare und skalierbare Online Shop Software
                 mit umfangreichem ERP-Software Backend. Die Suite ist eine bei vielen Kunden eingesetzt Lösung, die bereits einen hohen Reifegrad über die letzten
                 Jahre erreicht hat.
-            </p>
-            <p>
-
             </p>
         </div>
     </div>
@@ -80,7 +52,7 @@
         <div>
             <div>
                 <a name="leanchecks">
-                    <h2>Lean Checks</h2>
+                    <h2>Einrichtung (Dauer 60min)</h2>
                 </a>
 
                 <style>
@@ -139,12 +111,19 @@
                         <div class="time">0 Minuten</div>
                         <div class="circle"></div>
                         <div class="element">
-                            <h2>Aufsetzen der Grundabdeckung</h2>
+                            <h2>Zu testende Seiten bestimmen</h2>
                             <p>
                                 Die Grundabdeckung bei eines Online-Shops mit Leankoala geschieht nach immer dem gleichen Muster. Shopsysteme
                                 beruhen häufig auf den gleichen Äquivalenzklassen: Homepage, Artikel-Detailseite, Kategorienseite, Suchergebnisseite und
                                 Content-Seite. Zusätzlich gilt es die Google Sitemap abzutesten.
                             </p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 50px">
+                        <div class="time">10 Minuten</div>
+                        <div class="circle"></div>
+                        <div class="element">
+                            <h2>Standard-Testfälle aktivieren</h2>
                             <p>
                                 Die Standard-Checks Leankoalas für alle Webseiten bestehen aus:
                             </p>
@@ -156,52 +135,67 @@
                                 <li>LittleSEO</li>
                                 <li>Google PageSpeed Score</li>
                                 <li>Google Mobile Checker</li>
+                                <li>Sitemap Validator</li>
+                                <li>Performance Checker</li>
                             </ul>
                             <div style="clear: both"></div>
                             <p style="margin-top: 20px">
                                 So konnten wir sicherstellen, dass die Seite durchgehend erreichbar ist, das JavaScript fehlerfrei funktioniert, keine
                                 großen Elemente auf der Seite zu finden sind und dass Google keine Beanstandungen hat.
                             </p>
+                            <p>
+                                Alle verwendeten Standard-Checks können mit einer Standardeinstellung verwendet werden. Für Recolutions waren
+                                diese Einstellungen passend.
+                            </p>
                         </div>
                     </div>
                     <div style="margin-top: 50px">
-                        <div class="time">10 Minuten</div>
+                        <div class="time">20 Minuten</div>
                         <div class="circle"></div>
                         <div class="element">
                             <h2>Spezialfälle</h2>
                             <p>
-                                Die Grundabdeckung bei eines Online-Shops mit Leankoala geschieht nach immer dem gleichen Muster. Shopsysteme
-                                beruhen häufig auf den gleichen Äquivalenzklassen: Homepage, Artikel-Detailseite, Kategorienseite, Suchergebnisseite und
-                                Content-Seite. Zusätzlich gilt es die Google Sitemap abzutesten.
+                                Um die Tests zu vervollständigen wurden zu jeder Seite prägnante Elemente (Texte) gesucht, welche auf Existenz überprüft werden.
+                                Zusätzlich wird die Anzahl der Produkte pro Suchergebnisseite gezählt, um das Funktionieren der Suche sicherzustellen. Da Recolution
+                                ein sehr bildlastiger Shop ist, wurde die erlaubte Größe für Bilder und andere Inhalte hochgesetzt.
                             </p>
                             <p>
-                                Die Standard-Checks Leankoalas für alle Webseiten bestehen aus KoalaPing, um zu prüfen, ob die einzelnen Komponenten
-                                erreichbar sind,
+                                Zusätzliche Checks werden nicht benötigt, da das Shopsystem von e-matters bereits eine ausreichende Testabdeckung besitzt, so dass
+                                grobe Fehler in dem Kaufprozess nicht zu erwarten sind.
+                            </p>
+                            <h3 style="margin-top: 20px; margin-bottom: 20px;">Verwendete Checks</h3>
+                            <ul>
+                                <li>Text Present</li>
+                                <li>XPath Checker</li>
+                                <li>Site Info</li>
+                            </ul>
+                            <div style="clear: both"></div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 50px">
+                        <div class="time">40 Minuten</div>
+                        <div class="circle"></div>
+                        <div class="element">
+                            <h2>Alarmierungen</h2>
+                            <p>
+                                Die Alarmierung bei Recolution ist zweigetellt. Zum einen werden mit Leankoala technische Probleme sehr früh aufgedeckt, zum anderen aber
+                                auch inhaltliche Probleme gefunden. Aus diesem Grund wurde das Alerting zwischen Agentur und Shopbetreiber aufgeteilt.
+                            </p>
+                            <p>
+                                Checks, welche inhaltliche Anomalien aufdecken, wie zum SiteInfo, das große Elemente auf der Seite findet, werden direkt an den Betreiber
+                                des Shops weitergeleitet. Bei technischen Ausfällen oder Problemen wird die umsetzende Agentur alarmiert, so dass Lösungen am besten bereits
+                                gefunden werden können, bevor der Kunde sie bemerkt.
                             </p>
                         </div>
                     </div>
                     <div style="margin-top: 50px">
-                        <div class="time">70 Minuten</div>
+                        <div class="time">60 Minuten</div>
                         <div class="circle"></div>
                         <div class="element" style="height: 5px">&nbsp;</div>
                     </div>
                 </div>
 
             </div>
-        </div>
-    </div>
-    <div class="main-element-grey">
-        <div class="content">
-            <a name="further"><h2 style="margin-bottom: 50px">Further Checks</h2></a>
-            <p>
-                With amilio we created a very complex and flexible system for a big community. With leankoala we got rid off the
-                most of our selenium tests that were only checking for the existence of text fragments. Those test were expensive
-                to create and broke from time to time. With leankoala our test effort is minimal.
-            </p>
-            <p>
-                What we can't test with leankoala is the login process. Therefore we have small selenium tests running in combination
-                with BrowserStack.
-            </p>
         </div>
     </div>
 </div>
