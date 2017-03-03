@@ -98,6 +98,7 @@
                         position: relative;
                         left: -140px;
                         float: left;
+                        width: 79px;
                     }
 
                     .element {
@@ -135,7 +136,7 @@
 
                 <div id="leanchecks">
                     <div>
-                        <div class="time">10 Minuten</div>
+                        <div class="time">0 Minuten</div>
                         <div class="circle"></div>
                         <div class="element">
                             <h2>Aufsetzen der Grundabdeckung</h2>
@@ -164,7 +165,7 @@
                         </div>
                     </div>
                     <div style="margin-top: 50px">
-                        <div class="time">60 Minuten</div>
+                        <div class="time">10 Minuten</div>
                         <div class="circle"></div>
                         <div class="element">
                             <h2>Spezialfälle</h2>
@@ -178,6 +179,11 @@
                                 erreichbar sind,
                             </p>
                         </div>
+                    </div>
+                    <div style="margin-top: 50px">
+                        <div class="time">70 Minuten</div>
+                        <div class="circle"></div>
+                        <div class="element" style="height: 5px">&nbsp;</div>
                     </div>
                 </div>
 
