@@ -1,21 +1,18 @@
 <div id="one-day-with">
     <div class="content">
-        <h1 style="width: 100%; text-align: center">One day with Hacker School.</h1>
+        <h1 style="width: 100%; text-align: center">One day with Hacker School</h1>
 
         <div class="main-info" style="margin-bottom: 100px; text-align: center">
             <div style="width: 100%; text-align: center; margin-bottom: 100px">
                 <img src="/images/odw_hackerschool.png" style="">
             </div>
-            amilio is a shopping community based on affiliate programs. Every user is able create lists of products
-            he or she likes. All those lists and products can be liked and shared by others.
-
+            Die Hacker School wurde 2014 gegründet. Seither ermöglicht sie Jugendlichen im Altern von 11-18 Jahren Zugang zu Themen wie Programmieren
+            und Entwicklung. Wichtig in einer immer digitaler werdenden Welt. Sie ist bereits in vier Städten zu finden: Hamburg, Bremen, Aachen und
+            Schwerte und die Kursplätze sind heiß begehrt.
             <div>
                 <ul>
-                    <li><a href="#story">The Story of amilio</a></li>
-                    <li><a href="#foundation">The Foundation</a></li>
-                    <li><a href="#goal">The Goal</a></li>
-                    <li><a href="#leanchecks">Lean Checks</a></li>
-                    <li><a href="#further">Further Checks</a></li>
+                    <li><a href="#goal">Das Ziel</a></li>
+                    <li><a href="#leanchecks">Einrichtung</a></li>
                 </ul>
 
                 <div style="clear: both"></div>
@@ -25,19 +22,6 @@
     </div>
 
     <div class="main-element-grey" style="margin-bottom: 100px">
-        <div class="content">
-            <a name="story">
-                <h2>Die Geschichte hinter der Hacker School</h2>
-            </a>
-            <p>
-                Die Hacker School wurde 2014 gegründet. Seither ermöglicht sie Jugendlichen im Altern von 11-18 Jahren Zugang zu Themen
-                wie Programmieren und Entwicklung. Wichtig in einer immer digitaler werdenden Welt. Sie ist bereits in vier Städten zu
-                finden: Hamburg, Bremen, Aachen und Schwerte und die Kursplätze sind heiß begehrt.
-            </p>
-        </div>
-    </div>
-
-    <div style="margin-bottom: 100px">
         <div class="content">
             <a name="goal">
                 <h2>Das Ziel</h2>
@@ -51,21 +35,10 @@
             <p>
                 Parallel soll gezeigt werden, dass Testing elementarer Bestandteil von Webentwicklung und Programmierung ist.
             </p>
-        </div>
-    </div>
-
-    <div class="main-element-grey" style="margin-bottom: 100px">
-        <div class="content">
-            <a name="foundation">
-                <h2>The Foundation</h2>
-            </a>
             <p>
-                amilio is based on the symfony2 framework and is written in php. It was a conscious decision to choose those two
-                technology because of their robustness and the many existing components. With millions of users of the same stack
-                the need for tests of these component is nominal.
-            </p>
-            <p>
-
+                Die Webseite zum "Hacker School"-Projekt beruht auf Typo3, einem in PHP geschriebenen Content Managamenent Systems. Am Kernproduct
+                wurde im Zuge der Entwicklung keine tiefgreifende Anpassung vorgenommen. Typo3 zählt momentan über 500.000 Installationen weltweit, so
+                dass man sicher sein kann, dass das Grundprodukt sehr stabil ist.
             </p>
         </div>
     </div>
@@ -74,272 +47,156 @@
         <div>
             <div>
                 <a name="leanchecks">
-                    <h2>Lean Checks</h2>
+                    <h2>Einrichtung (Dauer 35min)</h2>
                 </a>
 
                 <style>
-                    table {
-                        border: 1px solid #f9f9f9;
+                    .circle {
+                        border-radius: 15px;
+                        height: 20px;
+                        width: 20px;
+                        background-color: #eee;
+                        position: relative;
+                        left: -120px;
+                        float: left;
                     }
 
-                    table thead tr {
-                        background-color: #f9f9f9;
+                    .time {
+                        position: relative;
+                        left: -140px;
+                        float: left;
+                        width: 79px;
                     }
 
-                    table tr td {
-                        vertical-align: top;
-                        line-height: 25px;
+                    .element {
+                        position: relative;
+                        left: -50px;
+                        margin-left: 100px;
+                        line-height: 24px;
                     }
 
-                    table tr {
-                        border-bottom: 20px solid transparent;
+                    #leanchecks {
+                        border-left: 3px solid #eee;
+                        padding-left: 30px;
+                        margin-left: 120px
                     }
 
-                    table tr:first-child {
-                        border-bottom: none;
-                    }
-
-                    table tr:last-child {
-                        border-bottom: none;
-                    }
-
-                    table tr td:nth-child(2) {
-                        border-right: 40px solid transparent;
-                    }
-
-                    table tbody tr td:nth-child(1) {
-                        font-weight: 600;
-                    }
-
-                    table tr td {
-                        padding: 10px;
-                    }
-
-                    table tr td.page {
-                        font-weight: 600;
-                    }
-
-                    .value {
-                        font-family: "Courier New";
-                        font-size: 12px;
-                        display: block;
+                    #leanchecks h2 {
+                        text-align: left;
+                        font-size: 18px;
+                        margin-bottom: 10px;
                     }
 
                     p {
                         line-height: 28px;
                     }
+
+                    #leanchecks ul {
+                        display: block;
+                    }
+
+                    #leanchecks ul li {
+                        white-space: nowrap;
+                        margin: 5px 10px 5px 0;
+                    }
+
+                    #leanchecks a {
+                        color: #3498db;
+                    }
                 </style>
 
-                <table width="100%">
-                    <thead>
+                <div id="leanchecks">
+                    <div>
+                        <div class="time">0 Minuten</div>
+                        <div class="circle"></div>
+                        <div class="element">
+                            <h2>Zu testende Seiten bestimmen</h2>
+                            <p>
+                                Bei der <a href="http://hacker-school.de/">Webseite der Hacker School</a> handelt es sich um eine klassische Marketingseite. Alle Inhalte werden über
+                                das bereits getestete CMS gepflegt, so dass es nur eine Hand voll Seiten getestet werden müssen.
+                            </p>
+                            <ul>
+                                <li>Homepage</li>
+                                <li>Suchergebnissseite</li>
+                                <li>Text-Artikel</li>
+                                <li>Kontaktformular</li>
+                                <li>Kursübersicht</li>
+                                <li>Unterstützer</li>
+                                <li>404-Seite</li>
+                                <li>Adminbereich</li>
+                            </ul>
+                            <div style="clear: both"></div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 50px">
+                        <div class="time">10 Minuten</div>
+                        <div class="circle"></div>
+                        <div class="element">
+                            <h2>Standard-Testfälle aktivieren</h2>
+                            <p>
+                                Die Standard-Checks Leankoalas für alle Webseiten bestehen aus:
+                            </p>
+                            <ul>
+                                <li>KoalaPing</li>
+                                <li>Site Info</li>
+                                <li>JavaScript Error Scanner</li>
+                                <li>HTML Essentials Rezept</li>
+                                <li>LittleSEO</li>
+                                <li>Google PageSpeed Score</li>
+                                <li>Google Mobile Checker</li>
+                                <li>Performance Checker</li>
+                            </ul>
+                            <div style="clear: both"></div>
+                            <p style="margin-top: 20px">
+                                So konnten wir sicherstellen, dass die Seite durchgehend erreichbar ist, das JavaScript fehlerfrei funktioniert, keine
+                                großen Elemente auf der Seite zu finden sind und dass Google keine Beanstandungen hat.
+                            </p>
+                            <p>
+                                Alle verwendeten Standard-Checks können mit einer Standardeinstellung verwendet werden. Für die Hacker School waren
+                                diese Einstellungen passend.
+                            </p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 50px">
+                        <div class="time">20 Minuten</div>
+                        <div class="circle"></div>
+                        <div class="element">
+                            <h2>Spezialfälle</h2>
+                            <p>
+                                Die Webseite der Hacker School ist eine sehr reduzierte, was bedeutet, dass die Funktionalitäten die sie bietet alle
+                                bereits von dem CMS zur Verfügung werden. Aus diesem Grund kann die Hacker School direkt mit den Standard-Tests
+                                gründlich getestet werden.
+                            </p>
+                            <p>
+                                Um sicherzustellen, dass die Inhalte der Webseite richtig angezeigt werden, haben wir zusätzlich auf jeder Webseite
+                                einen prägnanten Textabschnitt gesucht, auf dessen Existenz wir prüfen.
+                            </p>
+                            <h3 style="margin-top: 20px; margin-bottom: 20px;">Verwendete Checks</h3>
+                            <ul>
+                                <li>Text Present</li>
+                            </ul>
+                            <div style="clear: both"></div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 50px">
+                        <div class="time">30 Minuten</div>
+                        <div class="circle"></div>
+                        <div class="element">
+                            <h2>Alarmierungen</h2>
+                            <p>
+                                Die Hacker School-Website wird von der <a href="http://www.ministrygroup.de/">Ministry Group</a> gepflegt. Gefundene
+                                Anomalien werden direkt per E-Mail an die Entwickler der Seite gesendet.
+                            </p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 50px">
+                        <div class="time">35 Minuten</div>
+                        <div class="circle"></div>
+                        <div class="element" style="height: 5px">&nbsp;</div>
+                    </div>
+                </div>
 
-                    <tr style="">
-                        <td style="width: 150px">Page</td>
-                        <td style="width: 600px">Rule</td>
-                        <td>Check</td>
-                    </tr>
-                    </thead>
-
-                    <tbody>
-
-                    <tr style="border-top: 1px solid #f9f9f9;">
-                        <td>Home page</td>
-                        <td>
-                            The homepage starts with a list of eight curated links. We check if there are eight elements in that
-                            list.
-                        </td>
-                        <td>
-                            XPath Exists <span class="value">//div[@id="newestHomepageList"] /div[contains(@class, "item")] equals 8</span>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td></td>
-                        <td>
-                            Beneath the curated links there is a list of recently created collection. There must be ten of that kind.
-                        </td>
-                        <td>
-                            XPath Exists <span class="value">//div[@id="newestChannelsList"] /div[contains(@class, "item")] equals 10</span>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td></td>
-                        <td>
-                            It is possible to like products. There is a complex algorithm for calculating the hype factor. As a result there is
-                            a list ten products shown on the homepage.
-                        </td>
-                        <td>
-                            XPath Exists <span class="value">//div[@id="newestElementsList"] /div[contains(@class, "item")] equals 10</span>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td></td>
-                        <td>
-                            Check if footer is rendered. We believe when one element, like "impressum", is rendered chances are
-                            high that the whole footer is displayed.
-                        </td>
-                        <td>
-                            RegEx exists <span class="value">impressum</span>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td></td>
-                        <td>
-                            Check if header is rendered. Just like the footer rule we only check for the existence of one single
-                            element. In this case it's the string "suche".
-                        </td>
-                        <td>
-                            RegEx exists <span class="value">suche</span>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td></td>
-                        <td>
-                            On every product we show in the list view we also provide the like count. This information is fetched via ajax
-                            from a json api. As we don't have a json schema for the endpoint we just check that the answer is well formed.
-                        </td>
-                        <td>
-                            JsonValidator<span class="value">on</span>
-                        </td>
-                    </tr>
-
-                    <tr style="background-color: #f9f9f9;">
-                        <td>User page</td>
-                        <td>
-                            On the userpage there are all products and collections of a specific user listed. We created a
-                            special user for that case so we can be sure the collections and products do not change.
-                        </td>
-                        <td></td>
-                    </tr>
-
-                    <tr style="background-color: #f9f9f9;">
-                        <td></td>
-                        <td>The name of the user is visible</td>
-                        <td>
-                            RegEx exists<span class="value">testuser</span>
-                        </td>
-                    </tr>
-
-                    <tr style="background-color: #f9f9f9;">
-                        <td></td>
-                        <td>Number of products that can be seen is 10.</td>
-                        <td>
-                            CSS Selector exists<span class="value">.productItem equals 10</span>
-                        </td>
-                    </tr>
-
-                    <tr style="background-color: #f9f9f9;">
-                        <td></td>
-                        <td>Number of collections that can be seen is 10.</td>
-                        <td>
-                            CSS Selector exists<span class="value">.channel equals 10</span>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>Collection</td>
-                        <td>
-                            A collection page can be checked the same way as the user page. There is a exact number
-                            of elements that can be counted. This works although the underlying algorithms are different.
-                        </td>
-                        <td></td>
-                    </tr>
-
-                    <tr style="background-color: #f9f9f9;">
-                        <td>Product page</td>
-                        <td>
-                            As result of our experience the product page does not break very often. As a result we decided
-                            to test only some minor attributes.
-                        </td>
-                        <td></td>
-                    </tr>
-
-                    <tr style="background-color: #f9f9f9;">
-                        <td></td>
-                        <td>Product name and description are visible</td>
-                        <td>
-                            RegEx exists<span class="value">Nike Air Zoom Pegasus 31</span>
-                            RegEx exists<span class="value">commitment to cushioning</span>
-                        </td>
-                    </tr>
-
-                    <tr style="background-color: #f9f9f9;">
-                        <td></td>
-                        <td>Collections that contain this exact product are listed</td>
-                        <td>
-                            RegEx exists<span class="value">Laufschuhe 2015</span>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>Blog</td>
-                        <td>
-                            The blog overview page is a standard collection created by the blog user. This is why the
-                            tests for the collection page also apply here.
-                        </td>
-                        <td></td>
-                    </tr>
-
-                    <tr>
-                        <td></td>
-                        <td>
-                            The blog articles are almost static. They are fetched via http from an Wordpress system in the
-                            background. The most tasks are done by Wordpress and do not have to be tested following the lean
-                            testing approach. Therefore we only check for the headline and a sub-sentence from the post.
-                        </td>
-                        <td>
-                            RegEx exists<span class="value">Shop, Shop, Hooray.</span>
-                            RegEx exists<span class="value">Im Bereich Fashion</span>
-                        </td>
-                    </tr>
-
-                    <tr style="background-color: #f9f9f9;">
-                        <td>Search</td>
-                        <td>
-                            The search result page is technically rendered as evefry other product list. That is why we only
-                            have to check if there are products found. As this search query is performed via our solr database
-                            we can assume that the system is up and running when there are results.
-                        </td>
-                        <td>CSS Selector exists<span class="value">.productItem equals 10</span></td>
-                    </tr>
-                    <tr>
-                        <td>Sitemap</td>
-                        <td>
-                            For a better serach engine optimization we provide a sitemap xml file. This can be checked
-                            with the sitemap validator.
-                        </td>
-                        <td>Xml Sitemap Checker<span class="value">on (non strict)</span></td>
-                    </tr>
-                    <tr style="background-color: #f9f9f9;">
-                        <td>Standard Checks</td>
-                        <td>There are some standard checks that we apply on every html page we tests.</td>
-                        <td>
-                            JavaScript Error Scanner <span class="value">on</span>
-                            LittleSEO<span class="value">on</span>
-                            KoalaPing <span class="value">http status code 200 with timestamp</span>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
             </div>
-        </div>
-    </div>
-    <div class="main-element-grey">
-        <div class="content">
-            <a name="further"><h2 style="margin-bottom: 50px">Further Checks</h2></a>
-            <p>
-                With amilio we created a very complex and flexible system for a big community. With leankoala we got rid off the
-                most of our selenium tests that were only checking for the existence of text fragments. Those test were expensive
-                to create and broke from time to time. With leankoala our test effort is minimal.
-            </p>
-            <p>
-                What we can't test with leankoala is the login process. Therefore we have small selenium tests running in combination
-                with BrowserStack.
-            </p>
         </div>
     </div>
 </div>
