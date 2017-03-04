@@ -37,7 +37,7 @@
                 werden Kosten und Nerven gespart.
             </p>
             <p>
-                Für weitere Relaunches wäre zu planen Leankoala bereits als Testwerkzeug in der Entwicklung heranzuziehen und somit schneller und günstiger
+                Für weitere Relaunches wäre zu Planen Leankoala bereits als Testwerkzeug in der Entwicklung heranzuziehen und somit schneller und günstiger
                 live zu gehen.
             </p>
             <p>
@@ -113,7 +113,7 @@
                         <div class="element">
                             <h2>Zu testende Seiten bestimmen</h2>
                             <p>
-                                Die Grundabdeckung bei eines Online-Shops mit Leankoala geschieht nach immer dem gleichen Muster. Shopsysteme
+                                Die Grundabdeckung eines Online-Shops mit Leankoala geschieht nach immer dem gleichen Muster. Shopsysteme
                                 beruhen häufig auf den gleichen Äquivalenzklassen: Homepage, Artikel-Detailseite, Kategorienseite, Suchergebnisseite und
                                 Content-Seite. Zusätzlich gilt es die Google Sitemap abzutesten.
                             </p>
