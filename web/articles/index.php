@@ -94,6 +94,51 @@
             </li>
         </ul>
     </div>
+
+    <div style="clear: both"></div>
+
+    <h2 style="margin-top: 100px; margin-bottom: 30px; line-height: 35px">Leankoala begleitet dich durch den<br> gesamten Entwicklungsprozess.</h2>
+
+    <div style="width: 100%; text-align: center; ">
+        <div style="border: 1px solid #eee; width: 600px; margin-left: calc(50% - 300px); background-color: white; height: 200px">
+            <div style="width: 200px; float: left; height: 50px; padding-top: 25px; border-right: 1px solid #eee; font-weight: 800; border-bottom: 1px solid #fff" class="process" data-step="development">
+                Entwicklung
+            </div>
+            <div style="width: 200px; float: left; height: 50px; padding-top: 25px; border-right: 1px solid #eee; border-bottom: 1px solid #eee" class="process" data-step="stage">
+                Abnahme
+            </div>
+            <div style="height: 50px; padding-top: 25px; border-bottom: 1px solid #eee" class="process" data-step="live">
+                Betrieb
+            </div>
+            <div style="padding: 20px; text-align: left; font-size: 14px; width: 570px; line-height: 25px;">
+                <span class="step" data-step="development">
+                    Leankoala entfaltet seine Stärken bereits am Anfang des Entwicklungszyklus. An der Stelle, an der
+                    die meisten Fehler geschehen und sie am günstigen sind zu beheben. Hier
+                </span>
+                <span class="step" data-step="stage" style="display: none">
+                    Während Integration von Funktionalitäten, bei der das erste Mal alle Teilsysteme und Daten aufeinandertreffen
+                    spielt Leankoala eine wichtige Rolle, um eine schnelle, einfache und umfangreiche Abnahme zu gewährleisten.
+                </span>
+                <span class="step" data-step="live" style="display: none">
+                    Leankoala wurde als effizienter Testing-Service entworfen, der während der Entwicklung bereits eingesetzt wird.
+                    Nichtsdestotrotz ist Dank seiner Architektur Leankoala wunderbar dazu geeignet ein umfangreiches funktionales
+                    Monitoring aufzusetzen.
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('.process').mouseover(function () {
+            $('.step').hide();
+            $('.process').css('font-weight', '300');
+            $('.process').css('border-bottom', '1px solid #eee');
+            $(this).css('font-weight', '800');
+            $(this).css('border-bottom', '1px solid #fff');
+            $("[data-step='" + $(this).attr('data-step') + "']").show();
+        })
+    </script>
+
     <div style="clear: both"></div>
 </div>
 
