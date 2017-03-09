@@ -57,7 +57,7 @@
                 <a href="<?php __a('/one-day-with/hackerschool.html'); ?>"
                    style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px"><?php __("page.one-day-with.case.hackerschool.button"); ?></a>
             </td>
-        </tr>
+        </tr-->
         <tr style="border-bottom: 100px solid transparent" class="plan-medium">
             <td style="width: 250px; vertical-align: top">
                 <img src="/images/startups/recolution.png" style="width: 180px">
@@ -72,7 +72,7 @@
                 <a href="<?php __a('/one-day-with/recolution.html'); ?>"
                    style="padding: 10px; background-color: #27ae60; border-radius: 5px; color: white; font-size: 12px"><?php __("page.one-day-with.case.recolution.button"); ?></a>
             </td>
-        </tr-->
+        </tr>
         <tr style="border-bottom: 100px solid transparent" class="plan-medium">
             <td style="width: 250px; vertical-align: top">
                 <img src="/images/startups/amilio2.png" style="position: relative; top: 7px"><img

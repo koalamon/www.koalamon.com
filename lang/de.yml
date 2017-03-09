@@ -132,6 +132,16 @@ page:
            Geschichten erzählen, was wir wirklich innerhalb eines Tages  in Zusammenarbeit mit Kunden erreicht haben."
 
     case:
+      hackerschool:
+        headline: "Hacker School - Coden, proggn, Sachen machen."
+        text: "amilio is a shopping community based on affiliate programs. Every user is able create lists of products he or she likes. All those
+               lists and products can be liked and shared by others."
+        button: "read one day with hs"
+      recolution:
+        headline: "Recolution - organic | fair | social"
+        text: "Recolution ist das Hamburger Trendlabel im Bereich Organic & Fair Trade. Mit ihrem Shop bringen die beiden Gründer Jan und Robert faire,
+               nachhaltige Mode direkt in die Kleiderschränke ihrer modischen Kunden"
+        button: "read one day with..."
       amilio:
         headline: "amilio - Social. Shopping. Community."
         text: "amilio is a shopping community based on affiliate programs. Every user is able create lists of products he or she likes. All those
