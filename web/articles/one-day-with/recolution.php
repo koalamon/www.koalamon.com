@@ -27,22 +27,22 @@
             </a>
             <p>
                 Recolution ist ein Onlineshop. Wichtig bei Shops ist immer ihre Performance und Verfügbarkeit. Leankoala // Lean Testing as a Service
-                überwacht den bestehenden Shop in diesen Bereichen und meldet wenn z.B. zu große Bilder, die Seite verlangsamen oder ein Produkt nicht richtig
+                überwacht den bestehenden Shop in diesen Bereichen und meldet, wenn z.B. zu große Bilder die Seite verlangsamen oder ein Produkt nicht richtig
                 dargestellt wird.
             </p>
             <p>
                 Das Einstellen von Bildern und Texten wird vom Recolution-Team selbst übernommen, dabei kann es einmal zu Fehlern kommen und diese werden
-                hier direkt aufgezeigt. Somit benötigt Recolution kein technischen Team, das rund um die Uhr für Sie im Einsatz ist. Gröbere Fehler wie
+                hier direkt aufgezeigt. Somit benötigt Recolution kein technisches Team, das rund um die Uhr für sie im Einsatz ist. Gröbere Fehler wie
                 “die Seite ist down” können direkt an die betreuende Agentur gemeldet werden, die dann im konkreten Fall in den Einsatz geht. Dadurch
                 werden Kosten und Nerven gespart.
             </p>
             <p>
-                Für weitere Relaunches wäre zu Planen Leankoala bereits als Testwerkzeug in der Entwicklung heranzuziehen und somit schneller und günstiger
+                Für weitere Relaunches wäre zu planen, Leankoala bereits als Testwerkzeug in der Entwicklung heranzuziehen und somit schneller und günstiger
                 live zu gehen.
             </p>
             <p>
-                Der Recolution-Online-Shop wurde von der Firma e-matters umgesetzt. Er beruht auf der eCommerce Suite, einem modulare und skalierbare Online Shop Software
-                mit umfangreichem ERP-Software Backend. Die Suite ist eine bei vielen Kunden eingesetzt Lösung, die bereits einen hohen Reifegrad über die letzten
+                Der Recolution-Online-Shop wurde von der Firma e-matters umgesetzt. Er beruht auf der eCommerce Suite, einer modularen und skalierbaren Online Shop Software
+                mit umfangreichem ERP-Software Backend. Die Suite ist eine bei vielen Kunden eingesetzte Lösung, die bereits einen hohen Reifegrad über die letzten
                 Jahre erreicht hat.
             </p>
         </div>
@@ -113,7 +113,7 @@
                         <div class="element">
                             <h2>Zu testende Seiten bestimmen</h2>
                             <p>
-                                Die Grundabdeckung eines Online-Shops mit Leankoala geschieht nach immer dem gleichen Muster. Shopsysteme
+                                Die Grundabdeckung eines Online-Shops mit Leankoala geschieht immer nach dem gleichen Muster. Shopsysteme
                                 beruhen häufig auf den gleichen Äquivalenzklassen: Homepage, Artikel-Detailseite, Kategorienseite, Suchergebnisseite und
                                 Content-Seite. Zusätzlich gilt es die Google Sitemap abzutesten.
                             </p>
@@ -161,7 +161,7 @@
                             </p>
                             <p>
                                 Zusätzliche Checks werden nicht benötigt, da das Shopsystem von e-matters bereits eine ausreichende Testabdeckung besitzt, so dass
-                                grobe Fehler in dem Kaufprozess nicht zu erwarten sind.
+                                grobe Fehler im Kaufprozess nicht zu erwarten sind.
                             </p>
                             <h3 style="margin-top: 20px; margin-bottom: 20px;">Verwendete Checks</h3>
                             <ul>
@@ -178,11 +178,11 @@
                         <div class="element">
                             <h2>Alarmierungen</h2>
                             <p>
-                                Die Alarmierung bei Recolution ist zweigetellt. Zum einen werden mit Leankoala technische Probleme sehr früh aufgedeckt, zum anderen aber
+                                Die Alarmierung bei Recolution ist zweigeteilt. Zum einen werden mit Leankoala technische Probleme sehr früh aufgedeckt, zum anderen aber
                                 auch inhaltliche Probleme gefunden. Aus diesem Grund wurde das Alerting zwischen Agentur und Shopbetreiber aufgeteilt.
                             </p>
                             <p>
-                                Checks, welche inhaltliche Anomalien aufdecken, wie zum SiteInfo, das große Elemente auf der Seite findet, werden direkt an den Betreiber
+                                Checks, welche inhaltliche Anomalien aufdecken, wie z.B. SiteInfo, die große Elemente auf der Seite findet, werden direkt an den Betreiber
                                 des Shops weitergeleitet. Bei technischen Ausfällen oder Problemen wird die umsetzende Agentur alarmiert, so dass Lösungen am besten bereits
                                 gefunden werden können, bevor der Kunde sie bemerkt.
                             </p>
