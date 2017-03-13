@@ -65,7 +65,7 @@
             <div class="feature"><strong>20</strong> Komponenten</div>
             <div class="feature">Ping-Interval <strong>5 Minuten</strong></div>
             <div class="feature">Stündliche Überprüfungen</div>
-            <div class="feature">-</div>
+            <div class="feature">Manuelles Starten der Tests</div>
             <div class="feature">-</div>
             <div class="feature">Keine Alarmierungsgrenzen</div>
             <div class="feature">Live-Support</div>
@@ -84,7 +84,7 @@
             <div class="feature">Ping-Interval <strong>5 Minuten</strong></div>
             <div class="feature">Stündliche Überprüfungen</div>
             <div class="feature">Manuelles Starten der Tests</div>
-            <div class="feature">-</div>
+            <div class="feature">Automatisches Starten der Tests</div>
             <div class="feature">Keine Alarmierungsgrenzen</div>
             <div class="feature">Live Support</div>
             <div class="price">69 EUR</div>
