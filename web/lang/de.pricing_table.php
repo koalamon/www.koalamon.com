@@ -110,21 +110,5 @@
                 <div class="register-plan"><?php __('global.trial.start'); ?></div>
             </a>
         </li>
-        <li>
-            <h3>Enterprise</h3>
-            <div class="feature"><strong>noch mehr Kapazitäten</strong></div>
-            <div class="feature">alles wie Page, Projekt und Company</div>
-            <div class="feature">On Premise Möglichkeit</div>
-            <div class="feature">weitere Individualisierungen</div>
-            <div class="feature">-</div>
-            <div class="feature">-</div>
-            <div class="feature">Live Support</div>
-            <div class="price"><a href="mailto:enterprise@leankoala.com">kontaktiert uns</a></div>
-            <div class="info">&nbsp;</div>
-            <div class="for-whom">Für besondere Firmenlösungen.</div>
-            <a href="https://monitor.leankoala.com/secure_area/register/">
-                <div class="register-plan"><?php __('global.trial.start'); ?></div>
-            </a>
-        </li>
     </ul>
 </div>
