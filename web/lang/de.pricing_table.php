@@ -63,6 +63,7 @@
         <li>
             <h3>Web Page</h3>
             <div class="feature"><strong>20</strong> Komponenten</div>
+            <div class="feature">-</div>
             <div class="feature">Ping-Interval <strong>5 Minuten</strong></div>
             <div class="feature">Stündliche Überprüfungen</div>
             <div class="feature">Manuelles Starten der Tests</div>
@@ -81,6 +82,7 @@
             <div></div>
             <h3>Web Projekt</h3>
             <div class="feature"><strong>50</strong> Komponenten</div>
+            <div class="feature">-</div>
             <div class="feature">Ping-Interval <strong>5 Minuten</strong></div>
             <div class="feature">Stündliche Überprüfungen</div>
             <div class="feature">Manuelles Starten der Tests</div>
@@ -97,6 +99,7 @@
         <li>
             <h3>Web Company</h3>
             <div class="feature"><strong>Unbegrenzte</strong> Komponenten</div>
+            <div class="feature">limitiert auf 8 parallele Tests</div>
             <div class="feature">Ping-Interval <strong>5 Minuten</strong></div>
             <div class="feature">Stündliche Überprüfungen</div>
             <div class="feature">Manuelles Starten der Tests</div>
