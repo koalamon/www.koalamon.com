@@ -50,8 +50,11 @@
                 <div class="register-plan">start free 14 day period</div>
             </a>
         </li-->
-        <li class="active">
-            <div class="recommended">most popular</div>
+        <a>
+        <li>
+        </li>
+          <div class="recommended">most popular</div>
+             <li>
             <div></div>
             <h3>Web Page</h3>
             <div class="feature"><strong>20</strong> components</div>
@@ -68,8 +71,9 @@
                 <div class="register-plan">start free 14 day period</div>
             </a>
         </li>
-        <li>
+        <li class="active">
             <div class="recommended">most popular</div>
+        <li>
             <div></div>
             <h3>Web Project</h3>
             <div class="feature"><strong>50</strong> components</div>
