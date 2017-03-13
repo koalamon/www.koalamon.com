@@ -105,23 +105,23 @@
             <div class="feature">Live Support</div>
             <div class="price">299 EUR</div>
             <div class="info">pro Monat + 19% MwSt.</div>
-            <div class="for-whom">Für große Webapplikationen mit vielen Funktionalitäten.</div>
+            <div class="for-whom">Für große Webapplikationen mit mit Dev-, Stage- und Live-Umgebungen und vielen Funktionalitäten.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan"><?php __('global.trial.start'); ?></div>
             </a>
         </li>
         <li>
             <h3>Enterprise</h3>
-            <div class="feature"><strong>Unbegrenzt</strong> Komponenten</div>
-            <div class="feature">Ping-Interval <strong>5 Minuten</strong></div>
-            <div class="feature">Stündliche Überprüfungen</div>
-            <div class="feature">Manuelles Starten der Tests</div>
-            <div class="feature">Automatisches Starten der Tests</div>
-            <div class="feature">Keine Alarmierungsgrenzen</div>
+            <div class="feature"><strong>noch mehr Kapazitäten</strong></div>
+            <div class="feature">alles wie Page, Projekt und Company</div>
+            <div class="feature">On Premise Möglichkeit</div>
+            <div class="feature">weitere Individualisierungen</div>
+            <div class="feature">-</div>
+            <div class="feature">-</div>
             <div class="feature">Live Support</div>
             <div class="price"><a href="mailto:enterprise@leankoala.com">kontaktiert uns</a></div>
             <div class="info">&nbsp;</div>
-            <div class="for-whom">Für große Webapplikationen mit Dev-, Stage- und Live-Umgebungen.</div>
+            <div class="for-whom">Für besondere Firmenlösungen.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan"><?php __('global.trial.start'); ?></div>
             </a>
