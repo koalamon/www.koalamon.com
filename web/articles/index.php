@@ -113,15 +113,15 @@
             <div style="padding: 20px; text-align: left; font-size: 14px; width: 570px; line-height: 25px;">
                 <span class="step" data-step="development">
                     Leankoala entfaltet seine Stärken bereits am Anfang des Entwicklungszyklus. An der Stelle, an der
-                    die meisten Fehler geschehen und sie am günstigen sind zu beheben. Hier
+                    die meisten Fehler geschehen und sie am günstigen zu beheben sind.
                 </span>
                 <span class="step" data-step="stage" style="display: none">
-                    Während Integration von Funktionalitäten, bei der das erste Mal alle Teilsysteme und Daten aufeinandertreffen
+                    Während der Integration von Funktionalitäten bei der das erste Mal alle Teilsysteme und Daten aufeinandertreffen
                     spielt Leankoala eine wichtige Rolle, um eine schnelle, einfache und umfangreiche Abnahme zu gewährleisten.
                 </span>
                 <span class="step" data-step="live" style="display: none">
-                    Leankoala wurde als effizienter Testing-Service entworfen, der während der Entwicklung bereits eingesetzt wird.
-                    Nichtsdestotrotz ist Dank seiner Architektur Leankoala wunderbar dazu geeignet ein umfangreiches funktionales
+                    Leankoala wurde als effizienter Testing-Service entworfen, der bereits während der Entwicklung eingesetzt wird.
+                    Dank seiner Architektur ist Leankoala auch wunderbar dazu geeignet ein umfangreiches, funktionales
                     Monitoring aufzusetzen.
                 </span>
             </div>
