@@ -99,7 +99,7 @@
         <li>
             <h3>Web Company</h3>
             <div class="feature"><strong>Unbegrenzte</strong> Komponenten</div>
-            <div class="feature">limitiert auf 8 parallele Tests</div>
+            <div class="feature">bis zu 8 gleichzeitige Tests</div>
             <div class="feature">Ping-Interval <strong>5 Minuten</strong></div>
             <div class="feature">Stündliche Überprüfungen</div>
             <div class="feature">Manuelles Starten der Tests</div>

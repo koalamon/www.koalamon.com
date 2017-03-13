@@ -35,7 +35,7 @@
     </table>
 </div>
 
-<div class="content no-mobile" style="width: 1130px">
+<div class="content no-mobile" style="width: 820px">
     <ul class="price-models">
         <!--li>
             <h3>Free</h3>
@@ -49,12 +49,11 @@
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div class="register-plan">start free 14 day period</div>
             </a>
-        </li-->
+        </li>
         <a>
         <li>
-        </li>
-          <div class="recommended">most popular</div>
-             <li>
+        </li-->
+        <li>
             <div></div>
             <h3>Web Page</h3>
             <div class="feature"><strong>20</strong> components</div>
@@ -73,7 +72,6 @@
         </li>
         <li class="active">
             <div class="recommended">most popular</div>
-        <li>
             <div></div>
             <h3>Web Project</h3>
             <div class="feature"><strong>50</strong> components</div>
@@ -93,7 +91,7 @@
         <li>
             <h3>Web Company</h3>
             <div class="feature"><strong>unlimited</strong> components</div>
-            <div class="feature">limited to 8 parallel tests</div>
+            <div class="feature">up to 8 parallel tests</div>
             <div class="feature">Ping interval <strong>5 minutes</strong></div>
             <div class="feature">Hourly checks</div>
             <div class="feature">rerun checks via api</div>
