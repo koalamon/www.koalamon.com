@@ -45,7 +45,7 @@
     </table>
 </div>
 
-<div class="content no-mobile" style="width: 1130px">
+<div class="content no-mobile" style="width: 820px; text-align: center">
     <ul class="price-models">
         <!--li>
             <h3>Free</h3>
@@ -80,7 +80,7 @@
         <li class="active">
             <div class="recommended">am beliebtesten</div>
             <div></div>
-            <h3>Web Projekt</h3>
+            <h3>Web Project</h3>
             <div class="feature"><strong>50</strong> Komponenten</div>
             <div class="feature">-</div>
             <div class="feature">Ping-Interval <strong>5 Minuten</strong></div>
