@@ -97,7 +97,7 @@
             <div class="feature">rerun checks via api</div>
             <div class="feature">Unlimited alerts</div>
             <div class="feature">Live Support</div>
-            <div class="price">299 EUR</div>
+            <div class="price">349 EUR</div>
             <div class="info">per month + 19% MwSt./VAT</div>
             <div class="for-whom">The special solution.</div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
