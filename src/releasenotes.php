@@ -1,6 +1,56 @@
 <?php
 
 $releaseNotes = [
+    '2017-03-10' => [
+        'date' => '2017-03-14',
+        'name' => 'Version 1.7.0',
+        'desc' => 'Version 1.7.0  is our valentines gift for all our users. We focused on stability, added some minor features and fixed bugs.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'Collections',
+                    'desc' => 'Collections are a big step towards usability. A collection is a set of checks that can be defined on a global project
+                               level and can afterwards be used be any single component. Collections can be used as part of KoalaPing, MissingRequest2, 
+                               Http Header and XPath Checker.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Attributes',
+                    'desc' => 'In the past when an incident was opened in Leankoala the only information the user got was the failure message. In case
+                               an incident could not be reproduced it was quite hard to use Leankoala to fix this issue. From now on all 22 tools
+                               are able to store meta information on every test result. We call them attributes and they can be found on the incidents 
+                               page (History). The first informations we are providing as attribute is the real html content we receive from the system.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'MissingRequest2',
+                    'desc' => 'MissingRequest was the last of our 22 tools that came with an old fashioned interface. That is why we migrated the tool
+                               to the Leankoala default layout, that makes it easier for the customer to create and edit checks.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Smoke Fallback Server',
+                    'desc' => 'With version 1.6.0 of Leankoala we introduced the fallback option for KoalaPing. We are happy that we can now provide this
+                               solution for the most of our tools. That means that every time one of our test servers cannot execute a check it we redirect
+                               it to the fallback server that is located in a different data center.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Configure Checks',
+                    'desc' => 'We got the feedback of our users that the configuration of their checks needs to be a little bit more usable. As we like
+                               our customers we did some usablity improvements. When adding a new option for a check we show the user that there are unsaved
+                               changes. Additionally we store configuration of inactive systems.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Recolution',
+                    'desc' => 'We are very proud to announce a little success store. Recolution, a Hamburg start up, is now part of our start up program were 
+                               we provide free accounts for ideas we believe in. For more information please read <a href="' . __a('/one-day-with/recolution.html', false) .
+                        '" style="font-weigh: 800">one da with Recolution</a>.'
+                ]
+            ]
+    ],
     '2017-02-17' => [
         'date' => '2017-02-14',
         'name' => 'Version 1.6.0',

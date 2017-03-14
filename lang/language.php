@@ -29,10 +29,15 @@ function __getTranslation($identifier, $language, $parameters)
     return vsprintf($subArray, $parameters);
 }
 
-function __a($link)
+function __a($link, $echo = true)
 {
     global $language;
-    echo '/' . $language . $link;
+    $href = '/' . $language . $link;
+    if ($echo) {
+        echo $href;
+    } else {
+        return $href;
+    }
 }
 
 function __t($template)
