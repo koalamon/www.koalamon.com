@@ -158,7 +158,7 @@
                 <h2>Web Company</h2>
                 <div class="price">
                     <span style="position: relative; top: -17px; left: -5px; font-size: 14px">EUR</span>
-                    <span style="font-size: 40px; font-weight: 600">299</span>
+                    <span style="font-size: 40px; font-weight: 600">349</span>
                     <span style="color: #99a0a5;">/ Monat</span>
                     <a href="https://monitor.leankoala.com/secure_area/register/">
                         <div class="register-plan"><?php __('global.trial.start'); ?></div>
@@ -174,7 +174,7 @@
             <td>1</td>
             <td>1</td>
             <td>
-                unbegrenzt <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Das 'Web Company'-Paket beeinhaltet einen dedizierten Server, der bis zu acht parallele Checks kontinuierlich ausführen kann." style="color: #7f8c8d"></i>
+                unbegrenzt <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Das 'Web Company'-Paket beeinhaltet einen dedizierten Server, der bis zu acht parallele Checks ausführen kann." style="color: #7f8c8d"></i>
             </td>
         </tr>
         <tr>
