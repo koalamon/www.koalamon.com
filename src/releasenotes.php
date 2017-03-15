@@ -4,7 +4,7 @@ $releaseNotes = [
     '2017-03-10' => [
         'date' => '2017-03-14',
         'name' => 'Version 1.7.0',
-        'desc' => 'Version 1.7.0  is our valentines gift for all our users. We focused on stability, added some minor features and fixed bugs.',
+        'desc' => 'Version 1.7.0  is our belated valentines gift for all our users. We focused on stability, added some minor features and fixed bugs.',
         'features' =>
             [
                 [
@@ -31,15 +31,15 @@ $releaseNotes = [
                 [
                     'type' => 'feature',
                     'feature' => 'Smoke Fallback Server',
-                    'desc' => 'With version 1.6.0 of Leankoala we introduced the fallback option for KoalaPing. We are happy that we can now provide this
-                               solution for the most of our tools. That means that every time one of our test servers cannot execute a check it we redirect
+                    'desc' => 'With version 1.6.0 of Leankoala we introduced the fallback option for KoalaPing. We are happy to provide you this
+                               solution for the most of our tools. That means that every time one of our test servers cannot execute a check it will redirect
                                it to the fallback server that is located in a different data center.'
                 ],
                 [
                     'type' => 'feature',
                     'feature' => 'Configure Checks',
-                    'desc' => 'We got the feedback of our users that the configuration of their checks needs to be a little bit more usable. As we like
-                               our customers we did some usablity improvements. When adding a new option for a check we show the user that there are unsaved
+                    'desc' => 'We got the feedback of our users that the configuration of their checks can be a little bit more usable. As we love
+                               our customers we did usablity improvements here. When adding a new option for a check we point out that there are unsaved
                                changes. Additionally we store configuration of inactive systems.'
                 ],
                 [
