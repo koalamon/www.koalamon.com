@@ -263,7 +263,7 @@
         <tr>
             <td>
                 Live Support
-                <p>Zwischen 8 und 18 Uhr bieten wir per Livechat Support an, der direkt über die Leankoala-Oberfläche angesprochen werden kann.</p>
+                <p>Zwischen 9 und 17 Uhr bieten wir per Livechat Support an, der direkt über die Leankoala-Oberfläche angesprochen werden kann.</p>
             </td>
             <td></td>
             <td></td>
