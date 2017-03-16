@@ -193,7 +193,7 @@
                 Werkzeuge
                 <p>Leankoala bietet eine Vielzahl von Werkzeugen, die zum Überprüfen der Systeme genutzt werden können.</p>
             </td>
-            <td colspan="3">22</td>
+            <td colspan="3">20</td>
         </tr>
         <tr>
             <td>
