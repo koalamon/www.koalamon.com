@@ -44,7 +44,7 @@
                 <a href="http://www.recolution.de/"><img src="/images/startups/recolution.png" style="margin-top: 16px; width: 210px"></a>
             </li>
             <li>
-                <a href="http://www.wetimebox.com/"><img src="/images/startups/wetimebox.png" style="margin-top: 15px"></a>
+                <a href="http://www.wetimebox.com/"><img src="/images/startups/wetimebox.png" style="margin-top: 20px"></a>
             </li>
             <li>
                 <a href="http://yuscale.com/"><img src="/images/startups/yuscale.png" style="margin-top: 15px; height: 45px;"></a>
@@ -53,10 +53,13 @@
                 <a href="https://www.thewebhatesme.com"><img src="/images/startups/whm.png"></a>
             </li>
             <li>
-                <a href="http://www.amilio.de"><img src="/images/startups/amilio2.png" style="position: relative; top: 7px"><img src="/images/startups/amilio1.png"></a>
+                <a href="http://www.amilio.de"><img src="/images/startups/amilio2.png" style="position: relative; top: 13px"><img style="margin-top: 5px" src="/images/startups/amilio1.png"></a>
             </li>
             <li>
-                <a href="http://buzzrank.de/"><img src="/images/startups/buzzrank.png" style="margin-top: 13px"></a>
+                <a href="http://buzzrank.de/"><img src="/images/startups/buzzrank.png" style="margin-top: 18px"></a>
+            </li>
+            <li>
+                <a href="https://watchlists.de/"><img src="/images/startups/watchlists.png" style="margin-top: 15px; width: 170px"></a>
             </li>
         </ul>
         <div style="clear: both"></div>
