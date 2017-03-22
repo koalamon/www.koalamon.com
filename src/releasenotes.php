@@ -4,7 +4,8 @@ $releaseNotes = [
     '2017-03-10' => [
         'date' => '2017-03-14',
         'name' => 'Version 1.7.0',
-        'desc' => 'Version 1.7.0  is our belated valentines gift for all our users. We focused on stability, added some minor features and fixed bugs.',
+        'desc' => 'With version 1.7.0 we focused on two main topics: usability and reliability. The more user using Leankoala, the more we know about 
+                   the needs. This release is again based on the feedback we got.',
         'features' =>
             [
                 [
