@@ -19,7 +19,7 @@
 </div>
 
 <div class="content" id="index-block-features">
-    <a href="/product/features.html">
+    <a href="<?php __a('/product/features.html'); ?>">
         <div id="index-features">
             <ul>
                 <li class="no-mobile">

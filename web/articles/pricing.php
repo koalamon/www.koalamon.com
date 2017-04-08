@@ -61,6 +61,9 @@
             <li>
                 <a href="https://watchlists.de/"><img src="/images/startups/watchlists.png" style="margin-top: 15px; width: 170px"></a>
             </li>
+            <li>
+                <a href="https://hasenfarm.com/"><img src="/images/startups/hasenfarm.png" style="margin-top: 15px; width: 170px"></a>
+            </li>
         </ul>
         <div style="clear: both"></div>
     </div>
