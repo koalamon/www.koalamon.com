@@ -68,6 +68,17 @@ function getRecentBlogPosts($count = 3)
     return $recentPostLimited;
 }
 
+function getRecipes()
+{
+    $recipeEndpoint = 'https://monitor.leankoala.com/r/cookbook/collection/list';
+
+    $rawRecipes = file_get_contents($recipeEndpoint);
+    $recipes = json_decode($rawRecipes);
+
+    return $recipes;
+}
+
+
 function fetchCheckCount()
 {
     $sources = ["https://monitor.leankoala.com/rest/eventcount", "http://lean.xcel.io/rest/eventcount"];

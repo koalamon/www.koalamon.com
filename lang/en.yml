@@ -87,6 +87,11 @@ page:
         text: "Hitting your website with heavy tools can be very expensive. Having a risk assessment based lean approach reduces cost and helps testing your websites much faster with less effort."
 
   product:
+    recipes:
+      headline: "Recipes"
+      info: "Modern web development means to mix existing components and to follow best practices. That is why Leankoala provides a list of the most common patterns that
+             can be found on websites. Those recipes can be used within every project by manually selecting them or automatically using the component wizard."
+
     tools:
       headline: "Leankoala helps to test a website using simple checks like the leantesting approach suggests. We provide %s tools that can be used to inspect a website or web service."
       testsuite:
@@ -104,6 +109,7 @@ page:
         recipes:
           headline: "Recipes"
           text: "Many websites can be tested the same way, which is why we introduced \"recipes\". A \"recipe\" is a set of rules that can be applied to any component."
+          button: "Show all recipes"
         history:
           headline: "History"
           text: "Everything that happens in Leankoala stays in Leankoala. We store all incidents in our database for at least one year. Additionally, we have all event data available for two months."
@@ -240,6 +246,7 @@ menu:
       head: "Product"
       features: "Features"
       tools: "Tools"
+      recipes: "Recipes"
       ontheroad: "On the road"
       releasenotes: "Release Notes"
     pricing:

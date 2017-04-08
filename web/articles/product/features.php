@@ -24,9 +24,12 @@
                 <img src="/images/features/recipes.png">
             </div>
             <div class="topic"><?php __('page.product.features.feature.recipes.headline'); ?></div>
-            <div class="description">
+            <div class="description" style="margin-bottom: 20px">
                 <?php __('page.product.features.feature.recipes.text'); ?>
             </div>
+            <a href="<?php __a('/product/recipes.html'); ?>" class="more">
+                <?php __('page.product.features.feature.recipes.button'); ?>
+            </a>
         </li>
         <li>
             <div class="feature-image">

@@ -87,6 +87,11 @@ page:
                und aufwändigen Vorgehen."
 
   product:
+    recipes:
+      headline: "Rezepte"
+      info: "Ein Schwerpunkt in der Webentwicklung liegt auf dem Wiederverwenden von Komponenten. Leankoala macht sich dies zu Nutze, indem es für Standard-Elemente
+             bereits Standardlösungen zur Verfügung stellt. Wir nennen diese Lösungen Rezepte und erweitern unser Repertoire beinahe täglich."
+
     tools:
       headline: "Leankoala kommt mit %s Tools, die nach unterschiedlichen Merkmalen überprüfen, ob eine Webseite korrekt funktioniert. Um nur einige zu nennen, verfügt Leankoala über ein Ping Tool, einen Xpath Checker, ein regEx tool und einige Security Checks."
       testsuite:
@@ -104,6 +109,7 @@ page:
         recipes:
           headline: "Rezepte"
           text: "Viele Webseiten können sehr ähnlich getestet werden, dafür haben wir die 'Rezepte' eingeführt. Unter Rezet versteht sich ein Satz von Regeln, die auf jede Komponente übernommen werden kann."
+          button: "zu den Rezepten"
         history:
           headline: "History"
           text: "Was auf Leankoala geschieht, bleibt auf Leankoala. Wir sichern alle Incidents in der Datenbank für mindestens 12 Monate, außerdem sind alle Events zwei Monate verfügbar."
@@ -231,6 +237,7 @@ menu:
       head: "Produkt"
       features: "Features"
       tools: "Tools"
+      recipes: "Rezepte"
       ontheroad: "On the road"
       releasenotes: "Release Notes"
     pricing:
