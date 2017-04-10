@@ -32,12 +32,12 @@ $releaseNotes = [
                     'desc' => 'We created Leankoala as a tool that can be used by all kind of professionals. Testers should be able to create their detailed 
                                test setups they are used to. But on the other hand product owners and website operators should be able to test as well. That
                                is why we introduced the system type. Every system is now connected to a type. Using that type we are able to suggest a set of
-                               components we think that should bei tested.'
+                               components we think that should be tested.'
                 ],
                 [
                     'type' => 'feature',
                     'feature' => 'Hasenfarm',
-                    'desc' => 'The next hamburg start up is joining the Leankoala family. Hasenfarm an online shop for rabbit-related products is new tested
+                    'desc' => 'The next hamburg start up is joining the Leankoala family. Hasenfarm an online shop for rabbit-related products is now tested
                                via Leankoala.'
                 ]
             ]
