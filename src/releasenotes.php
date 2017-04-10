@@ -1,6 +1,47 @@
 <?php
 
 $releaseNotes = [
+    '2017-04-11' => [
+        'date' => '2017-04-11',
+        'name' => 'Version 1.8.0',
+        'desc' => 'In version 1.8.0 we implemented one main feature we were already preparing by the last version. The check wizard. It helps to
+                   create a good test coverage by just running activating the feature.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'Wizard',
+                    'desc' => '<p>With version 1.7.0 we intruduced collection. An easy possibility to group test cases into a test suite. The new
+                               wizard feature was build on top of that idea. The Leankoala team is now able to create a predefined and growing 
+                               list of standard collections every user can use. This list grows on a daily basis.</p>
+                               
+                               <p>The current release 1.8.0 enables us to match those predefined collections automatically to your components. That 
+                               means you only have to enter an url, click the wizard button and we tell you what components your website consists of.
+                               This configuration should be the starting point for your test setup.</p>'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Recipes',
+                    'desc' => 'We believe that modern web development means putting existing components together to create something new. That also means
+                               we are able to know a lot about testing such a website without knowing details upfront. The first version of this feature already
+                               includes 20 recipes and is growing fast. <a style="text-decoration:underline" href="' . __a('/product/recipes.html', false) . '">Click here for more information.</a>'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'System Type',
+                    'desc' => 'We created Leankoala as a tool that can be used by all kind of professionals. Testers should be able to create their detailed 
+                               test setups they are used to. But on the other hand product owners and website operators should be able to test as well. That
+                               is why we introduced the system type. Every system is now connected to a type. Using that type we are able to suggest a set of
+                               components we think that should bei tested.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Hasenfarm',
+                    'desc' => 'The next hamburg start up is joining the Leankoala family. Hasenfarm an online shop for rabbit-related products is new tested
+                               via Leankoala.'
+                ]
+            ]
+    ],
     '2017-03-10' => [
         'date' => '2017-03-14',
         'name' => 'Version 1.7.0',
