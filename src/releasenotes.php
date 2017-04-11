@@ -5,13 +5,13 @@ $releaseNotes = [
         'date' => '2017-04-11',
         'name' => 'Version 1.8.0',
         'desc' => 'In version 1.8.0 we implemented one main feature we were already preparing by the last version. The check wizard. It helps to
-                   create a good test coverage by just running activating the feature.',
+                   create a good test coverage by just running the feature.',
         'features' =>
             [
                 [
                     'type' => 'feature',
                     'feature' => 'Wizard',
-                    'desc' => '<p>With version 1.7.0 we intruduced collection. An easy possibility to group test cases into a test suite. The new
+                    'desc' => '<p>With version 1.7.0 we intruduced collections. An easy way to group test cases into a test suite. The new
                                wizard feature was build on top of that idea. The Leankoala team is now able to create a predefined and growing 
                                list of standard collections every user can use. This list grows on a daily basis.</p>
                                
