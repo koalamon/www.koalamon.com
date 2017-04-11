@@ -191,12 +191,12 @@ page:
                    bereits herausgefunden werden kann, ob eine Webseite bzw. ein Feature fehlerhaft läuft.
                </p>
                <p>
-                  Bis dahin wurde standardmäßig immer mit einer hohen und aufwendigen Testabdeckung gearbeitet. Auf der täglichen Agenda hier: komplexe, funktionale Tests mit Selenium und Behavior Driven
+                  Bis dahin wurde standardmäßig immer mit einer hohen und aufwendigen Testabdeckung gearbeitet. Auf der täglichen Agenda standen: komplexe, funktionale Tests mit Selenium und Behavior Driven
                   Development auf dem Maximum. Das war die Zeit großartiger Architektur und sauberem Clean Code. Eine wunderbare Zeit mit einem großen Problem Zeit und damit Kosten, die mit der Implementation
                   und dem Testen der Applikation verbunden war.
                </p>
                <p>
-                  Durch Einsatz von Lean Testing und der Kombination des richtigen Satz an einfachen Checks bekommt man die Chance eine gute Testabdeckung mit einem geringen Zeit und Geldeinsatz zu etablieren.
+                  Durch Einsatz von Lean Testing und der Kombination dem richtigen Satz an einfachen Checks bekommt man die Chance eine gute Testabdeckung mit einem geringen Zeit- und Geldeinsatz zu etablieren.
                </p>"
 
 footer:
