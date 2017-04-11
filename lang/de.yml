@@ -108,7 +108,7 @@ page:
           button: "zu den Werkzeugen"
         recipes:
           headline: "Rezepte"
-          text: "Viele Webseiten können sehr ähnlich getestet werden, dafür haben wir die 'Rezepte' eingeführt. Unter Rezet versteht sich ein Satz von Regeln, die auf jede Komponente übernommen werden kann."
+          text: "Viele Webseiten können sehr ähnlich getestet werden, dafür haben wir die 'Rezepte' eingeführt. Unter Rezept versteht sich ein Satz von Regeln, die auf jede Komponente angewendet werden kann."
           button: "zu den Rezepten"
         history:
           headline: "History"
