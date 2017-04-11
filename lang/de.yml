@@ -100,15 +100,15 @@ page:
 
     features:
       headline: "Features"
-      info: "Leankoala testet eine Webseite mit simplen, aber wertvollen Checks gemäß dem Lean-Testing-Ansatz. Gleichzeitig deckt unser Service den kompletten Entwicklungs-Zyklus ab: von wiederkehrenden Checks, über die Alarmierung im Fehlerfall, bin hin zur Datenanalyse."
+      info: "Leankoala testet eine Webseite mit simplen, aber wertvollen Checks gemäß dem Lean-Testing-Ansatz. Gleichzeitig deckt unser Service den kompletten Entwicklungs-Zyklus ab: von wiederkehrenden Checks, über die Alarmierung im Fehlerfall, bis hin zur Datenanalyse."
       feature:
         tools:
           headline: "Werkzeuge"
-          text: "Leankoala kommt mit %s Tools, die nach unterschiedlichen Merkmalen überprüfen, ob eine Webseite korrekt funktioniert. Um nur einige zu nennen, verfügt Leankoala über ein Ping Tool, einen Xpath Checker, ein Regular-Expression-Werkzeug und einige Sicherheitschecks."
+          text: "Leankoala kommt mit %s Tools, die nach unterschiedlichen Merkmalen überprüfen, ob eine Webseite korrekt funktioniert. Um nur einige zu nennen, verfügt Leankoala über ein Ping Tool, einen Xpath Checker, ein Regular-Expression-Werkzeug und verschiedene Sicherheitschecks."
           button: "zu den Werkzeugen"
         recipes:
           headline: "Rezepte"
-          text: "Viele Webseiten können sehr ähnlich getestet werden, dafür haben wir die 'Rezepte' eingeführt. Unter Rezept versteht sich ein Satz von Regeln, die auf jede Komponente angewendet werden kann."
+          text: "Viele Webseiten können sehr ähnlich getestet werden, dafür haben wir die 'Rezepte' eingeführt. Unter Rezept versteht sich ein Satz von Regeln, der für jede Komponente angewendet werden kann."
           button: "zu den Rezepten"
         history:
           headline: "History"
@@ -118,10 +118,10 @@ page:
           text: "Findet Leankoala eine Anomalie im System, werden vorab definierte Empfänger benachrichtigt - wahlweise per E-Mail, Webhook oder Slack."
         acknowledgement:
           headline: "Incident Acknowledgment"
-          text: "Incidents gibt es auch in den besten Entwicklungsumgebungen. Um den Arbeitsaufwand zu verringern (die Arbeit zu vereinfachen) können Projektteilnehmer Incidents zugewisesn werden bzw. sich diese selbst zuweisen."
+          text: "Incidents gibt es auch in den besten Entwicklungsumgebungen. Um den Arbeitsaufwand zu verringern (die Arbeit zu vereinfachen) können Projektteilnehmer Incidents zugewiesen werden bzw. sich diese selbst zuweisen."
         slack:
           headline: "Slack-Integration"
-          text: "Wir lieben Slack. Daher geht es nicht anders, Leankoala ermöglicht nicht nur den Versand der Benchrichtigungen über Slack, sondern auch das Listen, Acknowledgen und Schließen von Incidents"
+          text: "Wir lieben Slack. Daher geht es nicht anders, Leankoala ermöglicht nicht nur den Versand der Benachrichtigungen über Slack, sondern auch das Listen, Acknowledgen und Schließen von Incidents"
 
     on-the-road:
       headline: "On the road"
