@@ -96,7 +96,7 @@ page:
       headline: "Leankoala kommt mit %s Tools, die nach unterschiedlichen Merkmalen überprüfen, ob eine Webseite korrekt funktioniert. Um nur einige zu nennen, verfügt Leankoala über ein Ping Tool, einen Xpath Checker, ein regEx tool und einige Security Checks."
       testsuite:
         headline: "Eine starke, performante Testumgebung aufbauen."
-        text: "Jedes unserer Tools ist für sich wertvoll, aber erst in der Kombination werden sie mächtig und können für alle möglichen Arten von Webservice genutzt werden. Um unseren Kunden zu ermöglichen auch selbst kreativ zu werden, haben wir unsere \"One day with Leankoala\"s ins Leben gerufen. Wir zeigen Euch hier Best Practice Beispiele und zeigen Euch Beispiele wie wir verschiedene Arten von Webseiten und - services testen."
+        text: "Jedes unserer Tools ist für sich wertvoll, aber erst in der Kombination werden sie mächtig und können für alle möglichen Arten von Webservice genutzt werden. Um Euch zu ermöglichen selbst kreativ zu werden, haben wir unsere \"One day with Leankoala\"s ins Leben gerufen. Wir zeigen Euch hier Best Practice Beispiele und erklären wie wir verschiedene Arten von Webseiten und - services testen."
 
     features:
       headline: "Features"
