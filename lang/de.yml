@@ -34,7 +34,7 @@ page:
     overview:
       agency:
         headline: "Perfekt für Agenturen"
-        text: 'Auf der einen Seite wünschen Kunden sich hohe Qualität, auf der anderen Seite sind sie aber häufig nicht bereit dazu diese zu bezahlen. Mit dem "Lean Testing"-Ansatz haben wir eine Test-Methode etabliert, die sowohl effizient als auch kostengünstig ist.'
+        text: 'Auf der einen Seite wünschen Kunden sich hohe Qualität, auf der anderen Seite sind sie aber häufig nicht bereit diese zu bezahlen. Mit dem "Lean Testing"-Ansatz haben wir eine Test-Methode etabliert, die sowohl effizient als auch kostengünstig ist.'
         full: "<p>
                         The agency business can be very tough, as customers want their web projects to be developed in no time, with low costs and high
                         quality. It is almost impossible to achieve this, so one of the three goals has to be dropped. And most often it is quality that suffers in the end.
@@ -55,26 +55,26 @@ page:
       publishers:
         headline: "Gebaut für Verlage"
         text: "Leankoala entstand im Umfeld von zwei der größten Verlagshäuser Europas. Aus diesem Grund ist es besonders effizient, wenn es um das Testen von redaktionell getriebenen Webseiten geht, die durch Werbung und Reichweite ihre Umsätze generieren."
-        full: "<p>Bereits beim Entwurf von Leankoala war eine ganz bestimmte Zielgruppe im Fokus: Verlage. Das liegt sicherlich zum Einen dadran, dass dieses Werkzeug im Umfeld
-                  zwei der größten Verlagshäuser Europas entstanden ist, zum anderen auch weil gerade redaktionell gepflegte Webseiten mit den klassischen Testmethoden unserer Meinung nach nicht
+        full: "<p>Bereits beim Entwurf von Leankoala war eine ganz bestimmte Zielgruppe im Fokus: Verlage. Das liegt zum Einen daran, dass dieses Werkzeug im Umfeld
+                  zwei der größten Verlagshäuser Europas entstanden ist, zum anderen daran weil gerade redaktionell gepflegte Webseiten mit den klassischen Testmethoden unserer Meinung nach nicht
                   kosteneffizient getestet werden können.
                </p><p>
-                  Leankoala ist stark wenn es um das Testen von Entwicklungsumgebungen geht und ist bereits von Beginn eines Projektes an hilfreich sein. Eine Besonderheit von redaktionellen Webseiten ist es aber, dass
-                  nicht nur ein Deployment der Anwendung zu Fehlern führen kann, sondern das kontinuierliche Publizieren von Artikeln ebenfalls Anomalien hervorrufen können. Aus diesem Grund ist eine durchgängige
+                  Leankoala ist stark, wenn es um das Testen von Entwicklungsumgebungen geht und ist bereits von Beginn eines Projektes an hilfreich. Eine Besonderheit von redaktionellen Webseiten ist es aber, dass
+                  nicht nur ein Deployment der Anwendung zu Fehlern führen kann, sondern das kontinuierliche Publizieren von Artikeln ebenfalls Anomalien hervorrufen kann. Aus diesem Grund ist eine durchgängige
                   Überwachung der Angebote unabdingbar.
                </p><p>
                   Eine weitere Besonderheit von redaktionellen Webseiten ist die Finanzierung durch Werbung und Reichweite. Deshalb ist es sinnvoll zu überprüfen, ob die Werbeausspielung und
-                  die Reichweitenzählung fehlerfrei funktioniert. Leankoala bietet hierfür mehrere Testwerkzeuge, um auch das sicherzustellen.
+                  die Reichweitenzählung fehlerfrei funktionieren. Leankoala bietet hierfür mehrere Testwerkzeuge.
                </p>"
       operators:
         headline: "Hilfreich für Webseiten-Betreiber"
-        text: "Als wir Leankoala entwickelt haben waren uns zwei Dinge wichtig. Ein Standard-Problem sollte eine einfache Lösung besitzen, aber auch individuelle Herausforderungen sollten mit unserem
-               Werkzeug lösbar sein. Wir glauben, dass wir beide Ziele erreicht haben."
+        text: "Als wir Leankoala entwickelt haben, waren uns zwei Dinge wichtig: Ein Standard-Problem sollte eine einfache Lösung besitzen. Individuelle Herausforderungen sollten mit unserem
+               Werkzeug jedoch ebenfalls lösbar sein. Wir glauben, dass wir beide Ziele erreicht haben."
         full: "<p>Webseiten sind heutzutage Showroom, Visitenkarte und oft auch Schaltzentrale einer ganzen Firma. Ausfälle dieser Systeme bedeuten, dass
                   das komplette Geschäftsmodell ebenfalls zum Ruhen kommt. Aus diesem Grund ist es elementar zu wissen, dass die wichtigsten Bestandteile einer
                   Webseite einwandfrei funktionieren.
                </p><p>
-                  Mit Leankoala geben wir Webseiten-Betreibern ein Werkzeug an die Hand, welches bereits perfekt für Sie vorkonfiguriert ist. Dank der vielen Wizards ist es einfach
+                  Mit Leankoala geben wir Webseiten-Betreibern ein Werkzeug an die Hand, welches bereits perfekt für sie vorkonfiguriert ist. Dank der vielen Wizards ist es einfach
                   Standard-Probleme mit einem Klick zu lösen. Dank der flexiblen Testwerkzeuge, von denen wir %s Tools zur Verfügung stellen, ist es aber ebenso möglich komplexe Herausforderungen
                   individuell anzugehen.
                </p><p>
