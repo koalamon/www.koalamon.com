@@ -205,7 +205,7 @@
         <tr>
             <td>
                 Check-Interval
-                <p>Die Leankoala-Checks werden zyklisch ausgeführt, ohne das Kunden diese explizit starten müssen.</p>
+                <p>Die Leankoala-Checks werden zyklisch ausgeführt, ohne dass Kunden diese explizit starten müssen.</p>
             </td>
             <td colspan="3" style="line-height: 30px">
                 KoalaPing: alle 5 Minuten<br>
@@ -215,7 +215,7 @@
         <tr>
             <td>
                 Händischer Start einzelner Checks
-                <p>Einzelne Überprüfungen können jederzeit handisch gestartet werden.</p>
+                <p>Einzelne Überprüfungen können jederzeit händisch gestartet werden.</p>
             </td>
             <td><i class="fa fa-check-circle" aria-hidden="true"></td>
             <td><i class="fa fa-check-circle" aria-hidden="true"></td>
