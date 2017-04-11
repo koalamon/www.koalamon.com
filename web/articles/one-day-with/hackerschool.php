@@ -113,7 +113,7 @@
                             <h2>Zu testende Seiten bestimmen</h2>
                             <p>
                                 Bei der <a href="http://hacker-school.de/">Webseite der Hacker School</a> handelt es sich um eine klassische Marketingseite. Alle Inhalte werden über
-                                das bereits getestete CMS gepflegt, so dass es nur eine Hand voll Seiten getestet werden müssen.
+                                das bereits getestete CMS gepflegt, so dass nur eine Hand voll Seiten getestet werden müssen.
                             </p>
                             <ul>
                                 <li>Homepage</li>
@@ -148,7 +148,7 @@
                             </ul>
                             <div style="clear: both"></div>
                             <p style="margin-top: 20px">
-                                So konnten wir sicherstellen, dass die Seite durchgehend erreichbar ist, das JavaScript fehlerfrei funktioniert, keine
+                                So konnten wir sicherstellen, dass die Seite durchgehend erreichbar ist, dass JavaScript fehlerfrei funktioniert, keine
                                 großen Elemente auf der Seite zu finden sind und dass Google keine Beanstandungen hat.
                             </p>
                             <p>
