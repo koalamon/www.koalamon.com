@@ -68,8 +68,9 @@
                 <div class="info">
                     <?php __('page.index.overview.elements.fast.text') ?>
                 </div>
-                <div style="margin-top: 30px">
+                <div style="margin-top: 30px; line-height: 30px">
                     <a href="<?php __a('/one-day-with.html') ?>" class="more">One day with Leankoala</a>
+                    <a href="<?php __a('/product/recipes.html') ?>" class="more">Recipe overview</a>
                 </div>
             </li>
             <li>
