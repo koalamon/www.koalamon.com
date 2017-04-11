@@ -163,9 +163,7 @@
                         <div class="element">
                             <h2>Spezialfälle</h2>
                             <p>
-                                Die Webseite der Hacker School ist eine sehr reduzierte, was bedeutet, dass die Funktionalitäten die sie bietet alle
-                                bereits von dem CMS zur Verfügung werden. Aus diesem Grund kann die Hacker School direkt mit den Standard-Tests
-                                gründlich getestet werden.
+                                Die Webseite der Hacker School ist sehr reduziert. Die meisten Funktionalitäten werden von einem CMS zur Verfügung gestellt. Dieses CMS ist bereits bereits sehr stabil. Nichts desto trotz sollten weitere Fälle geprüft werden, die nun direkt mit den vorgefertigten Leankoala-Standard-Tests einfach und gründlich getestet werden.
                             </p>
                             <p>
                                 Um sicherzustellen, dass die Inhalte der Webseite richtig angezeigt werden, haben wir zusätzlich auf jeder Webseite
