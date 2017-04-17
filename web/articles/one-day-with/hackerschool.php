@@ -113,7 +113,7 @@
                             <h2>Zu testende Seiten bestimmen</h2>
                             <p>
                                 Bei der <a href="http://hacker-school.de/">Webseite der Hacker School</a> handelt es sich um eine klassische Marketingseite. Alle Inhalte werden über
-                                das bereits getestete CMS gepflegt, so dass es nur eine Hand voll Seiten getestet werden müssen.
+                                das bereits getestete CMS gepflegt, so dass nur eine Hand voll Seiten getestet werden müssen.
                             </p>
                             <ul>
                                 <li>Homepage</li>
@@ -148,7 +148,7 @@
                             </ul>
                             <div style="clear: both"></div>
                             <p style="margin-top: 20px">
-                                So konnten wir sicherstellen, dass die Seite durchgehend erreichbar ist, das JavaScript fehlerfrei funktioniert, keine
+                                So konnten wir sicherstellen, dass die Seite durchgehend erreichbar ist, dass JavaScript fehlerfrei funktioniert, keine
                                 großen Elemente auf der Seite zu finden sind und dass Google keine Beanstandungen hat.
                             </p>
                             <p>
@@ -163,9 +163,7 @@
                         <div class="element">
                             <h2>Spezialfälle</h2>
                             <p>
-                                Die Webseite der Hacker School ist eine sehr reduzierte, was bedeutet, dass die Funktionalitäten die sie bietet alle
-                                bereits von dem CMS zur Verfügung werden. Aus diesem Grund kann die Hacker School direkt mit den Standard-Tests
-                                gründlich getestet werden.
+                                Die Webseite der Hacker School ist sehr reduziert. Die meisten Funktionalitäten werden von einem CMS zur Verfügung gestellt. Dieses CMS ist bereits bereits sehr stabil. Nichtsdestotrotz sollten weitere Fälle geprüft werden, die nun direkt mit den vorgefertigten Leankoala-Standard-Tests einfach und gründlich getestet werden.
                             </p>
                             <p>
                                 Um sicherzustellen, dass die Inhalte der Webseite richtig angezeigt werden, haben wir zusätzlich auf jeder Webseite

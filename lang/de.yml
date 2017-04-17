@@ -34,7 +34,7 @@ page:
     overview:
       agency:
         headline: "Perfekt für Agenturen"
-        text: 'Auf der einen Seite wünschen Kunden sich hohe Qualität, auf der anderen Seite sind sie aber häufig nicht bereit dazu diese zu bezahlen. Mit dem "Lean Testing"-Ansatz haben wir eine Test-Methode etabliert, die sowohl effizient als auch kostengünstig ist.'
+        text: 'Auf der einen Seite wünschen Kunden sich hohe Qualität, auf der anderen Seite sind sie aber häufig nicht bereit diese zu bezahlen. Mit dem "Lean Testing"-Ansatz haben wir eine Test-Methode etabliert, die sowohl effizient als auch kostengünstig ist.'
         full: "<p>
                         The agency business can be very tough, as customers want their web projects to be developed in no time, with low costs and high
                         quality. It is almost impossible to achieve this, so one of the three goals has to be dropped. And most often it is quality that suffers in the end.
@@ -55,26 +55,26 @@ page:
       publishers:
         headline: "Gebaut für Verlage"
         text: "Leankoala entstand im Umfeld von zwei der größten Verlagshäuser Europas. Aus diesem Grund ist es besonders effizient, wenn es um das Testen von redaktionell getriebenen Webseiten geht, die durch Werbung und Reichweite ihre Umsätze generieren."
-        full: "<p>Bereits beim Entwurf von Leankoala war eine ganz bestimmte Zielgruppe im Fokus: Verlage. Das liegt sicherlich zum Einen dadran, dass dieses Werkzeug im Umfeld
-                  zwei der größten Verlagshäuser Europas entstanden ist, zum anderen auch weil gerade redaktionell gepflegte Webseiten mit den klassischen Testmethoden unserer Meinung nach nicht
+        full: "<p>Bereits beim Entwurf von Leankoala war eine ganz bestimmte Zielgruppe im Fokus: Verlage. Das liegt zum Einen daran, dass dieses Werkzeug im Umfeld
+                  zwei der größten Verlagshäuser Europas entstanden ist, zum anderen daran weil gerade redaktionell gepflegte Webseiten mit den klassischen Testmethoden unserer Meinung nach nicht
                   kosteneffizient getestet werden können.
                </p><p>
-                  Leankoala ist stark wenn es um das Testen von Entwicklungsumgebungen geht und ist bereits von Beginn eines Projektes an hilfreich sein. Eine Besonderheit von redaktionellen Webseiten ist es aber, dass
-                  nicht nur ein Deployment der Anwendung zu Fehlern führen kann, sondern das kontinuierliche Publizieren von Artikeln ebenfalls Anomalien hervorrufen können. Aus diesem Grund ist eine durchgängige
+                  Leankoala ist stark, wenn es um das Testen von Entwicklungsumgebungen geht und ist bereits von Beginn eines Projektes an hilfreich. Eine Besonderheit von redaktionellen Webseiten ist es aber, dass
+                  nicht nur ein Deployment der Anwendung zu Fehlern führen kann, sondern das kontinuierliche Publizieren von Artikeln ebenfalls Anomalien hervorrufen kann. Aus diesem Grund ist eine durchgängige
                   Überwachung der Angebote unabdingbar.
                </p><p>
                   Eine weitere Besonderheit von redaktionellen Webseiten ist die Finanzierung durch Werbung und Reichweite. Deshalb ist es sinnvoll zu überprüfen, ob die Werbeausspielung und
-                  die Reichweitenzählung fehlerfrei funktioniert. Leankoala bietet hierfür mehrere Testwerkzeuge, um auch das sicherzustellen.
+                  die Reichweitenzählung fehlerfrei funktionieren. Leankoala bietet hierfür mehrere Testwerkzeuge.
                </p>"
       operators:
         headline: "Hilfreich für Webseiten-Betreiber"
-        text: "Als wir Leankoala entwickelt haben waren uns zwei Dinge wichtig. Ein Standard-Problem sollte eine einfache Lösung besitzen, aber auch individuelle Herausforderungen sollten mit unserem
-               Werkzeug lösbar sein. Wir glauben, dass wir beide Ziele erreicht haben."
+        text: "Als wir Leankoala entwickelt haben, waren uns zwei Dinge wichtig: Ein Standard-Problem sollte eine einfache Lösung besitzen. Individuelle Herausforderungen sollten mit unserem
+               Werkzeug jedoch ebenfalls lösbar sein. Wir glauben, dass wir beide Ziele erreicht haben."
         full: "<p>Webseiten sind heutzutage Showroom, Visitenkarte und oft auch Schaltzentrale einer ganzen Firma. Ausfälle dieser Systeme bedeuten, dass
                   das komplette Geschäftsmodell ebenfalls zum Ruhen kommt. Aus diesem Grund ist es elementar zu wissen, dass die wichtigsten Bestandteile einer
                   Webseite einwandfrei funktionieren.
                </p><p>
-                  Mit Leankoala geben wir Webseiten-Betreibern ein Werkzeug an die Hand, welches bereits perfekt für Sie vorkonfiguriert ist. Dank der vielen Wizards ist es einfach
+                  Mit Leankoala geben wir Webseiten-Betreibern ein Werkzeug an die Hand, welches bereits perfekt für sie vorkonfiguriert ist. Dank der vielen Wizards ist es einfach
                   Standard-Probleme mit einem Klick zu lösen. Dank der flexiblen Testwerkzeuge, von denen wir %s Tools zur Verfügung stellen, ist es aber ebenso möglich komplexe Herausforderungen
                   individuell anzugehen.
                </p><p>
@@ -96,19 +96,19 @@ page:
       headline: "Leankoala kommt mit %s Tools, die nach unterschiedlichen Merkmalen überprüfen, ob eine Webseite korrekt funktioniert. Um nur einige zu nennen, verfügt Leankoala über ein Ping Tool, einen Xpath Checker, ein regEx tool und einige Security Checks."
       testsuite:
         headline: "Eine starke, performante Testumgebung aufbauen."
-        text: "Jedes unserer Tools ist für sich wertvoll, aber erst in der Kombination werden sie mächtig und können für alle möglichen Arten von Webservice genutzt werden. Um unseren Kunden zu ermöglichen auch selbst kreativ zu werden, haben wir unsere \"One day with Leankoala\"s ins Leben gerufen. Wir zeigen Euch hier Best Practice Beispiele und zeigen Euch Beispiele wie wir verschiedene Arten von Webseiten und - services testen."
+        text: "Jedes unserer Tools ist für sich wertvoll, aber erst in der Kombination werden sie mächtig und können für alle möglichen Arten von Webservice genutzt werden. Um Euch zu ermöglichen selbst kreativ zu werden, haben wir unsere \"One day with Leankoala\"s ins Leben gerufen. Wir zeigen Euch hier Best Practice Beispiele und erklären wie wir verschiedene Arten von Webseiten und - services testen."
 
     features:
       headline: "Features"
-      info: "Leankoala testet eine Webseite mit simplen, aber wertvollen Checks gemäß dem Lean-Testing-Ansatz. Gleichzeitig deckt unser Service den kompletten Entwicklungs-Zyklus ab: von wiederkehrenden Checks, über die Alarmierung im Fehlerfall, bin hin zur Datenanalyse."
+      info: "Leankoala testet eine Webseite mit simplen, aber wertvollen Checks gemäß dem Lean-Testing-Ansatz. Gleichzeitig deckt unser Service den kompletten Entwicklungs-Zyklus ab: von wiederkehrenden Checks, über die Alarmierung im Fehlerfall, bis hin zur Datenanalyse."
       feature:
         tools:
           headline: "Werkzeuge"
-          text: "Leankoala kommt mit %s Tools, die nach unterschiedlichen Merkmalen überprüfen, ob eine Webseite korrekt funktioniert. Um nur einige zu nennen, verfügt Leankoala über ein Ping Tool, einen Xpath Checker, ein Regular-Expression-Werkzeug und einige Sicherheitschecks."
+          text: "Leankoala kommt mit %s Tools, die nach unterschiedlichen Merkmalen überprüfen, ob eine Webseite korrekt funktioniert. Um nur einige zu nennen, verfügt Leankoala über ein Ping Tool, einen Xpath Checker, ein Regular-Expression-Werkzeug und verschiedene Sicherheitschecks."
           button: "zu den Werkzeugen"
         recipes:
           headline: "Rezepte"
-          text: "Viele Webseiten können sehr ähnlich getestet werden, dafür haben wir die 'Rezepte' eingeführt. Unter Rezet versteht sich ein Satz von Regeln, die auf jede Komponente übernommen werden kann."
+          text: "Viele Webseiten können sehr ähnlich getestet werden, dafür haben wir die 'Rezepte' eingeführt. Unter Rezept versteht sich ein Satz von Regeln, der für jede Komponente angewendet werden kann."
           button: "zu den Rezepten"
         history:
           headline: "History"
@@ -118,10 +118,10 @@ page:
           text: "Findet Leankoala eine Anomalie im System, werden vorab definierte Empfänger benachrichtigt - wahlweise per E-Mail, Webhook oder Slack."
         acknowledgement:
           headline: "Incident Acknowledgment"
-          text: "Incidents gibt es auch in den besten Entwicklungsumgebungen. Um den Arbeitsaufwand zu verringern (die Arbeit zu vereinfachen) können Projektteilnehmer Incidents zugewisesn werden bzw. sich diese selbst zuweisen."
+          text: "Incidents gibt es auch in den besten Entwicklungsumgebungen. Um den Arbeitsaufwand zu verringern (die Arbeit zu vereinfachen) können Projektteilnehmer Incidents zugewiesen werden bzw. sich diese selbst zuweisen."
         slack:
           headline: "Slack-Integration"
-          text: "Wir lieben Slack. Daher geht es nicht anders, Leankoala ermöglicht nicht nur den Versand der Benchrichtigungen über Slack, sondern auch das Listen, Acknowledgen und Schließen von Incidents"
+          text: "Wir lieben Slack. Daher geht es nicht anders, Leankoala ermöglicht nicht nur den Versand der Benachrichtigungen über Slack, sondern auch das Listen, Acknowledgen und Schließen von Incidents"
 
     on-the-road:
       headline: "On the road"
@@ -163,16 +163,16 @@ page:
 
   pricing:
     headline: "Preise"
-    info: "Jedes Projekt ist anders, weswegen Leankoala mit drei verschiedenen Preismodellen daher kommt. Nutze unsere 14-tägige Trialphase um herauszufinden,
-           welcher Umfang perfekt passt und entscheide Dich im Anschluss. Alle Preise sind wie beschrieben Nettopreise pro Monat."
+    info: "Jedes Projekt ist anders. Deswegen kommt Leankoala mit drei verschiedenen Preismodellen daher kommt. Nutze unsere 14-tägige Trialphase, um herauszufinden,
+           welches Modell für Dein Projekt passt und entscheide Dich erst im Anschluss. (Alle Preise sind wie beschrieben Nettopreise pro Monat)."
 
     startup:
       headline: "Moin moin, Hamburg Start Ups!"
       text1: "<p>Es gibt neben Startups noch etwas was wir lieben: unsere Heimatstadt Hamburg!
-              Deswegen wollen wir unbedingt auch die Hamburger Community unterstützen die 'fehlerfreiesten' Webseiten zu haben. Also Hamburger Startups, wenn Ihr Interesse an einem
+              Deswegen wollen wir gerne die Hamburger Community unterstützen die 'fehlerfreiesten' Webseiten zu haben. Also Hamburger Startups, wenn Ihr einen
               einfachen und schnellen Weg sucht Eure Seiten in der Entwicklung zu testen und nach Livegang zu monitoren, meldet Euch.</p>"
       text2: "<p>
-                 Die ersten 20 lokalen Startups bekommen Leankoala für’s erste Jahr umsonst. Was wir uns dafür von Euch wünschen: Austausch, Feedback und ein Testimonial.
+                 Die ersten 20 Hamburger Startups bekommen Leankoala für's erste Jahr umsonst. Was wir uns dafür von Euch wünschen: Austausch, Feedback und ein Testimonial.
                  Klingt spannend? Kontaktiert uns!
               </p>"
       contact: "Kontaktiert uns"
@@ -191,12 +191,12 @@ page:
                    bereits herausgefunden werden kann, ob eine Webseite bzw. ein Feature fehlerhaft läuft.
                </p>
                <p>
-                  Bis dahin wurde standardmäßig immer mit einer hohen und aufwendigen Testabdeckung gearbeitet. Auf der täglichen Agenda hier: komplexe, funktionale Tests mit Selenium und Behavior Driven
+                  Bis dahin wurde standardmäßig immer mit einer hohen und aufwendigen Testabdeckung gearbeitet. Auf der täglichen Agenda standen: komplexe, funktionale Tests mit Selenium und Behavior Driven
                   Development auf dem Maximum. Das war die Zeit großartiger Architektur und sauberem Clean Code. Eine wunderbare Zeit mit einem großen Problem Zeit und damit Kosten, die mit der Implementation
                   und dem Testen der Applikation verbunden war.
                </p>
                <p>
-                  Durch Einsatz von Lean Testing und der Kombination des richtigen Satz an einfachen Checks bekommt man die Chance eine gute Testabdeckung mit einem geringen Zeit und Geldeinsatz zu etablieren.
+                  Durch Einsatz von Lean Testing und der Kombination dem richtigen Satz an einfachen Checks bekommt man die Chance eine gute Testabdeckung mit einem geringen Zeit- und Geldeinsatz zu etablieren.
                </p>"
 
 footer:
@@ -225,7 +225,7 @@ footer:
     releasenotes: "Release Notes"
 
   blog:
-    head: "Die neusten Blog Artikel"
+    head: "Die neuesten Blog Artikel"
 
 menu:
   main:
