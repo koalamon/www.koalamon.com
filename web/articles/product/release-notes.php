@@ -53,6 +53,31 @@ include_once __DIR__ . '/../../../src/releasenotes.php';
             border-radius: 10px;
             font-size: 14px;
         }
+
+        #release-notes .description a {
+            background-color: #f1c40f;
+            border-radius: 3px;
+            padding: 3px;
+            color: white;
+            font-size: 10px;
+        }
+
+        #release-notes .description a:hover {
+            background-color: #f39c12;
+        }
+
+        #release-notes .description .images {
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
+        #release-notes .description img {
+            margin-right: 10px;
+        }
+
+        #release-notes .description .images a {
+            background-color: white;
+        }
     </style>
 
     <div class="content info">
@@ -61,7 +86,7 @@ include_once __DIR__ . '/../../../src/releasenotes.php';
 
     <div class="content" style="margin-top: 0px">
 
-        <table>
+        <table id="release-notes">
             <?php foreach ($releaseNotes as $key => $releaseNote): ?>
                 <tr>
                     <td colspan="2" class="release">
@@ -77,7 +102,18 @@ include_once __DIR__ . '/../../../src/releasenotes.php';
                 <?php foreach ($releaseNote['features'] as $feature): ?>
                     <tr class="<?php echo $feature['type']; ?> feature">
                         <td class="feature-detail"><?php echo $feature['feature']; ?></td>
-                        <td class="description"><?php echo $feature['desc']; ?></td>
+                        <td class="description">
+                            <?php echo $feature['desc']; ?>
+                            <?php if (array_key_exists('images', $feature)): ?>
+                                <div class="images">
+                                    <?php foreach ($feature['images'] as $image) : ?>
+                                        <a href="/images/release/<?php echo $image; ?>" data-toggle="lightbox"  data-gallery="<?php echo $key ?>">
+                                            <img src="/images/release/<?php echo $image; ?>" class="img-fluid" style="width: 200px">
+                                        </a>
+                                    <?php endforeach; ?>
+                                </div>
+                            <?php endif; ?>
+                        </td>
                     </tr>
                 <?php endforeach; ?>
                 <tr style="border-top: 50px solid transparent">

@@ -1,6 +1,31 @@
 <?php
 
 $releaseNotes = [
+    '2017-04-17' => [
+        'date' => '2017-04-17',
+        'name' => 'Version 1.9.0 - Atlantis ',
+        'desc' => 'The version 1.9.0 is build on feedback we got from an agency. It should help to better include Leankoala into the deployment process.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'Deployment Hooks',
+                    'desc' => '<p>One standard use case for Leankoala is running all tests after a successful deployment. Leankoala now supports that 
+                               workflow by providing two hooks. The first one is called before the deployment starts and tells Leankoala that within
+                               the next minutes all errors found for a special system are a result of the deployment and should not be shown or alerted.</p>
+                               <p>The second hook is used to re-activate Leankoala. When called the system will alert again. Additionally all tests 
+                               for all components are started.</p>',
+                    'images' => ['1.9.0/deployment_hook.png', '1.9.0/deployment_hook_2.png']
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Main Menu Update',
+                    'desc' => 'Our users told as that it is quite confusing that there are two systems and checks elements in our main menu. The one
+                               for looking at the status and the other one for configuring those elements. We took that feedback and grouped all configure links
+                               under one single configure menu item.'
+                ]
+            ]
+    ],
     '2017-04-11' => [
         'date' => '2017-04-11',
         'name' => 'Version 1.8.0',
@@ -24,7 +49,7 @@ $releaseNotes = [
                     'feature' => 'Recipes',
                     'desc' => 'We believe that modern web development means putting existing components together to create something new. That also means
                                we are able to know a lot about testing such a website without knowing details upfront. The first version of this feature already
-                               includes 20 recipes and is growing fast. <a style="text-decoration:underline" href="' . __a('/product/recipes.html', false) . '">Click here for more information.</a>'
+                               includes 20 recipes and is growing fast. <a href="' . __a('/product/recipes.html', false) . '">Click here for more information.</a>'
                 ],
                 [
                     'type' => 'feature',

@@ -47,4 +47,8 @@
 
 <script src="https://use.fontawesome.com/ab06a4d579.js"></script>
 
+<script src="/include/lightbox/lightbox.js"></script>
+<link rel="stylesheet" href="/include/lightbox/lightbox.css">
+
+
 <title>Leankoala - Click, click, test.</title>
