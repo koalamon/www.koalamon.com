@@ -52,7 +52,7 @@
                 <ul>
                     <li><a href="<?php __a('/imprint.html'); ?>" style="color: white"><?php __('footer.about.contact'); ?></a></li>
                     <li><a href="<?php __a('/tos.html'); ?>" style="color: white"><?php __('footer.about.tos'); ?></a></li>
-                    <li><a href="<?php __a('/release-notes.html'); ?>" style="color: white"><?php __('footer.about.releasenotes'); ?></a></li>
+                    <li><a href="<?php __a('/product/release-notes.html'); ?>" style="color: white"><?php __('footer.about.releasenotes'); ?></a></li>
                 </ul>
             </div>
 
