@@ -2,10 +2,23 @@
     <h1 style="width: 100%; text-align: center"><?php __('page.product.recipes.headline'); ?></h1>
 </div>
 
+<style>
+    .video .fa-play-circle-o {
+        position: absolute;
+        font-size: 100px;
+        color: #999;
+        margin-left: -240px;
+        margin-top: 90px;
+    }
+</style>
+
 <div class="content">
     <div class="features" style="margin-top: 40px">
-        <div class="feature-image" style="margin-left: calc(50% - 264px);">
-            <img src="/images/features/recipes.png">
+        <div class="feature-image video" style="margin-left: calc(50% - 264px);">
+            <a href="https://www.youtube.com/watch?v=aRDJ50QQuPQ&rel=0" data-toggle="lightbox" data-width="800">
+                <img src="/images/features/recipes.png">
+                <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+            </a>
         </div>
     </div>
 </div>
