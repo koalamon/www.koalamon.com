@@ -66,7 +66,7 @@
                     foreach ($recentBlogPosts as $blogPost) {
                         ?>
                         <li>
-                            <a href=" <?php echo $blogPost->url ?>">
+                            <a href="<?php echo $blogPost->url ?>">
                                 <?php echo $blogPost->title ?>
                             </a>
                         </li>
