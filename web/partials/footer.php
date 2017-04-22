@@ -7,7 +7,7 @@
         </p>
 
         <div style="text-align: center; margin-bottom: 100px">
-            <a onclick="demo();">
+            <a onclick="demo();" class="clickable">
                 <div style="float:left; margin-left: 265px; margin-right: 30px;  background-color: #3498db; color: white; width: 150px; padding: 20px; border-radius: 10px">
                     <?php __("footer.work.buttons.request"); ?>
                 </div>
