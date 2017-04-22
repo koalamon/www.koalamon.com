@@ -1,5 +1,5 @@
 <div id="demo" style="height: 600px; width: 700px; display: none">
-    <iframe src="http://calendly.com/leankoala_com" width="100%" height="100%" style="border: none">
+    <iframe src="https://calendly.com/leankoala_com" width="100%" height="100%" style="border: none">
     </iframe>
 </div>
 
@@ -10,6 +10,7 @@
             overlayCss: {backgroundColor: "#000"},
             escClose: true,
             overlayClose: true
+
         });
     }
 </script>
