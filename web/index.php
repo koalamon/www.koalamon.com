@@ -99,11 +99,13 @@ include_once __DIR__ . '/../src/functions.php';
     });
 
     // light box: http://ashleydw.github.io/lightbox/
-    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
         event.preventDefault();
         $(this).ekkoLightbox();
     });
 </script>
+
+<?php include_once __DIR__ . '/partials/demo.php'; ?>
 
 </body>
 </html>

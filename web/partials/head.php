@@ -40,7 +40,7 @@
 <meta property="og:image" content="https://www.leankoala.com/images/logo.png"/>
 <meta property="fb:app_id" content="663426957144905"/>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -50,5 +50,6 @@
 <script src="/include/lightbox/lightbox.js"></script>
 <link rel="stylesheet" href="/include/lightbox/lightbox.css">
 
+<script src="/include/simplemodal/jquery.simplemodal.1.4.4.min.js"></script>
 
 <title>Leankoala - Click, click, test.</title>

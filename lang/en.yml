@@ -183,6 +183,10 @@ page:
         text: "The Scalamento team helps companies to scale their momentum. They are experts for digital transformation and agile leadership."
         button: "coming soon"
 
+  demo:
+    headline: "Request a Demo"
+    info: "Lorem Ipsum"
+
   ressources:
 
     lean-testing:

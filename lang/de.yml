@@ -177,7 +177,6 @@ page:
               </p>"
       contact: "Kontaktiert uns"
 
-
   ressources:
 
     lean-testing:
@@ -198,6 +197,10 @@ page:
                <p>
                   Durch Einsatz von Lean Testing und der Kombination dem richtigen Satz an einfachen Checks bekommt man die Chance eine gute Testabdeckung mit einem geringen Zeit- und Geldeinsatz zu etablieren.
                </p>"
+
+  demo:
+    headline: "Demo gefällig?"
+    info: "Lorem Ipsum"
 
 footer:
   work:
