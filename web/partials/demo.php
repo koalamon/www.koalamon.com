@@ -1,21 +1,19 @@
-<div id="demo" style="height: 600px; width: 700px; display: none">
-    <iframe src="https://calendly.com/leankoala_com" width="100%" height="100%" style="border: none">
-    </iframe>
-</div>
+<style>
 
-<script>
-    function demo() {
-        $("#demo").modal({
-            opacity: 80,
-            overlayCss: {backgroundColor: "#000"},
-            escClose: true,
-            overlayClose: true
-
-        });
+    iframe {
+        width: 100%;
+        height: 580px;
     }
 
+    .modal-body {
+        padding: 0;
+    }
+
+</style>
+<script>
+
     if (window.location.hash.indexOf('demo') != -1) {
-        demo();
+        $('#demo').click();
     }
 
 </script>

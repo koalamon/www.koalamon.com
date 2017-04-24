@@ -7,11 +7,13 @@
         </p>
 
         <div style="text-align: center; margin-bottom: 100px">
-            <a onclick="demo();" class="clickable">
-                <div style="float:left; margin-left: 265px; margin-right: 30px;  background-color: #3498db; color: white; width: 150px; padding: 20px; border-radius: 10px">
-                    <?php __("footer.work.buttons.request"); ?>
+            <div style="float:left; margin-left: 265px; margin-right: 30px;  background-color: #3498db; color: white; width: 150px; padding: 20px; border-radius: 10px">
+                <div class="row">
+                    <a href="https://calendly.com/leankoala_com" data-height="580" data-toggle="lightbox" data-gallery="remoteload" id="demo" style="color: white">
+                        <?php __("footer.work.buttons.request"); ?>
+                    </a>
                 </div>
-            </a>
+            </div>
             <div style="float:left; margin-top: 20px; margin-right: 30px"> <?php __("footer.work.buttons.or"); ?></div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
                 <div style="border: 2px solid #3498db; color: #3498db; width: 120px; display: flex; padding: 20px 30px 20px 30px; border-radius: 10px;"><?php __("footer.work.buttons.try"); ?></div>

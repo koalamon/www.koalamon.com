@@ -50,6 +50,4 @@
 <script src="/include/lightbox/lightbox.js"></script>
 <link rel="stylesheet" href="/include/lightbox/lightbox.css">
 
-<script src="/include/simplemodal/jquery.simplemodal.1.4.4.min.js"></script>
-
 <title>Leankoala - Click, click, test.</title>
