@@ -13,4 +13,9 @@
 
         });
     }
+
+    if (window.location.hash.indexOf('demo') != -1) {
+        demo();
+    }
+
 </script>
