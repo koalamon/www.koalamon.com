@@ -197,10 +197,10 @@
         </tr>
         <tr>
             <td>
-                Checks
-                <p>Add your team or anyone else involved in your email creation and approval process.</p>
+                Nutzer
+                <p>Ob Du es allein nutzt oder mit einem ganzen Team. Füge jeden hinzu der informiert werden soll.</p>
             </td>
-            <td colspan="3">ungegrenzt</td>
+            <td colspan="3">unbegrenzt</td>
         </tr>
         <tr>
             <td>
