@@ -16,4 +16,8 @@
         $('#demo').click();
     }
 
+    if (window.location.hash.indexOf('newsletter') != -1) {
+        $('#newsletter').click();
+    }
+
 </script>
