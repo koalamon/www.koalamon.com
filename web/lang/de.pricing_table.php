@@ -197,6 +197,16 @@
         </tr>
         <tr>
             <td>
+                Checks
+                <p>
+                    Egal, ob du Leankoala dazu nutzt deine wichtigsten Komponenten anzupingen oder ob du detaillierte
+                    Überprüfungen einrichtest, alle Checks sind inklusive. Egal wie viele es sind.
+                </p>
+            </td>
+            <td colspan="3">unbegrenzt</td>
+        </tr>
+        <tr>
+            <td>
                 Nutzer
                 <p>Ob Du es allein nutzt oder mit einem ganzen Team. Füge jeden hinzu der informiert werden soll.</p>
             </td>
