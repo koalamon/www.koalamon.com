@@ -1,3 +1,5 @@
+<?php $title = "What is lean testing? - Leankoala" ?>
+
 <div id="lean">
     <div class="content">
         <h1 style="width: 100%; text-align: center; margin-bottom: 20px"><?php __('page.ressources.lean-testing.headline') ?></h1>

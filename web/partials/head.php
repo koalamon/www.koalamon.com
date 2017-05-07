@@ -50,4 +50,5 @@
 <script src="/include/lightbox/lightbox.js"></script>
 <link rel="stylesheet" href="/include/lightbox/lightbox.css">
 
-<title>Leankoala - Click, click, test.</title>
+<title><?php echo $title; ?></title>
+<meta name="description" content="<?php echo $description ?>">

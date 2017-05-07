@@ -22,6 +22,14 @@ if ($article == 'google8e129feae7efeb1f') {
 
 include_once __DIR__ . '/../src/functions.php';
 
+$title = "Leankoala - Click, click, test.";
+$description = "Einfach Testen. Von Entwicklern für Entwickler.";
+
+ob_start();
+include __DIR__ . "/articles/" . $article . ".php";
+$article = ob_get_contents();
+ob_clean();
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $language ?>">
@@ -34,7 +42,7 @@ include_once __DIR__ . '/../src/functions.php';
 
 <article>
     <?php
-    include __DIR__ . "/articles/" . $article . ".php";
+    echo $article;
     ?>
 </article>
 
