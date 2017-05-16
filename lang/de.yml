@@ -34,23 +34,22 @@ page:
     overview:
       agency:
         headline: "Perfekt für Agenturen"
-        text: 'Auf der einen Seite wünschen Kunden sich hohe Qualität, auf der anderen Seite sind sie aber häufig nicht bereit diese zu bezahlen. Mit dem "Lean Testing"-Ansatz haben wir eine Test-Methode etabliert, die sowohl effizient als auch kostengünstig ist.'
+        text: 'Hochqualitative Webanwendungen sind der Wunsch jedes Kunden. Gleichzeitig sollen die Seiten günstig und schnell realisiert werden. Mit dem "Lean Testing"-Ansatz haben wir eine Test-Methode etabliert, die sowohl effizient als auch kostengünstig ist.
+'
         full: "<p>
-                        The agency business can be very tough, as customers want their web projects to be developed in no time, with low costs and high
-                        quality. It is almost impossible to achieve this, so one of the three goals has to be dropped. And most often it is quality that suffers in the end.
+                       Das Agenturgeschäft kann sehr tough sein. Zum einen wünschen sich Kunden, dass ihre Webprojekte schnellstmöglich live gehen können, gleichzeitig sollen sie günstig, wie auch hochqualitativ sein. 
+                       Dies zu schaffen ist nahezu unmöglich, weswegen in der Regel einer dieser drei Punkte über Board geht. Dies ist meistens das Thema Qualität, das am Ende unter Zeit und Kostengründen leidet.
+                       
                     </p>
                     <p>
-                        Our experience shows that the fact quality is most often dropped does not mean it is the least important goal. This misunderstaning comes from the definition of quality as such.
-                        understanding of what quality means. Most projects are from an objective point of view <span style=\"\">only</span> standard. You connect standard features
-                        To shed some lights on this: most projects are pretty much standard in the way they are setup, where you connect standard features and components to create a new system.
-                        Additionally, there will be only a few cases in this system that add real business values.
+                        Objektiv betrachtet sind die meisten Webanwendungen sehr ähnlich in der Art und Weise wie sie aufgebaut sind. Man verbindet Standardfeatures und Standardkomponenten um ein neues System aufzusetzen. 
+                        Diese Teile verbindet man wie Legosteine, nur dass wir hier von html, CSS, usw. sprechen. Zudem gibt es nur wenige Teile die wahren Business Value tragen.
                     </p>
                     <p>
-                        Leankoala provides <strong>standard checks</strong> for testing those <strong>standard features</strong>. Often that is all that
-                        is needed. In addition, we offer a new and different testing concept we already verified in many conferences, press articles and the
-                        German book
+                        Leankoala bietet <strong>Werkzeuge</strong> um diese <strong>Features und Komponenten</strong> zu testen. Das deckt alle Standardfälle optimal ab. Darüber hinaus bieten wir mit dem Lean Testing Ansatz
+                        ein innovatives Testkonzept für Webanwendungen. Dieser Ansatz ist bereits verifiziert und bekannt von Konferenzen, aus Fachartikeln und dem Buch  “Erfolgreiche Softwareprojekt im Web".
                         \"<a href=\"https://www.amazon.de/Erfolgreiche-Softwareprojekte-Web-Gedanken-Webentwicklung/dp/3868020888\" target=\"_blank\">Erfolgreiche
-                            Softwareprojekt im Web</a>\". One of our goals is to push the lean testing movement so you don't have to sell it to your client.
+                            Softwareprojekt im Web</a>\". Das Thema wird von uns, den Gründern des Ansatzes, weiter getrieben.
                     </p>"
       publishers:
         headline: "Gebaut für Verlage"
