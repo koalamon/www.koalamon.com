@@ -34,9 +34,8 @@ page:
     overview:
       agency:
         headline: "Perfekt für Agenturen"
-        text: 'Hochqualitative Webanwendungen sind der Wunsch jedes Kunden. Gleichzeitig sollen die Seiten günstig und schnell realisiert werden. Mit dem "Lean Testing"-Ansatz haben wir eine Test-Methode etabliert, die sowohl effizient als auch kostengünstig ist.
-'
-        full: "<p>
+        text: 'Hochqualitative Webanwendungen sind der Wunsch jedes Kunden. Gleichzeitig sollen die Seiten günstig und schnell realisiert werden. Mit dem "Lean Testing"-Ansatz haben wir eine Test-Methode etabliert, die sowohl effizient als auch kostengünstig ist.'
+        full: '<p>
                        Das Agenturgeschäft kann sehr tough sein. Zum einen wünschen sich Kunden, dass ihre Webprojekte schnellstmöglich live gehen können, gleichzeitig sollen sie günstig, wie auch hochqualitativ sein. 
                        Dies zu schaffen ist nahezu unmöglich, weswegen in der Regel einer dieser drei Punkte über Board geht. Dies ist meistens das Thema Qualität, das am Ende unter Zeit und Kostengründen leidet.
                        
@@ -48,9 +47,9 @@ page:
                     <p>
                         Leankoala bietet <strong>Werkzeuge</strong> um diese <strong>Features und Komponenten</strong> zu testen. Das deckt alle Standardfälle optimal ab. Darüber hinaus bieten wir mit dem Lean Testing Ansatz
                         ein innovatives Testkonzept für Webanwendungen. Dieser Ansatz ist bereits verifiziert und bekannt von Konferenzen, aus Fachartikeln und dem Buch  “Erfolgreiche Softwareprojekt im Web".
-                        \"<a href=\"https://www.amazon.de/Erfolgreiche-Softwareprojekte-Web-Gedanken-Webentwicklung/dp/3868020888\" target=\"_blank\">Erfolgreiche
-                            Softwareprojekt im Web</a>\". Das Thema wird von uns, den Gründern des Ansatzes, weiter getrieben.
-                    </p>"
+                        "<a href="https://www.amazon.de/Erfolgreiche-Softwareprojekte-Web-Gedanken-Webentwicklung/dp/3868020888" target="_blank">Erfolgreiche
+                            Softwareprojekt im Web</a>". Das Thema wird von uns, den Gründern des Ansatzes, weiter getrieben.
+                    </p>'
       publishers:
         headline: "Gebaut für Verlage"
         text: "Leankoala entstand im Umfeld von zwei der größten Verlagshäuser Europas. Aus diesem Grund ist es besonders effizient, wenn es um das Testen von redaktionell getriebenen Webseiten geht, die durch Werbung und Reichweite ihre Umsätze generieren."
