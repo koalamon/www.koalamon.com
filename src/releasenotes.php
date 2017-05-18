@@ -1,6 +1,32 @@
 <?php
 
 $releaseNotes = [
+    '2017-05-18' => [
+        'date' => '2017-05-18',
+        'name' => 'Version 2.0.0',
+        'desc' => 'We are very proud to present our 2.0.0 release our next major release. With this version we introduced the javascript-aware 
+                   feature for the Leankoala checks.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'Javascript-aware',
+                    'desc' => '<p>The new javascript-aware feature changes a lot. We are now able to test and monitor websites that are 
+                               based on javascript frameworks like <a href="https://facebook.github.io/react/">React</a> from Facebook 
+                               or <a href="https://angularjs.org/">AngularJs</a> from Google.</p>
+                               <p>From now on all our checks are able to handle the dom tree rendered by Chrome instead of the plain html file.
+                               The only thing our customers have to do is to enable that feature within the system administration and all test 
+                               runs are switched.</p>'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Enhanced Result Information',
+                    'desc' => 'When trying to debug incidents found by Leankoala it is needed to provide a lot of information. We extended our
+                               workers to collect more and more information. In this step we added the found requests and the html content from
+                               MissingRequest.'
+                ]
+            ]
+    ],
     '2017-04-17' => [
         'date' => '2017-04-17',
         'name' => 'Version 1.9.0 - Atlantis ',
