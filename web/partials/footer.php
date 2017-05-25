@@ -1,3 +1,11 @@
+<?php
+
+if (!isset($footerColor)) {
+    $footerColor = '#3498db';
+}
+
+?>
+
 <div style="border-top: 1px solid #eee; margin-top: 100px" class="no-mobile">
 
     <div class="content" style="text-align: center; margin-top: 20px; height: 600px; overflow: hidden">
@@ -7,7 +15,7 @@
         </p>
 
         <div style="text-align: center; margin-bottom: 100px">
-            <div style="float:left; margin-left: 265px; margin-right: 30px;  background-color: #3498db; color: white; width: 150px; padding: 20px; border-radius: 10px">
+            <div style="float:left; margin-left: 265px; margin-right: 30px;  background-color: <?php echo $footerColor; ?>; color: white; width: 150px; padding: 20px; border-radius: 10px">
                 <div class="row">
                     <a href="https://calendly.com/leankoala_com" data-height="580" data-toggle="lightbox" data-gallery="remoteload" id="demo" style="color: white">
                         <?php __("footer.work.buttons.request"); ?>
@@ -16,7 +24,7 @@
             </div>
             <div style="float:left; margin-top: 20px; margin-right: 30px"> <?php __("footer.work.buttons.or"); ?></div>
             <a href="https://monitor.leankoala.com/secure_area/register/">
-                <div style="border: 2px solid #3498db; color: #3498db; width: 120px; display: flex; padding: 20px 30px 20px 30px; border-radius: 10px;"><?php __("footer.work.buttons.try"); ?></div>
+                <div style="border: 2px solid <?php echo $footerColor; ?>; color: <?php echo $footerColor; ?>; width: 120px; display: flex; padding: 20px 30px 20px 30px; border-radius: 10px;"><?php __("footer.work.buttons.try"); ?></div>
             </a>
         </div>
 
@@ -26,7 +34,6 @@
 </div>
 <footer>
     <div class="content">
-        <!--img src="/images/logo.png" width="80px"-->
 
         <div style="width: 100%;">
             <div style="float: left; margin-right: 100px" class="block">
@@ -37,7 +44,9 @@
                 </div>
                 <div style="font-size: 25px; margin-top: 20px">
                     <a href="https://www.facebook.com/leankoala/" style="color: white"><i class="fa fa-facebook-square" aria-hidden="true" style="margin-right: 5px"></i></a>
-                    <a href="https://www.twitter.com/leankoala" style="color: white"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href="https://www.twitter.com/leankoala" style="color: white"><i class="fa fa-twitter-square" aria-hidden="true" style="margin-right: 5px"></i></a>
+                    <a href="https://www.instagram.com/leankoala" style="color: white"><i class="fa fa-instagram" aria-hidden="true" style="margin-right: 5px"></i></a>
+                    <a href="https://www.medium.com/the-lean-tester" style="color: white"><i class="fa fa-medium" aria-hidden="true"></i></a>
                 </div>
             </div>
             <div style="float: left" class="block">

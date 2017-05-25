@@ -1,6 +1,6 @@
 <?php
 
-$prices = ['large' => '69'];
+$prices = ['large' => '69', 'webcompany' => '349'];
 
 $checks['en'] = [
     'koalaping' => ['img' => 'https://monitor.leankoala.com/images/integrations/koalaping.png', 'name' => 'KoalaPing', 'desc' => 'Checks if the given components answer with the correct http status code.', 'filters' => 'website webservice'],

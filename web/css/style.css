@@ -733,3 +733,105 @@ article {
 #page-checks .filter li:last-child {
     margin-right: 0;
 }
+
+.super-headline {
+    width: 100%;
+    font-size: 50px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+.info-block {
+    line-height: 30px;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+.info-block a {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.info-block a:hover {
+    border-bottom: 1px solid black;
+}
+
+#why-detail .block {
+    margin-top: 80px;
+    padding-top: 50px;
+    border-top: 1px solid #ccc;
+}
+
+#why-detail .benefits ul li {
+    width: 30%;
+    margin-right: 35px;
+    margin-bottom: 50px;
+    height: 150px;
+}
+
+#why-detail .benefits ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+#why-detail .benefits ul li h3 {
+    margin-bottom: 20px;
+}
+
+#why-detail .benefits ul li p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+#why-detail .benefits ul li.highlight {
+    background-color: #8e44ad;
+    color: white;
+    padding: 10px;
+    height: 160px;
+}
+
+#why-detail h2 {
+    margin-top: -90px;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    font-weight: 300;
+}
+
+#why-detail .customers ul li {
+    margin-right: 70px;
+}
+
+#why-detail .customers ul li:nth-child(5n) {
+    margin-right: 0;
+}
+
+#why-detail .plan {
+    margin-bottom: 100px;
+}
+
+#why-detail .plan ul {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 300;
+}
+
+#why-detail .plan ul li {
+    border-radius: 10px;
+    margin-right: 50px;
+    width: 135px;
+    background-color: #bdc3c7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#why-detail .plan ul li:nth-child(5n) {
+    margin-right: 0;
+}
