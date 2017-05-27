@@ -1,3 +1,10 @@
+<?php
+
+global $prices;
+global $checks;
+
+?>
+
 <div class="mobile">
     <table style="margin: 20px; margin-top: 50px">
         <tr style="border-bottom: 20px solid transparent">
@@ -158,7 +165,7 @@
                 <h2>Web Company</h2>
                 <div class="price">
                     <span style="position: relative; top: -17px; left: -5px; font-size: 14px">EUR</span>
-                    <span style="font-size: 40px; font-weight: 600">349</span>
+                    <span style="font-size: 40px; font-weight: 600"><?php echo $prices['webcompany']; ?></span>
                     <span style="color: #99a0a5;">/ Monat</span>
                     <a href="https://monitor.leankoala.com/secure_area/register/">
                         <div class="register-plan"><?php __('global.trial.start'); ?></div>
@@ -193,7 +200,7 @@
                 Werkzeuge
                 <p>Leankoala bietet eine Vielzahl von Werkzeugen, die zum Überprüfen der Systeme genutzt werden können.</p>
             </td>
-            <td colspan="3">20</td>
+            <td colspan="3"><?php echo count($checks['de']); ?></td>
         </tr>
         <tr>
             <td>

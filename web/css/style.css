@@ -804,10 +804,10 @@ article {
 }
 
 #why-detail .customers ul li {
-    margin-right: 70px;
+    margin-right: 133px;
 }
 
-#why-detail .customers ul li:nth-child(5n) {
+#why-detail .customers ul li:nth-child(4n) {
     margin-right: 0;
 }
 
