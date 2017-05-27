@@ -154,7 +154,8 @@
                 <li><img src="/images/agencies/blg_logo.png" style="width: 200px; margin-top: 25px"></li>
                 <li><img src="/images/startups/recolution.png" style="width: 200px; margin-top: 15px"></li>
                 <li><img src="/images/agencies/so_logo.png" style="width: 50px; margin-top: 15px"></li>
-                <li><img src="/images/startups/yuscale.png" style="width: 130px; margin-top: 18px"></li>
+                <li><img src="/images/agencies/fortune.png" style="width: 150px; margin-top: 10px"></li>
+
                 <li><img src="/images/startups/whm.png" style="width: 100px; margin-top: 10px"></li>
                 <li><img src="/images/startups/buzzrank.png" style="width: 140px; margin-top: 22px"></li>
                 <li><img src="/images/startups/wetimebox.png" style="width: 150px; margin-top: 25px"></li>
@@ -162,6 +163,10 @@
                     <img src="/images/startups/amilio2.png" style="margin-top: 20px; width: 40px">
                     <img src="/images/startups/amilio1.png" style="margin-top: 5px; height: 40px">
                 </li>
+                <li><img src="/images/startups/watchlists.png" style="width: 150px; margin-top: 25px"></li>
+                <li><img src="/images/startups/hasenfarm.png" style="width: 150px; margin-top: 25px"></li>
+                <li><img src="/images/startups/yuscale.png" style="width: 130px; margin-top: 18px"></li>
+                <li><img src="/images/startups/hackerschool.png" style="width: 120px; margin-top: 10px"></li>
             </ul>
         </a>
     </div>
