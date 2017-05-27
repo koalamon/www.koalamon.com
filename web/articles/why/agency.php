@@ -29,15 +29,15 @@ $footerColor = '#8e44ad';
                 <li>
                     <h3>Effizient</h3>
                     <p>
-                        Statt in Stunden wie herkömmlich können Tests bereits in Minuten durch Leankoala zur Verfügung gestellt werden.
-                        Dies rediziert die Kosten des Testens auf ein Minimum.
+                        Statt in Stunden - wie herkömmlich - können Tests bereits in Minuten durch Leankoala zur Verfügung gestellt werden.
+                        Dies reduziert die Kosten des Testens auf ein Minimum.
                     </p>
                 </li>
                 <li>
                     <h3>Umfangreich</h3>
                     <p>
                         Leankoala liefert <?php echo count($checks[$language]); ?> Werkzeuge, die jedes Detail einer Webseite
-                        testen und überwachen können.
+                        testen und überwachen können. Egal ob HTML, Zählpixel, JSON oder XML-APIs, um nur einige zu nennen.
                     </p>
                 </li>
                 <li>
@@ -72,7 +72,7 @@ $footerColor = '#8e44ad';
             <h2 style="margin-left: 0px">Das Agenturpaket</h2>
             <div class="info-block">
                 <p>
-                    Das <a href="<?php __a('/pricing.html'); ?>">Agentur- oder auch "Web Company"-Paket</a> entstand aus Gesprächen mit über einem dutzend Hamburger Agenturen. Es sollte
+                    Das <a href="<?php __a('/pricing.html'); ?>">Agentur- oder auch "Web Company"-Paket</a> entstand aus der Zusammenarbeit mit über einem Dutzend Hamburger Agenturen. Es sollte
                     ermöglichen allen Agenturkunden die Sicherheit, die durch Leankoala erzeugt wird, zu bieten, ohne unentwegt in eine Kostendiskussion
                     zu geraten.
                 </p>
@@ -88,8 +88,8 @@ $footerColor = '#8e44ad';
 
                 <p style="margin-top: 50px">
                     Das Paket zeichnet sich durch eine nicht begrenzte Anzahl von Checks, Systemen und Komponenten (URLs) aus. Um dies sicherzustellen
-                    erhalten Kunden, die dieses Paket buchen einen dedizierten Server, der nur für eigene Testaufträge ausführt. Erfahrungsgemäß
-                    kann ein solcher Server ~500 Urls überwachen.
+                    erhalten Kunden, die dieses Paket buchen einen dedizierten Server, der nur eigene Testaufträge ausführt. Erfahrungsgemäß
+                    kann ein solcher Server ca. 500 Urls testen und überwachen.
                 </p>
 
 
