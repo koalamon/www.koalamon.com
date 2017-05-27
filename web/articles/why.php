@@ -7,6 +7,13 @@
     </div>
     <div class="content" id="why-block-personas">
         <ul>
+            <li style="background-color: #8e44ad; color: white; padding: 20px">
+                <a href="<?php __a('/why/agency.html'); ?>" class="readmore" style="color: white">
+                    <h3><?php __('page.why.overview.agency.headline'); ?></h3>
+                    <p><?php __('page.why.overview.agency.text'); ?></p>
+                    <?php __('page.why.readmore'); ?>
+                </a>
+            </li>
             <li>
                 <h3><?php __('page.why.overview.operators.headline'); ?></h3>
                 <p>
@@ -20,11 +27,7 @@
                     <?php __('page.why.overview.quality.text'); ?>
                 </p>
             </li>
-            <li>
-                <h3><?php __('page.why.overview.agency.headline'); ?></h3>
-                <p><?php __('page.why.overview.agency.text'); ?></p>
-                <a href="#agency" class="readmore"><?php __('page.why.readmore'); ?></a>
-            </li>
+
             <li>
                 <h3><?php __('page.why.overview.publishers.headline'); ?></h3>
                 <p>
@@ -87,35 +90,6 @@
 
             <div style="clear: both"></div>
         </div>
-    </div>
-    <div class="content" id="why-details">
-
-        <a name="agency">
-            <h2><?php __('page.why.overview.agency.headline'); ?></h2>
-        </a>
-
-        <div style="float: left; margin-right: 30px">
-            <i class="fa fa-cubes" aria-hidden="true"></i>
-        </div>
-
-        <?php __('page.why.overview.agency.full'); ?>
-
-        <div class="partner" style="margin-left: 140px; margin-top: 50px">
-            <ul>
-                <li>
-                    <a href="http://www.bornholdtlee.de/"><img src="/images/agencies/blg_logo.png" style="width: 250px; margin-top: 15px;"></a>
-                </li>
-                <li>
-                    <a href="http://www.scalamento.de/"><img src="/images/agencies/scalamento.jpg" style="width: 250px; position: relative; top: -10px"></a>
-                </li>
-                <li>
-                    <a href="http://www.socialobjects.de/"><img src="/images/agencies/so_logo.png" style="width: 60px"></a>
-                </li>
-            </ul>
-        </div>
-
-        <div style="clear: both"></div>
-
     </div>
 
 </div>
