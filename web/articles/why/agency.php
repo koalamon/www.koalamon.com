@@ -111,11 +111,11 @@ $footerColor = '#8e44ad';
                         <img src="/images/agencies/blg_logo.png" alt="Bornholdt Lee" width="200px" style="margin-top: 20px">
                     </a>
                 </li>
-                <!--li>
+                <li>
                     <a href="https://www.drid.de/" target="_blank">
                         <img src="/images/agencies/drid.png" alt="DRID" width="120px" style="margin-top: 15px">
                     </a>
-                </li-->
+                </li>
                 <!--li>
                     <a href="https://www.ministrygroup.de/" target="_blank">
                         <img src="/images/agencies/ministry.png" alt="Ministry" width="90px">

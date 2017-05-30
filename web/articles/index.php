@@ -156,7 +156,7 @@
                 <li><img src="/images/agencies/so_logo.png" style="width: 50px; margin-top: 15px"></li>
                 <li><img src="/images/agencies/fortune.png" style="width: 150px; margin-top: 10px"></li>
 
-                <li><img src="/images/startups/whm.png" style="width: 100px; margin-top: 10px"></li>
+                <li><img src="/images/agencies/drid.png" style="width: 130px; margin-top: 20px"></li>
                 <li><img src="/images/startups/buzzrank.png" style="width: 140px; margin-top: 22px"></li>
                 <li><img src="/images/startups/wetimebox.png" style="width: 150px; margin-top: 25px"></li>
                 <li>
