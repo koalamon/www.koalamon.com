@@ -25,7 +25,7 @@
                 Den falschen Plan perfekt ausführen.
             </div>
             <div class="description">
-                <p>WIn „Grüne Wiese“-Projekten besteht in der Phase der Teamfindung am Anfang das Risiko des Perfektionismus. Eine Projektidee ist geboren, das Team gecastet. Jetzt geht es los. Ganz oft werden erstmal Konzept und Architekturen diskutiert und irgendwann natürlich auch implementiert.
+                <p>In „Grüne Wiese“-Projekten besteht in der Phase der Teamfindung am Anfang das Risiko des Perfektionismus. Eine Projektidee ist geboren, das Team gecastet. Jetzt geht es los. Ganz oft werden erstmal Konzept und Architekturen diskutiert und irgendwann natürlich auch implementiert.
                     Alles soll sauber gecodet und möglichst gut getestet sein (Clean Code). So kann die Umsetzung einfacher Funktionalitäten schon mal ein paar mehr Tage in Anspruch nehmen. Wenn sich das ein paar Mal häuft, hat man nach drei Monaten ein wirklich sauber entwickeltes Projekt, das aber
                     leider dann abgeschaltet wird. Im Gegensatz dazu steht der Lean-Ansatz. Lean Programming und Lean Testing meint, dass ein MVP keine perfekte Architektur und keine hohe Testabdeckung braucht, um festzustellen, ob das Projekt funktioniert. Im Verlauf des Projekts ist es dann
                     einfach möglich, die Teile besser zu machen, die oft gebraucht werden, und falls das Projekt gestoppt wird, hat man nicht viel Geld verbrannt. </p>
