@@ -72,7 +72,7 @@
 <div style="clear: both"></div>
 
 <div style="margin-top: 50px">
-    <a href="mailto:nils.langner@koalamon.com?subject=Moin%20Moin%20Leankoala" style="color: white;">
+    <a href="mailto:nils.langner@leankoala.com?subject=Moin%20Moin%20Leankoala" style="color: white;">
         <div class="register" style="background-color: #E30613; width: 160px; margin-left: calc(50% - 80px)">
             <img src="/images/hamburg.png" width="20px" style="float: left; margin-right: 20px; margin-top: -5px"> <?php __('page.pricing.startup.contact'); ?>
         </div>
