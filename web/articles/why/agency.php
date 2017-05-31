@@ -107,6 +107,11 @@ $footerColor = '#8e44ad';
                     </a>
                 </li>
                 <li>
+                    <a href="https://www.ministrygroup.de/" target="_blank">
+                        <img src="/images/agencies/ministry.png" alt="Ministry" width="90px">
+                    </a>
+                </li>
+                <li>
                     <a href="https://www.bornholdtlee.de/" target="_blank">
                         <img src="/images/agencies/blg_logo.png" alt="Bornholdt Lee" width="200px" style="margin-top: 20px">
                     </a>
@@ -116,19 +121,9 @@ $footerColor = '#8e44ad';
                         <img src="/images/agencies/drid.png" alt="DRID" width="120px" style="margin-top: 15px">
                     </a>
                 </li>
-                <!--li>
-                    <a href="https://www.ministrygroup.de/" target="_blank">
-                        <img src="/images/agencies/ministry.png" alt="Ministry" width="90px">
-                    </a>
-                </li-->
                 <li>
                     <a href="http://socialobjects.de/" target="_blank">
                         <img src="/images/agencies/so_logo.png" alt="Social Objects" width="60px">
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.scalamento.de/" target="_blank">
-                        <img src="/images/agencies/scalamento.jpg" alt="Scalamento" width="170px" style="margin-top: 10px">
                     </a>
                 </li>
             </ul>
