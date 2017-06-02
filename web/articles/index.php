@@ -153,7 +153,7 @@
             <ul>
                 <li><img src="/images/agencies/blg_logo.png" style="width: 200px; margin-top: 25px"></li>
                 <li><img src="/images/startups/recolution.png" style="width: 200px; margin-top: 15px"></li>
-                <li><img src="/images/agencies/so_logo.png" style="width: 50px; margin-top: 15px"></li>
+                <li><img src="/images/agencies/ministry.png" style="width: 90px; margin-top: 4px"></li>
                 <li><img src="/images/agencies/fortune.png" style="width: 150px; margin-top: 10px"></li>
 
                 <li><img src="/images/agencies/drid.png" style="width: 130px; margin-top: 20px"></li>
