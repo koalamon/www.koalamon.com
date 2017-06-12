@@ -78,6 +78,10 @@ global $checks;
         text-align: left;
     }
 
+    #pricing tr td:nth-child(2) {
+        border-right: none;
+    }
+
     #pricing tr td:nth-child(3) {
         border-left: 2px solid #27ae60;
         border-right: 2px solid #27ae60;
