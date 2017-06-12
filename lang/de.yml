@@ -10,7 +10,7 @@ page:
           text: '<p>Der "Lean Testing"-Ansatz konzentriert sich auf das Finden von Symptomen anstelle von Ursachen.</p><p>Dies minimiert die Anzahl der benötigen Tests drastisch.</p>'
         fast:
           headline: "Schnell"
-          text: "<p>Leankoala ermöglicht innerhalb von Minuten automatisierte Tests aufzusetzen.</p><p>Für Standard-Probleme stellen wir Standard-Lösungen zur Verfügung.</p>"
+          text: "<p>Leankoala ermöglicht innerhalb von Minuten auto-matisierte Tests aufzusetzen.</p><p>Für Standard-Probleme stellen wir Standard-Lösungen zur Verfügung.</p>"
         integrated:
           headline: "Integriert"
           text: "<p>Leankoala wurde konzipiert, um den Entwicklungsprozess zu unterstützen.</p><p>Es läuft auf Dev-, Stage- und Live-Umgebungen und kann mit Slack kombiniert werden.</p>"
