@@ -12,7 +12,7 @@ $releaseNotes = [
                     'type' => 'feature',
                     'feature' => 'Uptime Monitoring',
                     'desc' => "Each user can define a main component per system. When Leankoala can't reach that component the system is considered 
-                               as down. We provide statistics and uptime reports where each user can see it's systems health.",
+                               as down. We provide statistics and uptime reports where each user can see its systems health.",
                     'images' => ['2.1.0/uptime.png', '2.1.0/uptime_admin.png']
                 ],
                 [
