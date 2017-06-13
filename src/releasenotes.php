@@ -4,22 +4,22 @@ $releaseNotes = [
     '2017-06-12' => [
         'date' => '2017-06-13',
         'name' => 'Version 2.1.0 - Fortune',
-        'desc' => 'Version 2.1.0 started as a stabilisation release. Minor bug fixes and small infrastructural improvements. But with new customers
-                   there are always new ideas, so we decided to also implement some new features.',
+        'desc' => 'Version 2.1.0 started as a stabilisation release. Minor bug fixes and small infrastructural improvements. Though with new customers
+                   there come new ideas, so we decided to also implement some new features.',
         'features' =>
             [
                 [
                     'type' => 'feature',
                     'feature' => 'Uptime Monitoring',
                     'desc' => "Each user can define a main component per system. When Leankoala can't reach that component the system is considered 
-                               as down. We provide statistics and uptime reports where each user can see its systems health.",
+                               as down. We provide statistics and uptime reports where each user can see it's systems health.",
                     'images' => ['2.1.0/uptime.png', '2.1.0/uptime_admin.png']
                 ],
                 [
                     'type' => 'feature',
                     'feature' => 'CSV Export',
                     'desc' => 'We provide a lot of statistics like uptime monitoring, system health, error rate and mean time to recover. But sometimes
-                               a customer wants to do its own evaluation. This is why we introduced the csv export for all incidents of a given timespan.'
+                               a customer wants to do its own evaluation. This is why we implemented the csv export for all incidents of a given timespan.'
                 ],
                 [
                     'type' => 'feature',
@@ -31,8 +31,8 @@ $releaseNotes = [
                 [
                     'type' => 'feature',
                     'feature' => 'KoalaPing - HTTP Header',
-                    'desc' => 'When we find an anomaly it is important for as to collect all possible informations about the incident. That is why
-                               we now also provide all the header information of the belonging request.'
+                    'desc' => 'When we find an anomaly it is important for us to collect all possible informations about the incident. That is why
+                               we are now additionaly providing all the header information of the belonging request.'
                 ],
                 [
                     'type' => 'feature',
@@ -44,13 +44,13 @@ $releaseNotes = [
                 [
                     'type' => 'feature',
                     'feature' => 'Fallback (MissingRequest2)',
-                    'desc' => 'For more reliable checks introduced the fallback mode for missing request. That means that every time we cannot request the
+                    'desc' => 'For more reliable checks we implemented the fallback mode for missing request. That means that every time we cannot request the
                                given component we retry from another datacenter.'
                 ],
                 [
                     'type' => 'feature',
                     'feature' => 'Recipes / Collections',
-                    'desc' => 'With this release we introduced a lot of new recipes including google amp analytics, html basics, html header, facebook and twitter.'
+                    'desc' => 'With this release a lot of new recipes come along including google amp analytics, html basics, html header, facebook and twitter.'
                 ],
                 [
                     'type' => 'feature',
