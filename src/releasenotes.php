@@ -1,6 +1,65 @@
 <?php
 
 $releaseNotes = [
+    '2017-06-12' => [
+        'date' => '2017-06-13',
+        'name' => 'Version 2.1.0 - Fortune',
+        'desc' => 'Version 2.1.0 started as a stabilisation release. Minor bug fixes and small infrastructural improvements. But with new customers
+                   there are always new ideas, so we decided to also implement some new features.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'Uptime Monitoring',
+                    'desc' => "Each user can define a main component per system. When Leankoala can't reach that component the system is considered 
+                               as down. We provide statistics and uptime reports where each user can see its systems health.",
+                    'images' => ['2.1.0/uptime.png', '2.1.0/uptime_admin.png']
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'CSV Export',
+                    'desc' => 'We provide a lot of statistics like uptime monitoring, system health, error rate and mean time to recover. But sometimes
+                               a customer wants to do its own evaluation. This is why we introduced the csv export for all incidents of a given timespan.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Resources Counter',
+                    'desc' => 'With http/2 the number of resources every page impression generates is not that important anymore. But as most of the
+                               websites do not support the new protocol yet we introduced the "Resources Counter" check that alerts when a given threshold
+                               of loaded recources gets exceeded.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'KoalaPing - HTTP Header',
+                    'desc' => 'When we find an anomaly it is important for as to collect all possible informations about the incident. That is why
+                               we now also provide all the header information of the belonging request.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Google Charts',
+                    'desc' => "It's not just a visual improvement but also usability thing. We changed our graph rendering framework from graphite to 
+                               <a href=\"https://developers.google.com/chart/\">google charts</a>.",
+                    'images' => ['2.1.0/ggraph.png']
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Fallback (MissingRequest2)',
+                    'desc' => 'For more reliable checks introduced the fallback mode for missing request. That means that every time we cannot request the
+                               given component we retry from another datacenter.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Recipes / Collections',
+                    'desc' => 'With this release we introduced a lot of new recipes including google amp analytics, html basics, html header, facebook and twitter.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Error Rate',
+                    'desc' => 'When we introduced the uptime monitoring feature we also introduced the error time stats. It is possible to see error rates for 
+                               every check for the last 7 days, month or year.'
+                ]
+            ]
+    ],
     '2017-05-18' => [
         'date' => '2017-05-18',
         'name' => 'Version 2.0.0',
