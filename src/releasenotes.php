@@ -1,6 +1,51 @@
 <?php
 
 $releaseNotes = [
+    '2017-07-24' => [
+        'date' => '2017-06-13',
+        'name' => 'Version 2.2.0',
+        'desc' => 'In this release we focused on two things: new checks and cleaning up. That means that there are two new checks everybody can use
+                   and all the known bugs are fixed.',
+        'features' => [
+            [
+                'type' => 'check',
+                'feature' => 'Insecure Content',
+                'desc' => "For security reasons all traffic between the user and a website must be encrytped. When an html document is tranfered via https
+                           it is important that all included assets are also included via https. This check helps to find non https requests within an https site."
+            ],
+            [
+                'type' => 'check',
+                'feature' => 'RSS Validator',
+                'desc' => "The RSS protocol was the defacto standard for web feeds. These feeds can, for example, allow a user to keep track of many different 
+                           websites in a single news aggregator. The RSS Validator checks if a given rss feed is valid."
+
+            ],
+            [
+                'type' => 'check',
+                'feature' => 'Visit Component',
+                'desc' => "It is now possible to jump directly to the url of a given component from status overview.",
+            ],
+            [
+                'type' => 'check',
+                'feature' => 'Form Validation',
+                'desc' => "We found out that when entering a new check configuration and accidentally add a space in front of the actual text 
+                           it is impossible to find that mistake later on. Since 2.2.0 we provide a form validation that checks for such mistakes 
+                           on all the major forms.",
+            ],
+            [
+                'type' => 'check',
+                'feature' => 'SiteInfo Fallback',
+                'desc' => "When we try to check the file size for the siteinfo tool and cannot connect to the given component we hand over the 
+                           request to another datacenter to check if the problem is with us or the system under test.",
+            ],
+            [
+                'type' => 'check',
+                'feature' => 'SiteInfo Gzip',
+                'desc' => "In the past the SiteInfo tool had a problem with compressed http requests. That means that we always returned the uncompressed 
+                           size of an asset. From now on we take the compressed size because that is the actual number that counts for data transfer.",
+            ],
+        ]
+    ],
     '2017-06-12' => [
         'date' => '2017-06-13',
         'name' => 'Version 2.1.0 - Fortune',
