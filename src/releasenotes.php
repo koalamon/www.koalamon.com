@@ -11,13 +11,13 @@ $releaseNotes = [
                 'type' => 'check',
                 'feature' => 'Insecure Content',
                 'desc' => "For security reasons all traffic between the user and a website must be encrytped. When an html document is tranfered via https
-                           it is important that all included assets are also included via https. The "Insecure Content Check" helps to find non-https requests within an https site."
+                           it is important that all included assets are also included via https. The Insecure Content Check helps to find non-https requests within an https site."
             ],
             [
                 'type' => 'check',
                 'feature' => 'RSS Validator',
                 'desc' => "The RSS protocol is the de facto standard for web feeds. These feeds can, for example, allow a user to keep track of many different 
-                           websites in a single news aggregator. The "RSS Validator Check" screens if a given rss feed is valid."
+                           websites in a single news aggregator. The RSS Validator Check screens if a given rss feed is valid."
 
             ],
             [
