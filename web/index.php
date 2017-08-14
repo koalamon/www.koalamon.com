@@ -22,7 +22,7 @@ if ($article == 'google8e129feae7efeb1f') {
 
 include_once __DIR__ . '/../src/functions.php';
 
-$title = "Leankoala - Click, click, test.";
+$title = "Leankoala - Rethink Testing.";
 $description = "Einfach Testen. Von Entwicklern für Entwickler.";
 
 ob_start();
