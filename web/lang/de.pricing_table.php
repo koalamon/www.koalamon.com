@@ -180,7 +180,7 @@ global $checks;
         <tr>
             <td style="text-align: left">
                 Systeme
-                <p>Ein System wird durch eine Haupdomain beschrieben. Komponenten müssen dieser oder einer Subdomain angehören.</p>
+                <p>Ein System wird durch eine Hauptdomain beschrieben. Komponenten müssen dieser oder einer Subdomain angehören.</p>
             </td>
             <td>1</td>
             <td>1</td>
