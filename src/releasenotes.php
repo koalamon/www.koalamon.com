@@ -17,7 +17,7 @@ $releaseNotes = [
             [
                 'type' => 'check',
                 'feature' => 'Google Analytics',
-                'desc' => "One of the unique selling points of Leankoala is that we are using real brwosers like Google Chrome. The one disavantage in doing so is
+                'desc' => "One of the unique selling points of Leankoala is that we are using real browsers like Google Chrome. The one disavantage in doing so is
                            that web tracking systems like Google Analytics do not recognize that it is an automatism and not a real user. As a result we used to create
                            real traffic. We are proud to annouce that we solved this problem. All collect requests for Google Analytics are now blocked."
             ],
