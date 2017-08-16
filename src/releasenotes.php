@@ -4,22 +4,22 @@ $releaseNotes = [
     '2017-08-16' => [
         'date' => '2017-08-16',
         'name' => 'Version 2.3.0 - Wizard 2.0',
-        'desc' => 'One of the main goals of Leankoala is to automate the whole testing cycle. With version 2.3.0 and our new wizard 2.0 we come closer.
+        'desc' => 'One of the main goals of Leankoala is to automate the complete testing cycle. With version 2.3.0 and our new wizard 2.0 we are getting closer.
                    ',
         'features' => [
             [
                 'type' => 'check',
                 'feature' => 'Wizard 2.0',
-                'desc' => "As the number of recipes we provides grows on a daily base we completly redesigned out wizard. It is now much more usable and provides 
-                           more information.",
+                'desc' => "As the number of recipes we provide grow on a daily base we completely redesigned our wizard. Now it is more usable and provides 
+                           even more information.",
                 'images' => ['2.3.0/wizard.png']
             ],
             [
                 'type' => 'check',
                 'feature' => 'Google Analytics',
                 'desc' => "One of the unique selling points of Leankoala is that we are using real brwosers like Google Chrome. The one disavantage in doing so is
-                           that web tracking systems like Google Analytics do not recognize that it is an automatism and not a real user. As a result we created
-                           real traffic. We are proud to annouce that we solves this problem. All collect requests for Google Analytics are now blocked."
+                           that web tracking systems like Google Analytics do not recognize that it is an automatism and not a real user. As a result we used to create
+                           real traffic. We are proud to annouce that we solved this problem. All collect requests for Google Analytics are now blocked."
             ],
             [
                 'type' => 'check',
@@ -30,7 +30,7 @@ $releaseNotes = [
             [
                 'type' => 'check',
                 'feature' => 'Recipes',
-                'desc' => "Having a new wizard is an invitation to create new recipes. That is what we did. We now automatically reconize critical css, search fields, 
+                'desc' => "Implementing a new wizard, opens up the potential to create new recipes. That is what we did. We now automatically recognize critical CSS, search fields, 
                            apple touch icons, boostrap cdn, hosted jquery and the number of included assets.",
             ]
         ]
