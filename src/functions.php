@@ -65,6 +65,10 @@ function getRecentBlogPosts($count = 3)
 
     $recentPosts = json_decode($recentPostsRaw);
 
+    if ($recentPosts->count == 0) {
+        return [];
+    };
+
     $recentPostLimited = array();
 
     for ($i = 0; $i < $count; $i++) {

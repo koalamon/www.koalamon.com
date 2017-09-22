@@ -511,5 +511,256 @@ $releaseNotes = [
                                </ul>'
                 ],
             ]
+    ],
+    '2016-11-08' => [
+        'date' => '2016-11-08',
+        'name' => 'Version 1.2.0',
+        'desc' => 'When we announced our last release we were proud that it was that big. Looking at this release we now know that it wasn\'t. We present the new 1.2.0 version of leankoala, the last beta release before 
+                   we finally go live on Dezember 1st.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'Rerun checks',
+                    'desc' => 'Almost all checks we provide can be rerun simply by clicking on the little "rerun check" button behind every incident.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Run checks on create and change',
+                    'desc' => 'When adding or changing a check condition the check will automatically be added to our queue and will be executed as fast as possible.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Rerun all tests for a single system',
+                    'desc' => 'It is now possible to triger all checks for a given system at once. This can be found on every system overview page.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Alert if N in a row',
+                    'desc' => 'It is now possible to only alert an incident if it occurs N times in a row. This is used if an incident is only important if it exists for a longer time.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Switched to Chrome',
+                    'desc' => 'In the past we used phantomJS as our browser engine for the javascript error scanner. We decided to change this as the results were not always reproducible. From now on we use a standard chrome browser.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Subscription',
+                    'desc' => 'We are ending our beta test soon. That\'s why we implemented the subscription and payment component. For the payment part, we teamed up with stripe.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Json Path Check',
+                    'desc' => 'The json path check takes a valid json path and checks if this path is existing on the html of a given component. This comes handy when testing json apis.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'CSS Selector Check',
+                    'desc' => 'The css selector check checks if a given css selector in existing. This can be used to check if important elements like H1 are part of every component.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Json Schema Check',
+                    'desc' => 'Validates a given json document agains a json schema. This is used when working with json apis.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'XML Schema Check',
+                    'desc' => 'This check is equal to the json schema check but for xml apis.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Empty tables',
+                    'desc' => 'Tables that are empty are not shown anymore.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Notify all',
+                    'desc' => 'When creating a new alert policy the notify option is set as default.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Project overview clean up ',
+                    'desc' => 'We removed unimportant information on the overview page'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Last update progress bar',
+                    'desc' => 'Now there is a tiny progress bar that indicates the update status of the status page. When the progress bar reaches its end the systen will check for new incidents.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'No events',
+                    'desc' => 'The status page now shows an info box when no events are shown because of the filter'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Tab in url',
+                    'desc' => '-You can now jump directly to a dedicated system.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Add support team',
+                    'desc' => 'When creating a new project you can simple add the support user to the project. That helps us to help you when there are problems.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Component url on check page',
+                    'desc' => 'When hovering the system we now show the belonging url.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Status page action',
+                    'desc' => 'The actions menu on the status page now includes a short tooltip for all options.'
+                ]
+            ]
+    ],
+    '2016-10-08' => [
+        'date' => '2016-10-08',
+        'name' => 'Version 1.1.0',
+        'desc' => 'Version 1.1.0 of Leankoala is our biggest release yet and we think you will love it as well.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'XML Checks',
+                    'desc' => 'One of our new major features are to additional checks. We are now able to validate xml sitemaps against the official sitemap schema. We are also able to check if a given xml document is well-formed. This comes handy when having restful apis that return xml data.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Wizards',
+                    'desc' => 'It is only the beginning but to increase the user experience we are introducing our wizard. We created a mechanism that will help every user to import default checks (we call it recipes) to their configuration. We started with the xpath checker and provided two recipes. One for standard html meta tags and the other one for facebook’s open graph tags.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'tawk.to',
+                    'desc' => 'We decided to switch from JivoChat to tawk.to for a better live and proactive user support.'
+                ],
+            ]
+    ],
+    '2016-09-25' => [
+        'date' => '2016-09-25',
+        'name' => 'Version 1.0.2',
+        'desc' => 'We are proud to announce our newest release. Version 1.0.2. In this release, we focussed on usability.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'Rerun Tests',
+                    'desc' => 'It is now possible to rerun failed tests via a simple click. This includes KoalaPing, JsErrorScanner, SiteInfo and PageSpeedScorer.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Smoke',
+                    'desc' => 'Some minor changes to Smoke (basic) including new thresholds for html size and request duration. Additionally we now add the Connection: keep-alive header to every request.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Menu Structure',
+                    'desc' => 'On the status page we now have a drop-down menu for every incident instead of a list of icons.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Project Overview',
+                    'desc' => 'We cleaned up the project overview and removed all statistics that are not relevant to Leankoala.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'SiteInfo Filter',
+                    'desc' => 'The filter for files now also applies to the full file size.'
+                ]
+            ]
+    ],
+    '2016-09-11' => [
+        'date' => '2016-09-11',
+        'name' => 'Version 1.0.1',
+        'desc' => 'We are proud to release the version 1.0.1 of Leankoala.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'New Logo',
+                    'desc' => 'Perhaps it is just a minor change for the product but for us, it is a big one. We now have the final version of the Leankoala logo and are very proud of it.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Support Chat',
+                    'desc' => 'From now on we are able to respond to your questions immediately as we introduced JivoChat as our new support chat. Feel free to ask us any question or just say hello.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'https',
+                    'desc' => 'All our websites and services are now secured via a https connection.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'First Steps',
+                    'desc' => 'Creating a new project always consists of four steps. We created a setup wizard that helps the user doing them with ease. If you don\'t need our help, just click "skip setup".'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Log in via Facebook and GitHub',
+                    'desc' => 'Good passwords are hard to remember. At Leankoala you are now able to login via GitHub and facebook.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Status-Code Zero',
+                    'desc' => 'We introduced the status code zero for KoalaPing. It helps you to handle http/curl errors. '
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Integration Overview',
+                    'desc' => 'When visiting the integration overview you can now see which checks are already active.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Wording',
+                    'desc' => 'We decided to get rid of the term "integration" and are going to use "check" instead.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Menu structure',
+                    'desc' => 'The system overview is now reachable within one click via the main menu.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Http basic authentication',
+                    'desc' => ' If the system under test is secured via HTTP basic auth you can now add the credentials when creating a system.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Transfer Ownership',
+                    'desc' => ' It is now possible to transfer the ownership of a project to another user. This can come handy if an agency hands over the project to the customer.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Tool Overview ',
+                    'desc' => 'The public tool overview now shows the logos of the associated tool.'
+                ]
+            ]
+    ],
+    '2016-08-01' => [
+        'date' => '2016-08-01',
+        'name' => 'Version 1.0.0',
+        'desc' => 'We are live.  In our first official release we focused on our main use case: testing websites and report anomalies. So this is what you can expect from v1.0.0.',
+        'features' =>
+            [
+                [
+                    'type' => 'feature',
+                    'feature' => 'Checks',
+                    'desc' => 'Altogether we have twelve tools that are able to check if your website or services are working correctly.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'System Handling',
+                    'desc' => 'You can manage the systems under test via our admin backend.'
+                ],
+                [
+                    'type' => 'feature',
+                    'feature' => 'Reporting',
+                    'desc' => 'If one of the checks finds an anomaly we are going to send the user a notification via email, slack message or inform a technical system via webhook.'
+                ]
+            ]
     ]
 ];
