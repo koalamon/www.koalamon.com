@@ -6,7 +6,7 @@ $footerColor = '#3498db';
     .content-header {
         text-align: center;
         width: 100%;
-        margin-top: 80px;
+        margin-top: 40px;
         margin-bottom: 100px;
         font-size: 48px;
         color: #4A4A4A;
@@ -36,13 +36,14 @@ $footerColor = '#3498db';
 
     .content-main .content-register {
         text-align: left;
-        width: 300px;
+        width: 400px;
         float: right;
     }
 
     .content-main .content-register .email {
         position: relative;
         left: -25px;
+        margin-bottom: 30px;
     }
 
     .content-main .content-register .email label {
@@ -109,7 +110,7 @@ $footerColor = '#3498db';
         <div class="content-register">
             <div class="email">
 
-                <iframe style="width: 350px; height: 260px; display: block;margin-left: auto;margin-right: auto;" src="https://my.sendinblue.com/users/subscribe/js_id/2h2a6/id/2" frameborder="0"
+                <iframe style="width: 350px; height: 300px; display: block;margin-left: auto;margin-right: auto;" src="https://my.sendinblue.com/users/subscribe/js_id/2h2a6/id/2" frameborder="0"
                         scrolling="auto" allowfullscreen></iframe>
 
             </div>
