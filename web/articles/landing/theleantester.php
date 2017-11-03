@@ -126,6 +126,6 @@ $footerColor = '#3498db';
     </div>
     <div class="content-customers">
         <h2>Great customers including these fine companies.</h2>
-        <img src="/images/landing/customers.png">
+        <img src="/images/landing/leancustomers.png">
     </div>
 </div>
