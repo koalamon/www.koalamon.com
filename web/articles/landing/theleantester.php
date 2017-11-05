@@ -89,9 +89,63 @@ $footerColor = '#3498db';
         text-align: center;
     }
 
+    .content-customers ul {
+        display: inline-block;
+        margin-top: 40px;
+    }
+
+    .content-customers ul li {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .content-customers ul li:last-child {
+        margin-right: 0;
+    }
+
     .content-customers h2 {
         margin-bottom: 30px;
     }
+
+    @media (max-width: 500px) {
+        .content-main .content-teaser {
+            display: none;
+        }
+
+        .content-main {
+            width: 100%;
+        }
+
+        .content-main .content-register {
+            width: 100%;
+        }
+
+        .content-main .content-register .email {
+            position: inherit;
+            text-align: center;
+            width: 100%;
+        }
+
+        .content-tags {
+            display: none;
+        }
+
+        .content-info {
+            margin: 10px;
+        }
+
+        .content-customers {
+            margin: 10px;
+        }
+
+        .content-customers ul li {
+            margin-right: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+    }
+
 </style>
 
 <div>
@@ -126,7 +180,18 @@ $footerColor = '#3498db';
         <img src="/images/landing/tags.png">
     </div>
     <div class="content-customers">
-        <h2>Great customers including these fine companies.</h2>
-        <img src="/images/landing/leancustomers.png">
+        <h2>Großartige Kunden. Unter anderem diese wunderbaren Firmen.</h2>
+        <ul>
+            <li><img src="/images/customers/hanse.png"></li>
+            <li><img src="/images/customers/finanzcheck.png"></li>
+            <li><img src="/images/customers/drid.png"></li>
+            <li><img src="/images/customers/ministry.png"></li>
+            <li><img src="/images/customers/fortune.png"></li>
+            <li><img src="/images/customers/xcel.png"></li>
+        </ul>
+        <!--img src="/images/landing/leancustomers.png"-->
     </div>
+
 </div>
+
+<div style="clear: both"></div>
