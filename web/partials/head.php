@@ -37,7 +37,7 @@
 <meta property="og:description" content="Fast and lean continuous testing service for web applications."/>
 <meta property="og:url" content="https://www.leankoala.com"/>
 <meta property="og:site_name" content="Leankoala"/>
-<meta property="og:image" content="https://www.leankoala.com/images/logo.png"/>
+<meta property="og:image" content="https://www.leankoala.com<?php echo $og_image ?>" />
 <meta property="fb:app_id" content="663426957144905"/>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

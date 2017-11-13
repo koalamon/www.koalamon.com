@@ -24,6 +24,8 @@ include_once __DIR__ . '/../src/functions.php';
 
 $title = "Leankoala - Rethink Web Testing.";
 $description = "Einfach Testen. Von Entwicklern für Entwickler.";
+$og_image = "/images/logo.png";
+$removeHeader = false;
 
 ob_start();
 include __DIR__ . "/articles/" . $article . ".php";
@@ -54,8 +56,8 @@ ob_clean();
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
         a = s.createElement(o),
             m = s.getElementsByTagName(o)[0];
         a.async = 1;

@@ -1,5 +1,12 @@
 <?php
 $footerColor = '#3498db';
+
+$removeHeader = false;
+
+$title = "Webinar: Wie sich Budget und Qualität lieben lernten";
+$description = "Profitable digitale Projekte brauchen schlankes Qualitätsmanagement";
+$og_image = "/images/landing/landingg-webinar.png";
+
 ?>
 
 <style>
@@ -176,7 +183,8 @@ $footerColor = '#3498db';
 
             </div>
             <div class="content-info">
-                Wer agil sein will, muss vor allem pragmatisch agieren. Um schlank durch den Nebel zwischen Kundenanforderungen, Zeit, Budget und Ressourcen zu navigieren, braucht es verlässliche schlanke Tools, aber vor allem einen neuen Blick auf das Qualitätsmanagement.
+                Wer agil sein will, muss vor allem pragmatisch agieren. Um schlank durch den Nebel zwischen Kundenanforderungen, Zeit, Budget und Ressourcen zu navigieren, braucht es verlässliche
+                schlanke Tools, aber vor allem einen neuen Blick auf das Qualitätsmanagement.
             </div>
         </div>
     </div>
