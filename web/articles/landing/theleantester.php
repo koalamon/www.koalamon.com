@@ -5,7 +5,7 @@ $removeHeader = false;
 
 $title = "Webinar: Wie sich Budget und Qualität lieben lernten";
 $description = "Profitable digitale Projekte brauchen schlankes Qualitätsmanagement";
-$og_image = "/images/landing/landingg-webinar.png";
+$og_image = "/images/landing/landing-webinar.png";
 
 ?>
 

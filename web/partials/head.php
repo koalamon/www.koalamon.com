@@ -33,8 +33,8 @@
 
 <meta property="og:locale" content="en_EN"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Leankoala - Rethink Web Testing."/>
-<meta property="og:description" content="Fast and lean continuous testing service for web applications."/>
+<meta property="og:title" content="<?php echo $title; ?>"/>
+<meta property="og:description" content="<?php echo $description ?>"/>
 <meta property="og:url" content="https://www.leankoala.com"/>
 <meta property="og:site_name" content="Leankoala"/>
 <meta property="og:image" content="https://www.leankoala.com<?php echo $og_image ?>" />
