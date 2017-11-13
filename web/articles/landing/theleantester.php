@@ -25,7 +25,7 @@ $footerColor = '#3498db';
 
     .content-main {
         text-align: center;
-        width: 800px;
+        width: 950px;
         margin: auto;
     }
 
@@ -38,11 +38,12 @@ $footerColor = '#3498db';
         text-align: left;
         width: 400px;
         float: right;
+        margin-left: 30px;
     }
 
     .content-main .content-register .email {
         position: relative;
-        left: -25px;
+        left: -48px;
         margin-bottom: 30px;
     }
 
@@ -77,6 +78,7 @@ $footerColor = '#3498db';
         font-size: 16px;
         color: #4A4A4A;
         line-height: 25px;
+        width: 350px;
     }
 
     .content-tags {
@@ -151,34 +153,34 @@ $footerColor = '#3498db';
 <div>
     <div class="content-header">
         <h1>
-            "Modernes Testen muss leichtgewichtig sein!"
+            "Wie sich Budget und Qualität lieben lernten"
         </h1>
         <div class="kicker">
-            Eine kurze Geschichte über Qualitätssicherung und wie sie sich geändert hat.
+            Profitable digitale Projekte brauchen schlankes Qualitätsmanagement.
         </div>
     </div>
     <div class="content-main">
         <div class="content-teaser">
-            <img src="/images/landing/leantester.png">
+            <img src="/images/landing/bigtags.png">
         </div>
         <div class="content-register">
+
+            <div class="content-info" style="padding-top: 20px; padding-bottom: 20px">
+                Für nur <strong>30 Minuten</strong> Eurer Zeit belohnen wir Euch mit unserem Ansatz zu schlanker Qualitätssicherung für digitale Projekte!
+            </div>
+
             <div class="email">
 
-                <iframe style="width: 350px; height: 300px; display: block;margin-left: auto;margin-right: auto;" src="https://my.sendinblue.com/users/subscribe/js_id/2h2a6/id/2" frameborder="0"
+                <iframe style="width: 350px; height: 250px; display: block;margin-left: auto;margin-right: auto;" src="https://my.sendinblue.com/users/subscribe/js_id/2h2a6/id/2" frameborder="0"
                         scrolling="auto" allowfullscreen></iframe>
 
             </div>
             <div class="content-info">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy Rethink Web Testing
-                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                eos et accusam et justo duo dolores et ea rebum.
+                Wer agil sein will, muss vor allem pragmatisch agieren. Um schlank durch den Nebel zwischen Kundenanforderungen, Zeit, Budget und Ressourcen zu navigieren, braucht es verlässliche schlanke Tools, aber vor allem einen neuen Blick auf das Qualitätsmanagement.
             </div>
         </div>
     </div>
     <div style="clear: both"></div>
-    <div class="content-tags">
-        <img src="/images/landing/tags.png">
-    </div>
     <div class="content-customers">
         <h2>Großartige Kunden. Unter anderem diese wunderbaren Firmen.</h2>
         <ul>
