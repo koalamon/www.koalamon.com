@@ -69,6 +69,7 @@ if (!isset($footerColor)) {
                             <?php __('footer.leankoala.newsletter'); ?>
                         </a>
                     </li>
+                    <li><a href="<?php __a('/media.html'); ?>" style="color: white"><?php __('footer.about.media'); ?></a></li>
                 </ul>
             </div>
 
