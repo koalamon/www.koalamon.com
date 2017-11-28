@@ -11,11 +11,11 @@
 
     <div style="width: 400px; text-align: center; padding-left: calc(50% - 200px); line-height: 28px; margin-top: 80px">
         <div style="float: left; text-align: center; width: 150px">
-            <img src="/images/media/download.png" style="margin-bottom: 20px"><br>
+            <img src="/images/media/Download.png" style="margin-bottom: 20px"><br>
             Unternehmentsprofil
         </div>
         <div style="float: right; text-align: center; width: 150px">
-            <img src="/images/media/download.png" style="margin-bottom: 20px"><br>
+            <img src="/images/media/Download.png" style="margin-bottom: 20px"><br>
             Pressemappe
         </div>
     </div>
