@@ -7,12 +7,17 @@
         ">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy Rethink Web Testing eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
         et accusam et justo duo dolores et ea rebum.
+
+        <br><br>
+        <strong>Pressekontakt</strong><br>
+        Isabelle Ewald<br>
+        <a href="mailto:isabelle.ewald@leankoala.com">isabelle.ewald@leankoala.com</a>
     </div>
 
     <div style="width: 400px; text-align: center; padding-left: calc(50% - 200px); line-height: 28px; margin-top: 80px">
         <div style="float: left; text-align: center; width: 150px">
             <img src="/images/media/Download.png" style="margin-bottom: 20px"><br>
-            Unternehmentsprofil
+            Unternehmensprofil
         </div>
         <div style="float: right; text-align: center; width: 150px">
             <img src="/images/media/Download.png" style="margin-bottom: 20px"><br>
