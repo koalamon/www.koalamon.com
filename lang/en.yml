@@ -27,6 +27,9 @@ page:
       headline: "What can we check?"
       text: "We provide <strong>%s</strong> Tools that can be used to inspect a website<br> or web service, so you can build powerful test suites."
 
+  media:
+    headline: "Media"
+
   why:
     headline: "Why Leankoala?"
     readmore: "read more ..."
@@ -237,6 +240,7 @@ footer:
     contact: "Contact // Impressum"
     tos: "Terms of Service"
     releasenotes: "Release Notes"
+    media: "Media"
 
   blog:
     head: "Recent blog posts"
