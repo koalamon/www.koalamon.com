@@ -35,7 +35,7 @@
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="<?php echo $title; ?>"/>
 <meta property="og:description" content="<?php echo $description ?>"/>
-<meta property="og:url" content="https://www.leankoala.com"/>
+<!--meta property="og:url" content="https://www.leankoala.com"/-->
 <meta property="og:site_name" content="Leankoala"/>
 <meta property="og:image" content="https://www.leankoala.com<?php echo $og_image ?>" />
 <meta property="fb:app_id" content="663426957144905"/>
