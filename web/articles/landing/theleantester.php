@@ -1,7 +1,7 @@
 <?php
 $footerColor = '#3498db';
 
-$removeHeader = false;
+$removeHeader = true;
 
 $title = "Webinar: Wie sich Budget und Qualität lieben lernten";
 $description = "Profitable digitale Projekte brauchen schlankes Qualitätsmanagement";

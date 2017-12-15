@@ -2,12 +2,13 @@
     <header>
 
         <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-            <div class="logo">
-                <a href="<?php __a('/'); ?>">
-                    <img src="/images/logo_small.png">
-                </a>
-            </div>
             <?php if (!$removeHeader): ?>
+                <div class="logo">
+                    <a href="<?php __a('/'); ?>">
+                        <img src="/images/logo_small.png">
+                    </a>
+                </div>
+
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -57,6 +58,13 @@
                             </li>
                         </ul>
                     </div>
+                </div>
+            <?php else: ?>
+                <div class="logo" style="width: 100%">
+                    <a href="<?php __a('/'); ?>">
+                        <img src="/images/logo_small.png" style="float: left; margin-right: 10px">
+                        <div style="padding-top: 16px; font-size: 14px; font-weight: 400">Leankoala</div>
+                    </a>
                 </div>
             <?php endif; ?>
         </nav>
