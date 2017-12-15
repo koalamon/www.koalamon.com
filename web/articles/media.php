@@ -13,16 +13,18 @@
         </div>
 
         <div style="width: 400px; text-align: center; padding-left: calc(50% - 200px); line-height: 28px; margin-top: 80px; text-align: center">
-            <div style="float: left; text-align: center; width: 150px; margin-left: 125px">
+            <div style="float: left; text-align: center; width: 150px;">
                 <a href="/media/Profil.pdf">
                     <img src="/images/media/Download.png" style="margin-bottom: 20px"><br>
                     Unternehmensprofil
                 </a>
             </div>
-            <!--div style="float: right; text-align: center; width: 150px">
-                <img src="/images/media/Download.png" style="margin-bottom: 20px"><br>
-                Pressemappe
-            </div-->
+            <div style="float: right; text-align: center; width: 150px">
+                <a href="/media/Pressemappe.zip">
+                    <img src="/images/media/Download.png" style="margin-bottom: 20px"><br>
+                    Pressemappe
+                </a>
+            </div>
         </div>
 
         <div style="clear: both"></div>
