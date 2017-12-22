@@ -116,6 +116,15 @@ $og_image = "/images/landing/landing-webinar.png";
         margin-bottom: 30px;
     }
 
+    #disclaimer {
+        margin-top: 30px;
+        color: #2980b9;
+    }
+
+    #disclaimer a {
+        color: #2980b9;
+    }
+
     @media (max-width: 500px) {
         .content-main .content-teaser {
             display: none;
@@ -152,7 +161,6 @@ $og_image = "/images/landing/landing-webinar.png";
             width: 100%;
             text-align: center;
         }
-
     }
 
 </style>
@@ -177,14 +185,20 @@ $og_image = "/images/landing/landing-webinar.png";
             </div>
 
             <div class="email">
-
                 <iframe style="width: 350px; height: 250px; display: block;margin-left: auto;margin-right: auto;" src="https://my.sendinblue.com/users/subscribe/js_id/2h2a6/id/2" frameborder="0"
                         scrolling="auto" allowfullscreen></iframe>
-
             </div>
+
             <div class="content-info">
                 Wer agil sein will, muss vor allem pragmatisch agieren. Um schlank durch den Nebel zwischen Kundenanforderungen, Zeit, Budget und Ressourcen zu navigieren, braucht es verlässliche
                 schlanke Tools, aber vor allem einen neuen Blick auf das Qualitätsmanagement.
+            </div>
+
+
+            <div id="disclaimer">
+                <a href="<?php __a('/tos.html'); ?>">
+                    Nutzungsbedingungen Leankoala
+                </a>
             </div>
         </div>
     </div>
