@@ -9,30 +9,17 @@ global $checks;
     <table style="margin: 20px; margin-top: 50px">
         <tr style="border-bottom: 20px solid transparent">
             <td style="vertical-align: top; border-right: 20px solid transparent">
-                <strong>Web Page</strong>
-            </td>
-            <td style="border-right: 40px solid transparent">
-                20 Komponenten<br>
-                Ping-Interval 5 Minuten<br>
-                Unbegrenzte Alarmierungen<br>
-                Live Support
-            </td>
-            <td style="vertical-align: top;">
-                39 EUR
-            </td>
-        </tr>
-        <tr style="border-bottom: 20px solid transparent">
-            <td style="vertical-align: top; border-right: 20px solid transparent">
                 <strong>Web Project</strong>
             </td>
             <td style="border-right: 40px solid transparent">
+                1 system <br>
                 50 components<br>
                 Ping interval 5 minutes<br>
                 Unlimited alerts<br>
                 Live Support
             </td>
             <td style="vertical-align: top;">
-                69 EUR
+                69.- EUR (89.-*)
             </td>
         </tr>
         <tr style="border-bottom: 20px solid transparent">
@@ -40,13 +27,29 @@ global $checks;
                 <strong>Web Company</strong>
             </td>
             <td style="border-right: 40px solid transparent">
+                15 systems <br>
+                50 components<br>
+                Ping interval 5 minutes<br>
+                Unlimited alerts<br>
+                Live Support
+            </td>
+            <td style="vertical-align: top;">
+                349.- EUR (389.-*)
+            </td>
+        </tr>
+        <tr style="border-bottom: 20px solid transparent">
+            <td style="vertical-align: top; border-right: 20px solid transparent">
+                <strong>Web Corp</strong>
+            </td>
+            <td style="border-right: 40px solid transparent">
+                Unlimited systems <br>
                 Unlimited components<br>
                 Ping interval 5 minutes<br>
                 Unlimited alerts<br>
                 Live Support
             </td>
             <td style="vertical-align: top;">
-                299 EUR
+                499.- EUR (549.-)
             </td>
         </tr>
     </table>
