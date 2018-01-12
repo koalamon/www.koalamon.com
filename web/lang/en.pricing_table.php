@@ -16,7 +16,7 @@
                 Live Support
             </td>
             <td style="vertical-align: top;">
-                69.- EUR (89.-* EUR)
+                69 EUR (89 EUR)
             </td>
         </tr>
         <tr style="border-bottom: 20px solid transparent">
@@ -31,7 +31,7 @@
                 Live Support
             </td>
             <td style="vertical-align: top;">
-                349.- EUR (389.-* EUR)
+                349 EUR (389* EUR)
             </td>
         </tr>
 <tr style="border-bottom: 20px solid transparent">
@@ -50,7 +50,7 @@
                 Live Support
             </td>
             <td style="vertical-align: top;">
-                499.- EUR (549.-* EUR)
+                499 EUR (549* EUR)
             </td>
         </tr>
     </table>
