@@ -19,7 +19,7 @@ global $checks;
                 Live Support
             </td>
             <td style="vertical-align: top;">
-                69.- EUR (89.-*)
+                69 EUR (89* EUR)
             </td>
         </tr>
         <tr style="border-bottom: 20px solid transparent">
@@ -34,7 +34,7 @@ global $checks;
                 Live Support
             </td>
             <td style="vertical-align: top;">
-                349.- EUR (389.-*)
+                349 EUR (389* EUR)
             </td>
         </tr>
         <tr style="border-bottom: 20px solid transparent">
@@ -49,7 +49,7 @@ global $checks;
                 Live Support
             </td>
             <td style="vertical-align: top;">
-                499.- EUR (549.-)
+                499 EUR (549* EUR)
             </td>
         </tr>
     </table>
