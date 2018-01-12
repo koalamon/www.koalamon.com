@@ -15,7 +15,7 @@ page:
           text: "<p>Leankoala was designed to be part of the development process.</p><p>It runs on dev, stage and production environments and perfectly integrates with Slack.</p>"
         low-priced:
           headline: "Low-priced"
-          text: "<p>Leankoala's "Web Project" plan for a whole month costs less than one developer an hour.</p>"
+          text: "<p>Leankoala's \"Web Project\" plan for a whole month costs less than one developer an hour.</p>"
 
     customers:
       headline: 'Great customers including these fine companies.'
