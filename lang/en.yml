@@ -15,7 +15,7 @@ page:
           text: "<p>Leankoala was designed to be part of the development process.</p><p>It runs on dev, stage and production environments and perfectly integrates with Slack.</p>"
         low-priced:
           headline: "Low-priced"
-          text: "<p>Leankoala's large plan for a whole month costs less than one developer an hour.</p>"
+          text: "<p>Leankoala's "Web Project" plan for a whole month costs less than one developer an hour.</p>"
 
     customers:
       headline: 'Great customers including these fine companies.'
@@ -136,7 +136,7 @@ page:
 
   pricing:
     headline: "Pricing"
-    info: "As each project is different, Leankoala comes along with three subscription models. All prices are as described per month and excluding VAT. To let you start things easily, we offer a free trial for 14 days."
+    info: "As each project is different, Leankoala comes along with three subscription models. You choose wether you commit on the 12-month-term or want to be more flexible with the *1-month-term. All prices are as described per month and excluding VAT . To let you start things easily, we offer a free trial for 14 days."
 
     startup:
       headline: "Moin moin, Hamburg Start Ups!"
@@ -188,7 +188,7 @@ page:
 
   demo:
     headline: "Request a Demo"
-    info: "Lorem Ipsum"
+    info: "We'll show you how easily it works"
 
   ressources:
 
