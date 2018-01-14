@@ -1,6 +1,7 @@
 <?php
 
 global $prices;
+global $pricesMonthly;
 global $checks;
 
 ?>
@@ -146,7 +147,7 @@ global $checks;
         </tr>
         <tr>
             <td></td>
-            <td style="width: 140px">
+            <!--td style="width: 140px">
                 <h2>Website</h2>
                 <div class="price">
                     <span style="position: relative; top: -17px; left: -5px; font-size: 14px">EUR</span>
@@ -156,13 +157,14 @@ global $checks;
                         <div class="register-plan"><?php __('global.trial.start'); ?></div>
                     </a>
                 </div>
-            </td>
+            </td-->
             <td style="width: 140px">
                 <h2>Web Project</h2>
                 <div class="price">
                     <span style="position: relative; top: -17px; left: -5px; font-size: 14px">EUR</span>
                     <span style="font-size: 40px; font-weight: 600">69</span>
                     <span style="color: #99a0a5;">/ Monat</span>
+                    <span style="color: #99a0a5; display: block; font-size: 10px">bei 12 Monaten Laufzeit</span>
                     <a href="https://monitor.leankoala.com/secure_area/register/">
                         <div class="register-plan"><?php __('global.trial.start'); ?></div>
                     </a>
@@ -174,21 +176,45 @@ global $checks;
                     <span style="position: relative; top: -17px; left: -5px; font-size: 14px">EUR</span>
                     <span style="font-size: 40px; font-weight: 600"><?php echo $prices['webcompany']; ?></span>
                     <span style="color: #99a0a5;">/ Monat</span>
+                    <span style="color: #99a0a5; display: block; font-size: 10px">bei 12 Monaten Laufzeit</span>
+                    <a href="https://monitor.leankoala.com/secure_area/register/">
+                        <div class="register-plan"><?php __('global.trial.start'); ?></div>
+                    </a>
+                </div>
+            </td>
+            <td style="width: 140px">
+                <h2>Web Group</h2>
+                <div class="price">
+                    <span style="position: relative; top: -17px; left: -5px; font-size: 14px">EUR</span>
+                    <span style="font-size: 40px; font-weight: 600"><?php echo $prices['webgroup']; ?></span>
+                    <span style="color: #99a0a5;">/ Monat</span>
+                    <span style="color: #99a0a5; display: block; font-size: 10px">bei 12 Monaten Laufzeit</span>
                     <a href="https://monitor.leankoala.com/secure_area/register/">
                         <div class="register-plan"><?php __('global.trial.start'); ?></div>
                     </a>
                 </div>
             </td>
         </tr>
+        <!--tr>
+            <td style="text-align: left">
+                Preis (monatlich kündbar)
+            </td>
+            <td><?php echo $pricesMonthly['large']; ?> EUR / Monat</td>
+            <td><?php echo $pricesMonthly['webcompany']; ?> EUR / Monat</td>
+            <td><?php echo $pricesMonthly['webgroup']; ?> EUR / Monat</i>
+            </td>
+        </tr-->
         <tr>
             <td style="text-align: left">
                 Systeme
                 <p>Ein System wird durch eine Hauptdomain beschrieben. Komponenten müssen dieser oder einer Subdomain angehören.</p>
             </td>
             <td>1</td>
-            <td>1</td>
+            <td>unbegrenzt <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom"
+                              title="Das 'Web Company'-Paket beeinhaltet einen dedizierten Server, der bis zu acht parallele Checks ausführen kann." style="color: #7f8c8d"></i></td>
             <td>
-                unbegrenzt <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Das 'Web Company'-Paket beeinhaltet einen dedizierten Server, der bis zu acht parallele Checks ausführen kann." style="color: #7f8c8d"></i>
+                unbegrenzt <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom"
+                              title="Das 'Web Company'-Paket beeinhaltet einen dedizierten Server, der bis zu acht parallele Checks ausführen kann." style="color: #7f8c8d"></i>
             </td>
         </tr>
         <tr>
@@ -196,10 +222,12 @@ global $checks;
                 Komponenten
                 <p>Komponenten werden durch URLs repräsentiert und können zum Beispiel HTML-Seiten, XML- oder JSON-Dokumente sein.</p>
             </td>
-            <td>20</td>
+            <td>50</td>
             <td>50</td>
             <td>
-                unbegrenzt <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Das 'Web Company'-Paket beeinhaltet einen dedizierten Server. Je nach Antwortzeit der Komponenten entspricht dies bis zu 500 Komponenten." style="color: #7f8c8d"></i>
+                unbegrenzt <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom"
+                              title="Das 'Web Company'-Paket beeinhaltet einen dedizierten Server. Je nach Antwortzeit der Komponenten entspricht dies bis zu 500 Komponenten."
+                              style="color: #7f8c8d"></i>
             </td>
         </tr>
         <tr>
@@ -208,6 +236,16 @@ global $checks;
                 <p>Leankoala bietet eine Vielzahl von Werkzeugen, die zum Überprüfen der Systeme genutzt werden können.</p>
             </td>
             <td colspan="3"><?php echo count($checks['de']); ?></td>
+        </tr>
+        <tr>
+            <td>
+                Integrationen
+                <p>Leankoala bietet die Möglichkeit ein gemeinsames Dashboard für alle in einem Projekt eingesetzten Testwerkzeuge zu erstellen. Mögliche Integrationen sind Jenkins, Pingdom oder
+                    NewRelic.</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td><i class="fa fa-check-circle" aria-hidden="true"></td>
         </tr>
         <tr>
             <td>
@@ -250,21 +288,18 @@ global $checks;
                 Händischer Start aller Checks
                 <p>Alle Überprüfungen eines Systems können jederzeit gleichzeitig händisch gestartet werden.</p>
             </td>
-            <td></td>
-            <td><i class="fa fa-check-circle" aria-hidden="true"></i>
-            </td>
-            <td><i class="fa fa-check-circle" aria-hidden="true"></i>
-            </td>
+            <td><i class="fa fa-check-circle" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check-circle" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check-circle" aria-hidden="true"></i></td>
         </tr>
         <tr>
             <td>
                 Automatischer Start aller Checks
                 <p>Der Start der Tests kann direkt im Deployment- und "Continuous Integration"-Prozess verankert werden.</p>
             </td>
-            <td></td>
             <td><i class="fa fa-check-circle" aria-hidden="true"></i></td>
-            <td><i class="fa fa-check-circle" aria-hidden="true"></i>
-            </td>
+            <td><i class="fa fa-check-circle" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check-circle" aria-hidden="true"></i></td>
         </tr>
         <tr>
             <td>
@@ -272,7 +307,7 @@ global $checks;
                 <p>Feste IP-Adressen können dazu genutzt werden Zugriff auf interne Systeme zu erteilen.</p>
             </td>
             <td></td>
-            <td></td>
+            <td><i class="fa fa-check-circle" aria-hidden="true"></i>
             <td><i class="fa fa-check-circle" aria-hidden="true"></i>
             </td>
         </tr>
@@ -290,7 +325,7 @@ global $checks;
                 <p>Zwischen 9 und 17 Uhr bieten wir per Livechat Support an, der direkt über die Leankoala-Oberfläche angesprochen werden kann.</p>
             </td>
             <td></td>
-            <td></td>
+            <td><i class="fa fa-check-circle" aria-hidden="true"></i>
             <td><i class="fa fa-check-circle" aria-hidden="true"></i>
             </td>
         </tr>
