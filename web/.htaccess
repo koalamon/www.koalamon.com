@@ -1,5 +1,6 @@
 RewriteEngine on
 
-RewriteRule ^(.*?)/(.*?)/(.*?).html$ $1/index.php?article=$2/$3 [L]
+RewriteRule ^(.*?)/landing/(.*)/(.*)/(.*)/theleantester.html$ /$1/index.php?article=landing/theleantester&date=$2-$3-$4 [L]
+RewriteRule ^(.*?)/(.*?)/(.*?).html$ /$1/index.php?article=$2/$3 [L]
 RewriteRule ^(.*?)/(.*?).html$ $1/index.php?article=$2
 RewriteRule ^(.*?).html$ /de/$1.html [R]
