@@ -1,7 +1,7 @@
 <?php
 
-$prices = ['large' => '69', 'webcompany' => '349', 'webgroup' => '449'];
-$pricesMonthly = ['large' => '79', 'webcompany' => '399', 'webgroup' => '499'];
+$prices = ['large' => '69', 'webcompany' => '349', 'webgroup' => '499'];
+$pricesMonthly = ['large' => '79', 'webcompany' => '399', 'webgroup' => '549'];
 
 $checks['en'] = [
     'koalaping' => ['img' => 'https://monitor.leankoala.com/images/integrations/koalaping.png', 'name' => 'KoalaPing', 'desc' => 'Checks if the given components answer with the correct http status code.', 'filters' => 'website webservice'],
